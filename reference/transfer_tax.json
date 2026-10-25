@@ -1,0 +1,926 @@
+{
+ "state_rate": 0.01,
+ "clr": 2.03,
+ "clr_note": "Source: PA Dept. of Revenue CLR factor list for documents accepted 7/1/2026\u20136/30/2027 (Allegheny = 2.03). The County's own RTT page still shows the older 1.99.",
+ "source_note": "Local rates: Allegheny County Dept. of Real Estate 'Local Realty Transfer Tax Rates' page (cross-checked against ALT Title's deviation list as of 7/1/2025 \u2014 all 17 non-standard entries match). Names lightly normalized (e.g., 'Mt.'\u2192'Mount').",
+ "method_note": "PA Revenue regulation 61 Pa. Code \u00a7 91.135: for transfers by execution, mortgage foreclosure, judicial sale or tax sale, the tax base is COMPUTED VALUE = assessed value \u00d7 CLR factor \u2014 not your winning bid. A cheap bid can still carry a real tax bill.",
+ "municipalities": [
+  {
+   "municipality": "Aleppo Twp",
+   "muni_rate": 0.005,
+   "school_district": "Quaker Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Aspinwall Boro",
+   "muni_rate": 0.005,
+   "school_district": "Fox Chapel Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Avalon Boro",
+   "muni_rate": 0.005,
+   "school_district": "Northgate School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Baldwin Boro",
+   "muni_rate": 0.005,
+   "school_district": "Baldwin-Whitehall School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Baldwin Twp",
+   "muni_rate": 0.005,
+   "school_district": "Baldwin-Whitehall School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Bellevue Boro",
+   "muni_rate": 0.01,
+   "school_district": "Northgate School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Bell Acres Boro",
+   "muni_rate": 0.005,
+   "school_district": "Quaker Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Ben Avon Boro",
+   "muni_rate": 0.005,
+   "school_district": "Avonworth School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Ben Avon Heights Boro",
+   "muni_rate": 0.005,
+   "school_district": "Avonworth School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Bethel Park Municipality",
+   "muni_rate": 0.01,
+   "school_district": "Bethel Park School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Blawnox Boro",
+   "muni_rate": 0.005,
+   "school_district": "Fox Chapel Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Brackenridge Boro",
+   "muni_rate": 0.005,
+   "school_district": "Highlands School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Bradford Woods Boro",
+   "muni_rate": 0.005,
+   "school_district": "North Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Braddock Boro",
+   "muni_rate": 0.005,
+   "school_district": "Woodland Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Braddock Hills Boro",
+   "muni_rate": 0.005,
+   "school_district": "Woodland Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Brentwood Boro",
+   "muni_rate": 0.005,
+   "school_district": "Brentwood School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Bridgeville Boro",
+   "muni_rate": 0.005,
+   "school_district": "Chartiers Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Carnegie Boro",
+   "muni_rate": 0.005,
+   "school_district": "Carlynton School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Castle Shannon Boro",
+   "muni_rate": 0.005,
+   "school_district": "Keystone Oaks School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Chalfant Boro",
+   "muni_rate": 0.005,
+   "school_district": "Woodland Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Cheswick Boro",
+   "muni_rate": 0.005,
+   "school_district": "Allegheny Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Churchill Boro",
+   "muni_rate": 0.005,
+   "school_district": "Woodland Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Clairton City",
+   "muni_rate": 0.005,
+   "school_district": "Clairton School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Collier Twp",
+   "muni_rate": 0.005,
+   "school_district": "Chartiers Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Coraopolis Boro",
+   "muni_rate": 0.005,
+   "school_district": "Cornell School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Crafton Boro",
+   "muni_rate": 0.005,
+   "school_district": "Carlynton School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Crescent Twp",
+   "muni_rate": 0.005,
+   "school_district": "Moon Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Dormont Boro",
+   "muni_rate": 0.005,
+   "school_district": "Keystone Oaks School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Dravosburg Boro",
+   "muni_rate": 0.005,
+   "school_district": "McKeesport Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Duquesne City",
+   "muni_rate": 0.005,
+   "school_district": "Duquesne School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "East Deer Twp",
+   "muni_rate": 0.005,
+   "school_district": "Deer Lakes School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "East Pittsburgh Boro",
+   "muni_rate": 0.005,
+   "school_district": "Woodland Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "East McKeesport Boro",
+   "muni_rate": 0.005,
+   "school_district": "East Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Edgeworth Boro",
+   "muni_rate": 0.005,
+   "school_district": "Quaker Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Edgewood Boro",
+   "muni_rate": 0.005,
+   "school_district": "Woodland Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Elizabeth Boro",
+   "muni_rate": 0.005,
+   "school_district": "Elizabeth Forward School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Elizabeth Twp",
+   "muni_rate": 0.005,
+   "school_district": "Elizabeth Forward School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Emsworth Boro",
+   "muni_rate": 0.005,
+   "school_district": "Avonworth School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Etna Boro",
+   "muni_rate": 0.005,
+   "school_district": "Shaler Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Fawn Twp",
+   "muni_rate": 0.005,
+   "school_district": "Highlands School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Findlay Twp",
+   "muni_rate": 0.005,
+   "school_district": "West Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Forward Twp",
+   "muni_rate": 0.005,
+   "school_district": "Elizabeth Forward School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Forest Hills Boro",
+   "muni_rate": 0.005,
+   "school_district": "Woodland Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Fox Chapel Boro",
+   "muni_rate": 0.005,
+   "school_district": "Fox Chapel Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Franklin Park Boro",
+   "muni_rate": 0.005,
+   "school_district": "North Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Frazer Twp",
+   "muni_rate": 0.005,
+   "school_district": "Deer Lakes School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Glassport Boro",
+   "muni_rate": 0.005,
+   "school_district": "South Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Glen Osborne Boro",
+   "muni_rate": 0.005,
+   "school_district": "Quaker Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Glenfield Boro",
+   "muni_rate": 0.005,
+   "school_district": "Quaker Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Green Tree Boro",
+   "muni_rate": 0.01,
+   "school_district": "Keystone Oaks School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Hampton Twp",
+   "muni_rate": 0.01,
+   "school_district": "Hampton Township School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Harmar Twp",
+   "muni_rate": 0.005,
+   "school_district": "Allegheny Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Harrison Twp",
+   "muni_rate": 0.005,
+   "school_district": "Highlands School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Haysville Boro",
+   "muni_rate": 0.005,
+   "school_district": "Quaker Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Heidelberg Boro",
+   "muni_rate": 0.005,
+   "school_district": "Chartiers Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Homestead Boro",
+   "muni_rate": 0.005,
+   "school_district": "Steel Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Indiana Twp",
+   "muni_rate": 0.005,
+   "school_district": "Fox Chapel Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Ingram Boro",
+   "muni_rate": 0.005,
+   "school_district": "Montour School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Jefferson Hills Boro",
+   "muni_rate": 0.005,
+   "school_district": "West Jefferson Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Kennedy Twp",
+   "muni_rate": 0.005,
+   "school_district": "Montour School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Kilbuck Twp",
+   "muni_rate": 0.005,
+   "school_district": "Avonworth School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Leet Twp",
+   "muni_rate": 0.005,
+   "school_district": "Quaker Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Leetsdale Boro",
+   "muni_rate": 0.005,
+   "school_district": "Quaker Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Liberty Boro",
+   "muni_rate": 0.005,
+   "school_district": "South Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Lincoln Boro",
+   "muni_rate": 0.005,
+   "school_district": "South Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Marshall Twp",
+   "muni_rate": 0.005,
+   "school_district": "North Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "McCandless Twp",
+   "muni_rate": 0.01,
+   "school_district": "North Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "McDonald Boro",
+   "muni_rate": 0.005,
+   "school_district": "Fort Cherry School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "McKeesport City",
+   "muni_rate": 0.015,
+   "school_district": "McKeesport Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "McKees Rocks Boro",
+   "muni_rate": 0.005,
+   "school_district": "Sto-Rox School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Millvale Boro",
+   "muni_rate": 0.005,
+   "school_district": "Shaler Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Monroeville Municipality",
+   "muni_rate": 0.01,
+   "school_district": "Gateway School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Moon Twp",
+   "muni_rate": 0.005,
+   "school_district": "Moon Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Mount Lebanon Municipality",
+   "muni_rate": 0.01,
+   "school_district": "Mt. Lebanon School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Mount Oliver Boro",
+   "muni_rate": 0.01,
+   "school_district": "Pittsburgh School District",
+   "school_rate": 0.01,
+   "note": "In the Pittsburgh School District (1% school rate)."
+  },
+  {
+   "municipality": "Munhall Boro",
+   "muni_rate": 0.005,
+   "school_district": "Steel Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Neville Twp",
+   "muni_rate": 0.005,
+   "school_district": "Cornell School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "North Braddock Boro",
+   "muni_rate": 0.005,
+   "school_district": "Woodland Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "North Fayette Twp",
+   "muni_rate": 0.005,
+   "school_district": "West Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "North Versailles Twp",
+   "muni_rate": 0.005,
+   "school_district": "East Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Oakdale Boro",
+   "muni_rate": 0.005,
+   "school_district": "West Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Oakmont Boro",
+   "muni_rate": 0.005,
+   "school_district": "Riverview School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "O'Hara Twp",
+   "muni_rate": 0.01,
+   "school_district": "Fox Chapel Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Ohio Twp",
+   "muni_rate": 0.005,
+   "school_district": "Avonworth School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Pennsbury Village Boro",
+   "muni_rate": 0.005,
+   "school_district": "Montour School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Penn Hills Municipality",
+   "muni_rate": 0.015,
+   "school_district": "Penn Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Pine Twp",
+   "muni_rate": 0.01,
+   "school_district": "Pine-Richland School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Pitcairn Boro",
+   "muni_rate": 0.005,
+   "school_district": "Gateway School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Pittsburgh City (Baldwin-Whitehall SD portion)",
+   "muni_rate": 0.03,
+   "school_district": "Baldwin-Whitehall School District",
+   "school_rate": 0.005,
+   "note": "Small part of the City inside Baldwin-Whitehall SD (e.g., parts of the 32nd Ward). Sheet defaults City parcels to 5% \u2014 confirm."
+  },
+  {
+   "municipality": "Pittsburgh City (Pittsburgh SD)",
+   "muni_rate": 0.03,
+   "school_district": "Pittsburgh School District",
+   "school_rate": 0.01,
+   "note": null
+  },
+  {
+   "municipality": "Pleasant Hills Boro",
+   "muni_rate": 0.005,
+   "school_district": "West Jefferson Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Plum Boro",
+   "muni_rate": 0.005,
+   "school_district": "Plum Borough School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Port Vue Boro",
+   "muni_rate": 0.005,
+   "school_district": "South Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Rankin Boro",
+   "muni_rate": 0.005,
+   "school_district": "Woodland Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Reserve Twp",
+   "muni_rate": 0.005,
+   "school_district": "Shaler Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Richland Twp",
+   "muni_rate": 0.005,
+   "school_district": "Pine-Richland School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Robinson Twp",
+   "muni_rate": 0.005,
+   "school_district": "Montour School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Ross Twp",
+   "muni_rate": 0.005,
+   "school_district": "North Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Rosslyn Farms Boro",
+   "muni_rate": 0.005,
+   "school_district": "Carlynton School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Scott Twp",
+   "muni_rate": 0.005,
+   "school_district": "Chartiers Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Sewickley Boro",
+   "muni_rate": 0.005,
+   "school_district": "Quaker Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Sewickley Heights Boro",
+   "muni_rate": 0.005,
+   "school_district": "Quaker Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Sewickley Hills Boro",
+   "muni_rate": 0.005,
+   "school_district": "Quaker Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Shaler Twp",
+   "muni_rate": 0.005,
+   "school_district": "Shaler Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Sharpsburg Boro",
+   "muni_rate": 0.005,
+   "school_district": "Fox Chapel Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "South Fayette Twp",
+   "muni_rate": 0.005,
+   "school_district": "South Fayette Township School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "South Park Twp",
+   "muni_rate": 0.005,
+   "school_district": "South Park School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "South Versailles Twp",
+   "muni_rate": 0.005,
+   "school_district": "McKeesport Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Springdale Boro",
+   "muni_rate": 0.005,
+   "school_district": "Allegheny Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Springdale Twp",
+   "muni_rate": 0.005,
+   "school_district": "Allegheny Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Stowe Twp",
+   "muni_rate": 0.005,
+   "school_district": "Sto-Rox School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Swissvale Boro",
+   "muni_rate": 0.005,
+   "school_district": "Woodland Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Tarentum Boro",
+   "muni_rate": 0.005,
+   "school_district": "Highlands School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Thornburg Boro",
+   "muni_rate": 0.005,
+   "school_district": "Montour School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Trafford Boro",
+   "muni_rate": 0.01,
+   "school_district": "No school realty transfer tax",
+   "school_rate": 0.0,
+   "note": "Mostly in Westmoreland County; no school RTT listed."
+  },
+  {
+   "municipality": "Turtle Creek Boro",
+   "muni_rate": 0.005,
+   "school_district": "Woodland Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Upper St. Clair Twp",
+   "muni_rate": 0.01,
+   "school_district": "Upper St. Clair School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Versailles Boro",
+   "muni_rate": 0.005,
+   "school_district": "McKeesport Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Verona Boro",
+   "muni_rate": 0.005,
+   "school_district": "Riverview School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Wall Boro",
+   "muni_rate": 0.005,
+   "school_district": "East Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "West Deer Twp",
+   "muni_rate": 0.01,
+   "school_district": "Deer Lakes School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "West Elizabeth Boro",
+   "muni_rate": 0.005,
+   "school_district": "West Jefferson Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "West Homestead Boro",
+   "muni_rate": 0.005,
+   "school_district": "Steel Valley School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "West Mifflin Boro",
+   "muni_rate": 0.005,
+   "school_district": "West Mifflin Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "West View Boro",
+   "muni_rate": 0.005,
+   "school_district": "North Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Whitaker Boro",
+   "muni_rate": 0.005,
+   "school_district": "West Mifflin Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Whitehall Boro",
+   "muni_rate": 0.01,
+   "school_district": "Baldwin-Whitehall School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "White Oak Boro",
+   "muni_rate": 0.005,
+   "school_district": "McKeesport Area School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Wilkins Twp",
+   "muni_rate": 0.005,
+   "school_district": "Woodland Hills School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Wilkinsburg Boro",
+   "muni_rate": 0.005,
+   "school_district": "Wilkinsburg School District",
+   "school_rate": 0.005,
+   "note": null
+  },
+  {
+   "municipality": "Wilmerding Boro",
+   "muni_rate": 0.005,
+   "school_district": "East Allegheny School District",
+   "school_rate": 0.005,
+   "note": null
+  }
+ ]
+}

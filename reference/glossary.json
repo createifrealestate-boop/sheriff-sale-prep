@@ -1,0 +1,194 @@
+[
+ [
+  "How to read the Sheriff notes, and what each sale type means for a bidder",
+  ""
+ ],
+ [
+  "Educational, Pennsylvania / Allegheny County context — not legal advice. Title outcomes at a sheriff sale depend on lien priority and notice; have a PA title company or real-estate attorney confirm before bidding on any specific parcel.",
+  ""
+ ],
+ [
+  "",
+  ""
+ ],
+ [
+  "SALE TYPES",
+  ""
+ ],
+ [
+  "Tax lien (Sci Fa sur tax lien)",
+  "A school district, municipality or the County is enforcing unpaid real-estate tax claims through a writ of scire facias. The Cost & Tax bid is the opening bid covering the claim plus costs. Which other liens are wiped out depends on priority and proper notice — do not assume \"free and clear\" unless there is a free & clear court order."
+ ],
+ [
+  "Free & clear court order (F/C O/C) + min bid",
+  "The court has authorized sale free and clear of liens at the stated minimum bid, which can be far below the listed Cost & Tax bid. Read the actual order on the docket to confirm scope."
+ ],
+ [
+  "Mortgage foreclosure",
+  "A lender is selling under its foreclosure judgment. The Cost & Tax bid is only costs and taxes; the lender can credit-bid up to its judgment (see \"Reassessed damages\"), so outside bidders usually need to beat the lender's announced bid. Liens senior to the mortgage can survive."
+ ],
+ [
+  "HOA / condo assessment judgment",
+  "An association is executing on a money judgment for unpaid assessments (AR- case numbers). Because this is usually a junior lien, a first mortgage on the unit may survive the sale — potentially a large hidden liability. Get a title search before bidding."
+ ],
+ [
+  "Other judgment execution",
+  "A creditor executing on a general money judgment (e.g., business lenders). Senior liens and mortgages typically survive."
+ ],
+ [
+  "Municipal lien",
+  "A municipal claim (non-tax, e.g., sewer/water/demolition) enforced by sheriff sale."
+ ],
+ [
+  "",
+  ""
+ ],
+ [
+  "LISTED STATUSES",
+  ""
+ ],
+ [
+  "Active",
+  "Scheduled to go to the upcoming sale — but the Sheriff will only sell if the paperwork is complete (see the four boxes and notes)."
+ ],
+ [
+  "Postponed / Postponed (Waived)",
+  "Moved to the date shown. 12/31/2099 = indefinite (Save Your Home program). The meaning of \"(Waived)\" is not stated on the list."
+ ],
+ [
+  "Stayed",
+  "Sale halted (bankruptcy, payment plan, court order). \"Amount realized\" = money collected on the stay."
+ ],
+ [
+  "Money Made",
+  "The claim was paid/satisfied; the property won't be sold."
+ ],
+ [
+  "",
+  ""
+ ],
+ [
+  "THE FOUR BOXES",
+  ""
+ ],
+ [
+  "Svs",
+  "Service of the writ/notice on the defendant has been made."
+ ],
+ [
+  "3129.2",
+  "Pa.R.C.P. 3129.2 — notice of sale (handbills, written notice to owners/lienholders, publication). Written notice must be served at least 30 days before the sale; the Sheriff rejects late ones."
+ ],
+ [
+  "3129.3",
+  "Pa.R.C.P. 3129.3 — postponement of sale / new notice. Needed when a sale was postponed to this date. Often filed in the last day or two before the sale, which is why cases missing only this item are listed on Almost Ready."
+ ],
+ [
+  "OK",
+  "Sheriff has everything needed and has cleared the property to sell on this date."
+ ],
+ [
+  "",
+  ""
+ ],
+ [
+  "ABBREVIATIONS IN NOTES",
+  ""
+ ],
+ [
+  "O/C",
+  "Order of court. \"NEED O/C FOR [dates]\" = a court order approving the chain of postponements through those sale dates; the Sheriff rejects orders that skip a date or list them out of sequence."
+ ],
+ [
+  "BK / BKD / BKDR",
+  "Bankruptcy / bankruptcy dismissal or relief-from-stay docs. A pending bankruptcy automatically stays the sale until the Sheriff receives the dismissal or relief order."
+ ],
+ [
+  "NSM ON DEF(S)",
+  "No service made on the defendant(s) — proof of service still needed."
+ ],
+ [
+  "PP",
+  "Postponement."
+ ],
+ [
+  "NOS",
+  "Notice of sale."
+ ],
+ [
+  "SYH",
+  "Save Your Home — Allegheny County foreclosure-diversion/conciliation program."
+ ],
+ [
+  "Replenishment invoice",
+  "Plaintiff owes the Sheriff an additional cost deposit; the case cannot go to sale until paid."
+ ],
+ [
+  "Reassess damages",
+  "Court order updating the judgment amount (the most recent figure is shown in the sheet)."
+ ],
+ [
+  "Forfeited",
+  "A previous winning bidder failed to pay the balance and lost the deposit; the property is being re-offered."
+ ],
+ [
+  "Handbill / short description",
+  "Sale advertising materials. If late or incorrect, the Sheriff requires a postponement."
+ ],
+ [
+  "C+T",
+  "Cost & Tax (the opening bid)."
+ ],
+ [
+  "",
+  ""
+ ],
+ [
+  "LIEN FLAGS",
+  ""
+ ],
+ [
+  "Federal tax lien / IRS lien",
+  "Whether a federal tax lien is discharged depends on whether the United States was properly joined. When it is joined, the IRS generally keeps a right to redeem (buy back) the property after the sale (28 U.S.C. § 2410(c); IRM 5.12.5)."
+ ],
+ [
+  "HOA 6-month statutory amount",
+  "PA planned-community and condo statutes give associations limited priority (about six months of assessments) over a first mortgage; the rest of the HOA debt is junior."
+ ],
+ [
+  "PA DHS lien",
+  "Commonwealth Dept. of Human Services lien (e.g., estate recovery). Check whether it is divested."
+ ],
+ [
+  "Land bank decree",
+  "Land bank involvement noted on the case — confirm whether a land bank intends to bid or has priority before investing time."
+ ],
+ [
+  "",
+  ""
+ ],
+ [
+  "METHOD",
+  ""
+ ],
+ [
+  "How readiness was derived",
+  "OK to Sell = Active, residential, Sheriff OK box checked, and no outstanding items in the notes other than Rule 3129.3. Almost Ready = Active, residential, Service and 3129.2 boxes checked, and the only outstanding item is Rule 3129.3 — plus \"VERIFY\" cases where the OK box and the notes disagree. Everything else (postponed, stayed, paid, bankruptcy, court orders or service still needed, commercial / industrial / vacant land) is left off the sheet."
+ ],
+ [
+  "Source",
+  "Allegheny County Sheriff — Sale Listings PDF from sheriffalleghenycounty.com/sheriffs-sales/. The Sheriff states the binding bid list is finalized the morning of the sale; the version and print time used for the latest update are on the Overview tab."
+ ],
+ [
+  "",
+  ""
+ ],
+ [
+  "TRANSFER TAX",
+  ""
+ ],
+ [
+  "Realty transfer tax on a sheriff deed",
+  "1% state + 1%–4% local depending on municipality and school district (2% in most suburbs, 5% in the City of Pittsburgh). On sheriff, foreclosure and tax-sale deeds the base is computed value (assessed value × CLR factor, 2.03 for 7/1/2026–6/30/2027), not the bid (61 Pa. Code § 91.135). With no seller to split it, the buyer bears it. See the Transfer Tax sheet."
+ ]
+]
