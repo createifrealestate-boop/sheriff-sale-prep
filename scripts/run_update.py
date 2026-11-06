@@ -5,7 +5,7 @@ Usage (from the repo root):
 
 Reads/writes state/<sale-date>.xlsx in the repo (the previous version, used for the Changes view).
 Prints a JSON summary on the last line; writes the workbook to <work>/Sheriff Sale <date> Prep.xlsx.
-Exit codes: 0 ok · 2 Sheriff site unreachable · 3 listing link/PDF problem · 4 parse self-check failed
+Exit codes: 0 ok · 2 Sheriff site unreachable · 3 listing link/PDF problem · 4 parse self-check failed · 5 Sheriff still shows a past sale's list
 """
 import argparse, datetime as dt, json, re, shutil, subprocess, sys
 from pathlib import Path
@@ -51,6 +51,12 @@ def main():
         print(json.dumps({"ok": False, "stage": "parse", "detail": "no Date of Sale found in the PDF"}))
         sys.exit(4)
     sale_date = dt.datetime.strptime(" ".join(m.groups()), "%B %d %Y").date()
+
+    today_et = dt.datetime.now(__import__("zoneinfo").ZoneInfo("America/New_York")).date()
+    if sale_date < today_et:
+        print(json.dumps({"ok": False, "stage": "stale-list", "code": 5,
+                          "detail": f"The Sheriff's page still shows the list for the {sale_date} sale, which has already happened. The next list has not been posted yet; nothing was built."}))
+        sys.exit(5)
 
     cls = work / "classified.json"
     r = run([S / "classify.py", cases, cls, "--sale-date", sale_date.isoformat()])
