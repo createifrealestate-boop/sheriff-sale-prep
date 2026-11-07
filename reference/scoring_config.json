@@ -1,0 +1,27 @@
+{
+  "_readme": "Assumptions behind the preliminary score. Edit and the next update uses them. Calibrate win_pct_of_arv and rehab from real auction results.",
+  "win_pct_of_arv": 0.55,
+  "buyer_cost_pct_of_bid": 0.04,
+  "sell_hold_pct_of_arv": 0.10,
+  "target_roi": 0.20,
+  "default_sqft": 1200,
+  "min_rehab": 15000,
+  "rehab_per_sqft_by_year_built": [[1940, 38], [1970, 32], [2000, 26], [9999, 20]],
+  "rehab_renovated_factor": 0.75,
+  "roi_zero_points_at": -0.10,
+  "roi_full_points_at": 0.30,
+  "yield_zero_points_at": 0.07,
+  "yield_full_points_at": 0.14,
+  "points": {"profit": 55, "rent": 25, "confidence": 20},
+  "penalties": {
+    "hoa_condo_judgment": 12,
+    "federal_tax_lien": 8,
+    "other_gov_lien": 4,
+    "defense_attorney": 5,
+    "bankruptcy_history": 3,
+    "verify_case": 8,
+    "almost_ready": 3,
+    "zestimate_anchored_to_price": 3
+  },
+  "bonuses": {"free_and_clear_order": 3}
+}

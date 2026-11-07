@@ -23,6 +23,7 @@ COLUMNS = [
     ("Sale ID", "sale_id", 10, "text"),
     ("Case #", "case_no", 14, "text"),
     ("Property address", "address", 26, "text"),
+    ("Prelim score (0-100, rough screen)", "prelim_score", 11, "int"),
     ("City", "city", 14, "text"),
     ("ZIP", "zip", 7, "text"),
     ("Municipality", "municipality", 16, "text"),
@@ -38,6 +39,16 @@ COLUMNS = [
     ("Free & clear min bid", "fc_min_bid", 12, "money"),
     ("Opening bid to watch", "opening_bid", 12, "money"),
     ("Reassessed damages (judgment)", "reassessed_damages", 13, "money"),
+    ("Zillow Zestimate", "zestimate", 12, "int-money"),
+    ("ARV used (conservative)", "arv", 12, "int-money"),
+    ("Est. rehab", "rehab_est", 11, "int-money"),
+    ("Assumed winning bid", "expected_bid", 12, "int-money"),
+    ("Est. ROI at that bid", "roi_expected", 9, "pct"),
+    ("Max bid for target ROI", "max_bid_target", 12, "int-money"),
+    ("Headroom vs opening bid", "headroom", 12, "int-money"),
+    ("Zillow rent est. /mo", "rent_est", 10, "int-money"),
+    ("Gross rent yield", "gross_yield", 8, "pct"),
+    ("Score notes", "score_notes", 40, "wrap"),
     ("Boxes  Svs · 3129.2 · 3129.3 · OK", "boxes", 14, "text"),
     ("__STATUS__", "status_note", 34, "wrap"),
     ("Flags / title & bidding risks", "flags_text", 34, "wrap"),
@@ -213,7 +224,9 @@ def write_case_tab(ws, title, subtitle, rows, status_header, today, prev):
                 cell.value = prev["first_seen"].get(c["sale_id"]) or today
             else:
                 cell.value = c.get(k)
-            if kind.endswith("money"):
+            if kind == "int-money":
+                cell.number_format = '"$"#,##0;[Red]-"$"#,##0'
+            elif kind.endswith("money"):
                 cell.number_format = MONEY_FMT
             elif kind.endswith("pct"):
                 cell.number_format = PCT_FMT
@@ -221,7 +234,13 @@ def write_case_tab(ws, title, subtitle, rows, status_header, today, prev):
             cell.border = Border(bottom=THIN)
             if k == "status_note" and str(c.get("status_note", "")).startswith("VERIFY"):
                 cell.fill = AMBER
-    ws.freeze_panes = ws.cell(row=FIRST, column=4)
+    ws.freeze_panes = ws.cell(row=FIRST, column=5)
+    sc = col_of("prelim_score")
+    if rows:
+        from openpyxl.formatting.rule import ColorScaleRule
+        ws.conditional_formatting.add(f"{sc}{FIRST}:{sc}{FIRST + len(rows) - 1}",
+            ColorScaleRule(start_type="num", start_value=0, start_color="F8CBAD", mid_type="num", mid_value=50,
+                           mid_color="FFF2CC", end_type="num", end_value=100, end_color="A9D08E"))
     last = get_column_letter(len(COLUMNS))
     ws.auto_filter.ref = f"A{HEADER_ROW}:{last}{max(FIRST, FIRST + len(rows) - 1)}"
     if not rows:
@@ -299,9 +318,11 @@ def write_overview(ws, sale_date, source, cases, changes, prev, run_time, droppe
     ws.cell(row=r, column=1, value=(
         "How to use: type only in the yellow YOUR ENTRY columns on OK to Sell / Almost Ready (assessed value fills in the "
         "transfer-tax estimate). Every update keeps what you typed, matched by Sale ID. The Sheriff finalizes the list the "
-        "morning of the sale — check the morning-of list before bidding. Not legal advice; see Glossary.")).alignment = Alignment(wrap_text=True)
+        "morning of the sale — check the morning-of list before bidding. Not legal advice; see Glossary. "
+        "PRELIM SCORE: a rough 0-100 screen from Zillow data (Zestimate, sold comps, rent) used only to decide which properties to research first. "
+        "It is not an appraisal or a DealScore. Blank = Zillow has no Zestimate; research those by hand. Assumptions are in reference/scoring_config.json.")).alignment = Alignment(wrap_text=True)
     ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=6)
-    ws.row_dimensions[r].height = 48
+    ws.row_dimensions[r].height = 90
 
 
 def write_transfer_tax(ws, tt):
@@ -390,7 +411,8 @@ def main():
         else:
             c["status_note"] = c["bucket_reason"]
 
-    key = lambda c: (c.get("municipality") or "", c.get("address") or "")
+    key = lambda c: (-(c["prelim_score"] if c.get("prelim_score") is not None else -1),
+                     c.get("municipality") or "", c.get("address") or "")
     ok = sorted([c for c in cases if c["bucket"] == "ok"], key=key)
     al = sorted([c for c in cases if c["bucket"] == "almost"], key=key)
     changes = diff(cases, prev)
