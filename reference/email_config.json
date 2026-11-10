@@ -1,0 +1,4 @@
+{
+  "_readme": "send_via: 'connector' = the Claude run sends the summary with the Gmail connector (no attachment). 'actions' = the run only commits state/email.json and the GitHub Actions workflow emails it with the workbook attached. Switch to 'actions' once the GitHub secrets are set and a test email arrived.",
+  "send_via": "connector"
+}

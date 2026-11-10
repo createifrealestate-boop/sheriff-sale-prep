@@ -1,4 +1,4 @@
-"""Build the update email from a run. Usage: email_summary.py scored.json run_summary.json out.json [--top 15]
+"""Build the update email from a run. Usage: email_summary.py scored.json run_summary.json out.json [--top 15] [--attached]
 run_summary.json = the JSON line printed last by run_update.py. Writes {subject, html, text}."""
 import html, json, sys
 sc = json.load(open(sys.argv[1])); rs = json.load(open(sys.argv[2])); out = sys.argv[3]
@@ -23,7 +23,7 @@ body = f"""<div style="font-family:Arial,sans-serif;font-size:14px">
 <h3>Top {top} by preliminary score</h3>
 <table border="1" cellpadding="4" cellspacing="0" style="border-collapse:collapse;font-size:13px">
 <tr style="background:#1F3A5F;color:#fff"><th>Score</th><th>Property</th><th>Status</th><th>Opening bid</th><th>ARV</th><th>Est. ROI</th><th>Max bid @ target</th></tr>{tr}</table>
-<p style="color:#666">Score is a rough Zillow-based screen, not an appraisal or DealScore. {unscored} properties have no Zestimate and need manual research. The full workbook (all columns, Transfer Tax, Glossary) is in the Claude session for this run and in the repo state file.</p></div>"""
+<p style="color:#666">Score is a rough Zillow-based screen, not an appraisal or DealScore. {unscored} properties have no Zestimate and need manual research. {"The full workbook (all columns, Transfer Tax, Glossary) is attached." if "--attached" in sys.argv else "The full workbook (all columns, Transfer Tax, Glossary) is in the Claude session for this run and in the repo state file."}</p></div>"""
 text = subj + "\n" + "\n".join(x for x in rs.get("changes", [])[:40])
-json.dump({"subject": subj, "html": body, "text": text}, open(out, "w"))
+json.dump({"sale_date": d, "subject": subj, "html": body, "text": text}, open(out, "w"))
 print(subj)
