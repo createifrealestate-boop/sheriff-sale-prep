@@ -126,9 +126,13 @@ def main():
                 break
             if row[0] != "Change" and row[1]:
                 changes.append(f"{row[0]}: {row[2]} ({row[3]})" + (f" – {row[5]}" if row[5] else ""))
-    print(json.dumps({"ok": True, "sale_date": sale_date.isoformat(), "workbook": str(out), "state_file": str(state),
-                      "source": source, "list_printed": meta.get("printed"), **counts,
-                      "total_cases": meta.get("cases_parsed"), "changes": changes}))
+    summary = {"ok": True, "sale_date": sale_date.isoformat(), "workbook": str(out), "state_file": str(state),
+               "source": source, "list_printed": meta.get("printed"), **counts,
+               "total_cases": meta.get("cases_parsed"), "changes": changes}
+    if not a.no_state:  # data for the CRM's Sheriff Sale page (pushed by the GitHub workflow)
+        r = run([S / "crm_payload.py", scored, json.dumps(summary), cache, ROOT / "state" / "crm.json"])
+        print(r.stdout.strip(), r.stderr.strip()[-300:])
+    print(json.dumps(summary))
 
 
 if __name__ == "__main__":

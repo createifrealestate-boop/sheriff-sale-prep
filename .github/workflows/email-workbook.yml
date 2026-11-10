@@ -1,22 +1,56 @@
 name: Email workbook
-# Each Claude update commits state/email.json; this emails it with the workbook attached.
+# Each Claude update commits state/email.json and state/crm.json. This workflow emails the summary
+# with the workbook attached (when email.json changed) and sends the data + workbook to the CRM's
+# Sheriff Sale page (when crm.json changed). Run it by hand to do either or both again.
 on:
   push:
     branches: [main]
-    paths: ["state/email.json"]
-  workflow_dispatch: {}
+    paths: ["state/email.json", "state/crm.json"]
+  workflow_dispatch:
+    inputs:
+      send_email:
+        description: "Send the email"
+        type: boolean
+        default: true
+      update_crm:
+        description: "Update the CRM Sheriff Sale page"
+        type: boolean
+        default: true
 jobs:
   send:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: What changed
+        id: changed
+        env:
+          EVENT: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+          IN_EMAIL: ${{ inputs.send_email }}
+          IN_CRM: ${{ inputs.update_crm }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            echo "email=$IN_EMAIL" >> "$GITHUB_OUTPUT"; echo "crm=$IN_CRM" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          files=$(git diff --name-only "$BEFORE" HEAD 2>/dev/null || echo "state/email.json state/crm.json")
+          echo "$files"
+          echo "email=$(echo "$files" | grep -qx 'state/email.json' && echo true || echo false)" >> "$GITHUB_OUTPUT"
+          echo "crm=$(echo "$files" | grep -qx 'state/crm.json' && echo true || echo false)" >> "$GITHUB_OUTPUT"
       - name: Send email
+        if: steps.changed.outputs.email == 'true'
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
         run: python3 scripts/send_email.py
+      - name: Update CRM Sheriff Sale page
+        if: always() && steps.changed.outputs.crm == 'true'
+        env:
+          CRM_API_KEY: ${{ secrets.CRM_API_KEY }}
+        run: python3 scripts/push_to_crm.py
