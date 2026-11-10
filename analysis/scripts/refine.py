@@ -12,9 +12,11 @@ for c in S:
     m=MIN.search(c['comments'] or '')
     c['minbid']=float(m.group(1).replace(',','')) if m and c['free_clear'] else None
     c['open_eff']=c['minbid'] or (c.get('fc_min_bid') if c['free_clear'] else None) or c.get('recalc_ct_bid') or c['ct']
-    c['decree']=bool(re.search(r'\bDECREE\b',c['comments'] or '',re.I)) and not c['free_clear']
+    stated=c['free_clear'] and c['open_eff']<c['ct']-1
+    c['fc_stated']=stated
+    c['decree']=(not stated) and bool(re.search(r'\bDECREE\b|UPSET',c['comments'] or '',re.I)) and (c['sale_category'] or '').lower().startswith('tax lien')
     c['over_eff']=c['price']-c['open_eff']; c['ratio_eff']=c['price']/c['open_eff']
-    c['grp']=c['deal_type']+(' (decree)' if c['decree'] and c['deal_type']=='Tax lien' else '')
+    c['grp']='Tax lien (decree)' if c['decree'] else ('Free & clear tax lien' if stated else ('Tax lien' if c['deal_type']=='Free & clear tax lien' else c['deal_type']))
     zz=Z.get(cache_key(c)) or Z0.get(cache_key(c))
     cc=dict(c); cc['opening_bid']=c['open_eff']; cc['fc_min_bid']=c['minbid']
     r=score_case(cc,zz,cfg) if zz else None

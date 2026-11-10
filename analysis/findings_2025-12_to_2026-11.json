@@ -1,0 +1,810 @@
+{
+ "batch": {
+  "b2": {
+   "listings": 2375,
+   "distinct": 1334,
+   "outcomes": {
+    "postponed": 1578,
+    "sold_3p": 217,
+    "stayed": 333,
+    "plaintiff_overbid": 165,
+    "paid": 35,
+    "plaintiff_costs": 47
+   },
+   "auction_rate": 18,
+   "sold3p_all": 217,
+   "sold3p_res": 190,
+   "all": {
+    "n": 190,
+    "price": 54988,
+    "open": 12235,
+    "over": 30537,
+    "w5": 24,
+    "nz": 126,
+    "pz": 0.44,
+    "pz25": 0.34,
+    "pz75": 0.59,
+    "margin": 0.17,
+    "m20": 46
+   },
+   "groups": {
+    "Free & clear tax lien": {
+     "n": 34,
+     "price": 39750,
+     "open": 7900,
+     "over": 29100,
+     "w5": 6,
+     "nz": 20,
+     "pz": 0.36,
+     "pz25": 0.27,
+     "pz75": 0.49,
+     "margin": 0.15,
+     "m20": 40
+    },
+    "Tax lien": {
+     "n": 37,
+     "price": 52000,
+     "open": 31715,
+     "over": 8262,
+     "w5": 38,
+     "nz": 30,
+     "pz": 0.36,
+     "pz25": 0.31,
+     "pz75": 0.43,
+     "margin": 0.31,
+     "m20": 70
+    },
+    "Tax lien (decree)": {
+     "n": 30,
+     "price": 51726,
+     "open": 49529,
+     "over": -23,
+     "w5": 87,
+     "nz": 16,
+     "pz": 0.6,
+     "pz25": 0.43,
+     "pz75": 0.88,
+     "margin": -0.23,
+     "m20": 19
+    },
+    "Mortgage foreclosure": {
+     "n": 80,
+     "price": 65500,
+     "open": 6498,
+     "over": 52317,
+     "w5": 4,
+     "nz": 53,
+     "pz": 0.48,
+     "pz25": 0.39,
+     "pz75": 0.62,
+     "margin": 0.13,
+     "m20": 40
+    },
+    "HOA/condo judgment": {
+     "n": 7,
+     "price": 215000,
+     "open": 17706,
+     "over": 199443,
+     "w5": 0,
+     "nz": 5,
+     "pz": 0.59,
+     "pz25": 0.58,
+     "pz75": 0.66,
+     "margin": 0.25,
+     "m20": 60
+    }
+   },
+   "zband": {
+    "<75k": {
+     "n": 10,
+     "price": 24604,
+     "open": 7600,
+     "over": 7865,
+     "w5": 30,
+     "nz": 10,
+     "pz": 0.5,
+     "pz25": 0.39,
+     "pz75": 0.67,
+     "margin": -0.4,
+     "m20": 0
+    },
+    "75-150k": {
+     "n": 47,
+     "price": 42100,
+     "open": 22004,
+     "over": 10000,
+     "w5": 47,
+     "nz": 47,
+     "pz": 0.36,
+     "pz25": 0.31,
+     "pz75": 0.54,
+     "margin": 0.07,
+     "m20": 38
+    },
+    "150-250k": {
+     "n": 46,
+     "price": 77500,
+     "open": 12924,
+     "over": 47043,
+     "w5": 7,
+     "nz": 46,
+     "pz": 0.43,
+     "pz25": 0.36,
+     "pz75": 0.48,
+     "margin": 0.32,
+     "m20": 59
+    },
+    "250k+": {
+     "n": 23,
+     "price": 205000,
+     "open": 12632,
+     "over": 192368,
+     "w5": 0,
+     "nz": 23,
+     "pz": 0.57,
+     "pz25": 0.45,
+     "pz75": 0.71,
+     "margin": 0.26,
+     "m20": 57
+    }
+   },
+   "mf_plaintiff": [
+    173,
+    254
+   ],
+   "bucket": {
+    "ok": 186,
+    "excluded": 28,
+    "almost": 3
+   },
+   "excl_reasons": {
+    "Non-residential (Vacant Land)": 22,
+    "Docs outstanding: Court order (O/C) approving postponements covering 1 sale date(s): 2/2/26": 1,
+    "Non-residential (Commercial)": 5,
+    "VERIFY \u2013 Service/3129.2/3129.3 checked, OK not yet checked, no items listed": 3
+   },
+   "decree_munis": {
+    "Springdale": 2,
+    "Braddock": 4,
+    "Wilmerding": 1,
+    "Wilkinsburg": 18,
+    "Harmar": 1,
+    "Munhall": 1,
+    "Pittsburgh": 1,
+    "North Braddock": 1,
+    "Glassport": 1
+   },
+   "months": {
+    "2025-12-01": {
+     "n": 442,
+     "auc": 77,
+     "3p": 46
+    },
+    "2026-01-05": {
+     "n": 376,
+     "auc": 56,
+     "3p": 37
+    },
+    "2026-02-02": {
+     "n": 393,
+     "auc": 68,
+     "3p": 41
+    },
+    "2026-03-02": {
+     "n": 390,
+     "auc": 72,
+     "3p": 30
+    },
+    "2026-04-06": {
+     "n": 390,
+     "auc": 83,
+     "3p": 31
+    },
+    "2026-05-04": {
+     "n": 384,
+     "auc": 73,
+     "3p": 32
+    }
+   }
+  },
+  "b1": {
+   "listings": 2364,
+   "distinct": 1320,
+   "outcomes": {
+    "postponed": 1631,
+    "stayed": 351,
+    "sold_3p": 201,
+    "plaintiff_overbid": 145,
+    "plaintiff_costs": 10,
+    "paid": 26
+   },
+   "auction_rate": 15,
+   "sold3p_all": 201,
+   "sold3p_res": 184,
+   "all": {
+    "n": 184,
+    "price": 41302,
+    "open": 14051,
+    "over": 15908,
+    "w5": 27,
+    "nz": 119,
+    "pz": 0.39,
+    "pz25": 0.28,
+    "pz75": 0.54,
+    "margin": 0.21,
+    "m20": 51
+   },
+   "groups": {
+    "Free & clear tax lien": {
+     "n": 40,
+     "price": 24000,
+     "open": 8500,
+     "over": 15000,
+     "w5": 15,
+     "nz": 26,
+     "pz": 0.24,
+     "pz25": 0.17,
+     "pz75": 0.3,
+     "margin": 0.39,
+     "m20": 85
+    },
+    "Tax lien": {
+     "n": 48,
+     "price": 38413,
+     "open": 26024,
+     "over": 10508,
+     "w5": 29,
+     "nz": 37,
+     "pz": 0.41,
+     "pz25": 0.31,
+     "pz75": 0.49,
+     "margin": 0.22,
+     "m20": 51
+    },
+    "Tax lien (decree)": {
+     "n": 32,
+     "price": 39186,
+     "open": 39428,
+     "over": -60,
+     "w5": 91,
+     "nz": 11,
+     "pz": 0.4,
+     "pz25": 0.31,
+     "pz75": 0.56,
+     "margin": -0.09,
+     "m20": 9
+    },
+    "Mortgage foreclosure": {
+     "n": 59,
+     "price": 70000,
+     "open": 7268,
+     "over": 60176,
+     "w5": 2,
+     "nz": 42,
+     "pz": 0.51,
+     "pz25": 0.37,
+     "pz75": 0.65,
+     "margin": 0.14,
+     "m20": 40
+    },
+    "HOA/condo judgment": {
+     "n": 5,
+     "price": 95000,
+     "open": 12140,
+     "over": 86910,
+     "w5": 0,
+     "nz": 3,
+     "pz": 0.52,
+     "pz25": 0.5,
+     "pz75": 0.55,
+     "margin": 0.32,
+     "m20": 67
+    }
+   },
+   "zband": {
+    "<75k": {
+     "n": 9,
+     "price": 30600,
+     "open": 19688,
+     "over": 9500,
+     "w5": 22,
+     "nz": 9,
+     "pz": 0.51,
+     "pz25": 0.38,
+     "pz75": 0.65,
+     "margin": -0.16,
+     "m20": 22
+    },
+    "75-150k": {
+     "n": 58,
+     "price": 36789,
+     "open": 11606,
+     "over": 14304,
+     "w5": 24,
+     "nz": 58,
+     "pz": 0.34,
+     "pz25": 0.23,
+     "pz75": 0.44,
+     "margin": 0.17,
+     "m20": 47
+    },
+    "150-250k": {
+     "n": 33,
+     "price": 77500,
+     "open": 11624,
+     "over": 60358,
+     "w5": 9,
+     "nz": 33,
+     "pz": 0.41,
+     "pz25": 0.33,
+     "pz75": 0.54,
+     "margin": 0.31,
+     "m20": 67
+    },
+    "250k+": {
+     "n": 19,
+     "price": 187000,
+     "open": 11554,
+     "over": 141651,
+     "w5": 0,
+     "nz": 19,
+     "pz": 0.54,
+     "pz25": 0.44,
+     "pz75": 0.74,
+     "margin": 0.26,
+     "m20": 53
+    }
+   },
+   "mf_plaintiff": [
+    149,
+    208
+   ],
+   "bucket": {
+    "excluded": 18,
+    "ok": 182,
+    "almost": 1
+   },
+   "excl_reasons": {
+    "Non-residential (Vacant Land)": 11,
+    "Docs outstanding: boxes incomplete": 1,
+    "Non-residential (Commercial)": 5,
+    "Non-residential (Vacant Commercial)": 1,
+    "VERIFY \u2013 notes say OK TO SELL but OK box unchecked": 1
+   },
+   "decree_munis": {
+    "Homestead": 5,
+    "Wilkinsburg": 9,
+    "Millvale": 1,
+    "Munhall": 1,
+    "Pittsburgh": 16
+   },
+   "months": {
+    "2026-06-01": {
+     "n": 396,
+     "auc": 53,
+     "3p": 26
+    },
+    "2026-07-06": {
+     "n": 407,
+     "auc": 72,
+     "3p": 41
+    },
+    "2026-08-03": {
+     "n": 366,
+     "auc": 54,
+     "3p": 32
+    },
+    "2026-09-08": {
+     "n": 388,
+     "auc": 36,
+     "3p": 21
+    },
+    "2026-10-05": {
+     "n": 377,
+     "auc": 77,
+     "3p": 42
+    },
+    "2026-11-02": {
+     "n": 430,
+     "auc": 64,
+     "3p": 39
+    }
+   }
+  },
+  "all": {
+   "listings": 4739,
+   "distinct": 2096,
+   "outcomes": {
+    "postponed": 3209,
+    "sold_3p": 418,
+    "stayed": 684,
+    "plaintiff_overbid": 310,
+    "paid": 61,
+    "plaintiff_costs": 57
+   },
+   "auction_rate": 17,
+   "sold3p_all": 418,
+   "sold3p_res": 374,
+   "all": {
+    "n": 374,
+    "price": 47750,
+    "open": 12456,
+    "over": 23596,
+    "w5": 25,
+    "nz": 245,
+    "pz": 0.42,
+    "pz25": 0.31,
+    "pz75": 0.57,
+    "margin": 0.18,
+    "m20": 49
+   },
+   "groups": {
+    "Free & clear tax lien": {
+     "n": 74,
+     "price": 26000,
+     "open": 8400,
+     "over": 16100,
+     "w5": 11,
+     "nz": 46,
+     "pz": 0.27,
+     "pz25": 0.18,
+     "pz75": 0.37,
+     "margin": 0.33,
+     "m20": 65
+    },
+    "Tax lien": {
+     "n": 85,
+     "price": 40000,
+     "open": 27893,
+     "over": 10119,
+     "w5": 33,
+     "nz": 67,
+     "pz": 0.38,
+     "pz25": 0.31,
+     "pz75": 0.46,
+     "margin": 0.27,
+     "m20": 60
+    },
+    "Tax lien (decree)": {
+     "n": 62,
+     "price": 40200,
+     "open": 42959,
+     "over": -35,
+     "w5": 89,
+     "nz": 27,
+     "pz": 0.52,
+     "pz25": 0.35,
+     "pz75": 0.69,
+     "margin": -0.17,
+     "m20": 15
+    },
+    "Mortgage foreclosure": {
+     "n": 139,
+     "price": 68000,
+     "open": 6830,
+     "over": 55600,
+     "w5": 3,
+     "nz": 95,
+     "pz": 0.48,
+     "pz25": 0.38,
+     "pz75": 0.64,
+     "margin": 0.13,
+     "m20": 40
+    },
+    "HOA/condo judgment": {
+     "n": 12,
+     "price": 142500,
+     "open": 16111,
+     "over": 112811,
+     "w5": 0,
+     "nz": 8,
+     "pz": 0.58,
+     "pz25": 0.51,
+     "pz75": 0.61,
+     "margin": 0.29,
+     "m20": 62
+    }
+   },
+   "zband": {
+    "<75k": {
+     "n": 19,
+     "price": 25209,
+     "open": 9000,
+     "over": 9500,
+     "w5": 26,
+     "nz": 19,
+     "pz": 0.51,
+     "pz25": 0.38,
+     "pz75": 0.66,
+     "margin": -0.23,
+     "m20": 11
+    },
+    "75-150k": {
+     "n": 105,
+     "price": 38826,
+     "open": 14044,
+     "over": 13833,
+     "w5": 34,
+     "nz": 105,
+     "pz": 0.35,
+     "pz25": 0.27,
+     "pz75": 0.47,
+     "margin": 0.15,
+     "m20": 43
+    },
+    "150-250k": {
+     "n": 79,
+     "price": 77500,
+     "open": 12451,
+     "over": 53283,
+     "w5": 8,
+     "nz": 79,
+     "pz": 0.43,
+     "pz25": 0.35,
+     "pz75": 0.52,
+     "margin": 0.32,
+     "m20": 62
+    },
+    "250k+": {
+     "n": 42,
+     "price": 191000,
+     "open": 12093,
+     "over": 172303,
+     "w5": 0,
+     "nz": 42,
+     "pz": 0.56,
+     "pz25": 0.43,
+     "pz75": 0.72,
+     "margin": 0.26,
+     "m20": 55
+    }
+   },
+   "mf_plaintiff": [
+    322,
+    462
+   ],
+   "bucket": {
+    "ok": 368,
+    "excluded": 46,
+    "almost": 4
+   },
+   "excl_reasons": {
+    "Non-residential (Vacant Land)": 33,
+    "Docs outstanding: Court order (O/C) approving postponements covering 1 sale date(s): 2/2/26": 1,
+    "Non-residential (Commercial)": 10,
+    "VERIFY \u2013 Service/3129.2/3129.3 checked, OK not yet checked, no items listed": 3,
+    "Docs outstanding: boxes incomplete": 1,
+    "Non-residential (Vacant Commercial)": 1,
+    "VERIFY \u2013 notes say OK TO SELL but OK box unchecked": 1
+   },
+   "decree_munis": {
+    "Springdale": 2,
+    "Braddock": 4,
+    "Wilmerding": 1,
+    "Wilkinsburg": 27,
+    "Harmar": 1,
+    "Munhall": 2,
+    "Pittsburgh": 17,
+    "North Braddock": 1,
+    "Glassport": 1,
+    "Homestead": 5,
+    "Millvale": 1
+   },
+   "months": {
+    "2025-12-01": {
+     "n": 442,
+     "auc": 77,
+     "3p": 46
+    },
+    "2026-01-05": {
+     "n": 376,
+     "auc": 56,
+     "3p": 37
+    },
+    "2026-02-02": {
+     "n": 393,
+     "auc": 68,
+     "3p": 41
+    },
+    "2026-03-02": {
+     "n": 390,
+     "auc": 72,
+     "3p": 30
+    },
+    "2026-04-06": {
+     "n": 390,
+     "auc": 83,
+     "3p": 31
+    },
+    "2026-05-04": {
+     "n": 384,
+     "auc": 73,
+     "3p": 32
+    },
+    "2026-06-01": {
+     "n": 396,
+     "auc": 53,
+     "3p": 26
+    },
+    "2026-07-06": {
+     "n": 407,
+     "auc": 72,
+     "3p": 41
+    },
+    "2026-08-03": {
+     "n": 366,
+     "auc": 54,
+     "3p": 32
+    },
+    "2026-09-08": {
+     "n": 388,
+     "auc": 36,
+     "3p": 21
+    },
+    "2026-10-05": {
+     "n": 377,
+     "auc": 77,
+     "3p": 42
+    },
+    "2026-11-02": {
+     "n": 430,
+     "auc": 64,
+     "3p": 39
+    }
+   }
+  }
+ },
+ "fit": {
+  "Free & clear tax lien": {
+   "k_b1": 0.24,
+   "k_b2": 0.28,
+   "err_b2_with_k1": 12.2,
+   "err_b2_with_55": 18.3,
+   "n_b2": 20,
+   "price_over_arv_b2": 0.37
+  },
+  "Tax lien": {
+   "k_b1": 0.39,
+   "k_b2": 0.4,
+   "err_b2_with_k1": 6.6,
+   "err_b2_with_55": 19.6,
+   "n_b2": 30,
+   "price_over_arv_b2": 0.37
+  },
+  "Tax lien (decree)": {
+   "k_b1": 0.05,
+   "k_b2": 0.05,
+   "err_b2_with_k1": 0.1,
+   "err_b2_with_55": 2.0,
+   "n_b2": 16,
+   "price_over_arv_b2": 0.6
+  },
+  "Mortgage foreclosure": {
+   "k_b1": 0.54,
+   "k_b2": 0.39,
+   "err_b2_with_k1": 12.5,
+   "err_b2_with_55": 12.9,
+   "n_b2": 53,
+   "price_over_arv_b2": 0.51
+  }
+ },
+ "score_b2_current": {
+  "n": 126,
+  "spearman": 0.59,
+  "0-39": [
+   75,
+   0.04,
+   29
+  ],
+  "40-59": [
+   18,
+   0.32,
+   72
+  ],
+  "60-79": [
+   33,
+   0.42,
+   70
+  ],
+  "80+": [
+   0,
+   null,
+   null
+  ]
+ },
+ "score_b2_newk": {
+  "n": 126,
+  "spearman": 0.68,
+  "0-39": [
+   52,
+   -0.12,
+   13
+  ],
+  "40-59": [
+   18,
+   0.25,
+   61
+  ],
+  "60-79": [
+   56,
+   0.39,
+   71
+  ],
+  "80+": [
+   0,
+   null,
+   null
+  ]
+ },
+ "score_all_current": {
+  "n": 245,
+  "spearman": 0.48,
+  "0-39": [
+   150,
+   0.1,
+   37
+  ],
+  "40-59": [
+   42,
+   0.32,
+   69
+  ],
+  "60-79": [
+   53,
+   0.34,
+   66
+  ],
+  "80+": [
+   0,
+   null,
+   null
+  ]
+ },
+ "score_all_newk": {
+  "n": 245,
+  "spearman": 0.6,
+  "0-39": [
+   98,
+   -0.01,
+   17
+  ],
+  "40-59": [
+   37,
+   0.28,
+   62
+  ],
+  "60-79": [
+   110,
+   0.39,
+   72
+  ],
+  "80+": [
+   0,
+   null,
+   null
+  ]
+ },
+ "dec_cohort": {
+  "n": 289,
+  "dropped off lists": 67,
+  "stayed": 116,
+  "still postponed": 31,
+  "sold_3p": 39,
+  "plaintiff_overbid": 33,
+  "plaintiff_costs": 1,
+  "paid": 2
+ },
+ "appearances_12m": {
+  "7": 25,
+  "2": 481,
+  "3": 335,
+  "4": 178,
+  "5": 95,
+  "6": 62,
+  "1": 904,
+  "8": 11,
+  "10": 1,
+  "9": 4
+ },
+ "distinct_12m": 2096
+}

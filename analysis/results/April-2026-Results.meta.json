@@ -1,0 +1,12 @@
+{
+ "date_of_sale": "Monday, April 6, 2026",
+ "printed": "4/9/2026 8:23:09AM",
+ "summary_count": {
+  "active": 0,
+  "postponed": 246,
+  "cancelled": 58,
+  "bankruptcy": 0,
+  "total": 390
+ },
+ "cases_parsed": 390
+}

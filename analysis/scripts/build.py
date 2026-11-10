@@ -1,7 +1,7 @@
 import json,re,glob,collections
 from datetime import datetime
 rows=[]
-for f in sorted(set(glob.glob('/tmp/claude-0/res/*Results.json'))):
+for f in sorted(set(g for g in glob.glob('/tmp/claude-0/res/*Results*.json') if not g.endswith('.meta.json'))):
     if f.endswith('.meta.json'): continue
     meta=json.load(open(f.replace('.json','.meta.json')))
     sd=datetime.strptime(meta['date_of_sale'].split(', ',1)[1],'%B %d, %Y').date().isoformat()
