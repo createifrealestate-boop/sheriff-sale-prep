@@ -8,7 +8,7 @@
   "total_cases": 404,
   "changes": [],
   "unscored": 15,
-  "updated_at": "2026-11-10T01:41:15+00:00"
+  "updated_at": "2026-11-10T03:08:27+00:00"
  },
  "properties": [
   {
@@ -52,7 +52,9 @@
    "range_lo": 127000,
    "range_hi": 189000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "58JAN22",
@@ -78,7 +80,9 @@
    ],
    "flags": [],
    "comments": "NEED 3129.3 FOR 12/7/26",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "52JAN25",
@@ -102,7 +106,9 @@
    "outstanding": [],
    "flags": [],
    "comments": "AS DIRECTED BY MAIELLO BRUNGO & MAIELLO, ATTORNEY FOR THE PLAINTIFF, SHERIFF'S SALE POSTPONED TO DECEMBER 7, 2026 FROM @POSTPONEDFROM.",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "70APR25",
@@ -143,7 +149,9 @@
    "range_lo": 122000,
    "range_hi": 161000,
    "renovated": true,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "19JUN25",
@@ -167,7 +175,9 @@
    "outstanding": [],
    "flags": [],
    "comments": "OK TO SELL 10-5-6",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "119JUN25",
@@ -212,7 +222,9 @@
    "range_lo": 80000,
    "range_hi": 135000,
    "renovated": true,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "89SEP25",
@@ -238,7 +250,9 @@
    ],
    "flags": [],
    "comments": "NEED 3129.3 FOR 11-2-26",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "84NOV25",
@@ -281,7 +295,9 @@
    "range_lo": 74000,
    "range_hi": 150000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "108NOV25",
@@ -326,7 +342,9 @@
    "range_lo": 64000,
    "range_hi": 109000,
    "renovated": false,
-   "anchored": true
+   "anchored": true,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "111NOV25",
@@ -371,7 +389,9 @@
    "range_lo": 535000,
    "range_hi": 721000,
    "renovated": false,
-   "anchored": true
+   "anchored": true,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "115DEC25",
@@ -414,7 +434,9 @@
    "range_lo": 137000,
    "range_hi": 202000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "35FEB26",
@@ -462,7 +484,9 @@
    "range_lo": 75000,
    "range_hi": 95000,
    "renovated": true,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "HOA/condo judgment",
+   "free_clear": false
   },
   {
    "sale_id": "77FEB26",
@@ -488,7 +512,9 @@
    ],
    "flags": [],
    "comments": "NEED 3129.3 FOR 12-7-26",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "89FEB26",
@@ -531,7 +557,9 @@
    "range_lo": 174000,
    "range_hi": 213000,
    "renovated": true,
-   "anchored": true
+   "anchored": true,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "46MAR26",
@@ -574,7 +602,9 @@
    "range_lo": 137000,
    "range_hi": 191000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "41APR26",
@@ -619,7 +649,9 @@
    "range_lo": 110000,
    "range_hi": 178000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "63APR26",
@@ -664,7 +696,9 @@
    "range_lo": 200000,
    "range_hi": 263000,
    "renovated": false,
-   "anchored": true
+   "anchored": true,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "86MAY26",
@@ -709,7 +743,9 @@
    "range_lo": 659000,
    "range_hi": 813000,
    "renovated": true,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "12JUN26",
@@ -752,7 +788,9 @@
    "range_lo": 177000,
    "range_hi": 216000,
    "renovated": true,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "27JUN26",
@@ -797,7 +835,9 @@
    "range_lo": 72000,
    "range_hi": 133000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "43JUN26",
@@ -842,7 +882,9 @@
    "range_lo": 154000,
    "range_hi": 225000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "58JUN26",
@@ -868,7 +910,9 @@
    ],
    "flags": [],
    "comments": "NEED 3129.3 FOR 9-8-26",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "63JUN26",
@@ -894,7 +938,9 @@
    ],
    "flags": [],
    "comments": "NEED 3129.3 FOR 10-5-26",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "89JUN26",
@@ -937,7 +983,9 @@
    "range_lo": 81000,
    "range_hi": 140000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "95JUN26",
@@ -982,7 +1030,9 @@
    "range_lo": 84000,
    "range_hi": 153000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "104JUN26",
@@ -1021,7 +1071,9 @@
    "range_lo": 116000,
    "range_hi": 202000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "109JUN26",
@@ -1064,7 +1116,9 @@
    "range_lo": 99000,
    "range_hi": 158000,
    "renovated": true,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "110JUN26",
@@ -1109,7 +1163,9 @@
    "range_lo": 84000,
    "range_hi": 157000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "157JUN26",
@@ -1156,7 +1212,9 @@
    "range_lo": 45000,
    "range_hi": 87000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "162JUN26",
@@ -1202,7 +1260,9 @@
    "range_lo": 52000,
    "range_hi": 98000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "24JUL26",
@@ -1247,7 +1307,9 @@
    "range_lo": 369000,
    "range_hi": 489000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "28JUL26",
@@ -1294,7 +1356,9 @@
    "range_lo": 117000,
    "range_hi": 212000,
    "renovated": false,
-   "anchored": true
+   "anchored": true,
+   "deal_type": "Free & clear tax lien",
+   "free_clear": true
   },
   {
    "sale_id": "94JUL26",
@@ -1320,7 +1384,9 @@
    ],
    "flags": [],
    "comments": "NEED 3129.3 FOR 11-2-26",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "102JUL26",
@@ -1365,7 +1431,9 @@
    "range_lo": 104000,
    "range_hi": 163000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "109JUL26",
@@ -1408,7 +1476,9 @@
    "range_lo": 211000,
    "range_hi": 248000,
    "renovated": true,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "23AUG26",
@@ -1451,7 +1521,9 @@
    "range_lo": 268000,
    "range_hi": 311000,
    "renovated": true,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "30AUG26",
@@ -1496,7 +1568,9 @@
    "range_lo": 91000,
    "range_hi": 154000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "45AUG26",
@@ -1539,7 +1613,9 @@
    "range_lo": 99000,
    "range_hi": 131000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "50AUG26",
@@ -1584,7 +1660,9 @@
    "range_lo": 102000,
    "range_hi": 176000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "54AUG26",
@@ -1610,7 +1688,9 @@
    ],
    "flags": [],
    "comments": "NEED 3129.3 FOR 9-8-26",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "61AUG26",
@@ -1655,7 +1735,9 @@
    "range_lo": 169000,
    "range_hi": 234000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "66AUG26",
@@ -1700,7 +1782,9 @@
    "range_lo": 61000,
    "range_hi": 122000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "78AUG26",
@@ -1726,7 +1810,9 @@
     "OK-to-sell note dated 9/8/26, not this sale \u2013 verify"
    ],
    "comments": "OK TO SELL 9-8-26",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "96AUG26",
@@ -1771,7 +1857,9 @@
    "range_lo": 143000,
    "range_hi": 186000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "101AUG26",
@@ -1816,7 +1904,9 @@
    "range_lo": 90000,
    "range_hi": 141000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "2SEP26",
@@ -1859,7 +1949,9 @@
    "range_lo": 142000,
    "range_hi": 201000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "14SEP26",
@@ -1902,7 +1994,9 @@
    "range_lo": 180000,
    "range_hi": 247000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "17SEP26",
@@ -1945,7 +2039,9 @@
    "range_lo": 217000,
    "range_hi": 245000,
    "renovated": true,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "20SEP26",
@@ -1969,7 +2065,9 @@
    "outstanding": [],
    "flags": [],
    "comments": "AS DIRECTED BY LEGAL TAX SERVICE, ATTORNEY FOR THE PLAINTIFF, SHERIFF'S SALE POSTPONED TO DECEMBER 7, 2026 FROM @POSTPONEDFROM.",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "29SEP26",
@@ -1993,7 +2091,9 @@
    "outstanding": [],
    "flags": [],
    "comments": "AS DIRECTED BY TUCKER ARENSBURG PC, ATTORNEY FOR THE PLAINTIFF, SHERIFF'S SALE POSTPONED TO DECEMBER 7, 2026 FROM @POSTPONEDFROM.",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "47SEP26",
@@ -2038,7 +2138,9 @@
    "range_lo": 157000,
    "range_hi": 232000,
    "renovated": true,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "50SEP26",
@@ -2081,7 +2183,9 @@
    "range_lo": 55000,
    "range_hi": 120000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "51SEP26",
@@ -2124,7 +2228,9 @@
    "range_lo": 74000,
    "range_hi": 126000,
    "renovated": false,
-   "anchored": true
+   "anchored": true,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "52SEP26",
@@ -2167,7 +2273,9 @@
    "range_lo": 347000,
    "range_hi": 395000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "73SEP26",
@@ -2210,7 +2318,9 @@
    "range_lo": 97000,
    "range_hi": 154000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "101SEP26",
@@ -2249,7 +2359,9 @@
    "range_lo": 78000,
    "range_hi": 148000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "10OCT26",
@@ -2294,7 +2406,9 @@
    "range_lo": 108000,
    "range_hi": 163000,
    "renovated": true,
-   "anchored": true
+   "anchored": true,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "29OCT26",
@@ -2339,7 +2453,9 @@
    "range_lo": 49000,
    "range_hi": 86000,
    "renovated": true,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "46OCT26",
@@ -2382,7 +2498,9 @@
    "range_lo": 68000,
    "range_hi": 143000,
    "renovated": false,
-   "anchored": true
+   "anchored": true,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "50OCT26",
@@ -2427,7 +2545,9 @@
    "range_lo": 265000,
    "range_hi": 328000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "73OCT26",
@@ -2451,7 +2571,9 @@
    "outstanding": [],
    "flags": [],
    "comments": "AS DIRECTED BY GOEHRING RUTTER & BOEHM, ATTORNEY FOR THE PLAINTIFF, SHERIFF'S SALE POSTPONED TO DECEMBER 7, 2026 FROM @POSTPONEDFROM.",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "84OCT26",
@@ -2494,7 +2616,9 @@
    "range_lo": 90000,
    "range_hi": 141000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "109OCT26",
@@ -2539,7 +2663,9 @@
    "range_lo": 76000,
    "range_hi": 154000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "3NOV26",
@@ -2582,7 +2708,9 @@
    "range_lo": 115000,
    "range_hi": 170000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "10NOV26",
@@ -2625,7 +2753,9 @@
    "range_lo": 258000,
    "range_hi": 306000,
    "renovated": true,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "50NOV26",
@@ -2668,7 +2798,9 @@
    "range_lo": 85000,
    "range_hi": 150000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "76NOV26",
@@ -2711,7 +2843,9 @@
    "range_lo": 183000,
    "range_hi": 226000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "100NOV26",
@@ -2756,7 +2890,9 @@
    "range_lo": 283000,
    "range_hi": 350000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "112NOV26",
@@ -2780,7 +2916,9 @@
    "outstanding": [],
    "flags": [],
    "comments": "AS DIRECTED BY FRIEDMAN VARTOLO LLP, ATTORNEY FOR THE PLAINTIFF, SHERIFF'S SALE POSTPONED TO DECEMBER 7, 2026 FROM @POSTPONEDFROM.",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Mortgage foreclosure",
+   "free_clear": false
   },
   {
    "sale_id": "147NOV26",
@@ -2823,7 +2961,9 @@
    "range_lo": 129000,
    "range_hi": 198000,
    "renovated": false,
-   "anchored": false
+   "anchored": false,
+   "deal_type": "Tax lien",
+   "free_clear": false
   },
   {
    "sale_id": "67DEC26",
@@ -2847,7 +2987,9 @@
    "outstanding": [],
    "flags": [],
    "comments": "",
-   "score_notes": "No Zillow data"
+   "score_notes": "No Zillow data",
+   "deal_type": "Tax lien",
+   "free_clear": false
   }
  ]
 }
