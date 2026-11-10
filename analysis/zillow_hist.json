@@ -1,0 +1,4396 @@
+{
+"1 thorncrest drive|15235": {
+"zestimate": 252800,
+"range_lo": 225000,
+"range_hi": 278000,
+"sqft": 2000,
+"beds": 4,
+"baths": 3,
+"year_built": 1971,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+255000,
+377000,
+275000
+],
+"subject_anchored": false,
+"matched_address": "1 Thorncrest Dr Pittsburgh, PA 15235"
+},
+"1 wendlin st|15223": {
+"zestimate": 132600,
+"range_lo": 102000,
+"range_hi": 166000,
+"sqft": 1256,
+"beds": 2,
+"baths": 1,
+"year_built": 1925,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+165000,
+155000,
+125000
+],
+"subject_anchored": false,
+"matched_address": "1 Wendlin St Pittsburgh, PA 15223"
+},
+"100 william street|15229": {
+"zestimate": 182300,
+"range_lo": 148000,
+"range_hi": 215000,
+"sqft": 1043,
+"beds": 3,
+"baths": 1,
+"year_built": 1948,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+190000,
+224500,
+265000
+],
+"subject_anchored": false,
+"matched_address": "100 William St West View, PA 15229"
+},
+"1002 powers run rd|15238": {
+"zestimate": 272400,
+"range_lo": 215000,
+"range_hi": 338000,
+"sqft": 1107,
+"beds": 3,
+"baths": 1,
+"year_built": 1960,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+290000,
+312500,
+315000
+],
+"subject_anchored": false,
+"matched_address": "1002 Powers Run Rd Pittsburgh, PA 15238"
+},
+"101 klementina dr|15212": {
+"zestimate": 192900,
+"range_lo": 160000,
+"range_hi": 224000,
+"sqft": 1365,
+"beds": 4,
+"baths": 1,
+"year_built": 1952,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+218500,
+235000,
+222500
+],
+"subject_anchored": false,
+"matched_address": "101 Klementina Dr Pittsburgh, PA 15212"
+},
+"1013 garden place|15116": {
+"zestimate": 208800,
+"range_lo": 184000,
+"range_hi": 232000,
+"sqft": 893,
+"beds": 4,
+"baths": 1,
+"year_built": 1953,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+231000,
+249900,
+255000
+],
+"subject_anchored": false,
+"matched_address": "1013 Garden Pl Glenshaw, PA 15116"
+},
+"1015 glencoe avenue|15220": {
+"zestimate": 251000,
+"range_lo": 238000,
+"range_hi": 264000,
+"sqft": 1296,
+"beds": 3,
+"baths": 2,
+"year_built": 1950,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+278900,
+269900,
+255000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "1015 Glencoe Ave Pittsburgh, PA 15220"
+},
+"102-104 east 14th avenue|15120": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "102-104 E 14th Ave Homestead, PA 15120",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"1022 north ave|15221": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1022 North Ave Wilkinsburg, PA 15221",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"1024 north ave|15221": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1024 North Ave Wilkinsburg, PA 15221",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"1029 main street|15108": {
+"zestimate": 101300,
+"range_lo": 74000,
+"range_hi": 132000,
+"sqft": 1120,
+"beds": 2,
+"baths": 1,
+"year_built": 1880,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+135000,
+130000
+],
+"subject_anchored": false,
+"matched_address": "1029 Main St Coraopolis, PA 15108"
+},
+"104 hibiscus drive|15145": {
+"zestimate": 188500,
+"range_lo": 168000,
+"range_hi": 207000,
+"sqft": 1014,
+"beds": 3,
+"baths": 1,
+"year_built": 1956,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+180000,
+177000,
+173600
+],
+"subject_anchored": false,
+"matched_address": "104 Hibiscus Dr Turtle Creek, PA 15145"
+},
+"105 pentland avenue|15227": {
+"zestimate": 178600,
+"range_lo": 161000,
+"range_hi": 196000,
+"sqft": 900,
+"beds": 3,
+"baths": 1,
+"year_built": 1920,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+209250,
+160000
+],
+"subject_anchored": false,
+"matched_address": "105 Pentland Ave Pittsburgh, PA 15227"
+},
+"108 minooka st|15210": {
+"zestimate": 79400,
+"range_lo": 54000,
+"range_hi": 110000,
+"sqft": 1251,
+"beds": 2,
+"baths": 1,
+"year_built": 1900,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+85000,
+79900,
+98000
+],
+"subject_anchored": false,
+"matched_address": "108 Minooka St Pittsburgh, PA 15210"
+},
+"108 tintsman ave|15137": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "108 Tintsman Ave North Versailles, PA 15137",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"1102 gary ave|15025": {
+"zestimate": 92900,
+"range_lo": 70000,
+"range_hi": 117000,
+"sqft": 1440,
+"beds": 3,
+"baths": 1,
+"year_built": 1968,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+100000,
+120000,
+107000
+],
+"subject_anchored": false,
+"matched_address": "1102 Gary Ave Clairton, PA 15025"
+},
+"1109 - 1111 ross ave|15221": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1109-1111 Ross Ave Pittsburgh, PA 15221",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"111 fall run rd|15116": {
+"zestimate": 116700,
+"range_lo": 84000,
+"range_hi": 159000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "111 Fall Run Rd Glenshaw, PA 15116"
+},
+"1114 fedorek dr|15129": {
+"zestimate": 549800,
+"range_lo": 522000,
+"range_hi": 577000,
+"sqft": 2184,
+"beds": 4,
+"baths": 3,
+"year_built": 2003,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+525000,
+540000,
+545000
+],
+"subject_anchored": false,
+"matched_address": "1114 Fedorek Dr South Park, PA 15129"
+},
+"112 newett st|15210": {
+"zestimate": 106700,
+"range_lo": 76000,
+"range_hi": 139000,
+"sqft": 1305,
+"beds": 2,
+"baths": 1,
+"year_built": 1896,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+125000,
+131000,
+98000
+],
+"subject_anchored": false,
+"matched_address": "112 Newett St Pittsburgh, PA 15210"
+},
+"113 w 13th ave|15120": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "113 W 13th Ave Homestead, PA 15120",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"1132 vance ave|15108": {
+"zestimate": 173800,
+"range_lo": 139000,
+"range_hi": 209000,
+"sqft": 2433,
+"beds": 4,
+"baths": 2,
+"year_built": 1920,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+154500,
+170000,
+135000
+],
+"subject_anchored": false,
+"matched_address": "1132 Vance Ave Coraopolis, PA 15108"
+},
+"1137 evergreen avenue|15209": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1137 Evergreen Ave Pittsburgh, PA 15209",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"114 kennedy ave|15120": {
+"zestimate": 107200,
+"range_lo": 80000,
+"range_hi": 135000,
+"sqft": 1101,
+"beds": 3,
+"baths": 1,
+"year_built": 1920,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+65000,
+160000,
+143000
+],
+"subject_anchored": false,
+"matched_address": "114 Kennedy Ave Homestead, PA 15120"
+},
+"115 brinton ave|15140": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "115 Brinton Ave Pitcairn, PA 15140",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"115 harrison ave|15202": {
+"zestimate": 212500,
+"range_lo": 202000,
+"range_hi": 223000,
+"sqft": 1744,
+"beds": 4,
+"baths": 2,
+"year_built": 1900,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+262000,
+245000,
+240000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "115 Harrison Ave Pittsburgh, PA 15202"
+},
+"1156 greenridge lane|15220": {
+"zestimate": 399200,
+"range_lo": 379000,
+"range_hi": 419000,
+"sqft": 1800,
+"beds": 3,
+"baths": 3,
+"year_built": 1979,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+360000,
+350000,
+385000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "1156 Greenridge Ln Pittsburgh, PA 15220"
+},
+"116 regina st|15120": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "116 Regina St Homestead, PA 15120",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"119 selvin drive|15147": {
+"zestimate": 105100,
+"range_lo": 100000,
+"range_hi": 110000,
+"sqft": 1358,
+"beds": 3,
+"baths": 2,
+"year_built": 1967,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+214000,
+155000,
+143000
+],
+"subject_anchored": true,
+"subject_anchor_price": 105000,
+"subject_anchor_kind": "sale",
+"subject_anchor_date": "~2 months ago",
+"matched_address": "119 Selvin Dr Verona, PA 15147"
+},
+"1204 washington boulevard rear|15133": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1204 Washington Blvd Mckeesport, PA 15133",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"121 e 17th ave|15120": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "121 E 17th Ave Homestead, PA 15120",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"1221 margaret st|15120": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1221 Margaret St Homestead, PA 15120",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"1239 lovedale rd|15037": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1239 Lovedale Rd Elizabeth, PA 15037",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"124 norman drive|15236": {
+"zestimate": 113700,
+"range_lo": 90000,
+"range_hi": 138000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "124 Norman Dr Pittsburgh, PA 15236"
+},
+"125 marshall drive|15235": {
+"zestimate": 149800,
+"range_lo": 127000,
+"range_hi": 171000,
+"sqft": 966,
+"beds": 3,
+"baths": 2,
+"year_built": 1951,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+165000,
+177500,
+199999
+],
+"subject_anchored": false,
+"matched_address": "125 Marshall Dr Penn Hills, PA 15235"
+},
+"128 logan st|15209": {
+"zestimate": 141100,
+"range_lo": 96000,
+"range_hi": 190000,
+"sqft": 1260,
+"beds": 4,
+"baths": 2,
+"year_built": 1923,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+140000,
+165000,
+170000
+],
+"subject_anchored": false,
+"matched_address": "128 Logan St Pittsburgh, PA 15209"
+},
+"130 cedarwood drive|15214": {
+"zestimate": 225400,
+"range_lo": 201000,
+"range_hi": 248000,
+"sqft": 1232,
+"beds": 3,
+"baths": 1,
+"year_built": 1977,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+240000,
+250000,
+218500
+],
+"subject_anchored": false,
+"matched_address": "130 Cedarwood Dr Pittsburgh, PA 15214"
+},
+"130 e meyers st|15210": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "130 E Meyers St Pittsburgh, PA 15210",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"1303 harvard avenue|15065": {
+"zestimate": 132500,
+"range_lo": 107000,
+"range_hi": 156000,
+"sqft": 1256,
+"beds": 2,
+"baths": 1,
+"year_built": 1945,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+190000,
+162000,
+150000
+],
+"subject_anchored": false,
+"matched_address": "1303 Harvard Ave Natrona Heights, PA 15065"
+},
+"1307 rutherford avenue|15216": {
+"zestimate": 167500,
+"range_lo": 136000,
+"range_hi": 196000,
+"sqft": 1600,
+"beds": 3,
+"baths": 1,
+"year_built": 1930,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+155000,
+221000,
+165000
+],
+"subject_anchored": false,
+"matched_address": "1307 Rutherford Ave Pittsburgh, PA 15216"
+},
+"1308 mckinley drive|15025": {
+"zestimate": 222200,
+"range_lo": 211000,
+"range_hi": 233000,
+"sqft": 1629,
+"beds": 3,
+"baths": 1,
+"year_built": 1995,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+228000,
+295000,
+275000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "1308 Mckinley Dr Clairton, PA 15025"
+},
+"1319 oakridge road|15057": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1319 Oakridge Rd Mc Donald, PA 15057",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"1329 singer pl|15221": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1329 Singer Pl Pittsburgh, PA 15221",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"14 pennoak manor dr|15235": {
+"zestimate": 110200,
+"range_lo": 87000,
+"range_hi": 132000,
+"sqft": 880,
+"beds": 3,
+"baths": 1,
+"year_built": 1959,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+119900,
+135000,
+135000
+],
+"subject_anchored": false,
+"matched_address": "14 Pennoak Manor Dr Pittsburgh, PA 15235"
+},
+"1400 smokey wood drive unit 609|15218": {
+"zestimate": 102800,
+"range_lo": 90000,
+"range_hi": 114000,
+"sqft": 854,
+"beds": 1,
+"baths": 1,
+"year_built": 1982,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+163000,
+75000,
+73000
+],
+"subject_anchored": false,
+"matched_address": "1400 Smokey Wood Dr #609 Pittsburgh, PA 15218"
+},
+"1501 foliage st|15221": {
+"zestimate": null,
+"matched_address": "1501 Foliage St Pittsburgh, PA 15221",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"1503 fernhurst ave|15108": {
+"zestimate": 138500,
+"range_lo": 111000,
+"range_hi": 165000,
+"sqft": 963,
+"beds": 2,
+"baths": 1,
+"year_built": 1947,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+130000,
+164000,
+186000
+],
+"subject_anchored": false,
+"matched_address": "1503 Fernhurst Ave Coraopolis, PA 15108"
+},
+"1509 pennsylvania avenue|15122": {
+"zestimate": 49200,
+"range_lo": 36000,
+"range_hi": 67000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1509 Pennsylvania Ave West Mifflin, PA 15122"
+},
+"1521 king john dr|15237": {
+"zestimate": 373800,
+"range_lo": 321000,
+"range_hi": 422000,
+"sqft": 1479,
+"beds": 4,
+"baths": 2,
+"year_built": 1968,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+378000,
+400000,
+385000
+],
+"subject_anchored": false,
+"matched_address": "1521 King John Dr Pittsburgh, PA 15237"
+},
+"1614 princess ave|15216": {
+"zestimate": 213100,
+"range_lo": 175000,
+"range_hi": 247000,
+"sqft": 2268,
+"beds": 4,
+"baths": 2,
+"year_built": 1940,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+239500,
+212775
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "1614 Princess Ave Pittsburgh, PA 15216"
+},
+"1708 montour st|15108": {
+"zestimate": 88700,
+"range_lo": 66000,
+"range_hi": 115000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1708 Montour St Coraopolis, PA 15108"
+},
+"177 saint joseph st|15210": {
+"zestimate": null,
+"matched_address": "177 Saint Joseph St Pittsburgh, PA 15210",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"1800 montier st|15221": {
+"zestimate": null,
+"matched_address": "1800 Montier St Pittsburgh, PA 15221",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"1823 flagler st|15132": {
+"zestimate": null,
+"matched_address": "1823 Flagler St Mckeesport, PA 15132",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"187 freeport rd|15030": {
+"zestimate": 57200,
+"range_lo": 41000,
+"range_hi": 78000,
+"sqft": 793,
+"beds": 2,
+"baths": 1,
+"year_built": 1880,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+64000,
+79900
+],
+"subject_anchored": false,
+"matched_address": "187 Freeport Rd Creighton, PA 15030"
+},
+"1900 mcclure st|15120": {
+"zestimate": null,
+"matched_address": "1900 Mcclure St Homestead, PA 15120",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"1910 monongahela ave|15218": {
+"error": "Could not find the property for the given address"
+},
+"1922 westmont ave|15210": {
+"zestimate": 106900,
+"range_lo": 78000,
+"range_hi": 138000,
+"sqft": 1487,
+"beds": 3,
+"baths": 1,
+"year_built": 1927,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+144999,
+145000,
+125000
+],
+"subject_anchored": false,
+"matched_address": "1922 Westmont Ave Pittsburgh, PA 15210"
+},
+"1927 robinson blvd|15221": {
+"zestimate": 92800,
+"range_lo": 69000,
+"range_hi": 122000,
+"sqft": 1208,
+"beds": 2,
+"baths": 2,
+"year_built": 1940,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+71000,
+103092,
+120000
+],
+"subject_anchored": false,
+"matched_address": "1927 Robinson Blvd Pittsburgh, PA 15221"
+},
+"1939 pittview ave|15212": {
+"zestimate": 105500,
+"range_lo": 77000,
+"range_hi": 136000,
+"sqft": 1152,
+"beds": 2,
+"baths": 1,
+"year_built": 1900,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+100000,
+140000
+],
+"subject_anchored": false,
+"matched_address": "1939 Pittview Ave Pittsburgh, PA 15212"
+},
+"201-203 penn avenue ext|15145": {
+"zestimate": 78100,
+"range_lo": 57000,
+"range_hi": 103000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "201-203 Penn Avenue Ext Turtle Creek, PA 15145"
+},
+"2025 spring st|15210": {
+"zestimate": 96100,
+"range_lo": 68000,
+"range_hi": 128000,
+"sqft": 1440,
+"beds": 3,
+"baths": 1,
+"year_built": 1900,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+85000,
+125000,
+116000
+],
+"subject_anchored": false,
+"matched_address": "2025 Spring St Pittsburgh, PA 15210"
+},
+"204 willett road|15116": {
+"zestimate": null,
+"matched_address": "204 Willett Rd Glenshaw, PA 15116",
+"no_zestimate_reason": "Zestimate didn't pass quality checks; home not currently eligible to have a Zestimate displayed",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"209 sarah st|15136": {
+"zestimate": 68600,
+"range_lo": 50000,
+"range_hi": 94000,
+"sqft": 1208,
+"beds": 3,
+"baths": 1,
+"year_built": 1940,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+85100,
+67000,
+89000
+],
+"subject_anchored": false,
+"matched_address": "209 Sarah St Mc Kees Rocks, PA 15136"
+},
+"210 5th avenue|15106": {
+"zestimate": 103000,
+"range_lo": 77000,
+"range_hi": 137000,
+"sqft": 2300,
+"beds": 3,
+"baths": 2,
+"year_built": 1880,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+115000
+],
+"subject_anchored": false,
+"matched_address": "210 5th Ave Carnegie, PA 15106"
+},
+"2115 laketon rd|15221": {
+"zestimate": 48000,
+"range_lo": 46000,
+"range_hi": 50000,
+"sqft": 788,
+"beds": 3,
+"baths": 2,
+"year_built": 1958,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+110000,
+120000,
+135000
+],
+"subject_anchored": true,
+"subject_anchor_price": 48000,
+"subject_anchor_kind": "sale",
+"subject_anchor_date": "15 days ago",
+"matched_address": "2115 Laketon Rd Pittsburgh, PA 15221"
+},
+"2116 monongahela ave|15218": {
+"zestimate": null,
+"matched_address": "2116 Monongahela Ave Pittsburgh, PA 15218",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"204 hawk hill dr|15142": {
+"zestimate": null,
+"no_zestimate_reason": "Zestimate is missing (not enough reliable data to generate one)",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"212 saylong dr|15235": {
+"zestimate": 143200,
+"range_lo": 120000,
+"range_hi": 165000,
+"sqft": 925,
+"beds": 2,
+"baths": 1,
+"year_built": 1954,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+146000,
+135900,
+119900
+],
+"subject_anchored": false,
+"matched_address": "212 Saylong Dr Pittsburgh, PA 15235"
+},
+"215 union avenue|15202": {
+"zestimate": 240400,
+"range_lo": 209000,
+"range_hi": 267000,
+"sqft": 1680,
+"beds": 3,
+"baths": 1,
+"year_built": 1920,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+217000,
+255000,
+216000
+],
+"subject_anchored": false,
+"matched_address": "215 Union Ave Pittsburgh, PA 15202"
+},
+"220 old lebanon church rd|15236": {
+"zestimate": 230800,
+"range_lo": 208000,
+"range_hi": 252000,
+"sqft": 1213,
+"beds": 2,
+"baths": 1,
+"year_built": 1995,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+235000,
+235000,
+234900
+],
+"subject_anchored": false,
+"matched_address": "220 Old Lebanon Church Rd Pittsburgh, PA 15236"
+},
+"222 ohio avenue|15045": {
+"zestimate": 83000,
+"range_lo": 68000,
+"range_hi": 99000,
+"sqft": 1088,
+"beds": 2,
+"baths": 1,
+"year_built": 1940,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+103510,
+85769,
+80000
+],
+"subject_anchored": false,
+"matched_address": "222 Ohio Ave Glassport, PA 15045"
+},
+"2231 arlington ave|15210": {
+"zestimate": 117200,
+"range_lo": 80000,
+"range_hi": 161000,
+"sqft": 1760,
+"beds": 4,
+"baths": 1,
+"year_built": 1925,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+116000,
+140000,
+117000
+],
+"subject_anchored": false,
+"matched_address": "2231 Arlington Ave Pittsburgh, PA 15210"
+},
+"2285 valera ave|15210": {
+"zestimate": 99800,
+"range_lo": 71000,
+"range_hi": 132000,
+"sqft": 1705,
+"beds": 3,
+"baths": 1,
+"year_built": 1907,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+125000,
+145000,
+130000
+],
+"subject_anchored": false,
+"matched_address": "2285 Valera Ave Pittsburgh, PA 15210"
+},
+"231 spencer ave|15227": {
+"zestimate": 93700,
+"range_lo": 69000,
+"range_hi": 121000,
+"sqft": 1080,
+"beds": 2,
+"baths": 1,
+"year_built": 1924,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+125000,
+117000
+],
+"subject_anchored": false,
+"matched_address": "231 Spencer Ave Pittsburgh, PA 15227"
+},
+"232 nobles ln|15210": {
+"zestimate": null,
+"matched_address": "232 Nobles Ln Pittsburgh, PA 15210",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"232 zara st|15210": {
+"zestimate": null,
+"matched_address": "232 Zara St Pittsburgh, PA 15210",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"246 charles st|15210": {
+"zestimate": 155400,
+"range_lo": 109000,
+"range_hi": 205000,
+"sqft": 2638,
+"beds": 6,
+"baths": 2,
+"year_built": 1900,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+155000,
+154500,
+145000
+],
+"subject_anchored": false,
+"matched_address": "246 Charles St Mount Oliver, PA 15210"
+},
+"229 thornberry drive|15237": {
+"zestimate": null,
+"no_zestimate_reason": "Zestimate is missing (not enough reliable data to generate one)",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"25 mutschler way|15210": {
+"zestimate": null,
+"matched_address": "25 Mutschler Way Pittsburgh, PA 15210",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"2518 hunting ridge trail|15017": {
+"zestimate": 271100,
+"range_lo": 236000,
+"range_hi": 304000,
+"sqft": 1536,
+"beds": 3,
+"baths": 2,
+"year_built": 1978,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+292000,
+273800,
+290000
+],
+"subject_anchored": false,
+"matched_address": "2518 Hunting Ridge Trl Bridgeville, PA 15017"
+},
+"2529 orlando pl|15235": {
+"zestimate": 493900,
+"range_lo": 425000,
+"range_hi": 568000,
+"sqft": 3500,
+"beds": 5,
+"baths": 4,
+"year_built": 1950,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+420000,
+445000,
+320000
+],
+"subject_anchored": false,
+"matched_address": "2529 Orlando Pl Pittsburgh, PA 15235"
+},
+"255 clearview ave|15205": {
+"zestimate": 122800,
+"range_lo": 87000,
+"range_hi": 161000,
+"sqft": 1560,
+"beds": 4,
+"baths": 1,
+"year_built": 1930,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+119750,
+180000,
+135000
+],
+"subject_anchored": false,
+"matched_address": "255 Clearview Ave Crafton, PA 15205"
+},
+"2620 3rd st|15146": {
+"zestimate": 65000,
+"range_lo": 62000,
+"range_hi": 68000,
+"sqft": 980,
+"beds": 2,
+"baths": 2,
+"year_built": 1920,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+110000,
+90000
+],
+"subject_anchored": true,
+"subject_anchor_price": 65000,
+"subject_anchor_kind": "sale",
+"subject_anchor_date": "26 days ago",
+"matched_address": "2620 3rd St Monroeville, PA 15146"
+},
+"269 lansdowne drive|15147": {
+"zestimate": 168100,
+"range_lo": 143000,
+"range_hi": 193000,
+"sqft": 950,
+"beds": 3,
+"baths": 1,
+"year_built": 1960,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+145000,
+215000,
+153160
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "269 Lansdowne Dr Verona, PA 15147"
+},
+"27 minooka st|15210": {
+"zestimate": null,
+"matched_address": "27 Minooka St Pittsburgh, PA 15210",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false
+},
+"2803 glenny lane ext.|15122": {
+"zestimate": 171900,
+"range_lo": 144000,
+"range_hi": 198000,
+"sqft": 1102,
+"beds": 3,
+"baths": 1,
+"year_built": 1967,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+176900,
+199000
+],
+"subject_anchored": false,
+"matched_address": "2803 Glenny Lane Ext West Mifflin, PA 15122"
+},
+"282 coraopolis road|15108": {
+"zestimate": 290300,
+"range_lo": 264000,
+"range_hi": 314000,
+"sqft": 1149,
+"beds": 3,
+"baths": 2,
+"year_built": 1956,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+254500,
+295000,
+315000
+],
+"subject_anchored": false,
+"matched_address": "282 Coraopolis Rd Coraopolis, PA 15108"
+},
+"2830 waterman avenue|15227": {
+"zestimate": 135700,
+"range_lo": 110000,
+"range_hi": 160000,
+"sqft": 1150,
+"beds": 3,
+"baths": 1,
+"year_built": 1950,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+154000,
+130000,
+125000
+],
+"subject_anchored": false,
+"matched_address": "2830 Waterman Ave Pittsburgh, PA 15227"
+},
+"288 cline street|15112": {
+"zestimate": 221900,
+"range_lo": 202000,
+"range_hi": 240000,
+"sqft": 1828,
+"beds": 3,
+"baths": 2,
+"year_built": 1910,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+185000,
+224363,
+196500
+],
+"subject_anchored": false,
+"matched_address": "288 Cline St East Pittsburgh, PA 15112"
+},
+"301 boyds hollow rd|15037": {
+"zestimate": 148900,
+"range_lo": 121000,
+"range_hi": 176000,
+"sqft": 1253,
+"beds": 2,
+"baths": 1,
+"year_built": 1953,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+125000,
+220000,
+180000
+],
+"subject_anchored": false,
+"matched_address": "301 Boyds Hollow Rd Elizabeth, PA 15037"
+},
+"301 evergreen avenue|15209": {
+"zestimate": 72200,
+"range_lo": 51000,
+"range_hi": 103000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "301 Evergreen Ave Pittsburgh, PA 15209"
+},
+"302 sherman avenue|15034": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "302 Sherman Ave Dravosburg, PA 15034"
+},
+"304 pappan dr|15126": {
+"zestimate": 318300,
+"range_lo": 302000,
+"range_hi": 337000,
+"sqft": 1748,
+"beds": 3,
+"baths": 4,
+"year_built": 2004,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+328000,
+260000,
+270000
+],
+"subject_anchored": false,
+"matched_address": "304 Pappan Dr Imperial, PA 15126"
+},
+"308 marie ave|15202": {
+"zestimate": 96300,
+"range_lo": 67000,
+"range_hi": 132000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "308 Marie Ave Pittsburgh, PA 15202"
+},
+"308 suncrest st|15210": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "308 Suncrest St Pittsburgh, PA 15210"
+},
+"321 russellwood avenue|15136": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "321 Russellwood Ave Mc Kees Rocks, PA 15136"
+},
+"322 bausman st|15210": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "322 Bausman St Pittsburgh, PA 15210"
+},
+"324 catherine street|15136": {
+"zestimate": 110600,
+"range_lo": 79000,
+"range_hi": 148000,
+"sqft": 1760,
+"beds": 4,
+"baths": 2,
+"year_built": 1910,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+170000,
+145000
+],
+"subject_anchored": false,
+"matched_address": "324 Catherine St Mc Kees Rocks, PA 15136"
+},
+"328 crescent garden dr|15235": {
+"zestimate": 183400,
+"range_lo": 154000,
+"range_hi": 209000,
+"sqft": 1512,
+"beds": 3,
+"baths": 2,
+"year_built": 1965,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+208000,
+212000,
+160000
+],
+"subject_anchored": false,
+"matched_address": "328 Crescent Garden Dr Pittsburgh, PA 15235"
+},
+"3302 foster rd|15131": {
+"zestimate": 86900,
+"range_lo": 63000,
+"range_hi": 116000,
+"sqft": 1000,
+"beds": 3,
+"baths": 1,
+"year_built": 1950,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+100000,
+87500,
+92920
+],
+"subject_anchored": false,
+"matched_address": "3302 Foster Rd White Oak, PA 15131"
+},
+"334 w 12th ave|15120": {
+"zestimate": 87600,
+"range_lo": 63000,
+"range_hi": 116000,
+"sqft": 1414,
+"beds": 2,
+"baths": 2,
+"year_built": 1930,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+65000,
+112500
+],
+"subject_anchored": false,
+"matched_address": "334 W 12th Ave Homestead, PA 15120"
+},
+"335 horton st|15025": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "335 Horton St Clairton, PA 15025"
+},
+"338 maxwell avenue|15144": {
+"zestimate": 111200,
+"range_lo": 81000,
+"range_hi": 145000,
+"sqft": 872,
+"beds": 2,
+"baths": 1,
+"year_built": 1950,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+165000,
+142000,
+150000
+],
+"subject_anchored": false,
+"matched_address": "338 Maxwell Ave Springdale, PA 15144"
+},
+"34 minooka st|15210": {
+"zestimate": 82300,
+"range_lo": 58000,
+"range_hi": 112000,
+"sqft": 1260,
+"beds": 3,
+"baths": 1,
+"year_built": 1920,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+85000,
+98000,
+125000
+],
+"subject_anchored": false,
+"matched_address": "34 Minooka St Pittsburgh, PA 15210"
+},
+"351 hawthorn ct|15237": {
+"zestimate": 207700,
+"range_lo": 185000,
+"range_hi": 228000,
+"sqft": 1418,
+"beds": 2,
+"baths": 2,
+"year_built": 1981,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+195700,
+175000,
+185000
+],
+"subject_anchored": false,
+"matched_address": "351 Hawthorn Ct Pittsburgh, PA 15237"
+},
+"3513 trautman st|15120": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "3513 Trautman St Homestead, PA 15120"
+},
+"36 rich hill road|15024": {
+"zestimate": 114600,
+"range_lo": 85000,
+"range_hi": 150000,
+"sqft": 1380,
+"beds": 2,
+"baths": 1,
+"year_built": 1900,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+142000,
+120000,
+80000
+],
+"subject_anchored": false,
+"matched_address": "36 Rich Hill Rd Cheswick, PA 15024"
+},
+"3912 kleber st|15212": {
+"zestimate": 147600,
+"range_lo": 114000,
+"range_hi": 184000,
+"sqft": 1344,
+"beds": 3,
+"baths": 1,
+"year_built": 1915,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+144900,
+148500,
+167500
+],
+"subject_anchored": false,
+"matched_address": "3912 Kleber St Pittsburgh, PA 15212"
+},
+"400 woodland ave|15139": {
+"zestimate": 273900,
+"range_lo": 233000,
+"range_hi": 318000,
+"sqft": 2910,
+"beds": 6,
+"baths": 3,
+"year_built": 1920,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+300000,
+261000,
+220000
+],
+"subject_anchored": false,
+"matched_address": "400 Woodland Ave Oakmont, PA 15139"
+},
+"4031 meadowbrook boulevard|15227": {
+"zestimate": 182400,
+"range_lo": 153000,
+"range_hi": 210000,
+"sqft": 1478,
+"beds": 2,
+"baths": 1,
+"year_built": 1951,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+167500,
+195000,
+268000
+],
+"subject_anchored": false,
+"matched_address": "4031 Meadowbrook Blvd Pittsburgh, PA 15227"
+},
+"404 park ave|15037": {
+"zestimate": 102500,
+"range_lo": 79000,
+"range_hi": 126000,
+"sqft": 1024,
+"beds": 2,
+"baths": 1,
+"year_built": 1900,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+115000,
+97500,
+100000
+],
+"subject_anchored": false,
+"matched_address": "404 Park Ave Elizabeth, PA 15037"
+},
+"405 32nd st|15132": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "405 32nd St Mckeesport, PA 15132"
+},
+"405 euclid ave|15034": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "405 Euclid Ave Dravosburg, PA 15034"
+},
+"410 e 9th ave|15084": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "410 E 9th Ave Tarentum, PA 15084"
+},
+"414 glencoe dr|15122": {
+"zestimate": 139600,
+"range_lo": 113000,
+"range_hi": 166000,
+"sqft": 837,
+"beds": 2,
+"baths": 1,
+"year_built": 1945,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+135000,
+185000,
+134000
+],
+"subject_anchored": false,
+"matched_address": "414 Glencoe Dr West Mifflin, PA 15122"
+},
+"416 arabella st|15210": {
+"zestimate": 81600,
+"range_lo": 59000,
+"range_hi": 110000,
+"sqft": 1712,
+"beds": 3,
+"baths": 1,
+"year_built": 1900,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+85000,
+117000,
+79900
+],
+"subject_anchored": false,
+"matched_address": "416 Arabella St Pittsburgh, PA 15210"
+},
+"424 linden st|15132": {
+"zestimate": 81500,
+"range_lo": 58000,
+"range_hi": 111000,
+"sqft": 1350,
+"beds": 4,
+"baths": 1,
+"year_built": 1920,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+90000,
+103000
+],
+"subject_anchored": false,
+"matched_address": "424 Linden St Mckeesport, PA 15132"
+},
+"424 w 9th ave|15084": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "424 W 9th Ave Tarentum, PA 15084"
+},
+"428 mueller avenue|15205": {
+"zestimate": 203800,
+"range_lo": 187000,
+"range_hi": 220000,
+"sqft": 1200,
+"beds": 3,
+"baths": 2,
+"year_built": 1900,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+215000,
+224000,
+190000
+],
+"subject_anchored": false,
+"matched_address": "428 Mueller Ave Pittsburgh, PA 15205"
+},
+"429 e 11th ave|15120": {
+"zestimate": 93500,
+"range_lo": 87000,
+"range_hi": 99000,
+"sqft": 2195,
+"beds": 4,
+"baths": 1,
+"year_built": 1900,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+112500
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "429 E 11th Ave Homestead, PA 15120"
+},
+"433 jucunda st|15210": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "433 Jucunda St Pittsburgh, PA 15210"
+},
+"4384 colonial park drive|15227": {
+"zestimate": 262400,
+"range_lo": 249000,
+"range_hi": 276000,
+"sqft": 1224,
+"beds": 2,
+"baths": 2,
+"year_built": 1949,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+280000,
+257500
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "4384 Colonial Park Dr Pittsburgh, PA 15227"
+},
+"450 william st|15210": {
+"zestimate": 79200,
+"range_lo": 57000,
+"range_hi": 104000,
+"sqft": 1080,
+"beds": 2,
+"baths": 1,
+"year_built": 1928,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+125000,
+98000,
+116000
+],
+"subject_anchored": false,
+"matched_address": "450 William St Mount Oliver, PA 15210"
+},
+"458 ridge avenue|15147": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "458 Ridge Ave Verona, PA 15147"
+},
+"4615 home street|15122": {
+"zestimate": 184000,
+"range_lo": 158000,
+"range_hi": 208000,
+"sqft": 1229,
+"beds": 3,
+"baths": 2,
+"year_built": 1955,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+210000,
+177000,
+212500
+],
+"subject_anchored": false,
+"matched_address": "4615 Home St West Mifflin, PA 15122"
+},
+"4942 rosetta street|15224": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "4942 Rosetta St Pittsburgh, PA 15224"
+},
+"502-504 cypress drive|15108": {
+"zestimate": 371100,
+"range_lo": 353000,
+"range_hi": 390000,
+"sqft": 1782,
+"beds": 2,
+"baths": 2,
+"year_built": 1943,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+125000,
+150000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "502-504 Cypress Dr Coraopolis, PA 15108"
+},
+"505 finley avenue|15106": {
+"zestimate": 120100,
+"range_lo": 89000,
+"range_hi": 155000,
+"sqft": 1064,
+"beds": 2,
+"baths": 1,
+"year_built": 1925,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+158000,
+145000
+],
+"subject_anchored": false,
+"matched_address": "505 Finley Ave Carnegie, PA 15106"
+},
+"516 vincent street|15137": {
+"zestimate": null,
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "516 Vincent St North Versailles, PA 15137"
+},
+"5416 harrison st|15201": {
+"zestimate": 203800,
+"range_lo": 151000,
+"range_hi": 265000,
+"sqft": 1723,
+"beds": 3,
+"baths": 1,
+"year_built": 1900,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+200000,
+234950,
+300000
+],
+"subject_anchored": false,
+"matched_address": "5416 Harrison St Pittsburgh, PA 15201"
+},
+"5438 hillcrest st|15206": {
+"zestimate": 121000,
+"range_lo": 85000,
+"range_hi": 171000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "5438 Hillcrest St Pittsburgh, PA 15206"
+},
+"544 prestley street|15106": {
+"zestimate": 94100,
+"range_lo": 68000,
+"range_hi": 127000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "544 Prestley St Carnegie, PA 15106"
+},
+"545 boquet st|15106": {
+"zestimate": null,
+"no_zestimate_reason": "Zestimate didn't pass quality checks; not enough confidence to display it",
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "545 Boquet St Carnegie, PA 15106"
+},
+"546 greenleaf drive|15146": {
+"zestimate": 191300,
+"range_lo": 168000,
+"range_hi": 210000,
+"sqft": 1040,
+"beds": 2,
+"baths": 2,
+"year_built": 1956,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+207000,
+195000,
+229000
+],
+"subject_anchored": false,
+"matched_address": "546 Greenleaf Dr Monroeville, PA 15146"
+},
+"5532 front street|15147": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "5532 Front St Verona, PA 15147",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"5595 florida avenue|15102": {
+"zestimate": 239400,
+"range_lo": 208000,
+"range_hi": 268000,
+"sqft": 1334,
+"beds": 3,
+"baths": 1,
+"year_built": 1956,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+256000,
+299900,
+267500
+],
+"subject_anchored": false,
+"matched_address": "5595 Florida Ave Bethel Park, PA 15102"
+},
+"590 orchard street|15106": {
+"zestimate": 169000,
+"range_lo": 144000,
+"range_hi": 191000,
+"sqft": 1163,
+"beds": 2,
+"baths": 1,
+"year_built": 1948,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+186170,
+185000,
+200000
+],
+"subject_anchored": false,
+"matched_address": "590 Orchard St Carnegie, PA 15106"
+},
+"607 midland st|15221": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "607 Midland St Pittsburgh, PA 15221",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"61 bellanca avenue|15227": {
+"zestimate": 152200,
+"range_lo": 122000,
+"range_hi": 178000,
+"sqft": 1384,
+"beds": 3,
+"baths": 1,
+"year_built": 1933,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+130000,
+130000,
+213000
+],
+"subject_anchored": false,
+"matched_address": "61 Bellanca Ave Pittsburgh, PA 15227"
+},
+"612 osborne st|15131": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "612 Osborne St White Oak, PA 15131",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"615 7th st|15140": {
+"zestimate": 137600,
+"range_lo": 107000,
+"range_hi": 166000,
+"sqft": 1836,
+"beds": 3,
+"baths": 1,
+"year_built": 1930,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+140000,
+108000,
+140000
+],
+"subject_anchored": false,
+"matched_address": "615 7th St Pitcairn, PA 15140"
+},
+"617 thompson street|15206": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "617 Thompson St Pittsburgh, PA 15206",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"619 woodward avenue|15136": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "619 Woodward Ave Mc Kees Rocks, PA 15136",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"6387 ebdy street|15217": {
+"zestimate": 352800,
+"range_lo": 335000,
+"range_hi": 370000,
+"sqft": 1379,
+"beds": 3,
+"baths": 3,
+"year_built": 1933,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+420000,
+451111,
+523000
+],
+"subject_anchored": true,
+"matched_address": "6387 Ebdy St Pittsburgh, PA 15217",
+"subject_anchor_kind": "listing"
+},
+"6618 verona rd|15147": {
+"zestimate": 181000,
+"range_lo": 147000,
+"range_hi": 215000,
+"sqft": 1578,
+"beds": 3,
+"baths": 1,
+"year_built": 1945,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+175000,
+160000,
+175000
+],
+"subject_anchored": false,
+"matched_address": "6618 Verona Rd Verona, PA 15147"
+},
+"7 wabash avenue|15064": {
+"zestimate": 109700,
+"range_lo": 83000,
+"range_hi": 137000,
+"sqft": 1024,
+"beds": 2,
+"baths": 1,
+"year_built": 1905,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+134000
+],
+"subject_anchored": false,
+"matched_address": "7 Wabash Ave Morgan, PA 15064"
+},
+"712 rockwood avenue|15234": {
+"zestimate": 277900,
+"range_lo": 245000,
+"range_hi": 311000,
+"sqft": 1325,
+"beds": 3,
+"baths": 2,
+"year_built": 1941,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+320000,
+272000,
+290000
+],
+"subject_anchored": false,
+"matched_address": "712 Rockwood Ave Pittsburgh, PA 15234"
+},
+"719 vallevista avenue|15234": {
+"zestimate": 196400,
+"range_lo": 155000,
+"range_hi": 238000,
+"sqft": 1047,
+"beds": 3,
+"baths": 1,
+"year_built": 1941,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+200000,
+215000,
+214500
+],
+"subject_anchored": false,
+"matched_address": "719 Vallevista Ave Pittsburgh, PA 15234"
+},
+"730 hill ave|15221": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "730 Hill Ave Pittsburgh, PA 15221",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"7308 noblestown rd|15071": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "7308 Noblestown Rd Oakdale, PA 15071",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"732 little deer creek valley road|15076": {
+"zestimate": 83000,
+"range_lo": 60000,
+"range_hi": 114000,
+"sqft": 1208,
+"beds": 3,
+"baths": 1,
+"year_built": 1913,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+90000,
+110000
+],
+"subject_anchored": false,
+"matched_address": "732 Little Deer Creek Valley Rd Russellton, PA 15076"
+},
+"7326 church street|15218": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "7326 Church St Pittsburgh, PA 15218",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"735 north ave|15221": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "735 North Ave Wilkinsburg, PA 15221",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"751-755 penn avenue|15221": {
+"error": "Could not find the property for the given address"
+},
+"7701 saltsburg rd|15239": {
+"zestimate": 214400,
+"range_lo": 182000,
+"range_hi": 244000,
+"sqft": 1561,
+"beds": 4,
+"baths": 2,
+"year_built": 1960,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+230000,
+222500,
+203000
+],
+"subject_anchored": false,
+"matched_address": "7701 Saltsburg Rd Pittsburgh, PA 15239"
+},
+"801 brinton ave|15140": {
+"zestimate": 114300,
+"range_lo": 82000,
+"range_hi": 149000,
+"sqft": 2033,
+"beds": 5,
+"baths": 2,
+"year_built": 1910,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+142000,
+108000,
+108000
+],
+"subject_anchored": false,
+"matched_address": "801 Brinton Ave Pitcairn, PA 15140"
+},
+"813 baileys run road|15084": {
+"zestimate": 152400,
+"range_lo": 110000,
+"range_hi": 194000,
+"sqft": 1170,
+"beds": 4,
+"baths": 1,
+"year_built": 1965,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+167500,
+145000,
+132500
+],
+"subject_anchored": false,
+"matched_address": "813 Baileys Run Rd Tarentum, PA 15084"
+},
+"815 churchill avenue|15235": {
+"zestimate": 309100,
+"range_lo": 278000,
+"range_hi": 337000,
+"sqft": 2280,
+"beds": 5,
+"baths": 3,
+"year_built": 1970,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+320000,
+310000,
+365000
+],
+"subject_anchored": false,
+"matched_address": "815 Churchill Ave Pittsburgh, PA 15235"
+},
+"816 kennedy street|15088": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "816 Kennedy St West Elizabeth, PA 15088",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"817 cleveland avenue|15014": {
+"zestimate": 82600,
+"range_lo": 59000,
+"range_hi": 107000,
+"sqft": 972,
+"beds": 2,
+"baths": 1,
+"year_built": 1920,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+85000,
+120000,
+114500
+],
+"subject_anchored": false,
+"matched_address": "817 Cleveland Ave Brackenridge, PA 15014"
+},
+"829 ardmore blvd|15221": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "829 Ardmore Blvd Pittsburgh, PA 15221",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"829 north avenue|15104": {
+"zestimate": 95700,
+"range_lo": 60000,
+"range_hi": 141000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "829 North Ave Braddock, PA 15104"
+},
+"832 graham boulevard|15221": {
+"zestimate": 205400,
+"range_lo": 166000,
+"range_hi": 242000,
+"sqft": 1394,
+"beds": 2,
+"baths": 2,
+"year_built": 1944,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+175000,
+185000,
+195000
+],
+"subject_anchored": false,
+"matched_address": "832 Graham Blvd Pittsburgh, PA 15221"
+},
+"848 hillcrest cir|15090": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "848 Hillcrest Cir Wexford, PA 15090",
+"no_zestimate_reason": "Didn't pass quality checks; not currently eligible to have a Zestimate displayed."
+},
+"849 4th street|15147": {
+"zestimate": 121400,
+"range_lo": 93000,
+"range_hi": 152000,
+"sqft": 1208,
+"beds": 2,
+"baths": 1,
+"year_built": 1930,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+102500,
+120000,
+100000
+],
+"subject_anchored": false,
+"matched_address": "849 4th St Verona, PA 15147"
+},
+"904 carla dr|15238": {
+"zestimate": 357300,
+"range_lo": 336000,
+"range_hi": 379000,
+"sqft": 1760,
+"beds": 3,
+"baths": 3,
+"year_built": 2001,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+382900,
+374700,
+319900
+],
+"subject_anchored": false,
+"matched_address": "904 Carla Dr Pittsburgh, PA 15238"
+},
+"910 laurel street|15017": {
+"zestimate": 45000,
+"range_lo": 43000,
+"range_hi": 47000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": true,
+"subject_anchor_price": 45000,
+"subject_anchor_kind": "sale",
+"subject_anchor_date": "~1 month ago",
+"matched_address": "910 Laurel St Bridgeville, PA 15017"
+},
+"911 6th street|15147": {
+"zestimate": 283300,
+"range_lo": 252000,
+"range_hi": 314000,
+"sqft": 1650,
+"beds": 4,
+"baths": 3,
+"year_built": 1920,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+292500,
+240000,
+239900
+],
+"subject_anchored": false,
+"matched_address": "911 6th St Verona, PA 15147"
+},
+"915 waddell avenue|15025": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "915 Waddell Ave Clairton, PA 15025",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"922 worthington ave|15025": {
+"zestimate": 65900,
+"range_lo": 48000,
+"range_hi": 86000,
+"sqft": 884,
+"beds": 2,
+"baths": 1,
+"year_built": 1952,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+85000
+],
+"subject_anchored": false,
+"matched_address": "922 Worthington Ave Clairton, PA 15025"
+},
+"933 ramsey st|15221": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "933 Ramsey St Pittsburgh, PA 15221",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"94 highland ave|15136": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "94 Highland Ave Mc Kees Rocks, PA 15136",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"100 constitution cir|15025": {
+"zestimate": 83700,
+"range_lo": 62000,
+"range_hi": 108000,
+"sqft": 1464,
+"beds": 3,
+"baths": 1,
+"year_built": 1938,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+107000,
+95000,
+100000
+],
+"subject_anchored": false,
+"matched_address": "100 Constitution Cir Clairton, PA 15025"
+},
+"1009 chartiers avenue|15136": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1009 Chartiers Ave Mc Kees Rocks, PA 15136",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"1013 oak ave|15145": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1013 Oak Ave Turtle Creek, PA 15145",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"1020 sutherland st|15204": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1020 Sutherland St Pittsburgh, PA 15204",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"1049 union ave|15014": {
+"zestimate": 200600,
+"range_lo": 179000,
+"range_hi": 219000,
+"sqft": 1470,
+"beds": 4,
+"baths": 2,
+"year_built": 1958,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+165000,
+186700,
+208000
+],
+"subject_anchored": false,
+"matched_address": "1049 Union Ave Brackenridge, PA 15014"
+},
+"109 timber trl|15126": {
+"zestimate": 130100,
+"range_lo": 124000,
+"range_hi": 137000,
+"sqft": 1107,
+"beds": 3,
+"baths": 3,
+"year_built": 1980,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+235000,
+245000,
+235000
+],
+"subject_anchored": true,
+"matched_address": "109 Timber Trl Imperial, PA 15126",
+"subject_anchor_kind": "sale",
+"subject_anchor_price": 130000,
+"subject_anchor_date": "~2 months ago"
+},
+"1103 summit street|15131": {
+"zestimate": 142000,
+"range_lo": 109000,
+"range_hi": 173000,
+"sqft": 1942,
+"beds": 3,
+"baths": 1,
+"year_built": 1920,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+164900,
+177000,
+125000
+],
+"subject_anchored": false,
+"matched_address": "1103 Summit St White Oak, PA 15131"
+},
+"1108 high st|15212": {
+"zestimate": 137700,
+"range_lo": 96000,
+"range_hi": 187000,
+"sqft": 2358,
+"beds": 2,
+"baths": 1,
+"year_built": 1904,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+170000,
+180000,
+120000
+],
+"subject_anchored": false,
+"matched_address": "1108 High St Pittsburgh, PA 15212"
+},
+"1112 arch st|15212": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1112 Arch St Pittsburgh, PA 15212",
+"no_zestimate_reason": "This home is not currently eligible to have a Zestimate displayed."
+},
+"1114 jane st|15221": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1114 Jane St Pittsburgh, PA 15221",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"112 maple avenue|15202": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "112 Maple Ave Pittsburgh, PA 15202",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"113-117 court st|15106": {
+"zestimate": 188500,
+"range_lo": 145000,
+"range_hi": 238000,
+"sqft": 2808,
+"beds": 6,
+"baths": 2,
+"year_built": 1900,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+155000,
+170000,
+237900
+],
+"subject_anchored": false,
+"matched_address": "113 Court St #117 Carnegie, PA 15106"
+},
+"118 sumner avenue|15221": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "118 Sumner Ave Wilkinsburg, PA 15221",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"1188 hamil road|15147": {
+"zestimate": 397200,
+"range_lo": 334000,
+"range_hi": 461000,
+"sqft": 3268,
+"beds": 6,
+"baths": 3,
+"year_built": 1974,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+338000,
+300168,
+509000
+],
+"subject_anchored": false,
+"matched_address": "1188 Hamil Rd Verona, PA 15147"
+},
+"1228 mcclure avenue|15035": {
+"zestimate": 130100,
+"range_lo": 113000,
+"range_hi": 147000,
+"sqft": 1384,
+"beds": 3,
+"baths": 1,
+"year_built": 1930,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+115000,
+165000,
+125000
+],
+"subject_anchored": false,
+"matched_address": "1228 Mcclure Ave East Mc Keesport, PA 15035"
+},
+"123 thomas ave|15137": {
+"zestimate": 88100,
+"range_lo": 67000,
+"range_hi": 110000,
+"sqft": 913,
+"beds": 3,
+"baths": 1,
+"year_built": 1940,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+92920,
+120000,
+90000
+],
+"subject_anchored": false,
+"matched_address": "123 Thomas Ave North Versailles, PA 15137"
+},
+"1234 8th avenue|15065": {
+"zestimate": 148800,
+"range_lo": 129000,
+"range_hi": 167000,
+"sqft": 1000,
+"beds": 3,
+"baths": 2,
+"year_built": 1930,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+165000,
+153000,
+85000
+],
+"subject_anchored": false,
+"matched_address": "1234 8th Ave Natrona Heights, PA 15065"
+},
+"124 oakdale road|15137": {
+"zestimate": 151600,
+"range_lo": 130000,
+"range_hi": 173000,
+"sqft": 1418,
+"beds": 3,
+"baths": 3,
+"year_built": 1900,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+163000,
+165000,
+130000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "124 Oakdale Rd North Versailles, PA 15137"
+},
+"125 8th street|15145": {
+"zestimate": 106900,
+"range_lo": 94000,
+"range_hi": 119000,
+"sqft": 988,
+"beds": 2,
+"baths": 1,
+"year_built": 1925,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+110000,
+111000,
+125000
+],
+"subject_anchored": false,
+"matched_address": "125 8th St Turtle Creek, PA 15145"
+},
+"125 country lane|15229": {
+"zestimate": 551000,
+"range_lo": 496000,
+"range_hi": 612000,
+"sqft": 2847,
+"beds": 4,
+"baths": 4,
+"year_built": 1960,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+525000,
+535000,
+422500
+],
+"subject_anchored": false,
+"matched_address": "125 Country Ln Pittsburgh, PA 15229"
+},
+"1251 8th avenue|15065": {
+"zestimate": 156000,
+"range_lo": 142000,
+"range_hi": 170000,
+"sqft": 1672,
+"beds": 3,
+"baths": 2,
+"year_built": 1920,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+155000,
+183000,
+138000
+],
+"subject_anchored": false,
+"matched_address": "1251 8th Ave Natrona Heights, PA 15065"
+},
+"1251 woodbourne ave|15226": {
+"zestimate": 183000,
+"range_lo": 156000,
+"range_hi": 210000,
+"sqft": 1131,
+"beds": 3,
+"baths": 1,
+"year_built": 1910,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+181200,
+170500,
+189900
+],
+"subject_anchored": false,
+"matched_address": "1251 Woodbourne Ave Pittsburgh, PA 15226"
+},
+"126 clyde avenue|15024": {
+"zestimate": 146200,
+"range_lo": 121000,
+"range_hi": 168000,
+"sqft": 995,
+"beds": 2,
+"baths": 1,
+"year_built": 1950,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+148000,
+142000,
+165000
+],
+"subject_anchored": false,
+"matched_address": "126 Clyde Ave Cheswick, PA 15024"
+},
+"126 crescent garden drive|15235": {
+"zestimate": 196400,
+"range_lo": 187000,
+"range_hi": 206000,
+"sqft": 1520,
+"beds": 3,
+"baths": 3,
+"year_built": 1961,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+250500,
+289000,
+285000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "126 Crescent Garden Dr Pittsburgh, PA 15235"
+},
+"128 carnegie ave|15025": {
+"zestimate": 70100,
+"range_lo": 67000,
+"range_hi": 74000,
+"sqft": 1112,
+"beds": 3,
+"baths": 1,
+"year_built": 1930,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+107000,
+95000,
+80000
+],
+"subject_anchored": true,
+"subject_anchor_price": 70000,
+"subject_anchor_kind": "sale",
+"subject_anchor_date": "~2 months ago",
+"matched_address": "128 Carnegie Ave Clairton, PA 15025"
+},
+"1300 union ave|15065": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1300 Union Ave Natrona Heights, PA 15065",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it; not currently eligible to have a Zestimate displayed."
+},
+"1320 broadway st|15035": {
+"zestimate": 147700,
+"range_lo": 123000,
+"range_hi": 174000,
+"sqft": 1622,
+"beds": 3,
+"baths": 1,
+"year_built": 1942,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+165000,
+175000,
+115000
+],
+"subject_anchored": false,
+"matched_address": "1320 Broadway St East Mc Keesport, PA 15035"
+},
+"1339 leaside dr|15207": {
+"zestimate": 152800,
+"range_lo": 138000,
+"range_hi": 167000,
+"sqft": 1084,
+"beds": 3,
+"baths": 1,
+"year_built": 1924,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+193000,
+138000,
+160000
+],
+"subject_anchored": false,
+"matched_address": "1339 Leaside Dr Pittsburgh, PA 15207"
+},
+"134 ange dr|15235": {
+"zestimate": 145900,
+"range_lo": 121000,
+"range_hi": 168000,
+"sqft": 1163,
+"beds": 3,
+"baths": 1,
+"year_built": 1957,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+195000,
+155000,
+160110
+],
+"subject_anchored": false,
+"matched_address": "134 Ange Dr Pittsburgh, PA 15235"
+},
+"137 frederick st|15210": {
+"zestimate": 134000,
+"range_lo": 106000,
+"range_hi": 161000,
+"sqft": 1536,
+"beds": 2,
+"baths": 1,
+"year_built": 1950,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+144999,
+145000,
+131000
+],
+"subject_anchored": false,
+"matched_address": "137 Frederick St Mount Oliver, PA 15210"
+},
+"1410 westfield street|15216": {
+"zestimate": 216700,
+"range_lo": 197000,
+"range_hi": 234000,
+"sqft": 1280,
+"beds": 3,
+"baths": 1,
+"year_built": 1950,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+180000,
+200000,
+201000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "1410 Westfield St Pittsburgh, PA 15216"
+},
+"1428 loraine street|15212": {
+"zestimate": 215200,
+"range_lo": 155000,
+"range_hi": 291000,
+"sqft": 2160,
+"beds": 3,
+"baths": 1,
+"year_built": 1910,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+170000,
+120000,
+100000
+],
+"subject_anchored": false,
+"matched_address": "1428 Loraine St Pittsburgh, PA 15212"
+},
+"1512 mifflin street|15120": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "162 Mifflin St Homestead, PA 15120",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"1569 summerdale st|15204": {
+"zestimate": 125300,
+"range_lo": 99000,
+"range_hi": 152000,
+"sqft": 1690,
+"beds": 3,
+"baths": 1,
+"year_built": 1895,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+119750,
+126500,
+121500
+],
+"subject_anchored": false,
+"matched_address": "1569 Summerdale St Pittsburgh, PA 15204"
+},
+"1630 alverado ave|15216": {
+"zestimate": 118800,
+"range_lo": 87000,
+"range_hi": 153000,
+"sqft": 1240,
+"beds": 3,
+"baths": 1,
+"year_built": 1920,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+142000,
+165000,
+172500
+],
+"subject_anchored": false,
+"matched_address": "1630 Alverado Ave Pittsburgh, PA 15216"
+},
+"1707 scenery drive|15037": {
+"zestimate": 212500,
+"range_lo": 196000,
+"range_hi": 230000,
+"sqft": 1040,
+"beds": 3,
+"baths": 1,
+"year_built": 1968,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+238000,
+220000,
+222000
+],
+"subject_anchored": false,
+"matched_address": "1707 Scenery Dr Elizabeth, PA 15037"
+},
+"1721 elderslee road|15227": {
+"zestimate": 201000,
+"range_lo": 187000,
+"range_hi": 215000,
+"sqft": 986,
+"beds": 3,
+"baths": 1,
+"year_built": 1945,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+204000,
+210000,
+174900
+],
+"subject_anchored": false,
+"matched_address": "1721 Elderslee Rd Pittsburgh, PA 15227"
+},
+"181 mcgovern boulevard|15046": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "181 Mcgovern Blvd Crescent, PA 15046",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"1812 willow st|15132": {
+"zestimate": 97400,
+"range_lo": 81000,
+"range_hi": 114000,
+"sqft": 1525,
+"beds": 3,
+"baths": 1,
+"year_built": 1888,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+85769,
+115000,
+90000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "1812 Willow St Mckeesport, PA 15132"
+},
+"1867 chapman st|15215": {
+"zestimate": 122400,
+"range_lo": 97000,
+"range_hi": 151000,
+"sqft": 1544,
+"beds": 3,
+"baths": 1,
+"year_built": 1910,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+90000,
+124000,
+125000
+],
+"subject_anchored": false,
+"matched_address": "1867 Chapman St Pittsburgh, PA 15215"
+},
+"1869 chapman st|15215": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1869 Chapman St Pittsburgh, PA 15215",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"1908 saint paul st|15203": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1908 Saint Paul St Pittsburgh, PA 15203",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"1909 chapman st|15215": {
+"zestimate": 102600,
+"range_lo": 75000,
+"range_hi": 135000,
+"sqft": 1403,
+"beds": 2,
+"baths": 2,
+"year_built": 1910,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+125000,
+124000,
+90000
+],
+"subject_anchored": false,
+"matched_address": "1909 Chapman St Pittsburgh, PA 15215"
+},
+"1911 delaware avenue|15218": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "1911 Delaware Ave Pittsburgh, PA 15218",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"2001 beldale street|15233": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "2001 Beldale St Pittsburgh, PA 15233",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"201 banbury lane|15065": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "201 Banbury Ln Natrona Heights, PA 15065",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"2047 boggs avenue|15221": {
+"zestimate": 97900,
+"range_lo": 72000,
+"range_hi": 125000,
+"sqft": 1224,
+"beds": 3,
+"baths": 1,
+"year_built": 1931,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+71000,
+138225,
+145191
+],
+"subject_anchored": false,
+"matched_address": "2047 Boggs Ave Pittsburgh, PA 15221"
+},
+"2060 scenery drive|15037": {
+"zestimate": 153200,
+"range_lo": 110000,
+"range_hi": 204000,
+"sqft": 1329,
+"beds": 2,
+"baths": 1,
+"year_built": 1953,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+165000,
+147000,
+190000
+],
+"subject_anchored": false,
+"matched_address": "2060 Scenery Dr Elizabeth, PA 15037"
+},
+"213 comrie avenue|15104": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "213 Comrie Ave Braddock, PA 15104",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"215 clifton ave|15215": {
+"zestimate": 156800,
+"range_lo": 111000,
+"range_hi": 212000,
+"sqft": 1828,
+"beds": 3,
+"baths": 2,
+"year_built": 1920,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+209000,
+155000,
+165000
+],
+"subject_anchored": false,
+"matched_address": "215 Clifton Ave Pittsburgh, PA 15215"
+},
+"215 poplar street|15146": {
+"zestimate": 213800,
+"range_lo": 203000,
+"range_hi": 224000,
+"sqft": 1376,
+"beds": 3,
+"baths": 2,
+"year_built": 1948,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+195000,
+195000,
+204000
+],
+"subject_anchored": false,
+"matched_address": "215 Poplar St Monroeville, PA 15146"
+},
+"2150 lincoln boulevard|15037": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "2150 Lincoln Blvd Elizabeth, PA 15037",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"219 clifton ave|15215": {
+"zestimate": 137800,
+"range_lo": 98000,
+"range_hi": 192000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "219 Clifton Ave Pittsburgh, PA 15215"
+},
+"219 richland drive|15235": {
+"zestimate": 165000,
+"range_lo": 145000,
+"range_hi": 183000,
+"sqft": 1288,
+"beds": 3,
+"baths": 2,
+"year_built": 1952,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+165000,
+155000,
+165000
+],
+"subject_anchored": false,
+"matched_address": "219 Richland Dr Pittsburgh, PA 15235"
+},
+"220 millbridge st|15210": {
+"zestimate": 159900,
+"range_lo": 107000,
+"range_hi": 221000,
+"sqft": 1971,
+"beds": 4,
+"baths": 2,
+"year_built": 1900,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+85000,
+135000,
+145000
+],
+"subject_anchored": false,
+"matched_address": "220 Millbridge St Pittsburgh, PA 15210"
+},
+"221 evaline st|15235": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "221 Evaline St Pittsburgh, PA 15235",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it; not currently eligible to have a Zestimate displayed"
+},
+"2250 vermont avenue|15122": {
+"zestimate": 239000,
+"range_lo": 227000,
+"range_hi": 253000,
+"sqft": 1392,
+"beds": 3,
+"baths": 2,
+"year_built": 1973,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+215000,
+257500,
+230000
+],
+"subject_anchored": false,
+"matched_address": "2250 Vermont Ave West Mifflin, PA 15122"
+},
+"2361 morrow road|15241": {
+"zestimate": 523700,
+"range_lo": 456000,
+"range_hi": 597000,
+"sqft": 2288,
+"beds": 4,
+"baths": 2,
+"year_built": 1974,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+630000,
+500000,
+550000
+],
+"subject_anchored": false,
+"matched_address": "2361 Morrow Rd Pittsburgh, PA 15241"
+},
+"2429 perry st|15120": {
+"zestimate": 158200,
+"range_lo": 138000,
+"range_hi": 176000,
+"sqft": 1040,
+"beds": 3,
+"baths": 1,
+"year_built": 1959,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+177000,
+175000,
+180000
+],
+"subject_anchored": false,
+"matched_address": "2429 Perry St Homestead, PA 15120"
+},
+"244 idlewood rd|15235": {
+"zestimate": 92500,
+"range_lo": 69000,
+"range_hi": 117000,
+"sqft": 868,
+"beds": 2,
+"baths": 1,
+"year_built": 1942,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+135000,
+119900
+],
+"subject_anchored": false,
+"matched_address": "244 Idlewood Rd Pittsburgh, PA 15235"
+},
+"25 goldstrom avenue|15034": {
+"zestimate": 147800,
+"range_lo": 127000,
+"range_hi": 168000,
+"sqft": 1664,
+"beds": 3,
+"baths": 1,
+"year_built": 1916,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+130000,
+144000,
+155000
+],
+"subject_anchored": false,
+"matched_address": "25 Goldstrom Ave Dravosburg, PA 15034"
+},
+"25 herron ave|15202": {
+"zestimate": 142400,
+"range_lo": 105000,
+"range_hi": 184000,
+"sqft": 1416,
+"beds": 3,
+"baths": 1,
+"year_built": 1933,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+215000,
+150000,
+184900
+],
+"subject_anchored": false,
+"matched_address": "25 Herron Ave Pittsburgh, PA 15202"
+},
+"2503 willowbrook rd|15241": {
+"zestimate": 396700,
+"range_lo": 373000,
+"range_hi": 421000,
+"sqft": 1639,
+"beds": 3,
+"baths": 1,
+"year_built": 1930,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+315000,
+391000,
+353400
+],
+"subject_anchored": false,
+"matched_address": "2503 Willowbrook Rd Pittsburgh, PA 15241"
+},
+"2600-2602 new england rd|15122": {
+"zestimate": 131800,
+"range_lo": 103000,
+"range_hi": 165000,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "2600-2602 New England Rd West Mifflin, PA 15122"
+},
+"2603 campbell cir|15122": {
+"zestimate": 144000,
+"range_lo": 120000,
+"range_hi": 167000,
+"sqft": 1050,
+"beds": 3,
+"baths": 1,
+"year_built": 1949,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+142000,
+160000,
+155000
+],
+"subject_anchored": false,
+"matched_address": "2603 Campbell Cir West Mifflin, PA 15122"
+},
+"2708 e street|15133": {
+"zestimate": 114000,
+"range_lo": 92000,
+"range_hi": 135000,
+"sqft": 845,
+"beds": 1,
+"baths": 2,
+"year_built": 1945,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+85000,
+87500,
+125000
+],
+"subject_anchored": false,
+"matched_address": "2708 E St Mckeesport, PA 15133"
+},
+"2814 walnut street|15102": {
+"zestimate": 210800,
+"range_lo": 194000,
+"range_hi": 228000,
+"sqft": 1383,
+"beds": 4,
+"baths": 2,
+"year_built": 1920,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+230000,
+262000,
+256000
+],
+"subject_anchored": false,
+"matched_address": "2814 Walnut St Bethel Park, PA 15102"
+},
+"3012 clairton road|15122": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "3012 Clairton Rd West Mifflin, PA 15122",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it; not currently eligible to have a Zestimate displayed"
+},
+"3022 wadlow street|15212": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "3022 Wadlow St Pittsburgh, PA 15212",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"3032 churchview ave|15227": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "3032 Churchview Ave Pittsburgh, PA 15227",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it; not currently eligible to have a Zestimate displayed"
+},
+"3039 walton rd|15332": {
+"zestimate": 195400,
+"range_lo": 174000,
+"range_hi": 215000,
+"sqft": 1009,
+"beds": 2,
+"baths": 2,
+"year_built": 1956,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+222000,
+210000,
+179900
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "3039 Walton Rd Finleyville, PA 15332"
+},
+"3042 glen mawr st|15204": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "3042 Glen Mawr St Pittsburgh, PA 15204",
+"no_zestimate_reason": "Not enough confidence in the Zestimate to display it"
+},
+"306 4th ave - condominium unit 1002|15222": {
+"error": "Could not find the property for the given address"
+},
+"309 oak street|15236": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"no_zestimate_reason": "Zestimate is missing: not enough reliable data to generate one"
+},
+"31 stowe street|15205": {
+"zestimate": 235900,
+"range_lo": 224000,
+"range_hi": 248000,
+"sqft": 2083,
+"beds": 5,
+"baths": 3,
+"year_built": 1920,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+245000,
+217000,
+224999
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "31 Stowe St Pittsburgh, PA 15205"
+},
+"310 mingo road|15090": {
+"zestimate": 1131500,
+"range_lo": 1064000,
+"range_hi": 1188000,
+"sqft": 4976,
+"beds": 5,
+"baths": 7,
+"year_built": 1989,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+2125000,
+1575000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "310 Mingo Rd Wexford, PA 15090"
+},
+"3110 churchview avenue|15227": {
+"zestimate": 187100,
+"range_lo": 163000,
+"range_hi": 210000,
+"sqft": 2061,
+"beds": 3,
+"baths": 2,
+"year_built": 1928,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+197000,
+196000,
+195000
+],
+"subject_anchored": false,
+"matched_address": "3110 Churchview Ave Pittsburgh, PA 15227"
+},
+"3122 capitol street|15131": {
+"zestimate": 70000,
+"range_lo": 52000,
+"range_hi": 91000,
+"sqft": 725,
+"beds": 2,
+"baths": 1,
+"year_built": 1954,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+87500,
+100000,
+92920
+],
+"subject_anchored": false,
+"matched_address": "3122 Capitol St White Oak, PA 15131"
+},
+"3130 glendale avenue|15227": {
+"zestimate": 163300,
+"range_lo": 132000,
+"range_hi": 193000,
+"sqft": 1728,
+"beds": 3,
+"baths": 2,
+"year_built": 1928,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+197000,
+195000,
+196000
+],
+"subject_anchored": false,
+"matched_address": "3130 Glendale Ave Pittsburgh, PA 15227"
+},
+"3141 sorento st|15212": {
+"zestimate": 128600,
+"range_lo": 111000,
+"range_hi": 148000,
+"sqft": 882,
+"beds": 3,
+"baths": 2,
+"year_built": 1896,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+159000,
+150000,
+135000
+],
+"subject_anchored": false,
+"matched_address": "3141 Sorento St Pittsburgh, PA 15212"
+},
+"326 linden ave|15215": {
+"zestimate": 116100,
+"range_lo": 86000,
+"range_hi": 150000,
+"sqft": 1559,
+"beds": 3,
+"baths": 1,
+"year_built": 1910,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+90000,
+125000,
+124000
+],
+"subject_anchored": false,
+"matched_address": "326 Linden Ave Pittsburgh, PA 15215"
+},
+"3269 richardson avenue|15212": {
+"zestimate": 113900,
+"range_lo": 89000,
+"range_hi": 140000,
+"sqft": 945,
+"beds": 2,
+"baths": 1,
+"year_built": 1940,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+111000,
+135000,
+115000
+],
+"subject_anchored": false,
+"matched_address": "3269 Richardson Ave Pittsburgh, PA 15212"
+},
+"327 foster road|15137": {
+"zestimate": 87400,
+"range_lo": 83000,
+"range_hi": 92000,
+"sqft": 942,
+"beds": 2,
+"baths": 1,
+"year_built": 1951,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+172000,
+154500,
+171000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "327 Foster Rd North Versailles, PA 15137"
+},
+"329 harmony rd|15237": {
+"zestimate": 237600,
+"range_lo": 202000,
+"range_hi": 271000,
+"sqft": 1373,
+"beds": 3,
+"baths": 1,
+"year_built": 1951,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+290000,
+265000,
+235000
+],
+"subject_anchored": false,
+"matched_address": "329 Harmony Rd Pittsburgh, PA 15237"
+},
+"33 riverview ave|15214": {
+"zestimate": 180200,
+"range_lo": 124000,
+"range_hi": 247000,
+"sqft": 2381,
+"beds": 6,
+"baths": 2,
+"year_built": 1880,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+170000,
+210000,
+240000
+],
+"subject_anchored": false,
+"matched_address": "33 Riverview Ave Pittsburgh, PA 15214"
+},
+"3301 bethel church road|15102": {
+"zestimate": 191800,
+"range_lo": 180000,
+"range_hi": 201000,
+"sqft": 1310,
+"beds": 3,
+"baths": 2,
+"year_built": 1956,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+297800,
+270900,
+292300
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "3301 Bethel Church Rd Bethel Park, PA 15102"
+},
+"3417 duquesne ave|15122": {
+"zestimate": 167000,
+"range_lo": 132000,
+"range_hi": 199000,
+"sqft": 1458,
+"beds": 3,
+"baths": 2,
+"year_built": 1910,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+133000,
+168841,
+154000
+],
+"subject_anchored": false,
+"matched_address": "3417 Duquesne Ave West Mifflin, PA 15122"
+},
+"347 hulton road|15147": {
+"zestimate": 145600,
+"range_lo": 138000,
+"range_hi": 153000,
+"sqft": 1662,
+"beds": 2,
+"baths": 2,
+"year_built": 1972,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+204900,
+241000,
+210000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "347 Hulton Rd Verona, PA 15147"
+},
+"3503 sunnyvale drive|15101": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "3503 Sunnyvale Dr Allison Park, PA 15101",
+"no_zestimate_reason": "Not currently eligible to have a Zestimate displayed"
+},
+"36 hunter road|15044": {
+"zestimate": 323900,
+"range_lo": 308000,
+"range_hi": 340000,
+"sqft": 1410,
+"beds": 4,
+"baths": 2,
+"year_built": 1965,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+350000,
+319900,
+303000
+],
+"subject_anchored": false,
+"matched_address": "36 Hunter Rd Gibsonia, PA 15044"
+},
+"3911 vistaview street|15122": {
+"zestimate": 169900,
+"range_lo": 150000,
+"range_hi": 190000,
+"sqft": 1318,
+"beds": 3,
+"baths": 2,
+"year_built": 1950,
+"renovated": true,
+"anchored": true,
+"comp_sold": [
+185000,
+215000,
+180100
+],
+"subject_anchored": false,
+"matched_address": "3911 Vistaview St West Mifflin, PA 15122"
+},
+"394 charles st|15209": {
+"error": "Could not find the property for the given address"
+},
+"4022 oswald street|15212": {
+"zestimate": 192600,
+"range_lo": 183000,
+"range_hi": 202000,
+"sqft": 1988,
+"beds": 3,
+"baths": 1,
+"year_built": 1901,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+178900,
+144900,
+155000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "4022 Oswald St Pittsburgh, PA 15212"
+},
+"404 broadway ave|15136": {
+"zestimate": 63800,
+"range_lo": 47000,
+"range_hi": 86000,
+"sqft": 1242,
+"beds": 2,
+"baths": 1,
+"year_built": 1908,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+67000,
+85100,
+34000
+],
+"subject_anchored": false,
+"matched_address": "404 Broadway Ave Mc Kees Rocks, PA 15136"
+},
+"408 welsh avenue|15148": {
+"zestimate": 93200,
+"range_lo": 70000,
+"range_hi": 118000,
+"sqft": 1637,
+"beds": 4,
+"baths": 1,
+"year_built": 1899,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+134900,
+120000,
+115000
+],
+"subject_anchored": false,
+"matched_address": "408 Welsh Ave Wilmerding, PA 15148"
+},
+"413 agatha street|15140": {
+"zestimate": 122200,
+"range_lo": 116000,
+"range_hi": 128000,
+"sqft": 1820,
+"beds": 3,
+"baths": 3,
+"year_built": 1930,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+108000,
+140000,
+175000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "413 Agatha St Pitcairn, PA 15140"
+},
+"4149 mathilda street|15234": {
+"zestimate": 134800,
+"range_lo": 106000,
+"range_hi": 160000,
+"sqft": 957,
+"beds": 2,
+"baths": 1,
+"year_built": 1930,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+186000
+],
+"subject_anchored": false,
+"matched_address": "4149 Mathilda St Pittsburgh, PA 15234"
+},
+"415 valley view dr|15046": {
+"zestimate": 191500,
+"range_lo": 170000,
+"range_hi": 211000,
+"sqft": 1142,
+"beds": 3,
+"baths": 1,
+"year_built": 1942,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+198000,
+225000,
+217500
+],
+"subject_anchored": false,
+"matched_address": "415 Valley View Dr Crescent, PA 15046"
+},
+"422 conniston avenue|15210": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "422 Conniston Ave Pittsburgh, PA 15210",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"426 camfield st|15210": {
+"zestimate": 155700,
+"range_lo": 129000,
+"range_hi": 179000,
+"sqft": 1092,
+"beds": 3,
+"baths": 1,
+"year_built": 1954,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+170000,
+163095,
+195000
+],
+"subject_anchored": false,
+"matched_address": "426 Camfield St Pittsburgh, PA 15210"
+},
+"430 brownsville rd|15210": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "430 Brownsville Rd Pittsburgh, PA 15210",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"4502 mollenauer street|15102": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "4502 Mollenauer St Bethel Park, PA 15102",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"4593 marina dr|15120": {
+"zestimate": 211800,
+"range_lo": 184000,
+"range_hi": 235000,
+"sqft": 1120,
+"beds": 3,
+"baths": 2,
+"year_built": 1965,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+215500,
+180000,
+225000
+],
+"subject_anchored": false,
+"matched_address": "4593 Marina Dr Homestead, PA 15120"
+},
+"4900 plaport street|15207": {
+"zestimate": 128400,
+"range_lo": 101000,
+"range_hi": 154000,
+"sqft": 1604,
+"beds": 3,
+"baths": 1,
+"year_built": 1928,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+193000,
+143000,
+144000
+],
+"subject_anchored": false,
+"matched_address": "4900 Plaport St Pittsburgh, PA 15207"
+},
+"4908 sardis rd|15068": {
+"zestimate": 269300,
+"range_lo": 245000,
+"range_hi": 291000,
+"sqft": 1210,
+"beds": 3,
+"baths": 2,
+"year_built": 1965,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+260000,
+228000,
+250000
+],
+"subject_anchored": false,
+"matched_address": "4908 Sardis Rd New Kensington, PA 15068"
+},
+"5-7 garden way|15223": {
+"zestimate": 148700,
+"range_lo": 117000,
+"range_hi": 183000,
+"sqft": 2099,
+"beds": 2,
+"baths": 1,
+"year_built": 1880,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+165000,
+124000,
+125000
+],
+"subject_anchored": false,
+"matched_address": "5 Garden Way #7 Pittsburgh, PA 15223"
+},
+"510 center rd|15146": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "510 Center Rd Monroeville, PA 15146",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"5166 mountain top lane|15037": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "5166 Mountain Top Ln Elizabeth, PA 15037",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"468 baidford road|15006": {
+"error": "Could not find the property for the given address"
+},
+"522 freeland st|15210": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "522 Freeland St Pittsburgh, PA 15210",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it; this home is not currently eligible to have a Zestimate displayed."
+},
+"525 chautauqua st|15214": {
+"zestimate": 89200,
+"range_lo": 62000,
+"range_hi": 127000,
+"sqft": 1906,
+"beds": 3,
+"baths": 1,
+"year_built": 1900,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+120000,
+100000,
+111000
+],
+"subject_anchored": false,
+"matched_address": "525 Chautauqua St Pittsburgh, PA 15214"
+},
+"551-557 5th street ext|15085": {
+"zestimate": 193000,
+"range_lo": 141000,
+"range_hi": 251000,
+"sqft": 3410,
+"beds": 8,
+"baths": 4,
+"year_built": 1920,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+190000,
+168000,
+220000
+],
+"subject_anchored": false,
+"matched_address": "551-557 5th Street Ext Trafford, PA 15085"
+},
+"58 evans ave|15205": {
+"zestimate": 159900,
+"range_lo": 150000,
+"range_hi": 168000,
+"sqft": 1452,
+"beds": 3,
+"baths": 1,
+"year_built": 1920,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+173405,
+225000,
+222000
+],
+"subject_anchored": true,
+"subject_anchor_kind": "listing",
+"matched_address": "58 Evans Ave Pittsburgh, PA 15205"
+},
+"612 corbin street|15122": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "612 Corbin St West Mifflin, PA 15122",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"6121 verona road|15147": {
+"zestimate": 229600,
+"range_lo": 207000,
+"range_hi": 250000,
+"sqft": 1752,
+"beds": 3,
+"baths": 2,
+"year_built": 1920,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+239900,
+236900,
+250000
+],
+"subject_anchored": false,
+"matched_address": "6121 Verona Rd Verona, PA 15147"
+},
+"619 lincoln hwy|15035": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "619 Lincoln Hwy East Mc Keesport, PA 15035",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"621 thompson avenue|15025": {
+"zestimate": 120700,
+"range_lo": 106000,
+"range_hi": 134000,
+"sqft": 1064,
+"beds": 3,
+"baths": 1,
+"year_built": 1942,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+107000,
+95000,
+100000
+],
+"subject_anchored": false,
+"matched_address": "621 Thompson Ave Clairton, PA 15025"
+},
+"632 highridge drive|15226": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "632 Highridge Dr Pittsburgh, PA 15226",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"7 davenport st|15219": {
+"zestimate": 204600,
+"range_lo": 184000,
+"range_hi": 225000,
+"sqft": 1050,
+"beds": 2,
+"baths": 1,
+"year_built": 1998,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+220000,
+252000,
+179900
+],
+"subject_anchored": false,
+"matched_address": "7 Davenport St Pittsburgh, PA 15219"
+},
+"7 melvin dr|15236": {
+"zestimate": 182600,
+"range_lo": 155000,
+"range_hi": 206000,
+"sqft": 1010,
+"beds": 3,
+"baths": 1,
+"year_built": 1950,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+168000,
+249900,
+138500
+],
+"subject_anchored": false,
+"matched_address": "7 Melvin Dr Pittsburgh, PA 15236"
+},
+"700 e 17th ave|15120": {
+"zestimate": 137000,
+"range_lo": 100000,
+"range_hi": 177000,
+"sqft": 2240,
+"beds": 4,
+"baths": 2,
+"year_built": 1910,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+138000,
+133000,
+112500
+],
+"subject_anchored": false,
+"matched_address": "700 E 17th Ave Homestead, PA 15120"
+},
+"708 overhill drive|15137": {
+"zestimate": 124700,
+"range_lo": 96000,
+"range_hi": 155000,
+"sqft": 1163,
+"beds": 3,
+"baths": 2,
+"year_built": 1948,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+160000,
+125000,
+158000
+],
+"subject_anchored": false,
+"matched_address": "708 Overhill Dr North Versailles, PA 15137"
+},
+"711 vermont avenue|15045": {
+"zestimate": 97300,
+"range_lo": 74000,
+"range_hi": 121000,
+"sqft": 1416,
+"beds": 3,
+"baths": 1,
+"year_built": 1910,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+80000,
+90000,
+144000
+],
+"subject_anchored": false,
+"matched_address": "711 Vermont Ave Glassport, PA 15045"
+},
+"7350 bennett street|15208": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "7350 Bennett St Pittsburgh, PA 15208",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"7730 tyler road|15147": {
+"zestimate": 113800,
+"range_lo": 84000,
+"range_hi": 149000,
+"sqft": 1485,
+"beds": 3,
+"baths": 1,
+"year_built": 1932,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+145191,
+138225,
+112000
+],
+"subject_anchored": false,
+"matched_address": "7730 Tyler Rd Verona, PA 15147"
+},
+"7932 saint lawrence ave|15218": {
+"zestimate": 141300,
+"range_lo": 110000,
+"range_hi": 171000,
+"sqft": 1136,
+"beds": 3,
+"baths": 1,
+"year_built": 1930,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+135000,
+163000,
+154000
+],
+"subject_anchored": false,
+"matched_address": "7932 Saint Lawrence Ave Pittsburgh, PA 15218"
+},
+"811 division street|15122": {
+"zestimate": 241600,
+"range_lo": 230000,
+"range_hi": 256000,
+"sqft": 1552,
+"beds": 3,
+"baths": 2,
+"year_built": 1950,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+215000,
+249900,
+230000
+],
+"subject_anchored": false,
+"matched_address": "811 Division St West Mifflin, PA 15122"
+},
+"9 robertson place|15223": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "9 Robertson Pl Pittsburgh, PA 15223",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"9-11 garden way|15223": {
+"zestimate": 182400,
+"range_lo": 142000,
+"range_hi": 228000,
+"sqft": 1373,
+"beds": 3,
+"baths": 2,
+"year_built": 2015,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+160000,
+195000
+],
+"subject_anchored": false,
+"matched_address": "9 Garden Way #11 Pittsburgh, PA 15223"
+},
+"90 dinsmore avenue|15205": {
+"zestimate": 155800,
+"range_lo": 115000,
+"range_hi": 199000,
+"sqft": 2310,
+"beds": 3,
+"baths": 1,
+"year_built": 1925,
+"renovated": false,
+"anchored": true,
+"comp_sold": [
+119750,
+173405,
+222000
+],
+"subject_anchored": false,
+"matched_address": "90 Dinsmore Ave Pittsburgh, PA 15205"
+},
+"90 highland ave|15136": {
+"zestimate": 73200,
+"range_lo": 53000,
+"range_hi": 97000,
+"sqft": 1377,
+"beds": 2,
+"baths": 1,
+"year_built": 1920,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+85100,
+89000,
+63000
+],
+"subject_anchored": false,
+"matched_address": "90 Highland Ave Mc Kees Rocks, PA 15136"
+},
+"9118 maple street|15239": {
+"zestimate": null,
+"renovated": false,
+"anchored": false,
+"subject_anchored": false,
+"matched_address": "9118 Maple St Pittsburgh, PA 15239",
+"no_zestimate_reason": "There isn't enough confidence in the Zestimate for this home to display it."
+},
+"929 sedalia avenue|15202": {
+"zestimate": 200300,
+"range_lo": 178000,
+"range_hi": 220000,
+"sqft": 1100,
+"beds": 2,
+"baths": 1,
+"year_built": 1930,
+"renovated": false,
+"anchored": false,
+"comp_sold": [
+215000,
+185000,
+203000
+],
+"subject_anchored": false,
+"matched_address": "929 Sedalia Ave Pittsburgh, PA 15202"
+},
+"963 harper rd|15046": {
+"zestimate": 324400,
+"range_lo": 302000,
+"range_hi": 350000,
+"sqft": 1858,
+"beds": 3,
+"baths": 2,
+"year_built": 1948,
+"renovated": true,
+"anchored": false,
+"comp_sold": [
+330000,
+335000,
+339000
+],
+"subject_anchored": false,
+"matched_address": "963 Harper Rd Crescent, PA 15046"
+}
+}

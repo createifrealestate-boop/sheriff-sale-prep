@@ -1,0 +1,171 @@
+{
+ "by_grp": {
+  "Free & clear tax lien": {
+   "n": 46,
+   "median_price": 24000,
+   "median_open": 8500,
+   "median_over": 12900,
+   "median_ratio": 2.18,
+   "within5pct": 26,
+   "n_z": 27,
+   "pz": 0.23,
+   "pz25": 0.16,
+   "pz75": 0.3,
+   "margin": 0.41,
+   "m20": 85
+  },
+  "Tax lien": {
+   "n": 45,
+   "median_price": 40000,
+   "median_open": 25881,
+   "median_over": 13495,
+   "median_ratio": 1.48,
+   "within5pct": 24,
+   "n_z": 36,
+   "pz": 0.42,
+   "pz25": 0.32,
+   "pz75": 0.5,
+   "margin": 0.21,
+   "m20": 50
+  },
+  "Tax lien (decree)": {
+   "n": 29,
+   "median_price": 41002,
+   "median_open": 41672,
+   "median_over": -66,
+   "median_ratio": 1.0,
+   "within5pct": 90,
+   "n_z": 11,
+   "pz": 0.4,
+   "pz25": 0.31,
+   "pz75": 0.56,
+   "margin": -0.09,
+   "m20": 9
+  },
+  "Mortgage foreclosure": {
+   "n": 59,
+   "median_price": 70000,
+   "median_open": 7268,
+   "median_over": 60176,
+   "median_ratio": 11.26,
+   "within5pct": 2,
+   "n_z": 42,
+   "pz": 0.51,
+   "pz25": 0.37,
+   "pz75": 0.65,
+   "margin": 0.14,
+   "m20": 40
+  },
+  "HOA/condo judgment": {
+   "n": 5,
+   "median_price": 95000,
+   "median_open": 12140,
+   "median_over": 86910,
+   "median_ratio": 4.94,
+   "within5pct": 0,
+   "n_z": 3,
+   "pz": 0.52,
+   "pz25": 0.5,
+   "pz75": 0.55,
+   "margin": 0.32,
+   "m20": 67
+  }
+ },
+ "all": {
+  "n": 184,
+  "median_price": 41302,
+  "median_open": 14051,
+  "median_over": 15908,
+  "median_ratio": 2.31,
+  "within5pct": 27,
+  "n_z": 119,
+  "pz": 0.39,
+  "pz25": 0.28,
+  "pz75": 0.54,
+  "margin": 0.21,
+  "m20": 51
+ },
+ "decree_munis": {
+  "Millvale": 1,
+  "Homestead": 3,
+  "Munhall": 1,
+  "Wilkinsburg": 8,
+  "Pittsburgh": 16
+ },
+ "fc_minbid": {
+  "with_amount": 37,
+  "fc_total": 46,
+  "median_minbid": 8500.0,
+  "median_ct": 60607.13,
+  "minbid_over_ct": 0.16
+ },
+ "calib": {
+  "Free & clear tax lien": {
+   "n": 27,
+   "median_price_over_arv": 0.24,
+   "best_k": 0.24,
+   "err_best": 6.5,
+   "err_55": 31.0,
+   "pred_over_actual_median": 2.29
+  },
+  "Tax lien": {
+   "n": 36,
+   "median_price_over_arv": 0.43,
+   "best_k": 0.39,
+   "err_best": 8.0,
+   "err_55": 16.2,
+   "pred_over_actual_median": 1.28
+  },
+  "Tax lien (decree)": {
+   "n": 11,
+   "median_price_over_arv": 0.4,
+   "best_k": 0.05,
+   "err_best": 0.1,
+   "err_55": 14.6,
+   "pred_over_actual_median": 1.36
+  },
+  "Mortgage foreclosure": {
+   "n": 42,
+   "median_price_over_arv": 0.51,
+   "best_k": 0.54,
+   "err_best": 13.1,
+   "err_55": 13.6,
+   "pred_over_actual_median": 1.08
+  },
+  "HOA/condo judgment": null,
+  "all": {
+   "n": 119,
+   "median_price_over_arv": 0.41,
+   "best_k": 0.35,
+   "err_best": 11.7,
+   "err_55": 17.4,
+   "pred_over_actual_median": 1.36
+  }
+ },
+ "score_vs_margin": {
+  "n": 119,
+  "spearman": 0.35,
+  "by_band": {
+   "0-39": {
+    "n": 76,
+    "margin": 0.15,
+    "m20": 45
+   },
+   "40-59": {
+    "n": 23,
+    "margin": 0.33,
+    "m20": 65
+   },
+   "60-79": {
+    "n": 20,
+    "margin": 0.3,
+    "m20": 60
+   },
+   "80+": {
+    "n": 0,
+    "margin": null,
+    "m20": null
+   }
+  }
+ }
+}
