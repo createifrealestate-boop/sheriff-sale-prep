@@ -1,0 +1,4108 @@
+{
+ "period": "2025-01 to 2026-11 (23 sales)",
+ "valued_on": "2026-11-10 to 2026-11-12",
+ "deep": {
+  "vol": {
+   "b4": {
+    "sales": 5,
+    "listings": 1578,
+    "distinct": 970,
+    "outcomes": {
+     "postponed": 1055,
+     "sold_3p": 160,
+     "stayed": 222,
+     "plaintiff_overbid": 112,
+     "plaintiff_costs": 4,
+     "paid": 22,
+     "unsold": 3
+    },
+    "auction_pct": 17.5,
+    "sold3p_all": 160,
+    "sold3p_res": 120,
+    "mf_plaintiff": [
+     114,
+     181
+    ],
+    "tl_plaintiff": [
+     0,
+     90
+    ],
+    "tl_plaintiff_who": {},
+    "bucket": {
+     "ok": 144,
+     "excluded": 15,
+     "almost": 1
+    },
+    "excl": {
+     "Non-residential (Vacant Land)": 11,
+     "Non-residential (Commercial)": 2,
+     "Non-residential (Industrial)": 1,
+     "VERIFY \u2013 OK box checked but notes still list:": 1,
+     "Non-residential (Vacant Commercial)": 1
+    },
+    "zcls": {
+     "none": 28,
+     "resold": 26,
+     "plain": 58,
+     "listed": 7,
+     "self": 1
+    }
+   },
+   "b3": {
+    "sales": 6,
+    "listings": 2077,
+    "distinct": 1222,
+    "outcomes": {
+     "postponed": 1368,
+     "stayed": 308,
+     "sold_3p": 216,
+     "plaintiff_overbid": 140,
+     "paid": 31,
+     "plaintiff_costs": 14
+    },
+    "auction_pct": 17.8,
+    "sold3p_all": 216,
+    "sold3p_res": 166,
+    "mf_plaintiff": [
+     152,
+     234
+    ],
+    "tl_plaintiff": [
+     0,
+     127
+    ],
+    "tl_plaintiff_who": {},
+    "bucket": {
+     "ok": 191,
+     "almost": 2,
+     "excluded": 23
+    },
+    "excl": {
+     "Non-residential (Vacant Land)": 10,
+     "Non-residential (Commercial)": 8,
+     "VERIFY \u2013 Service/3129.2/3129.3 checked, OK no": 1,
+     "Non-residential (Vacant Commercial)": 1,
+     "VERIFY \u2013 OK box checked but notes still list:": 1,
+     "Docs outstanding: Court order (O/C) approving": 1,
+     "Non-residential (Vacant Agricultural)": 1,
+     "Non-residential (Industrial)": 1
+    },
+    "zcls": {
+     "plain": 88,
+     "none": 33,
+     "resold": 34,
+     "listed": 11
+    }
+   },
+   "b2": {
+    "sales": 6,
+    "listings": 2375,
+    "distinct": 1334,
+    "outcomes": {
+     "postponed": 1578,
+     "sold_3p": 217,
+     "stayed": 333,
+     "plaintiff_overbid": 165,
+     "paid": 35,
+     "plaintiff_costs": 47
+    },
+    "auction_pct": 18.1,
+    "sold3p_all": 217,
+    "sold3p_res": 163,
+    "mf_plaintiff": [
+     173,
+     254
+    ],
+    "tl_plaintiff": [
+     37,
+     164
+    ],
+    "tl_plaintiff_who": {
+     "Wilkinsburg Borough": 23,
+     "Borough of Wilkinsburg": 13,
+     "Wilkinsburg Borough School Dis": 1
+    },
+    "bucket": {
+     "ok": 186,
+     "excluded": 28,
+     "almost": 3
+    },
+    "excl": {
+     "Non-residential (Vacant Land)": 22,
+     "Non-residential (Commercial)": 5,
+     "VERIFY \u2013 Service/3129.2/3129.3 checked, OK no": 3,
+     "Docs outstanding: Court order (O/C) approving": 1
+    },
+    "zcls": {
+     "plain": 85,
+     "none": 51,
+     "resold": 13,
+     "listed": 14
+    }
+   },
+   "b1": {
+    "sales": 6,
+    "listings": 2364,
+    "distinct": 1320,
+    "outcomes": {
+     "postponed": 1631,
+     "stayed": 351,
+     "sold_3p": 201,
+     "plaintiff_overbid": 145,
+     "plaintiff_costs": 10,
+     "paid": 26
+    },
+    "auction_pct": 15.1,
+    "sold3p_all": 201,
+    "sold3p_res": 168,
+    "mf_plaintiff": [
+     149,
+     208
+    ],
+    "tl_plaintiff": [
+     5,
+     141
+    ],
+    "tl_plaintiff_who": {
+     "Borough of Wilkinsburg": 3,
+     "Wilkinsburg Borough": 2
+    },
+    "bucket": {
+     "excluded": 18,
+     "ok": 182,
+     "almost": 1
+    },
+    "excl": {
+     "Non-residential (Vacant Land)": 11,
+     "Non-residential (Commercial)": 5,
+     "Docs outstanding: boxes incomplete": 1,
+     "Non-residential (Vacant Commercial)": 1,
+     "VERIFY \u2013 notes say OK TO SELL but OK box unch": 1
+    },
+    "zcls": {
+     "plain": 97,
+     "none": 57,
+     "listed": 10,
+     "resold": 4
+    }
+   },
+   "all": {
+    "sales": 23,
+    "listings": 8394,
+    "distinct": 3226,
+    "outcomes": {
+     "postponed": 5632,
+     "sold_3p": 794,
+     "stayed": 1214,
+     "plaintiff_overbid": 562,
+     "plaintiff_costs": 75,
+     "paid": 114,
+     "unsold": 3
+    },
+    "auction_pct": 17.0,
+    "sold3p_all": 794,
+    "sold3p_res": 617,
+    "mf_plaintiff": [
+     588,
+     877
+    ],
+    "tl_plaintiff": [
+     42,
+     522
+    ],
+    "tl_plaintiff_who": {
+     "Wilkinsburg Borough": 25,
+     "Borough of Wilkinsburg": 16,
+     "Wilkinsburg Borough School Dis": 1
+    },
+    "bucket": {
+     "ok": 703,
+     "excluded": 84,
+     "almost": 7
+    },
+    "excl": {
+     "Non-residential (Vacant Land)": 54,
+     "Non-residential (Commercial)": 20,
+     "VERIFY \u2013 Service/3129.2/3129.3 checked, OK no": 4,
+     "Non-residential (Vacant Commercial)": 3,
+     "Non-residential (Industrial)": 2,
+     "VERIFY \u2013 OK box checked but notes still list:": 2,
+     "Docs outstanding: Court order (O/C) approving": 2,
+     "Docs outstanding: boxes incomplete": 2
+    },
+    "zcls": {
+     "none": 169,
+     "resold": 77,
+     "plain": 328,
+     "listed": 42,
+     "self": 1
+    }
+   }
+  },
+  "grp": {
+   "b4": {
+    "Free & clear tax lien": {
+     "clean": {
+      "n": 24,
+      "price": 23000,
+      "open": 8000,
+      "over": 15500,
+      "w5": 21,
+      "n_open": 24,
+      "nz": 12,
+      "pz": 0.25,
+      "pz25": 0.17,
+      "pz75": 0.3,
+      "margin": 0.5,
+      "m20": 83
+     },
+     "raw": {
+      "n": 24,
+      "price": 23000,
+      "open": 8000,
+      "over": 15500,
+      "w5": 21,
+      "n_open": 24,
+      "nz": 12,
+      "pz": 0.25,
+      "pz25": 0.17,
+      "pz75": 0.3,
+      "margin": 0.5,
+      "m20": 83
+     }
+    },
+    "Tax lien": {
+     "clean": {
+      "n": 23,
+      "price": 39900,
+      "open": 29103,
+      "over": 3926,
+      "w5": 41,
+      "n_open": 22,
+      "nz": 19,
+      "pz": 0.32,
+      "pz25": 0.26,
+      "pz75": 0.38,
+      "margin": 0.54,
+      "m20": 68
+     },
+     "raw": {
+      "n": 23,
+      "price": 39900,
+      "open": 29103,
+      "over": 3926,
+      "w5": 41,
+      "n_open": 22,
+      "nz": 19,
+      "pz": 0.32,
+      "pz25": 0.26,
+      "pz75": 0.38,
+      "margin": 0.54,
+      "m20": 68
+     }
+    },
+    "Tax lien (decree)": {
+     "clean": {
+      "n": 13,
+      "price": 68955,
+      "open": 69007,
+      "over": -39,
+      "w5": 85,
+      "n_open": 13,
+      "nz": 4,
+      "pz": 1.13,
+      "pz25": 0.84,
+      "pz75": 2.1,
+      "margin": -0.49,
+      "m20": 0
+     },
+     "raw": {
+      "n": 13,
+      "price": 68955,
+      "open": 69007,
+      "over": -39,
+      "w5": 85,
+      "n_open": 13,
+      "nz": 4,
+      "pz": 1.13,
+      "pz25": 0.84,
+      "pz75": 2.1,
+      "margin": -0.49,
+      "m20": 0
+     }
+    },
+    "Mortgage foreclosure": {
+     "clean": {
+      "n": 59,
+      "price": 91000,
+      "open": 6675,
+      "over": 85843,
+      "w5": 0,
+      "n_open": 59,
+      "nz": 55,
+      "pz": 0.44,
+      "pz25": 0.34,
+      "pz75": 0.56,
+      "margin": 0.44,
+      "m20": 69
+     },
+     "raw": {
+      "n": 59,
+      "price": 91000,
+      "open": 6675,
+      "over": 85843,
+      "w5": 0,
+      "n_open": 59,
+      "nz": 56,
+      "pz": 0.44,
+      "pz25": 0.34,
+      "pz75": 0.57,
+      "margin": 0.43,
+      "m20": 68
+     }
+    },
+    "HOA/condo judgment": {
+     "clean": {
+      "n": 0,
+      "price": null,
+      "open": null,
+      "over": null,
+      "w5": null,
+      "n_open": 0,
+      "nz": 0,
+      "pz": null,
+      "pz25": null,
+      "pz75": null,
+      "margin": null,
+      "m20": null
+     },
+     "raw": {
+      "n": 0,
+      "price": null,
+      "open": null,
+      "over": null,
+      "w5": null,
+      "n_open": 0,
+      "nz": 0,
+      "pz": null,
+      "pz25": null,
+      "pz75": null,
+      "margin": null,
+      "m20": null
+     }
+    },
+    "ALL": {
+     "clean": {
+      "n": 120,
+      "price": 67000,
+      "open": 9025,
+      "over": 38162,
+      "w5": 21,
+      "n_open": 119,
+      "nz": 91,
+      "pz": 0.38,
+      "pz25": 0.28,
+      "pz75": 0.54,
+      "margin": 0.43,
+      "m20": 67
+     },
+     "raw": {
+      "n": 120,
+      "price": 67000,
+      "open": 9025,
+      "over": 38162,
+      "w5": 21,
+      "n_open": 119,
+      "nz": 92,
+      "pz": 0.39,
+      "pz25": 0.28,
+      "pz75": 0.55,
+      "margin": 0.42,
+      "m20": 66
+     }
+    }
+   },
+   "b3": {
+    "Free & clear tax lien": {
+     "clean": {
+      "n": 25,
+      "price": 22500,
+      "open": 8500,
+      "over": 14000,
+      "w5": 8,
+      "n_open": 25,
+      "nz": 17,
+      "pz": 0.18,
+      "pz25": 0.14,
+      "pz75": 0.22,
+      "margin": 0.36,
+      "m20": 71
+     },
+     "raw": {
+      "n": 25,
+      "price": 22500,
+      "open": 8500,
+      "over": 14000,
+      "w5": 8,
+      "n_open": 25,
+      "nz": 17,
+      "pz": 0.18,
+      "pz25": 0.14,
+      "pz75": 0.22,
+      "margin": 0.36,
+      "m20": 71
+     }
+    },
+    "Tax lien": {
+     "clean": {
+      "n": 56,
+      "price": 33800,
+      "open": 27735,
+      "over": 4269,
+      "w5": 42,
+      "n_open": 31,
+      "nz": 48,
+      "pz": 0.34,
+      "pz25": 0.22,
+      "pz75": 0.46,
+      "margin": 0.33,
+      "m20": 65
+     },
+     "raw": {
+      "n": 56,
+      "price": 33800,
+      "open": 27735,
+      "over": 4269,
+      "w5": 42,
+      "n_open": 31,
+      "nz": 48,
+      "pz": 0.34,
+      "pz25": 0.22,
+      "pz75": 0.46,
+      "margin": 0.33,
+      "m20": 65
+     }
+    },
+    "Tax lien (decree)": {
+     "clean": {
+      "n": 12,
+      "price": 54330,
+      "open": 54305,
+      "over": 633,
+      "w5": 100,
+      "n_open": 12,
+      "nz": 2,
+      "pz": 0.45,
+      "pz25": 0.42,
+      "pz75": 0.47,
+      "margin": 0.13,
+      "m20": 0
+     },
+     "raw": {
+      "n": 12,
+      "price": 54330,
+      "open": 54305,
+      "over": 633,
+      "w5": 100,
+      "n_open": 12,
+      "nz": 2,
+      "pz": 0.45,
+      "pz25": 0.42,
+      "pz75": 0.47,
+      "margin": 0.13,
+      "m20": 0
+     }
+    },
+    "Mortgage foreclosure": {
+     "clean": {
+      "n": 68,
+      "price": 80500,
+      "open": 7546,
+      "over": 56066,
+      "w5": 11,
+      "n_open": 46,
+      "nz": 63,
+      "pz": 0.41,
+      "pz25": 0.3,
+      "pz75": 0.55,
+      "margin": 0.4,
+      "m20": 70
+     },
+     "raw": {
+      "n": 68,
+      "price": 80500,
+      "open": 7546,
+      "over": 56066,
+      "w5": 11,
+      "n_open": 46,
+      "nz": 63,
+      "pz": 0.41,
+      "pz25": 0.3,
+      "pz75": 0.55,
+      "margin": 0.4,
+      "m20": 70
+     }
+    },
+    "HOA/condo judgment": {
+     "clean": {
+      "n": 4,
+      "price": 52750,
+      "open": 24358,
+      "over": 30596,
+      "w5": 0,
+      "n_open": 3,
+      "nz": 2,
+      "pz": 0.57,
+      "pz25": 0.48,
+      "pz75": 0.66,
+      "margin": 0.22,
+      "m20": 50
+     },
+     "raw": {
+      "n": 4,
+      "price": 52750,
+      "open": 24358,
+      "over": 30596,
+      "w5": 0,
+      "n_open": 3,
+      "nz": 2,
+      "pz": 0.57,
+      "pz25": 0.48,
+      "pz75": 0.66,
+      "margin": 0.22,
+      "m20": 50
+     }
+    },
+    "ALL": {
+     "clean": {
+      "n": 166,
+      "price": 44887,
+      "open": 13729,
+      "over": 17501,
+      "w5": 27,
+      "n_open": 118,
+      "nz": 133,
+      "pz": 0.36,
+      "pz25": 0.22,
+      "pz75": 0.49,
+      "margin": 0.35,
+      "m20": 67
+     },
+     "raw": {
+      "n": 166,
+      "price": 44887,
+      "open": 13729,
+      "over": 17501,
+      "w5": 27,
+      "n_open": 118,
+      "nz": 133,
+      "pz": 0.36,
+      "pz25": 0.22,
+      "pz75": 0.49,
+      "margin": 0.35,
+      "m20": 67
+     }
+    }
+   },
+   "b2": {
+    "Free & clear tax lien": {
+     "clean": {
+      "n": 32,
+      "price": 39750,
+      "open": 7750,
+      "over": 29100,
+      "w5": 6,
+      "n_open": 32,
+      "nz": 20,
+      "pz": 0.35,
+      "pz25": 0.27,
+      "pz75": 0.49,
+      "margin": 0.14,
+      "m20": 35
+     },
+     "raw": {
+      "n": 32,
+      "price": 39750,
+      "open": 7750,
+      "over": 29100,
+      "w5": 6,
+      "n_open": 32,
+      "nz": 20,
+      "pz": 0.35,
+      "pz25": 0.27,
+      "pz75": 0.49,
+      "margin": 0.14,
+      "m20": 35
+     }
+    },
+    "Tax lien": {
+     "clean": {
+      "n": 28,
+      "price": 53000,
+      "open": 30003,
+      "over": 11980,
+      "w5": 38,
+      "n_open": 26,
+      "nz": 24,
+      "pz": 0.37,
+      "pz25": 0.31,
+      "pz75": 0.44,
+      "margin": 0.31,
+      "m20": 71
+     },
+     "raw": {
+      "n": 28,
+      "price": 53000,
+      "open": 30003,
+      "over": 11980,
+      "w5": 38,
+      "n_open": 26,
+      "nz": 24,
+      "pz": 0.37,
+      "pz25": 0.31,
+      "pz75": 0.44,
+      "margin": 0.31,
+      "m20": 71
+     }
+    },
+    "Tax lien (decree)": {
+     "clean": {
+      "n": 28,
+      "price": 55188,
+      "open": 53002,
+      "over": -23,
+      "w5": 86,
+      "n_open": 28,
+      "nz": 14,
+      "pz": 0.66,
+      "pz25": 0.48,
+      "pz75": 0.88,
+      "margin": -0.32,
+      "m20": 14
+     },
+     "raw": {
+      "n": 28,
+      "price": 55188,
+      "open": 53002,
+      "over": -23,
+      "w5": 86,
+      "n_open": 28,
+      "nz": 14,
+      "pz": 0.66,
+      "pz25": 0.48,
+      "pz75": 0.88,
+      "margin": -0.32,
+      "m20": 14
+     }
+    },
+    "Mortgage foreclosure": {
+     "clean": {
+      "n": 68,
+      "price": 69850,
+      "open": 6830,
+      "over": 58170,
+      "w5": 3,
+      "n_open": 67,
+      "nz": 49,
+      "pz": 0.48,
+      "pz25": 0.39,
+      "pz75": 0.62,
+      "margin": 0.17,
+      "m20": 43
+     },
+     "raw": {
+      "n": 68,
+      "price": 69850,
+      "open": 6830,
+      "over": 58170,
+      "w5": 3,
+      "n_open": 67,
+      "nz": 49,
+      "pz": 0.48,
+      "pz25": 0.39,
+      "pz75": 0.62,
+      "margin": 0.17,
+      "m20": 43
+     }
+    },
+    "HOA/condo judgment": {
+     "clean": {
+      "n": 6,
+      "price": 191000,
+      "open": 16632,
+      "over": 172852,
+      "w5": 0,
+      "n_open": 6,
+      "nz": 4,
+      "pz": 0.63,
+      "pz25": 0.55,
+      "pz75": 0.7,
+      "margin": 0.19,
+      "m20": 50
+     },
+     "raw": {
+      "n": 6,
+      "price": 191000,
+      "open": 16632,
+      "over": 172852,
+      "w5": 0,
+      "n_open": 6,
+      "nz": 4,
+      "pz": 0.63,
+      "pz25": 0.55,
+      "pz75": 0.7,
+      "margin": 0.19,
+      "m20": 50
+     }
+    },
+    "ALL": {
+     "clean": {
+      "n": 163,
+      "price": 56000,
+      "open": 12235,
+      "over": 33616,
+      "w5": 24,
+      "n_open": 160,
+      "nz": 112,
+      "pz": 0.45,
+      "pz25": 0.34,
+      "pz75": 0.6,
+      "margin": 0.17,
+      "m20": 45
+     },
+     "raw": {
+      "n": 163,
+      "price": 56000,
+      "open": 12235,
+      "over": 33616,
+      "w5": 24,
+      "n_open": 160,
+      "nz": 112,
+      "pz": 0.45,
+      "pz25": 0.34,
+      "pz75": 0.6,
+      "margin": 0.17,
+      "m20": 45
+     }
+    }
+   },
+   "b1": {
+    "Free & clear tax lien": {
+     "clean": {
+      "n": 39,
+      "price": 21000,
+      "open": 8500,
+      "over": 13300,
+      "w5": 18,
+      "n_open": 39,
+      "nz": 24,
+      "pz": 0.24,
+      "pz25": 0.15,
+      "pz75": 0.31,
+      "margin": 0.36,
+      "m20": 83
+     },
+     "raw": {
+      "n": 39,
+      "price": 21000,
+      "open": 8500,
+      "over": 13300,
+      "w5": 18,
+      "n_open": 39,
+      "nz": 24,
+      "pz": 0.24,
+      "pz25": 0.15,
+      "pz75": 0.31,
+      "margin": 0.36,
+      "m20": 83
+     }
+    },
+    "Tax lien": {
+     "clean": {
+      "n": 41,
+      "price": 40000,
+      "open": 26167,
+      "over": 13833,
+      "w5": 27,
+      "n_open": 41,
+      "nz": 34,
+      "pz": 0.4,
+      "pz25": 0.31,
+      "pz75": 0.47,
+      "margin": 0.23,
+      "m20": 53
+     },
+     "raw": {
+      "n": 41,
+      "price": 40000,
+      "open": 26167,
+      "over": 13833,
+      "w5": 27,
+      "n_open": 41,
+      "nz": 34,
+      "pz": 0.4,
+      "pz25": 0.31,
+      "pz75": 0.47,
+      "margin": 0.23,
+      "m20": 53
+     }
+    },
+    "Tax lien (decree)": {
+     "clean": {
+      "n": 32,
+      "price": 39186,
+      "open": 39428,
+      "over": -60,
+      "w5": 91,
+      "n_open": 32,
+      "nz": 11,
+      "pz": 0.4,
+      "pz25": 0.31,
+      "pz75": 0.56,
+      "margin": -0.09,
+      "m20": 9
+     },
+     "raw": {
+      "n": 32,
+      "price": 39186,
+      "open": 39428,
+      "over": -60,
+      "w5": 91,
+      "n_open": 32,
+      "nz": 11,
+      "pz": 0.4,
+      "pz25": 0.31,
+      "pz75": 0.56,
+      "margin": -0.09,
+      "m20": 9
+     }
+    },
+    "Mortgage foreclosure": {
+     "clean": {
+      "n": 53,
+      "price": 77500,
+      "open": 7463,
+      "over": 64183,
+      "w5": 2,
+      "n_open": 53,
+      "nz": 39,
+      "pz": 0.54,
+      "pz25": 0.38,
+      "pz75": 0.66,
+      "margin": 0.15,
+      "m20": 44
+     },
+     "raw": {
+      "n": 53,
+      "price": 77500,
+      "open": 7463,
+      "over": 64183,
+      "w5": 2,
+      "n_open": 53,
+      "nz": 39,
+      "pz": 0.54,
+      "pz25": 0.38,
+      "pz75": 0.66,
+      "margin": 0.15,
+      "m20": 44
+     }
+    },
+    "HOA/condo judgment": {
+     "clean": {
+      "n": 3,
+      "price": 100000,
+      "open": 12140,
+      "over": 92119,
+      "w5": 0,
+      "n_open": 3,
+      "nz": 3,
+      "pz": 0.52,
+      "pz25": 0.5,
+      "pz75": 0.55,
+      "margin": 0.32,
+      "m20": 67
+     },
+     "raw": {
+      "n": 3,
+      "price": 100000,
+      "open": 12140,
+      "over": 92119,
+      "w5": 0,
+      "n_open": 3,
+      "nz": 3,
+      "pz": 0.52,
+      "pz25": 0.5,
+      "pz75": 0.55,
+      "margin": 0.32,
+      "m20": 67
+     }
+    },
+    "ALL": {
+     "clean": {
+      "n": 168,
+      "price": 42253,
+      "open": 14051,
+      "over": 15600,
+      "w5": 29,
+      "n_open": 168,
+      "nz": 111,
+      "pz": 0.4,
+      "pz25": 0.29,
+      "pz75": 0.54,
+      "margin": 0.22,
+      "m20": 52
+     },
+     "raw": {
+      "n": 168,
+      "price": 42253,
+      "open": 14051,
+      "over": 15600,
+      "w5": 29,
+      "n_open": 168,
+      "nz": 111,
+      "pz": 0.4,
+      "pz25": 0.29,
+      "pz75": 0.54,
+      "margin": 0.22,
+      "m20": 52
+     }
+    }
+   },
+   "all": {
+    "Free & clear tax lien": {
+     "clean": {
+      "n": 120,
+      "price": 25000,
+      "open": 8350,
+      "over": 15950,
+      "w5": 13,
+      "n_open": 120,
+      "nz": 73,
+      "pz": 0.27,
+      "pz25": 0.17,
+      "pz75": 0.37,
+      "margin": 0.34,
+      "m20": 67
+     },
+     "raw": {
+      "n": 120,
+      "price": 25000,
+      "open": 8350,
+      "over": 15950,
+      "w5": 13,
+      "n_open": 120,
+      "nz": 73,
+      "pz": 0.27,
+      "pz25": 0.17,
+      "pz75": 0.37,
+      "margin": 0.34,
+      "m20": 67
+     }
+    },
+    "Tax lien": {
+     "clean": {
+      "n": 148,
+      "price": 38413,
+      "open": 27915,
+      "over": 9190,
+      "w5": 36,
+      "n_open": 120,
+      "nz": 125,
+      "pz": 0.35,
+      "pz25": 0.28,
+      "pz75": 0.45,
+      "margin": 0.31,
+      "m20": 63
+     },
+     "raw": {
+      "n": 148,
+      "price": 38413,
+      "open": 27915,
+      "over": 9190,
+      "w5": 36,
+      "n_open": 120,
+      "nz": 125,
+      "pz": 0.35,
+      "pz25": 0.28,
+      "pz75": 0.45,
+      "margin": 0.31,
+      "m20": 63
+     }
+    },
+    "Tax lien (decree)": {
+     "clean": {
+      "n": 85,
+      "price": 48508,
+      "open": 47895,
+      "over": -24,
+      "w5": 89,
+      "n_open": 85,
+      "nz": 31,
+      "pz": 0.55,
+      "pz25": 0.4,
+      "pz75": 0.82,
+      "margin": -0.19,
+      "m20": 10
+     },
+     "raw": {
+      "n": 85,
+      "price": 48508,
+      "open": 47895,
+      "over": -24,
+      "w5": 89,
+      "n_open": 85,
+      "nz": 31,
+      "pz": 0.55,
+      "pz25": 0.4,
+      "pz75": 0.82,
+      "margin": -0.19,
+      "m20": 10
+     }
+    },
+    "Mortgage foreclosure": {
+     "clean": {
+      "n": 248,
+      "price": 81000,
+      "open": 6872,
+      "over": 69253,
+      "w5": 4,
+      "n_open": 225,
+      "nz": 206,
+      "pz": 0.44,
+      "pz25": 0.35,
+      "pz75": 0.6,
+      "margin": 0.27,
+      "m20": 58
+     },
+     "raw": {
+      "n": 248,
+      "price": 81000,
+      "open": 6872,
+      "over": 69253,
+      "w5": 4,
+      "n_open": 225,
+      "nz": 207,
+      "pz": 0.45,
+      "pz25": 0.35,
+      "pz75": 0.6,
+      "margin": 0.26,
+      "m20": 58
+     }
+    },
+    "HOA/condo judgment": {
+     "clean": {
+      "n": 13,
+      "price": 140000,
+      "open": 16632,
+      "over": 112811,
+      "w5": 0,
+      "n_open": 12,
+      "nz": 9,
+      "pz": 0.58,
+      "pz25": 0.48,
+      "pz75": 0.66,
+      "margin": 0.25,
+      "m20": 56
+     },
+     "raw": {
+      "n": 13,
+      "price": 140000,
+      "open": 16632,
+      "over": 112811,
+      "w5": 0,
+      "n_open": 12,
+      "nz": 9,
+      "pz": 0.58,
+      "pz25": 0.48,
+      "pz75": 0.66,
+      "margin": 0.25,
+      "m20": 56
+     }
+    },
+    "ALL": {
+     "clean": {
+      "n": 617,
+      "price": 50000,
+      "open": 11908,
+      "over": 23273,
+      "w5": 25,
+      "n_open": 565,
+      "nz": 447,
+      "pz": 0.4,
+      "pz25": 0.29,
+      "pz75": 0.54,
+      "margin": 0.27,
+      "m20": 58
+     },
+     "raw": {
+      "n": 617,
+      "price": 50000,
+      "open": 11908,
+      "over": 23273,
+      "w5": 25,
+      "n_open": 565,
+      "nz": 448,
+      "pz": 0.4,
+      "pz25": 0.29,
+      "pz75": 0.54,
+      "margin": 0.27,
+      "m20": 58
+     }
+    }
+   }
+  },
+  "by_zcls": {
+   "plain": {
+    "n": 328,
+    "price": 59000,
+    "open": 11139,
+    "over": 33950,
+    "w5": 18,
+    "n_open": 300,
+    "nz": 328,
+    "pz": 0.38,
+    "pz25": 0.28,
+    "pz75": 0.52,
+    "margin": 0.27,
+    "m20": 57
+   },
+   "resold": {
+    "n": 77,
+    "price": 69700,
+    "open": 12845,
+    "over": 47699,
+    "w5": 23,
+    "n_open": 65,
+    "nz": 77,
+    "pz": 0.45,
+    "pz25": 0.36,
+    "pz75": 0.64,
+    "margin": 0.22,
+    "m20": 52
+   },
+   "listed": {
+    "n": 42,
+    "price": 86000,
+    "open": 11141,
+    "over": 73700,
+    "w5": 5,
+    "n_open": 39,
+    "nz": 42,
+    "pz": 0.38,
+    "pz25": 0.26,
+    "pz75": 0.54,
+    "margin": 0.64,
+    "m20": 71
+   },
+   "anch": {
+    "n": 0,
+    "price": null,
+    "open": null,
+    "over": null,
+    "w5": null,
+    "n_open": 0,
+    "nz": 0,
+    "pz": null,
+    "pz25": null,
+    "pz75": null,
+    "margin": null,
+    "m20": null
+   }
+  },
+  "by_zcls_batch": {
+   "b4": {
+    "plain": {
+     "n": 58,
+     "price": 73750,
+     "open": 8514,
+     "over": 57658,
+     "w5": 10,
+     "n_open": 58,
+     "nz": 58,
+     "pz": 0.37,
+     "pz25": 0.29,
+     "pz75": 0.55,
+     "margin": 0.41,
+     "m20": 64
+    },
+    "resold": {
+     "n": 26,
+     "price": 82500,
+     "open": 11917,
+     "over": 60201,
+     "w5": 23,
+     "n_open": 26,
+     "nz": 26,
+     "pz": 0.42,
+     "pz25": 0.33,
+     "pz75": 0.54,
+     "margin": 0.3,
+     "m20": 65
+    },
+    "listed": {
+     "n": 7,
+     "price": 53000,
+     "open": 12544,
+     "over": 30393,
+     "w5": 0,
+     "n_open": 7,
+     "nz": 7,
+     "pz": 0.21,
+     "pz25": 0.18,
+     "pz75": 0.34,
+     "margin": 1.35,
+     "m20": 100
+    }
+   },
+   "b3": {
+    "plain": {
+     "n": 88,
+     "price": 45500,
+     "open": 11583,
+     "over": 21440,
+     "w5": 16,
+     "n_open": 61,
+     "nz": 88,
+     "pz": 0.33,
+     "pz25": 0.21,
+     "pz75": 0.45,
+     "margin": 0.36,
+     "m20": 72
+    },
+    "resold": {
+     "n": 34,
+     "price": 67000,
+     "open": 20359,
+     "over": 49653,
+     "w5": 32,
+     "n_open": 22,
+     "nz": 34,
+     "pz": 0.5,
+     "pz25": 0.36,
+     "pz75": 0.64,
+     "margin": 0.18,
+     "m20": 47
+    },
+    "listed": {
+     "n": 11,
+     "price": 55000,
+     "open": 8233,
+     "over": 33631,
+     "w5": 11,
+     "n_open": 9,
+     "nz": 11,
+     "pz": 0.26,
+     "pz25": 0.2,
+     "pz75": 0.37,
+     "margin": 1.05,
+     "m20": 91
+    }
+   },
+   "b2": {
+    "plain": {
+     "n": 85,
+     "price": 63500,
+     "open": 12476,
+     "over": 34960,
+     "w5": 26,
+     "n_open": 84,
+     "nz": 85,
+     "pz": 0.44,
+     "pz25": 0.33,
+     "pz75": 0.6,
+     "margin": 0.15,
+     "m20": 41
+    },
+    "resold": {
+     "n": 13,
+     "price": 67100,
+     "open": 7805,
+     "over": 47699,
+     "w5": 8,
+     "n_open": 13,
+     "nz": 13,
+     "pz": 0.48,
+     "pz25": 0.39,
+     "pz75": 0.58,
+     "margin": 0.26,
+     "m20": 54
+    },
+    "listed": {
+     "n": 14,
+     "price": 87000,
+     "open": 12632,
+     "over": 82400,
+     "w5": 0,
+     "n_open": 13,
+     "nz": 14,
+     "pz": 0.44,
+     "pz25": 0.37,
+     "pz75": 0.62,
+     "margin": 0.36,
+     "m20": 57
+    }
+   },
+   "b1": {
+    "plain": {
+     "n": 97,
+     "price": 49700,
+     "open": 11908,
+     "over": 23580,
+     "w5": 16,
+     "n_open": 97,
+     "nz": 97,
+     "pz": 0.38,
+     "pz25": 0.28,
+     "pz75": 0.52,
+     "margin": 0.25,
+     "m20": 55
+    },
+    "resold": {
+     "n": 4,
+     "price": 38450,
+     "open": 24190,
+     "over": 11041,
+     "w5": 25,
+     "n_open": 4,
+     "nz": 4,
+     "pz": 0.56,
+     "pz25": 0.44,
+     "pz75": 0.69,
+     "margin": -0.09,
+     "m20": 0
+    },
+    "listed": {
+     "n": 10,
+     "price": 125000,
+     "open": 9967,
+     "over": 110765,
+     "w5": 10,
+     "n_open": 10,
+     "nz": 10,
+     "pz": 0.52,
+     "pz25": 0.37,
+     "pz75": 0.6,
+     "margin": 0.18,
+     "m20": 50
+    }
+   }
+  },
+  "resale": {
+   "all": {
+    "n": 77,
+    "sheriff": 69700,
+    "resale": 175000,
+    "ratio": 2.21,
+    "gross": 89000,
+    "gross25": 32000,
+    "gross75": 147000,
+    "net": 0.13,
+    "net20": 40,
+    "netneg": 39,
+    "p_over_resale": 0.45,
+    "months": 10.3,
+    "rehab": 41000,
+    "lost_gross": 4
+   },
+   "by_grp": {
+    "Free & clear tax lien": {
+     "n": 5,
+     "sheriff": 28500,
+     "resale": 65000,
+     "ratio": 2.28,
+     "gross": 36500,
+     "gross25": 16500,
+     "gross75": 136000,
+     "net": -0.43,
+     "net20": 40,
+     "netneg": 60,
+     "p_over_resale": 0.44,
+     "months": 8.2,
+     "rehab": 49400,
+     "lost_gross": 0
+    },
+    "Tax lien": {
+     "n": 25,
+     "sheriff": 30600,
+     "resale": 61100,
+     "ratio": 2.23,
+     "gross": 40000,
+     "gross25": 14400,
+     "gross75": 126600,
+     "net": 0.02,
+     "net20": 28,
+     "netneg": 48,
+     "p_over_resale": 0.45,
+     "months": 10.7,
+     "rehab": 38400,
+     "lost_gross": 1
+    },
+    "Tax lien (decree)": {
+     "n": 1,
+     "sheriff": 86203,
+     "resale": 20000,
+     "ratio": 0.23,
+     "gross": -66203,
+     "gross25": -66203,
+     "gross75": -66203,
+     "net": -0.86,
+     "net20": 0,
+     "netneg": 100,
+     "p_over_resale": 4.31,
+     "months": 16.2,
+     "rehab": 38400,
+     "lost_gross": 1
+    },
+    "Mortgage foreclosure": {
+     "n": 43,
+     "sheriff": 93000,
+     "resale": 220000,
+     "ratio": 2.08,
+     "gross": 105800,
+     "gross25": 67200,
+     "gross75": 155500,
+     "net": 0.2,
+     "net20": 49,
+     "netneg": 28,
+     "p_over_resale": 0.48,
+     "months": 9.3,
+     "rehab": 42200,
+     "lost_gross": 2
+    },
+    "HOA/condo judgment": {
+     "n": 2,
+     "sheriff": 248500,
+     "resale": 402500,
+     "ratio": 1.8,
+     "gross": 154000,
+     "gross25": 117000,
+     "gross75": 191000,
+     "net": 0.32,
+     "net20": 50,
+     "netneg": 50,
+     "p_over_resale": 0.61,
+     "months": 6.2,
+     "rehab": 38750,
+     "lost_gross": 0
+    }
+   },
+   "by_batch": {
+    "b4": {
+     "n": 26,
+     "sheriff": 82500,
+     "resale": 203900,
+     "ratio": 2.41,
+     "gross": 110400,
+     "gross25": 63250,
+     "gross75": 156000,
+     "net": 0.28,
+     "net20": 54,
+     "netneg": 23,
+     "p_over_resale": 0.42,
+     "months": 15.3,
+     "rehab": 44250,
+     "lost_gross": 2
+    },
+    "b3": {
+     "n": 34,
+     "sheriff": 67000,
+     "resale": 153950,
+     "ratio": 1.97,
+     "gross": 67510,
+     "gross25": 27917,
+     "gross75": 140175,
+     "net": 0.1,
+     "net20": 32,
+     "netneg": 44,
+     "p_over_resale": 0.51,
+     "months": 10.3,
+     "rehab": 38400,
+     "lost_gross": 2
+    },
+    "b2": {
+     "n": 13,
+     "sheriff": 67100,
+     "resale": 180000,
+     "ratio": 2.08,
+     "gross": 87900,
+     "gross25": 73000,
+     "gross75": 110300,
+     "net": 0.2,
+     "net20": 46,
+     "netneg": 46,
+     "p_over_resale": 0.48,
+     "months": 5.3,
+     "rehab": 40000,
+     "lost_gross": 0
+    },
+    "b1": {
+     "n": 4,
+     "sheriff": 38450,
+     "resale": 56500,
+     "ratio": 1.85,
+     "gross": 22850,
+     "gross25": 17625,
+     "gross75": 34750,
+     "net": -0.2,
+     "net20": 0,
+     "netneg": 75,
+     "p_over_resale": 0.56,
+     "months": 3.0,
+     "rehab": 37800,
+     "lost_gross": 0
+    }
+   },
+   "by_resale_band": {
+    "<100k": {
+     "n": 25,
+     "sheriff": 25555,
+     "resale": 45000,
+     "ratio": 1.6,
+     "gross": 16500,
+     "gross25": 4500,
+     "gross75": 27000,
+     "net": -0.43,
+     "net20": 0,
+     "netneg": 92,
+     "p_over_resale": 0.63,
+     "months": 9.7,
+     "rehab": 38400,
+     "lost_gross": 4
+    },
+    "100-200k": {
+     "n": 18,
+     "sheriff": 60550,
+     "resale": 150000,
+     "ratio": 2.33,
+     "gross": 84100,
+     "gross25": 61080,
+     "gross75": 105375,
+     "net": 0.2,
+     "net20": 50,
+     "netneg": 22,
+     "p_over_resale": 0.43,
+     "months": 10.2,
+     "rehab": 38700,
+     "lost_gross": 0
+    },
+    "200-300k": {
+     "n": 18,
+     "sheriff": 102307,
+     "resale": 243300,
+     "ratio": 2.45,
+     "gross": 144450,
+     "gross25": 100750,
+     "gross75": 156750,
+     "net": 0.53,
+     "net20": 67,
+     "netneg": 6,
+     "p_over_resale": 0.41,
+     "months": 12.3,
+     "rehab": 42000,
+     "lost_gross": 0
+    },
+    "300k+": {
+     "n": 16,
+     "sheriff": 175500,
+     "resale": 376500,
+     "ratio": 2.17,
+     "gross": 172000,
+     "gross25": 135000,
+     "gross75": 246200,
+     "net": 0.41,
+     "net20": 62,
+     "netneg": 12,
+     "p_over_resale": 0.47,
+     "months": 9.3,
+     "rehab": 54150,
+     "lost_gross": 0
+    }
+   },
+   "share_resold_by_batch": {
+    "b4": [
+     26,
+     7,
+     1,
+     120
+    ],
+    "b3": [
+     34,
+     11,
+     0,
+     166
+    ],
+    "b2": [
+     13,
+     14,
+     0,
+     163
+    ],
+    "b1": [
+     4,
+     10,
+     0,
+     168
+    ]
+   },
+   "low_resales": [
+    [
+     "2054 Laketon Rd",
+     "Wilkinsburg",
+     "2025-04-07",
+     86203,
+     20000,
+     "Tax lien (decree)"
+    ],
+    [
+     "2618 Cleveland St",
+     "McKeesport",
+     "2025-08-04",
+     44774,
+     20000,
+     "Tax lien"
+    ],
+    [
+     "567 Peter Street",
+     "Verona",
+     "2025-01-06",
+     70000,
+     45000,
+     "Mortgage foreclosure"
+    ],
+    [
+     "1419 Washington Boulevard",
+     "Port Vue",
+     "2025-06-02",
+     53000,
+     43000,
+     "Mortgage foreclosure"
+    ],
+    [
+     "611 Shaw Avenue",
+     "McKeesport",
+     "2025-09-02",
+     38000,
+     40000,
+     "Tax lien"
+    ],
+    [
+     "2625 Poinsettia Drive",
+     "White Oak",
+     "2025-07-07",
+     34100,
+     36000,
+     "Tax lien"
+    ],
+    [
+     "551 Dean Road",
+     "Pine",
+     "2026-01-05",
+     647000,
+     720000,
+     "Mortgage foreclosure"
+    ],
+    [
+     "2075 Borland Road",
+     "Scott",
+     "2025-07-07",
+     137100,
+     170000,
+     "Mortgage foreclosure"
+    ],
+    [
+     "470 Fairmont Drive",
+     "Marshall",
+     "2025-12-01",
+     330000,
+     410000,
+     "HOA/condo judgment"
+    ]
+   ],
+   "top": [
+    [
+     "355 Days Run Rd",
+     "East Deer",
+     "2026-03-02",
+     29300,
+     375000,
+     "Mortgage foreclosure",
+     3.9
+    ],
+    [
+     "129 Teece Ave",
+     "Bellevue",
+     "2025-02-03",
+     29000,
+     369018,
+     "Tax lien",
+     2.22
+    ],
+    [
+     "1707 Morningside Ave",
+     "Pittsburgh",
+     "2025-01-06",
+     77200,
+     378000,
+     "Mortgage foreclosure",
+     1.67
+    ],
+    [
+     "129 Burke Drive",
+     "Monroeville",
+     "2025-08-04",
+     50000,
+     269900,
+     "Tax lien",
+     1.61
+    ],
+    [
+     "337 Grandview Dr",
+     "Indiana",
+     "2025-05-05",
+     29200,
+     155900,
+     "Tax lien",
+     1.14
+    ],
+    [
+     "2635 Woodmont Lane",
+     "Franklin Park",
+     "2025-04-07",
+     240000,
+     735000,
+     "Mortgage foreclosure",
+     0.95
+    ],
+    [
+     "337 Whittier Dr",
+     "Penn Hills",
+     "2025-11-03",
+     43300,
+     169900,
+     "Tax lien",
+     0.89
+    ],
+    [
+     "2116 Barnsdale Avenue",
+     "McKeesport",
+     "2025-07-07",
+     29400,
+     133500,
+     "Tax lien",
+     0.83
+    ],
+    [
+     "606 South Avenue",
+     "Verona",
+     "2025-05-05",
+     67000,
+     217000,
+     "Mortgage foreclosure",
+     0.75
+    ],
+    [
+     "137 Emrose Drive",
+     "Penn Hills",
+     "2025-08-04",
+     81000,
+     232500,
+     "Mortgage foreclosure",
+     0.72
+    ],
+    [
+     "105 Richmore Drive",
+     "Penn Hills",
+     "2025-01-06",
+     93000,
+     255800,
+     "Mortgage foreclosure",
+     0.7
+    ],
+    [
+     "101 Dolomite Drive",
+     "Monroeville",
+     "2025-09-02",
+     105000,
+     258000,
+     "Mortgage foreclosure",
+     0.7
+    ]
+   ]
+  },
+  "zband": {
+   "b4": {
+    "<75k": {
+     "n": 6,
+     "price": 38936,
+     "open": 14693,
+     "over": -13,
+     "w5": 67,
+     "n_open": 6,
+     "nz": 6,
+     "pz": 1.07,
+     "pz25": 0.57,
+     "pz75": 1.51,
+     "margin": -0.63,
+     "m20": 0
+    },
+    "75-150k": {
+     "n": 19,
+     "price": 37000,
+     "open": 14159,
+     "over": 16550,
+     "w5": 21,
+     "n_open": 19,
+     "nz": 19,
+     "pz": 0.34,
+     "pz25": 0.26,
+     "pz75": 0.44,
+     "margin": 0.2,
+     "m20": 53
+    },
+    "150-250k": {
+     "n": 45,
+     "price": 73000,
+     "open": 8500,
+     "over": 58211,
+     "w5": 7,
+     "n_open": 45,
+     "nz": 45,
+     "pz": 0.35,
+     "pz25": 0.28,
+     "pz75": 0.49,
+     "margin": 0.49,
+     "m20": 78
+    },
+    "250k+": {
+     "n": 21,
+     "price": 155000,
+     "open": 10629,
+     "over": 150078,
+     "w5": 5,
+     "n_open": 21,
+     "nz": 21,
+     "pz": 0.41,
+     "pz25": 0.36,
+     "pz75": 0.54,
+     "margin": 0.53,
+     "m20": 76
+    }
+   },
+   "b3": {
+    "<75k": {
+     "n": 16,
+     "price": 27028,
+     "open": 20359,
+     "over": 2452,
+     "w5": 50,
+     "n_open": 10,
+     "nz": 16,
+     "pz": 0.48,
+     "pz25": 0.35,
+     "pz75": 0.76,
+     "margin": -0.28,
+     "m20": 6
+    },
+    "75-150k": {
+     "n": 41,
+     "price": 27000,
+     "open": 8600,
+     "over": 4979,
+     "w5": 30,
+     "n_open": 27,
+     "nz": 41,
+     "pz": 0.22,
+     "pz25": 0.16,
+     "pz75": 0.34,
+     "margin": 0.35,
+     "m20": 73
+    },
+    "150-250k": {
+     "n": 50,
+     "price": 76000,
+     "open": 9530,
+     "over": 55251,
+     "w5": 11,
+     "n_open": 38,
+     "nz": 50,
+     "pz": 0.39,
+     "pz25": 0.25,
+     "pz75": 0.48,
+     "margin": 0.46,
+     "m20": 80
+    },
+    "250k+": {
+     "n": 26,
+     "price": 132500,
+     "open": 33469,
+     "over": 99093,
+     "w5": 6,
+     "n_open": 17,
+     "nz": 26,
+     "pz": 0.44,
+     "pz25": 0.36,
+     "pz75": 0.62,
+     "margin": 0.49,
+     "m20": 69
+    }
+   },
+   "y2026": {
+    "<75k": {
+     "n": 17,
+     "price": 25209,
+     "open": 9000,
+     "over": 4230,
+     "w5": 29,
+     "n_open": 17,
+     "nz": 17,
+     "pz": 0.51,
+     "pz25": 0.38,
+     "pz75": 0.68,
+     "margin": -0.31,
+     "m20": 12
+    },
+    "75-150k": {
+     "n": 95,
+     "price": 39400,
+     "open": 12238,
+     "over": 13916,
+     "w5": 32,
+     "n_open": 94,
+     "nz": 95,
+     "pz": 0.36,
+     "pz25": 0.27,
+     "pz75": 0.48,
+     "margin": 0.15,
+     "m20": 42
+    },
+    "150-250k": {
+     "n": 72,
+     "price": 78500,
+     "open": 11908,
+     "over": 53448,
+     "w5": 8,
+     "n_open": 71,
+     "nz": 72,
+     "pz": 0.43,
+     "pz25": 0.34,
+     "pz75": 0.53,
+     "margin": 0.32,
+     "m20": 62
+    },
+    "250k+": {
+     "n": 39,
+     "price": 195000,
+     "open": 11554,
+     "over": 175999,
+     "w5": 0,
+     "n_open": 39,
+     "nz": 39,
+     "pz": 0.54,
+     "pz25": 0.41,
+     "pz75": 0.74,
+     "margin": 0.26,
+     "m20": 54
+    }
+   },
+   "all": {
+    "<75k": {
+     "n": 39,
+     "price": 25555,
+     "open": 18264,
+     "over": 3088,
+     "w5": 42,
+     "n_open": 33,
+     "nz": 39,
+     "pz": 0.51,
+     "pz25": 0.38,
+     "pz75": 0.71,
+     "margin": -0.36,
+     "m20": 8
+    },
+    "75-150k": {
+     "n": 155,
+     "price": 35000,
+     "open": 11036,
+     "over": 12321,
+     "w5": 30,
+     "n_open": 140,
+     "nz": 155,
+     "pz": 0.33,
+     "pz25": 0.22,
+     "pz75": 0.46,
+     "margin": 0.21,
+     "m20": 52
+    },
+    "150-250k": {
+     "n": 167,
+     "price": 77500,
+     "open": 9990,
+     "over": 57637,
+     "w5": 8,
+     "n_open": 154,
+     "nz": 167,
+     "pz": 0.4,
+     "pz25": 0.3,
+     "pz75": 0.51,
+     "margin": 0.38,
+     "m20": 72
+    },
+    "250k+": {
+     "n": 86,
+     "price": 168500,
+     "open": 12683,
+     "over": 146261,
+     "w5": 3,
+     "n_open": 77,
+     "nz": 86,
+     "pz": 0.49,
+     "pz25": 0.37,
+     "pz75": 0.65,
+     "margin": 0.41,
+     "m20": 64
+    }
+   }
+  },
+  "muni": {
+   "Pittsburgh": {
+    "n": 77,
+    "decree": 17,
+    "price": 64750,
+    "nz": 46,
+    "pz": 0.39,
+    "margin": 0.27,
+    "m20": 59,
+    "resold": 6,
+    "rs_net": 0.35
+   },
+   "Wilkinsburg": {
+    "n": 70,
+    "decree": 45,
+    "price": 22000,
+    "nz": 9,
+    "pz": 0.35,
+    "margin": 0.06,
+    "m20": 44,
+    "resold": 3,
+    "rs_net": -0.55
+   },
+   "Penn Hills": {
+    "n": 53,
+    "decree": 0,
+    "price": 67500,
+    "nz": 47,
+    "pz": 0.41,
+    "margin": 0.4,
+    "m20": 74,
+    "resold": 10,
+    "rs_net": 0.3
+   },
+   "Monroeville": {
+    "n": 17,
+    "decree": 0,
+    "price": 82000,
+    "nz": 15,
+    "pz": 0.36,
+    "margin": 0.49,
+    "m20": 73,
+    "resold": 4,
+    "rs_net": 0.27
+   },
+   "West Mifflin": {
+    "n": 16,
+    "decree": 0,
+    "price": 64000,
+    "nz": 16,
+    "pz": 0.43,
+    "margin": 0.39,
+    "m20": 75,
+    "resold": 2,
+    "rs_net": 0.35
+   },
+   "McKeesport": {
+    "n": 15,
+    "decree": 0,
+    "price": 31600,
+    "nz": 9,
+    "pz": 0.32,
+    "margin": 0.26,
+    "m20": 67,
+    "resold": 4,
+    "rs_net": -0.3
+   },
+   "Mount Oliver": {
+    "n": 11,
+    "decree": 0,
+    "price": 26000,
+    "nz": 5,
+    "pz": 0.28,
+    "margin": 0.21,
+    "m20": 60,
+    "resold": 0,
+    "rs_net": null
+   },
+   "Elizabeth Twp": {
+    "n": 11,
+    "decree": 0,
+    "price": 34000,
+    "nz": 10,
+    "pz": 0.33,
+    "margin": 0.33,
+    "m20": 60,
+    "resold": 2,
+    "rs_net": 0.0
+   },
+   "Clairton": {
+    "n": 11,
+    "decree": 1,
+    "price": 28425,
+    "nz": 7,
+    "pz": 0.42,
+    "margin": -0.08,
+    "m20": 29,
+    "resold": 1,
+    "rs_net": -0.43
+   },
+   "Tarentum": {
+    "n": 10,
+    "decree": 0,
+    "price": 22900,
+    "nz": 6,
+    "pz": 0.19,
+    "margin": 0.1,
+    "m20": 17,
+    "resold": 1,
+    "rs_net": -0.64
+   },
+   "Munhall": {
+    "n": 10,
+    "decree": 2,
+    "price": 53600,
+    "nz": 6,
+    "pz": 0.34,
+    "margin": 0.18,
+    "m20": 33,
+    "resold": 0,
+    "rs_net": null
+   },
+   "Bethel Park": {
+    "n": 9,
+    "decree": 0,
+    "price": 91500,
+    "nz": 9,
+    "pz": 0.45,
+    "margin": 0.48,
+    "m20": 89,
+    "resold": 4,
+    "rs_net": 0.3
+   },
+   "Brentwood": {
+    "n": 9,
+    "decree": 0,
+    "price": 82000,
+    "nz": 8,
+    "pz": 0.5,
+    "margin": 0.19,
+    "m20": 50,
+    "resold": 0,
+    "rs_net": null
+   },
+   "Glassport": {
+    "n": 9,
+    "decree": 2,
+    "price": 24000,
+    "nz": 5,
+    "pz": 0.2,
+    "margin": 0.24,
+    "m20": 60,
+    "resold": 0,
+    "rs_net": null
+   },
+   "North Versailles": {
+    "n": 9,
+    "decree": 0,
+    "price": 75000,
+    "nz": 8,
+    "pz": 0.4,
+    "margin": 0.43,
+    "m20": 88,
+    "resold": 2,
+    "rs_net": 0.42
+   },
+   "Millvale": {
+    "n": 9,
+    "decree": 2,
+    "price": 40000,
+    "nz": 7,
+    "pz": 0.37,
+    "margin": 0.18,
+    "m20": 43,
+    "resold": 0,
+    "rs_net": null
+   },
+   "Verona": {
+    "n": 8,
+    "decree": 0,
+    "price": 46000,
+    "nz": 6,
+    "pz": 0.38,
+    "margin": 0.28,
+    "m20": 50,
+    "resold": 3,
+    "rs_net": -0.25
+   },
+   "Plum": {
+    "n": 8,
+    "decree": 0,
+    "price": 104807,
+    "nz": 8,
+    "pz": 0.43,
+    "margin": 0.17,
+    "m20": 25,
+    "resold": 2,
+    "rs_net": 0.65
+   }
+  },
+  "fit": {
+   "Free & clear tax lien": {
+    "b4": {
+     "n": 12,
+     "k": 0.24,
+     "err_bestk": 5.5,
+     "err_fixedK": 5.5,
+     "err_55": 29.8,
+     "pv": 0.25
+    },
+    "b3": {
+     "n": 17,
+     "k": 0.18,
+     "err_bestk": 3.9,
+     "err_fixedK": 10.9,
+     "err_55": 37.4,
+     "pv": 0.18
+    },
+    "b2": {
+     "n": 20,
+     "k": 0.29,
+     "err_bestk": 8.2,
+     "err_fixedK": 10.5,
+     "err_55": 19.5,
+     "pv": 0.35
+    },
+    "b1": {
+     "n": 24,
+     "k": 0.22,
+     "err_bestk": 8.0,
+     "err_fixedK": 9.4,
+     "err_55": 30.5,
+     "pv": 0.24
+    }
+   },
+   "Tax lien": {
+    "b4": {
+     "n": 19,
+     "k": 0.29,
+     "err_bestk": 3.5,
+     "err_fixedK": 7.9,
+     "err_55": 22.9,
+     "pv": 0.32
+    },
+    "b3": {
+     "n": 28,
+     "k": 0.27,
+     "err_bestk": 7.0,
+     "err_fixedK": 11.4,
+     "err_55": 22.2,
+     "pv": 0.34
+    },
+    "b2": {
+     "n": 22,
+     "k": 0.3,
+     "err_bestk": 4.4,
+     "err_fixedK": 6.2,
+     "err_55": 20.0,
+     "pv": 0.35
+    },
+    "b1": {
+     "n": 34,
+     "k": 0.38,
+     "err_bestk": 7.4,
+     "err_fixedK": 7.8,
+     "err_55": 16.8,
+     "pv": 0.4
+    }
+   },
+   "Tax lien (decree)": {
+    "b4": {
+     "n": 4,
+     "k": null,
+     "err_bestk": null,
+     "err_fixedK": 0.1,
+     "err_55": 0.1,
+     "pv": 1.13
+    },
+    "b3": {
+     "n": 2,
+     "k": null,
+     "err_bestk": null,
+     "err_fixedK": 0.4,
+     "err_55": 10.4,
+     "pv": 0.45
+    },
+    "b2": {
+     "n": 14,
+     "k": 0.05,
+     "err_bestk": 0.1,
+     "err_fixedK": 0.1,
+     "err_55": 1.2,
+     "pv": 0.66
+    },
+    "b1": {
+     "n": 11,
+     "k": 0.05,
+     "err_bestk": 0.1,
+     "err_fixedK": 0.1,
+     "err_55": 14.6,
+     "pv": 0.4
+    }
+   },
+   "Mortgage foreclosure": {
+    "b4": {
+     "n": 55,
+     "k": 0.4,
+     "err_bestk": 9.4,
+     "err_fixedK": 15.4,
+     "err_55": 16.1,
+     "pv": 0.44
+    },
+    "b3": {
+     "n": 43,
+     "k": 0.31,
+     "err_bestk": 9.2,
+     "err_fixedK": 15.5,
+     "err_55": 18.5,
+     "pv": 0.37
+    },
+    "b2": {
+     "n": 49,
+     "k": 0.4,
+     "err_bestk": 8.2,
+     "err_fixedK": 12.0,
+     "err_55": 13.5,
+     "pv": 0.48
+    },
+    "b1": {
+     "n": 39,
+     "k": 0.54,
+     "err_bestk": 13.5,
+     "err_fixedK": 14.1,
+     "err_55": 13.8,
+     "pv": 0.54
+    }
+   }
+  },
+  "score": {
+   "y2025_current": {
+    "n": 183,
+    "spearman": 0.51,
+    "0-39": [
+     77,
+     0.18,
+     47
+    ],
+    "40-59": [
+     53,
+     0.55,
+     83
+    ],
+    "60-79": [
+     53,
+     0.53,
+     81
+    ],
+    "80+": [
+     0,
+     null,
+     null
+    ]
+   },
+   "y2025_newk": {
+    "n": 183,
+    "spearman": 0.59,
+    "0-39": [
+     56,
+     0.09,
+     29
+    ],
+    "40-59": [
+     36,
+     0.36,
+     83
+    ],
+    "60-79": [
+     91,
+     0.59,
+     85
+    ],
+    "80+": [
+     0,
+     null,
+     null
+    ]
+   },
+   "y2026_current": {
+    "n": 221,
+    "spearman": 0.46,
+    "0-39": [
+     132,
+     0.1,
+     37
+    ],
+    "40-59": [
+     40,
+     0.32,
+     68
+    ],
+    "60-79": [
+     49,
+     0.34,
+     65
+    ],
+    "80+": [
+     0,
+     null,
+     null
+    ]
+   },
+   "y2026_newk": {
+    "n": 221,
+    "spearman": 0.6,
+    "0-39": [
+     86,
+     -0.01,
+     19
+    ],
+    "40-59": [
+     37,
+     0.28,
+     59
+    ],
+    "60-79": [
+     98,
+     0.39,
+     71
+    ],
+    "80+": [
+     0,
+     null,
+     null
+    ]
+   },
+   "all_current": {
+    "n": 404,
+    "spearman": 0.5,
+    "0-39": [
+     209,
+     0.13,
+     41
+    ],
+    "40-59": [
+     93,
+     0.42,
+     76
+    ],
+    "60-79": [
+     102,
+     0.45,
+     74
+    ],
+    "80+": [
+     0,
+     null,
+     null
+    ]
+   },
+   "all_newk": {
+    "n": 404,
+    "spearman": 0.6,
+    "0-39": [
+     142,
+     0.03,
+     23
+    ],
+    "40-59": [
+     73,
+     0.31,
+     71
+    ],
+    "60-79": [
+     189,
+     0.48,
+     78
+    ],
+    "80+": [
+     0,
+     null,
+     null
+    ]
+   },
+   "y2025_plainonly_current": {
+    "n": 119,
+    "spearman": 0.4,
+    "0-39": [
+     60,
+     0.22,
+     55
+    ],
+    "40-59": [
+     34,
+     0.48,
+     82
+    ],
+    "60-79": [
+     25,
+     0.45,
+     76
+    ],
+    "80+": [
+     0,
+     null,
+     null
+    ]
+   },
+   "y2025_plainonly_newk": {
+    "n": 119,
+    "spearman": 0.49,
+    "0-39": [
+     42,
+     0.15,
+     38
+    ],
+    "40-59": [
+     27,
+     0.45,
+     85
+    ],
+    "60-79": [
+     50,
+     0.48,
+     82
+    ],
+    "80+": [
+     0,
+     null,
+     null
+    ]
+   }
+  },
+  "pred_over_actual_2025": {
+   "Free & clear tax lien": 2.74,
+   "Tax lien": 1.64,
+   "Tax lien (decree)": 1.0,
+   "Mortgage foreclosure": 1.29,
+   "HOA/condo judgment": 0.72
+  },
+  "cohort_jan25": {
+   "n": 199,
+   "stayed": 89,
+   "dropped off lists": 12,
+   "sold_3p": 51,
+   "plaintiff_overbid": 33,
+   "still postponed": 6,
+   "plaintiff_costs": 2,
+   "unsold": 2,
+   "paid": 4
+  },
+  "cohort_dec25": {
+   "n": 289,
+   "stayed": 116,
+   "dropped off lists": 67,
+   "still postponed": 31,
+   "sold_3p": 39,
+   "plaintiff_overbid": 33,
+   "plaintiff_costs": 1,
+   "paid": 2
+  },
+  "appearances": {
+   "2": 682,
+   "1": 1305,
+   "5": 176,
+   "4": 292,
+   "6": 121,
+   "7": 68,
+   "10": 43,
+   "8": 47,
+   "3": 467,
+   "9": 25
+  },
+  "distinct": 3226,
+  "resold_cases": {
+   "n": 90,
+   "examples": [
+    [
+     "GD-05-022330",
+     "21-27 Torrance Street",
+     [
+      [
+       "2025-07-07",
+       "sold_3p",
+       18532.0
+      ],
+      [
+       "2025-08-04",
+       "sold_3p",
+       8500.0
+      ]
+     ]
+    ],
+    [
+     "GD-17-006258",
+     "516 High St",
+     [
+      [
+       "2025-01-06",
+       "sold_3p",
+       21123.45
+      ],
+      [
+       "2025-04-07",
+       "postponed",
+       null
+      ],
+      [
+       "2025-09-02",
+       "postponed",
+       null
+      ],
+      [
+       "2026-01-05",
+       "postponed",
+       null
+      ],
+      [
+       "2026-05-04",
+       "postponed",
+       null
+      ],
+      [
+       "2026-08-03",
+       "postponed",
+       null
+      ],
+      [
+       "2026-10-05",
+       "postponed",
+       null
+      ]
+     ]
+    ],
+    [
+     "GD-22-012438",
+     "232 Crestview Road",
+     [
+      [
+       "2025-01-06",
+       "sold_3p",
+       17000.0
+      ],
+      [
+       "2025-02-03",
+       "sold_3p",
+       15000.0
+      ]
+     ]
+    ],
+    [
+     "GD-22-015633",
+     "5351 Main Street",
+     [
+      [
+       "2025-01-06",
+       "sold_3p",
+       23000.0
+      ],
+      [
+       "2025-02-03",
+       "sold_3p",
+       12100.0
+      ]
+     ]
+    ],
+    [
+     "GD-23-012301",
+     "3586 South Park Rd",
+     [
+      [
+       "2025-04-07",
+       "sold_3p",
+       110000.0
+      ],
+      [
+       "2025-05-05",
+       "postponed",
+       null
+      ],
+      [
+       "2025-06-02",
+       "sold_3p",
+       91500.0
+      ]
+     ]
+    ],
+    [
+     "GD-23-004582",
+     "Glenn Ave ; 603 Glenn Ave ; 601 Glenn Ave ; Liberty Way",
+     [
+      [
+       "2025-01-06",
+       "sold_3p",
+       15003.0
+      ],
+      [
+       "2025-02-03",
+       "sold_3p",
+       8000.0
+      ]
+     ]
+    ],
+    [
+     "GD-23-011283",
+     "3524 Ashland Drive",
+     [
+      [
+       "2025-01-06",
+       "sold_3p",
+       27000.0
+      ],
+      [
+       "2025-02-03",
+       "stayed",
+       null
+      ]
+     ]
+    ],
+    [
+     "GD-20-011116",
+     "939 Middle Rd",
+     [
+      [
+       "2025-02-03",
+       "sold_3p",
+       49000.0
+      ],
+      [
+       "2025-03-03",
+       "plaintiff_costs",
+       10599.36
+      ]
+     ]
+    ],
+    [
+     "GD-24-005428",
+     "7740 Mount Carmel Rd",
+     [
+      [
+       "2025-01-06",
+       "sold_3p",
+       65000.0
+      ],
+      [
+       "2025-02-03",
+       "sold_3p",
+       37000.0
+      ]
+     ]
+    ],
+    [
+     "GD-23-006125",
+     "615 Walker Rd",
+     [
+      [
+       "2025-07-07",
+       "sold_3p",
+       47000.0
+      ],
+      [
+       "2025-08-04",
+       "sold_3p",
+       9000.0
+      ]
+     ]
+    ],
+    [
+     "GD-23-004371",
+     "4933 Havana Drive",
+     [
+      [
+       "2025-01-06",
+       "sold_3p",
+       73000.0
+      ],
+      [
+       "2025-02-03",
+       "postponed",
+       null
+      ],
+      [
+       "2025-06-02",
+       "stayed",
+       null
+      ]
+     ]
+    ],
+    [
+     "MG-24-000220",
+     "1155 Pinewood Drive",
+     [
+      [
+       "2025-01-06",
+       "sold_3p",
+       1175000.0
+      ],
+      [
+       "2025-02-03",
+       "sold_3p",
+       200000.0
+      ],
+      [
+       "2025-03-03",
+       "sold_3p",
+       1120000.0
+      ],
+      [
+       "2025-04-07",
+       "sold_3p",
+       250000.0
+      ]
+     ]
+    ]
+   ]
+  },
+  "age": {
+   "sold_3p": {
+    "n": 794,
+    "median": 2.0,
+    "p25": 0.0,
+    "p75": 4.0
+   },
+   "plaintiff_overbid": {
+    "n": 562,
+    "median": 1.0,
+    "p25": 0.0,
+    "p75": 3.0
+   },
+   "postponed": {
+    "n": 5632,
+    "median": 3.0,
+    "p25": 0.0,
+    "p75": 8.0
+   },
+   "stayed": {
+    "n": 1214,
+    "median": 2.0,
+    "p25": 0.0,
+    "p75": 6.0
+   }
+  },
+  "months": {
+   "2025-01-06": {
+    "n": 311,
+    "auc": 76,
+    "3p": 43,
+    "3p_res": 33,
+    "price": 74500,
+    "pv": 0.41
+   },
+   "2025-02-03": {
+    "n": 287,
+    "auc": 38,
+    "3p": 25,
+    "3p_res": 20,
+    "price": 49050,
+    "pv": 0.32
+   },
+   "2025-03-03": {
+    "n": 311,
+    "auc": 39,
+    "3p": 20,
+    "3p_res": 11,
+    "price": 49652,
+    "pv": 0.42
+   },
+   "2025-04-07": {
+    "n": 357,
+    "auc": 64,
+    "3p": 43,
+    "3p_res": 34,
+    "price": 71500,
+    "pv": 0.34
+   },
+   "2025-05-05": {
+    "n": 312,
+    "auc": 59,
+    "3p": 29,
+    "3p_res": 22,
+    "price": 67250,
+    "pv": 0.39
+   },
+   "2025-06-02": {
+    "n": 369,
+    "auc": 57,
+    "3p": 38,
+    "3p_res": 33,
+    "price": 39500,
+    "pv": 0.37
+   },
+   "2025-07-07": {
+    "n": 325,
+    "auc": 63,
+    "3p": 42,
+    "3p_res": 31,
+    "price": 44444,
+    "pv": 0.49
+   },
+   "2025-08-04": {
+    "n": 336,
+    "auc": 72,
+    "3p": 40,
+    "3p_res": 27,
+    "price": 32500,
+    "pv": 0.33
+   },
+   "2025-09-02": {
+    "n": 360,
+    "auc": 68,
+    "3p": 35,
+    "3p_res": 30,
+    "price": 41500,
+    "pv": 0.39
+   },
+   "2025-10-06": {
+    "n": 362,
+    "auc": 60,
+    "3p": 29,
+    "3p_res": 23,
+    "price": 48500,
+    "pv": 0.34
+   },
+   "2025-11-03": {
+    "n": 325,
+    "auc": 50,
+    "3p": 32,
+    "3p_res": 22,
+    "price": 50000,
+    "pv": 0.32
+   },
+   "2025-12-01": {
+    "n": 442,
+    "auc": 77,
+    "3p": 46,
+    "3p_res": 34,
+    "price": 68319,
+    "pv": 0.46
+   },
+   "2026-01-05": {
+    "n": 376,
+    "auc": 56,
+    "3p": 37,
+    "3p_res": 27,
+    "price": 48000,
+    "pv": 0.47
+   },
+   "2026-02-02": {
+    "n": 393,
+    "auc": 68,
+    "3p": 41,
+    "3p_res": 24,
+    "price": 37602,
+    "pv": 0.46
+   },
+   "2026-03-02": {
+    "n": 390,
+    "auc": 72,
+    "3p": 30,
+    "3p_res": 23,
+    "price": 31600,
+    "pv": 0.35
+   },
+   "2026-04-06": {
+    "n": 390,
+    "auc": 83,
+    "3p": 31,
+    "3p_res": 29,
+    "price": 65000,
+    "pv": 0.44
+   },
+   "2026-05-04": {
+    "n": 384,
+    "auc": 73,
+    "3p": 32,
+    "3p_res": 26,
+    "price": 79000,
+    "pv": 0.47
+   },
+   "2026-06-01": {
+    "n": 396,
+    "auc": 53,
+    "3p": 26,
+    "3p_res": 21,
+    "price": 67000,
+    "pv": 0.53
+   },
+   "2026-07-06": {
+    "n": 407,
+    "auc": 72,
+    "3p": 41,
+    "3p_res": 34,
+    "price": 43251,
+    "pv": 0.49
+   },
+   "2026-08-03": {
+    "n": 366,
+    "auc": 54,
+    "3p": 32,
+    "3p_res": 23,
+    "price": 38000,
+    "pv": 0.29
+   },
+   "2026-09-08": {
+    "n": 388,
+    "auc": 36,
+    "3p": 21,
+    "3p_res": 17,
+    "price": 36000,
+    "pv": 0.41
+   },
+   "2026-10-05": {
+    "n": 377,
+    "auc": 77,
+    "3p": 42,
+    "3p_res": 36,
+    "price": 40500,
+    "pv": 0.36
+   },
+   "2026-11-02": {
+    "n": 430,
+    "auc": 64,
+    "3p": 39,
+    "3p_res": 37,
+    "price": 29715,
+    "pv": 0.35
+   }
+  },
+  "fc": {
+   "b4": {
+    "n": 24,
+    "min": 8000.0,
+    "ct": 43797.82,
+    "x": 3.16
+   },
+   "b3": {
+    "n": 25,
+    "min": 8500.0,
+    "ct": 51375.57,
+    "x": 2.65
+   },
+   "b2": {
+    "n": 32,
+    "min": 7750.0,
+    "ct": 52559.785,
+    "x": 4.58
+   },
+   "b1": {
+    "n": 39,
+    "min": 8500.0,
+    "ct": 61304.09,
+    "x": 2.12
+   },
+   "all": {
+    "n": 120,
+    "min": 8350.0,
+    "ct": 55909.53,
+    "x": 3.03
+   }
+  },
+  "decree_munis": {
+   "b4": {
+    "Wilkinsburg": 8,
+    "North Braddock": 1,
+    "East McKeesport": 1,
+    "Glassport": 1,
+    "Reserve": 1,
+    "Chalfant": 1
+   },
+   "b3": {
+    "Wilkinsburg": 10,
+    "Millvale": 1,
+    "Clairton": 1
+   },
+   "b2": {
+    "Wilkinsburg": 18,
+    "Braddock": 4,
+    "Springdale": 1,
+    "Harmar": 1,
+    "Munhall": 1,
+    "Pittsburgh": 1
+   },
+   "b1": {
+    "Pittsburgh": 16,
+    "Wilkinsburg": 9,
+    "Homestead": 5,
+    "Millvale": 1,
+    "Munhall": 1
+   },
+   "all": {
+    "Wilkinsburg": 45,
+    "Pittsburgh": 17,
+    "Homestead": 5,
+    "Braddock": 4,
+    "North Braddock": 2,
+    "Glassport": 2
+   }
+  },
+  "n_val": {
+   "zest": 448,
+   "clean": 447,
+   "self": 1,
+   "n": 617
+  },
+  "kpool": {
+   "Free & clear tax lien": {
+    "n": 73,
+    "k_all": 0.21,
+    "err_all": 7.7,
+    "err_loo": 9.1,
+    "err_55": 28.0,
+    "pv_med": 0.27,
+    "pv25": 0.17,
+    "pv75": 0.37
+   },
+   "Tax lien": {
+    "n": 103,
+    "k_all": 0.28,
+    "err_all": 5.9,
+    "err_loo": 6.1,
+    "err_55": 20.9,
+    "pv_med": 0.35,
+    "pv25": 0.28,
+    "pv75": 0.45
+   },
+   "Tax lien (decree)": {
+    "n": 31,
+    "k_all": 0.05,
+    "err_all": 0.1,
+    "err_loo": 0.1,
+    "err_55": 1.9,
+    "pv_med": 0.55,
+    "pv25": 0.4,
+    "pv75": 0.82
+   },
+   "Mortgage foreclosure": {
+    "n": 186,
+    "k_all": 0.43,
+    "err_all": 11.2,
+    "err_loo": 11.7,
+    "err_55": 14.7,
+    "pv_med": 0.44,
+    "pv25": 0.35,
+    "pv75": 0.6
+   },
+   "all_non_decree": {
+    "k": 0.36,
+    "err": 10.7
+   }
+  },
+  "forf": {
+   "n": 101,
+   "of": 755,
+   "pct": 13.4,
+   "by_batch": {
+    "b4": [
+     25,
+     160
+    ],
+    "b3": [
+     30,
+     216
+    ],
+    "b2": [
+     30,
+     217
+    ],
+    "b1": [
+     16,
+     162
+    ]
+   },
+   "by_type": {
+    "Free & clear tax lien": [
+     31,
+     224
+    ],
+    "Tax lien": [
+     24,
+     228
+    ],
+    "Mortgage foreclosure": [
+     38,
+     279
+    ],
+    "HOA/condo judgment": [
+     7,
+     19
+    ],
+    "Other": [
+     1,
+     5
+    ]
+   },
+   "residential": [
+    97,
+    677
+   ],
+   "next_listing": {
+    "postponed": 24,
+    "sold_3p": 56,
+    "stayed": 7,
+    "plaintiff_costs": 6,
+    "plaintiff_overbid": 8
+   },
+   "resold_3p_n": 68,
+   "price_change_med": 0.69,
+   "price_lower_share": 76,
+   "price_change_q": [
+    0.5,
+    0.95
+   ],
+   "price_band": {
+    "<25k": [
+     33,
+     193
+    ],
+    "25-75k": [
+     47,
+     322
+    ],
+    "75-150k": [
+     7,
+     162
+    ],
+    "150k+": [
+     14,
+     78
+    ]
+   },
+   "pz_forfeited": 0.46,
+   "n_pz": 58,
+   "sold_after_forf_note": {
+    "n": 47,
+    "pv": 0.24,
+    "n_pv": 30,
+    "mg": 0.37
+   }
+  },
+  "buyers": {
+   "n_named": 59,
+   "distinct": 51,
+   "llc_share": 61,
+   "repeat": {
+    "NEW HOMESTEAD DEVELOPMENT CO": 4,
+    "PENN PIONEER ENTERPRISES, LLC": 4,
+    "TUFF PROPERTIES LLC": 2,
+    "ROBERT AND MADISON BOBACK": 2
+   }
+  },
+  "resale2": {
+   "all": {
+    "n": 77,
+    "sheriff": 69700,
+    "resale": 175000,
+    "ratio": 2.21,
+    "gross": 89000,
+    "gross25": 32000,
+    "gross75": 147000,
+    "net": 0.13,
+    "net20": 40,
+    "netneg": 39,
+    "p_over_resale": 0.45,
+    "months": 10.3,
+    "rehab": 41000,
+    "lost_gross": 4
+   },
+   "renovated": {
+    "n": 56,
+    "sheriff": 88250,
+    "resale": 219000,
+    "ratio": 2.28,
+    "gross": 104950,
+    "gross25": 54750,
+    "gross75": 158125,
+    "net": 0.18,
+    "net20": 46,
+    "netneg": 29,
+    "p_over_resale": 0.44,
+    "months": 10.2,
+    "rehab": 40800,
+    "lost_gross": 1
+   },
+   "not_renovated": {
+    "n": 21,
+    "sheriff": 30600,
+    "resale": 50000,
+    "ratio": 1.89,
+    "gross": 35500,
+    "gross25": 10700,
+    "gross75": 77500,
+    "net": -0.28,
+    "net20": 24,
+    "netneg": 67,
+    "p_over_resale": 0.53,
+    "months": 10.3,
+    "rehab": 41700,
+    "lost_gross": 3
+   },
+   "by_grp": {
+    "Free & clear tax lien": {
+     "n": 5,
+     "sheriff": 28500,
+     "resale": 65000,
+     "ratio": 2.28,
+     "gross": 36500,
+     "gross25": 16500,
+     "gross75": 136000,
+     "net": -0.43,
+     "net20": 40,
+     "netneg": 60,
+     "p_over_resale": 0.44,
+     "months": 8.2,
+     "rehab": 49400,
+     "lost_gross": 0
+    },
+    "Tax lien": {
+     "n": 25,
+     "sheriff": 30600,
+     "resale": 61100,
+     "ratio": 2.23,
+     "gross": 40000,
+     "gross25": 14400,
+     "gross75": 126600,
+     "net": 0.02,
+     "net20": 28,
+     "netneg": 48,
+     "p_over_resale": 0.45,
+     "months": 10.7,
+     "rehab": 38400,
+     "lost_gross": 1
+    },
+    "Tax lien (decree)": {
+     "n": 1,
+     "sheriff": 86203,
+     "resale": 20000,
+     "ratio": 0.23,
+     "gross": -66203,
+     "gross25": -66203,
+     "gross75": -66203,
+     "net": -0.86,
+     "net20": 0,
+     "netneg": 100,
+     "p_over_resale": 4.31,
+     "months": 16.2,
+     "rehab": 38400,
+     "lost_gross": 1
+    },
+    "Mortgage foreclosure": {
+     "n": 43,
+     "sheriff": 93000,
+     "resale": 220000,
+     "ratio": 2.08,
+     "gross": 105800,
+     "gross25": 67200,
+     "gross75": 155500,
+     "net": 0.2,
+     "net20": 49,
+     "netneg": 28,
+     "p_over_resale": 0.48,
+     "months": 9.3,
+     "rehab": 42200,
+     "lost_gross": 2
+    },
+    "HOA/condo judgment": {
+     "n": 2,
+     "sheriff": 248500,
+     "resale": 402500,
+     "ratio": 1.8,
+     "gross": 154000,
+     "gross25": 117000,
+     "gross75": 191000,
+     "net": 0.32,
+     "net20": 50,
+     "netneg": 50,
+     "p_over_resale": 0.61,
+     "months": 6.2,
+     "rehab": 38750,
+     "lost_gross": 0
+    }
+   },
+   "by_grp_ren": {
+    "Free & clear tax lien": {
+     "n": 2,
+     "sheriff": 81750,
+     "resale": 192000,
+     "ratio": 2.32,
+     "gross": 110250,
+     "gross25": 73375,
+     "gross75": 147125,
+     "net": 0.01,
+     "net20": 50,
+     "netneg": 50,
+     "p_over_resale": 0.43,
+     "months": 8.2,
+     "rehab": 78050,
+     "lost_gross": 0
+    },
+    "Tax lien": {
+     "n": 16,
+     "sheriff": 31750,
+     "resale": 106700,
+     "ratio": 2.32,
+     "gross": 60200,
+     "gross25": 25775,
+     "gross75": 138000,
+     "net": 0.07,
+     "net20": 38,
+     "netneg": 38,
+     "p_over_resale": 0.43,
+     "months": 11.2,
+     "rehab": 38650,
+     "lost_gross": 0
+    },
+    "Tax lien (decree)": {
+     "n": 0
+    },
+    "Mortgage foreclosure": {
+     "n": 36,
+     "sheriff": 102307,
+     "resale": 236200,
+     "ratio": 2.2,
+     "gross": 109650,
+     "gross25": 79600,
+     "gross75": 158125,
+     "net": 0.21,
+     "net20": 50,
+     "netneg": 22,
+     "p_over_resale": 0.46,
+     "months": 9.3,
+     "rehab": 42700,
+     "lost_gross": 1
+    },
+    "HOA/condo judgment": {
+     "n": 2,
+     "sheriff": 248500,
+     "resale": 402500,
+     "ratio": 1.8,
+     "gross": 154000,
+     "gross25": 117000,
+     "gross75": 191000,
+     "net": 0.32,
+     "net20": 50,
+     "netneg": 50,
+     "p_over_resale": 0.61,
+     "months": 6.2,
+     "rehab": 38750,
+     "lost_gross": 0
+    }
+   },
+   "by_batch": {
+    "b4": {
+     "n": 26,
+     "sheriff": 82500,
+     "resale": 203900,
+     "ratio": 2.41,
+     "gross": 110400,
+     "gross25": 63250,
+     "gross75": 156000,
+     "net": 0.28,
+     "net20": 54,
+     "netneg": 23,
+     "p_over_resale": 0.42,
+     "months": 15.3,
+     "rehab": 44250,
+     "lost_gross": 2
+    },
+    "b3": {
+     "n": 34,
+     "sheriff": 67000,
+     "resale": 153950,
+     "ratio": 1.97,
+     "gross": 67510,
+     "gross25": 27917,
+     "gross75": 140175,
+     "net": 0.1,
+     "net20": 32,
+     "netneg": 44,
+     "p_over_resale": 0.51,
+     "months": 10.3,
+     "rehab": 38400,
+     "lost_gross": 2
+    },
+    "b2": {
+     "n": 13,
+     "sheriff": 67100,
+     "resale": 180000,
+     "ratio": 2.08,
+     "gross": 87900,
+     "gross25": 73000,
+     "gross75": 110300,
+     "net": 0.2,
+     "net20": 46,
+     "netneg": 46,
+     "p_over_resale": 0.48,
+     "months": 5.3,
+     "rehab": 40000,
+     "lost_gross": 0
+    },
+    "b1": {
+     "n": 4,
+     "sheriff": 38450,
+     "resale": 56500,
+     "ratio": 1.85,
+     "gross": 22850,
+     "gross25": 17625,
+     "gross75": 34750,
+     "net": -0.2,
+     "net20": 0,
+     "netneg": 75,
+     "p_over_resale": 0.56,
+     "months": 3.0,
+     "rehab": 37800,
+     "lost_gross": 0
+    }
+   },
+   "by_resale_band": {
+    "<100k": {
+     "n": 25,
+     "sheriff": 25555,
+     "resale": 45000,
+     "ratio": 1.6,
+     "gross": 16500,
+     "gross25": 4500,
+     "gross75": 27000,
+     "net": -0.43,
+     "net20": 0,
+     "netneg": 92,
+     "p_over_resale": 0.63,
+     "months": 9.7,
+     "rehab": 38400,
+     "lost_gross": 4
+    },
+    "100-200k": {
+     "n": 18,
+     "sheriff": 60550,
+     "resale": 150000,
+     "ratio": 2.33,
+     "gross": 84100,
+     "gross25": 61080,
+     "gross75": 105375,
+     "net": 0.2,
+     "net20": 50,
+     "netneg": 22,
+     "p_over_resale": 0.43,
+     "months": 10.2,
+     "rehab": 38700,
+     "lost_gross": 0
+    },
+    "200-300k": {
+     "n": 18,
+     "sheriff": 102307,
+     "resale": 243300,
+     "ratio": 2.45,
+     "gross": 144450,
+     "gross25": 100750,
+     "gross75": 156750,
+     "net": 0.53,
+     "net20": 67,
+     "netneg": 6,
+     "p_over_resale": 0.41,
+     "months": 12.3,
+     "rehab": 42000,
+     "lost_gross": 0
+    },
+    "300k+": {
+     "n": 16,
+     "sheriff": 175500,
+     "resale": 376500,
+     "ratio": 2.17,
+     "gross": 172000,
+     "gross25": 135000,
+     "gross75": 246200,
+     "net": 0.41,
+     "net20": 62,
+     "netneg": 12,
+     "p_over_resale": 0.47,
+     "months": 9.3,
+     "rehab": 54150,
+     "lost_gross": 0
+    }
+   },
+   "by_price_band": {
+    "<30k": {
+     "n": 19,
+     "sheriff": 21000,
+     "resale": 50000,
+     "ratio": 2.29,
+     "gross": 27000,
+     "gross25": 15472,
+     "gross75": 54450,
+     "net": -0.28,
+     "net20": 21,
+     "netneg": 68,
+     "p_over_resale": 0.44,
+     "months": 9.8,
+     "rehab": 38400,
+     "lost_gross": 0
+    },
+    "30-75k": {
+     "n": 21,
+     "sheriff": 46300,
+     "resale": 105000,
+     "ratio": 2.23,
+     "gross": 60640,
+     "gross25": 14400,
+     "gross75": 89000,
+     "net": 0.02,
+     "net20": 33,
+     "netneg": 48,
+     "p_over_resale": 0.45,
+     "months": 9.3,
+     "rehab": 41100,
+     "lost_gross": 3
+    },
+    "75-150k": {
+     "n": 26,
+     "sheriff": 102307,
+     "resale": 236200,
+     "ratio": 2.26,
+     "gross": 132500,
+     "gross25": 91634,
+     "gross75": 158375,
+     "net": 0.4,
+     "net20": 62,
+     "netneg": 15,
+     "p_over_resale": 0.44,
+     "months": 11.3,
+     "rehab": 39000,
+     "lost_gross": 1
+    },
+    "150k+": {
+     "n": 11,
+     "sheriff": 240000,
+     "resale": 395000,
+     "ratio": 1.59,
+     "gross": 135000,
+     "gross25": 97500,
+     "gross75": 162047,
+     "net": 0.11,
+     "net20": 36,
+     "netneg": 27,
+     "p_over_resale": 0.63,
+     "months": 9.8,
+     "rehab": 59200,
+     "lost_gross": 0
+    }
+   },
+   "share_by_batch": {
+    "b4": {
+     "sold": 120,
+     "resold": 26,
+     "listed": 7,
+     "plain": 58,
+     "none": 28
+    },
+    "b3": {
+     "sold": 166,
+     "resold": 34,
+     "listed": 11,
+     "plain": 88,
+     "none": 33
+    },
+    "b2": {
+     "sold": 163,
+     "resold": 13,
+     "listed": 14,
+     "plain": 85,
+     "none": 51
+    },
+    "b1": {
+     "sold": 168,
+     "resold": 4,
+     "listed": 10,
+     "plain": 97,
+     "none": 57
+    }
+   },
+   "loss": [
+    [
+     "2054 Laketon Rd",
+     "Wilkinsburg",
+     "2025-04-07",
+     86203,
+     20000,
+     "Tax lien (decree)"
+    ],
+    [
+     "2618 Cleveland St",
+     "McKeesport",
+     "2025-08-04",
+     44774,
+     20000,
+     "Tax lien"
+    ],
+    [
+     "567 Peter Street",
+     "Verona",
+     "2025-01-06",
+     70000,
+     45000,
+     "Mortgage foreclosure"
+    ],
+    [
+     "1419 Washington Boulevard",
+     "Port Vue",
+     "2025-06-02",
+     53000,
+     43000,
+     "Mortgage foreclosure"
+    ],
+    [
+     "611 Shaw Avenue",
+     "McKeesport",
+     "2025-09-02",
+     38000,
+     40000,
+     "Tax lien"
+    ],
+    [
+     "2625 Poinsettia Drive",
+     "White Oak",
+     "2025-07-07",
+     34100,
+     36000,
+     "Tax lien"
+    ],
+    [
+     "551 Dean Road",
+     "Pine",
+     "2026-01-05",
+     647000,
+     720000,
+     "Mortgage foreclosure"
+    ],
+    [
+     "2075 Borland Road",
+     "Scott",
+     "2025-07-07",
+     137100,
+     170000,
+     "Mortgage foreclosure"
+    ],
+    [
+     "470 Fairmont Drive",
+     "Marshall",
+     "2025-12-01",
+     330000,
+     410000,
+     "HOA/condo judgment"
+    ]
+   ],
+   "ren_ratio_q": [
+    1.7,
+    2.74
+   ],
+   "ren_net_q": [
+    -0.07,
+    0.58
+   ],
+   "ren_months_q": [
+    6.3,
+    13.2
+   ],
+   "comps_vs_resale": {
+    "n": 56,
+    "median_ratio": 1.04
+   }
+  },
+  "listed": {
+   "n": 42,
+   "sheriff": 86000,
+   "ask": 234800,
+   "ratio": 2.62
+  },
+  "n_sets": {
+   "all3p_res": 714,
+   "forfeited_res": 97,
+   "final_res": 617,
+   "with_value": 447,
+   "stale_ct": 52
+  }
+ },
+ "groups_by_year": {
+  "2025": {
+   "Free & clear tax lien": {
+    "n": 49,
+    "price": 23000,
+    "open": 8500,
+    "w5": 14,
+    "nz": 29,
+    "pv": 0.2,
+    "pv25": 0.14,
+    "pv75": 0.28,
+    "mg": 0.41,
+    "m20": 76
+   },
+   "Tax lien": {
+    "n": 79,
+    "price": 35000,
+    "open": 29024,
+    "w5": 42,
+    "nz": 67,
+    "pv": 0.33,
+    "pv25": 0.24,
+    "pv75": 0.44,
+    "mg": 0.34,
+    "m20": 66
+   },
+   "Tax lien (decree)": {
+    "n": 25,
+    "price": 54418,
+    "open": 54580,
+    "w5": 92,
+    "nz": 6,
+    "pv": 0.79,
+    "pv25": 0.54,
+    "pv75": 1.25,
+    "mg": -0.21,
+    "m20": 0
+   },
+   "Mortgage foreclosure": {
+    "n": 127,
+    "price": 86000,
+    "open": 6688,
+    "w5": 5,
+    "nz": 118,
+    "pv": 0.42,
+    "pv25": 0.33,
+    "pv75": 0.56,
+    "mg": 0.42,
+    "m20": 69
+   },
+   "HOA/condo judgment": {
+    "n": 4,
+    "price": 52750,
+    "open": 24358,
+    "w5": 0,
+    "nz": 2,
+    "pv": 0.57,
+    "pv25": 0.48,
+    "pv75": 0.66,
+    "mg": 0.22,
+    "m20": 50
+   },
+   "ALL": {
+    "n": 286,
+    "price": 51850,
+    "open": 10629,
+    "w5": 24,
+    "nz": 224,
+    "pv": 0.37,
+    "pv25": 0.26,
+    "pv75": 0.51,
+    "mg": 0.37,
+    "m20": 67
+   },
+   "ALL ex decree": {
+    "n": 261,
+    "price": 50000,
+    "open": 9108,
+    "w5": 16,
+    "nz": 218,
+    "pv": 0.36,
+    "pv25": 0.26,
+    "pv75": 0.49,
+    "mg": 0.39,
+    "m20": 69
+   }
+  },
+  "2026": {
+   "Free & clear tax lien": {
+    "n": 71,
+    "price": 26000,
+    "open": 8000,
+    "w5": 13,
+    "nz": 44,
+    "pv": 0.29,
+    "pv25": 0.18,
+    "pv75": 0.37,
+    "mg": 0.31,
+    "m20": 61
+   },
+   "Tax lien": {
+    "n": 69,
+    "price": 45000,
+    "open": 27512,
+    "w5": 31,
+    "nz": 58,
+    "pv": 0.38,
+    "pv25": 0.31,
+    "pv75": 0.46,
+    "mg": 0.27,
+    "m20": 60
+   },
+   "Tax lien (decree)": {
+    "n": 60,
+    "price": 41302,
+    "open": 42959,
+    "w5": 88,
+    "nz": 25,
+    "pv": 0.54,
+    "pv25": 0.38,
+    "pv75": 0.69,
+    "mg": -0.19,
+    "m20": 12
+   },
+   "Mortgage foreclosure": {
+    "n": 121,
+    "price": 73000,
+    "open": 7105,
+    "w5": 2,
+    "nz": 88,
+    "pv": 0.49,
+    "pv25": 0.39,
+    "pv75": 0.64,
+    "mg": 0.16,
+    "m20": 43
+   },
+   "HOA/condo judgment": {
+    "n": 9,
+    "price": 145000,
+    "open": 15557,
+    "w5": 0,
+    "nz": 7,
+    "pv": 0.58,
+    "pv25": 0.5,
+    "pv75": 0.63,
+    "mg": 0.25,
+    "m20": 57
+   },
+   "ALL": {
+    "n": 331,
+    "price": 49400,
+    "open": 12456,
+    "w5": 26,
+    "nz": 223,
+    "pv": 0.43,
+    "pv25": 0.32,
+    "pv75": 0.58,
+    "mg": 0.18,
+    "m20": 48
+   },
+   "ALL ex decree": {
+    "n": 271,
+    "price": 51000,
+    "open": 9929,
+    "w5": 12,
+    "nz": 198,
+    "pv": 0.41,
+    "pv25": 0.32,
+    "pv75": 0.54,
+    "mg": 0.24,
+    "m20": 53
+   }
+  },
+  "all": {
+   "Free & clear tax lien": {
+    "n": 120,
+    "price": 25000,
+    "open": 8350,
+    "w5": 13,
+    "nz": 73,
+    "pv": 0.27,
+    "pv25": 0.17,
+    "pv75": 0.37,
+    "mg": 0.34,
+    "m20": 67
+   },
+   "Tax lien": {
+    "n": 148,
+    "price": 38413,
+    "open": 27915,
+    "w5": 36,
+    "nz": 125,
+    "pv": 0.35,
+    "pv25": 0.28,
+    "pv75": 0.45,
+    "mg": 0.31,
+    "m20": 63
+   },
+   "Tax lien (decree)": {
+    "n": 85,
+    "price": 48508,
+    "open": 47895,
+    "w5": 89,
+    "nz": 31,
+    "pv": 0.55,
+    "pv25": 0.4,
+    "pv75": 0.82,
+    "mg": -0.19,
+    "m20": 10
+   },
+   "Mortgage foreclosure": {
+    "n": 248,
+    "price": 81000,
+    "open": 6872,
+    "w5": 4,
+    "nz": 206,
+    "pv": 0.44,
+    "pv25": 0.35,
+    "pv75": 0.6,
+    "mg": 0.27,
+    "m20": 58
+   },
+   "HOA/condo judgment": {
+    "n": 13,
+    "price": 140000,
+    "open": 16632,
+    "w5": 0,
+    "nz": 9,
+    "pv": 0.58,
+    "pv25": 0.48,
+    "pv75": 0.66,
+    "mg": 0.25,
+    "m20": 56
+   },
+   "ALL": {
+    "n": 617,
+    "price": 50000,
+    "open": 11908,
+    "w5": 25,
+    "nz": 447,
+    "pv": 0.4,
+    "pv25": 0.29,
+    "pv75": 0.54,
+    "mg": 0.27,
+    "m20": 58
+   },
+   "ALL ex decree": {
+    "n": 532,
+    "price": 50028,
+    "open": 9410,
+    "w5": 14,
+    "nz": 416,
+    "pv": 0.39,
+    "pv25": 0.28,
+    "pv75": 0.52,
+    "mg": 0.31,
+    "m20": 61
+   }
+  }
+ }
+}

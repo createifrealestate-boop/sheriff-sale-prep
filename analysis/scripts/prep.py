@@ -9,7 +9,8 @@ def outcome(s):
     m=re.match(r'(.*?)\s*-\s*\$([\d,]+(?:\.\d+)?)',s)
     amt=float(m.group(2).replace(',','')) if m else None
     k=(m.group(1) if m else s).strip()
-    if k.startswith('Third Party'): return 'sold_3p',amt
+    if k.startswith('Third Party') or k=='Party': return 'sold_3p',amt  # 7-digit prices wrap and lose 'Third'
+    if k=='Unsold': return 'unsold',None
     if k.startswith('Overbid'): return 'plaintiff_overbid',amt
     if k.startswith('Cost & Tax') or k.startswith('PLTF Cost'): return 'plaintiff_costs',amt
     if 'Postponed' in k or '(Waived)' in k or 'PP Generally' in k: return 'postponed',None

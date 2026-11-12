@@ -1,0 +1,12 @@
+{
+ "date_of_sale": "Monday, January 6, 2025",
+ "printed": "1/9/2025 10:21:55AM",
+ "summary_count": {
+  "active": 0,
+  "postponed": 198,
+  "cancelled": 36,
+  "bankruptcy": 0,
+  "total": 311
+ },
+ "cases_parsed": 311
+}
