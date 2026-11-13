@@ -1,0 +1,635 @@
+##### a1
+== 1. FUNNEL BY TYPE (row = one case at one sale)
+Tax lien               n= 3868 postponed 68.4% stayed 15.7% paid 2.5% auctioned 13.5% | of auctioned: 3P 92.0% plaintiff-overbid 0.0% plaintiff-costs 8.0% unsold 0
+ALL                    n= 8394 postponed 67.1% stayed 14.5% paid 1.4% auctioned 17.1% | of auctioned: 3P 55.4% plaintiff-overbid 39.2% plaintiff-costs 5.2% unsold 3
+Other                  n=  128 postponed 75.8% stayed 14.8% paid 0.0% auctioned 9.4% | of auctioned: 3P 41.7% plaintiff-overbid 33.3% plaintiff-costs 16.7% unsold 1
+Mortgage foreclosure   n= 4260 postponed 65.8% stayed 13.2% paid 0.4% auctioned 20.6% | of auctioned: 3P 32.9% plaintiff-overbid 63.4% plaintiff-costs 3.5% unsold 2
+HOA / condo            n=  138 postponed 64.5% stayed 19.6% paid 0.7% auctioned 15.2% | of auctioned: 3P 95.2% plaintiff-overbid 4.8% plaintiff-costs 0.0% unsold 0
+== 2. MONTHLY
+2025-01-06 311 auct 76 3P 43 pl 33 med3P 64500 vol$k 4333 stayed 32 paid 4 new 101
+2025-02-03 287 auct 40 3P 25 pl 15 med3P 49000 vol$k 1497 stayed 46 paid 7 new 71
+2025-03-03 311 auct 40 3P 20 pl 20 med3P 31000 vol$k 2484 stayed 45 paid 4 new 99
+2025-04-07 357 auct 64 3P 43 pl 21 med3P 54000 vol$k 3240 stayed 60 paid 5 new 138
+2025-05-05 312 auct 59 3P 29 pl 30 med3P 67000 vol$k 2749 stayed 39 paid 2 new 108
+2025-06-02 369 auct 57 3P 38 pl 19 med3P 38250 vol$k 3008 stayed 59 paid 7 new 139
+2025-07-07 325 auct 63 3P 42 pl 21 med3P 43285 vol$k 2542 stayed 59 paid 4 new 94
+2025-08-04 336 auct 72 3P 40 pl 32 med3P 30675 vol$k 3198 stayed 49 paid 8 new 115
+2025-09-02 360 auct 68 3P 35 pl 33 med3P 38000 vol$k 2589 stayed 35 paid 2 new 131
+2025-10-06 362 auct 60 3P 29 pl 31 med3P 34000 vol$k 1560 stayed 57 paid 7 new 145
+2025-11-03 325 auct 50 3P 32 pl 18 med3P 50500 vol$k 7752 stayed 49 paid 3 new 117
+2025-12-01 442 auct 77 3P 46 pl 31 med3P 57000 vol$k 4526 stayed 66 paid 10 new 175
+2026-01-05 376 auct 56 3P 37 pl 19 med3P 35000 vol$k 2628 stayed 55 paid 7 new 127
+2026-02-02 393 auct 68 3P 41 pl 27 med3P 28500 vol$k 1996 stayed 55 paid 6 new 115
+2026-03-02 390 auct 72 3P 30 pl 42 med3P 47278 vol$k 2026 stayed 52 paid 1 new 126
+2026-04-06 390 auct 83 3P 31 pl 52 med3P 65000 vol$k 2924 stayed 51 paid 7 new 115
+2026-05-04 384 auct 73 3P 32 pl 41 med3P 75000 vol$k 2593 stayed 54 paid 4 new 141
+2026-06-01 396 auct 53 3P 26 pl 27 med3P 56500 vol$k 2112 stayed 59 paid 1 new 163
+2026-07-06 407 auct 72 3P 41 pl 31 med3P 41002 vol$k 2651 stayed 67 paid 2 new 115
+2026-08-03 366 auct 54 3P 32 pl 22 med3P 41000 vol$k 1923 stayed 57 paid 7 new 112
+2026-09-08 388 auct 36 3P 21 pl 15 med3P 33000 vol$k 1205 stayed 48 paid 4 new 107
+2026-10-05 377 auct 77 3P 42 pl 35 med3P 39112 vol$k 2163 stayed 52 paid 7 new 124
+2026-11-02 430 auct 64 3P 39 pl 25 med3P 28000 vol$k 2157 stayed 68 paid 5 new 155
+== 3. LIFECYCLE of distinct cases
+  stayed                               1138 35.3%
+  sold_3p                               693 21.5%
+  plaintiff_overbid                     562 17.4%
+  dropped off after postponement        351 10.9%
+  still pending (Nov 2026)              293 9.1%
+  paid                                  113 3.5%
+  plaintiff_costs                        75 2.3%
+  unsold                                  1 0.0%
+ appearances: [(1, 1305), (2, 682), (3, 467), (4, 292), (5, 176), (6, 121), (7, 68), (8, 47), (9, 25), (10, 43)]
+distinct cases 3226 ever completed 3P 693 21.5 ever plaintiff 637 19.7
+== 3b. COHORT first listed Jan-Nov 2025 (>=12 months follow-up)
+Mortgage foreclosure 671 {'plaintiff': '250 (37.3%)', 'stayed': '248 (37.0%)', '3P': '120 (17.9%)', 'dropped off list': '35 (5.2%)', 'still postponed': '12 (1.8%)', 'paid': '6 (0.9%)'}
+Tax lien 541 {'stayed': '261 (48.2%)', '3P': '173 (32.0%)', 'paid': '50 (9.2%)', 'dropped off list': '40 (7.4%)', 'still postponed': '16 (3.0%)', 'plaintiff': '1 (0.2%)'}
+ALL 1247 {'stayed': '525 (42.1%)', '3P': '301 (24.1%)', 'plaintiff': '254 (20.4%)', 'dropped off list': '80 (6.4%)', 'paid': '57 (4.6%)', 'still postponed': '30 (2.4%)'}
+== 3c. First appearance outcome for new listings (docket_m==0)
+2833 {'postponed': 62.0, 'stayed': 15.5, 'sold_3p': 10.2, 'plaintiff_overbid': 7.4, 'paid': 3.1, 'plaintiff_costs': 1.7}
+== 3d. How old is the listing when it sells to 3P (months since first listed, from sale number)
+Mortgage foreclosure 251 median 1 p25 0.0 p75 3.0 first-time 37.5 <=3m 76.9 >12m 4.0 >36m 0.4
+Tax lien, free & clear min bid 150 median 4.0 p25 3.0 p75 7.0 first-time 8.0 <=3m 42.7 >12m 14.0 >36m 3.3
+Tax lien, other 158 median 1.0 p25 0.0 p75 6.0 first-time 40.5 <=3m 64.6 >12m 11.4 >36m 1.3
+Tax lien, decree 117 median 0 p25 0.0 p75 0.0 first-time 80.3 <=3m 96.6 >12m 0.9 >36m 0.0
+##### a2
+== PRICES BY TYPE (completed 3P sales)
+Tax lien, free & clear min bid   n= 150 price med    22,750 p25   12,025 p75    35,750 | open med    8,100 | ratio med  2.59 p25  1.31 p75  4.23 | at-open(<1.05) 19.3% >2x 58.7% >5x 20.0% | over-open med $14,000
+Tax lien, other                  n= 158 price med    37,789 p25   25,000 p75    72,775 | open med   27,893 | ratio med  1.21 p25  1.00 p75  2.04 | at-open(<1.05) 36.0% >2x 25.6% >5x 4.8% | over-open med $6,343
+Tax lien, decree                 n= 117 price med    38,975 p25   21,427 p75    68,574 | open med   43,290 | ratio med  1.00 p25  1.00 p75  1.01 | at-open(<1.05) 90.6% >2x 0.0% >5x 0.0% | over-open med $-39
+Mortgage foreclosure             n= 251 price med    81,000 p25   47,000 p75   126,500 | open med    6,872 | ratio med 12.03 p25  6.42 p75 18.57 | at-open(<1.05) 3.5% >2x 93.0% >5x 81.5% | over-open med $69,253
+HOA / condo                      n=  13 price med   140,000 p25   53,000 p75   215,000 | open med   16,632 | ratio med  9.25 p25  5.39 p75 13.89 | at-open(<1.05) 0.0% >2x 100.0% >5x 75.0% | over-open med $112,811
+ALL                              n= 693 price med    46,000 p25   24,500 p75    86,203 | open med   12,140 | ratio med  2.46 p25  1.01 p75  9.17 | at-open(<1.05) 29.6% >2x 54.3% >5x 36.4% | over-open med $18,654
+== residential only
+Tax lien, free & clear min bid   n= 120 price med    25,000 p25   16,750 p75    39,125 | open med    8,350 | ratio med  3.03 p25  1.55 p75  4.55 | at-open(<1.05) 13.3% >2x 66.7% >5x 21.7% | over-open med $15,950
+Tax lien, other                  n= 148 price med    38,413 p25   25,950 p75    73,250 | open med   27,915 | ratio med  1.24 p25  1.00 p75  2.11 | at-open(<1.05) 35.8% >2x 26.7% >5x 5.0% | over-open med $9,190
+Tax lien, decree                 n=  85 price med    48,508 p25   26,465 p75    77,176 | open med   47,895 | ratio med  1.00 p25  1.00 p75  1.02 | at-open(<1.05) 89.4% >2x 0.0% >5x 0.0% | over-open med $-24
+Mortgage foreclosure             n= 248 price med    81,000 p25   47,000 p75   125,000 | open med    6,872 | ratio med 11.41 p25  6.41 p75 18.54 | at-open(<1.05) 3.6% >2x 92.9% >5x 81.3% | over-open med $69,253
+HOA / condo                      n=  13 price med   140,000 p25   53,000 p75   215,000 | open med   16,632 | ratio med  9.25 p25  5.39 p75 13.89 | at-open(<1.05) 0.0% >2x 100.0% >5x 75.0% | over-open med $112,811
+== by property type
+Residential / unspecified        n= 601 price med    50,000 p25   26,626 p75    88,888 | open med   12,247 | ratio med  3.08 p25  1.04 p75  9.92 | at-open(<1.05) 25.4% >2x 58.6% >5x 39.0% | over-open med $21,800
+Vacant Land                      n=  52 price med     8,750 p25    5,875 p75    25,038 | open med   20,867 | ratio med  1.00 p25  0.68 p75  1.00 | at-open(<1.05) 87.5% >2x 2.1% >5x 2.1% | over-open med $-12
+Commercial                       n=  18 price med    45,800 p25   19,800 p75   103,250 | open med   15,000 | ratio med  1.78 p25  1.10 p75  3.46 | at-open(<1.05) 17.6% >2x 41.2% >5x 23.5% | over-open med $12,500
+Residential / unspecified ; Vaca n=  10 price med    49,350 p25   36,250 p75   101,250 | open med    6,943 | ratio med  7.76 p25  4.44 p75 11.37 | at-open(<1.05) 25.0% >2x 75.0% >5x 75.0% | over-open med $40,192
+Condominium                      n=   4 price med    80,000 p25   53,000 p75   128,750 | open med   10,011 | ratio med  9.11 p25  5.39 p75 13.19 | at-open(<1.05) 0.0% >2x 100.0% >5x 75.0% | over-open med $69,989
+Vacant Commercial                n=   3 price med    68,000 p25   39,000 p75   354,743 | open med  302,126 | ratio med  3.37 p25  2.23 p75  4.51 | at-open(<1.05) 0.0% >2x 50.0% >5x 50.0% | over-open med $52,617
+Industrial                       n=   2 price med    19,550 p25   18,325 p75    20,775 | open med   11,568 | ratio med  1.94 p25  1.53 p75  2.34 | at-open(<1.05) 0.0% >2x 50.0% >5x 0.0% | over-open med $7,982
+Vacant Land ; Residential / unsp n=   1 price med     8,000 p25    8,000 p75     8,000 | open med    8,000 | ratio med  1.00 p25  1.00 p75  1.00 | at-open(<1.05) 100.0% >2x 0.0% >5x 0.0% | over-open med $0
+== price bands (all completed 3P)
+  $0k-10k: 49 (7.1%) [('Tax lien, free', 28), ('Tax lien, decr', 15), ('Tax lien, othe', 4), ('Mortgage forec', 2)]
+  $10k-25k: 126 (18.2%) [('Tax lien, free', 54), ('Tax lien, othe', 35), ('Tax lien, decr', 22), ('Mortgage forec', 13)]
+  $25k-50k: 191 (27.6%) [('Tax lien, othe', 60), ('Mortgage forec', 54), ('Tax lien, free', 43), ('Tax lien, decr', 32)]
+  $50k-75k: 103 (14.9%) [('Mortgage forec', 42), ('Tax lien, othe', 22), ('Tax lien, decr', 21), ('Tax lien, free', 13)]
+  $75k-100k: 87 (12.6%) [('Mortgage forec', 46), ('Tax lien, othe', 18), ('Tax lien, decr', 17), ('Tax lien, free', 6)]
+  $100k-150k: 70 (10.1%) [('Mortgage forec', 50), ('Tax lien, othe', 8), ('Tax lien, decr', 5), ('Tax lien, free', 4)]
+  $150k-250k: 43 (6.2%) [('Mortgage forec', 26), ('Tax lien, othe', 8), ('Tax lien, decr', 4), ('HOA / condo', 3)]
+  $250k-1000000k: 24 (3.5%) [('Mortgage forec', 18), ('Tax lien, othe', 3), ('HOA / condo', 2), ('Tax lien, decr', 1)]
+== BY OPENING-BID BAND: what price wins
+Tax lien, free & clear min bid
+  open $3k-6k                    n=  17 price med    18,000 p25    5,500 p75    26,000 | open med    5,000 | ratio med  4.20 p25  1.00 p75  5.20 | at-open(<1.05) 35.3% >2x 58.8% >5x 29.4% | over-open med $14,000
+  open $6k-10k                   n=  95 price med    21,000 p25   11,050 p75    30,500 | open med    8,000 | ratio med  2.67 p25  1.39 p75  3.95 | at-open(<1.05) 17.9% >2x 61.1% >5x 18.9% | over-open med $13,300
+  open $10k-20k                  n=  27 price med    31,000 p25   20,500 p75    74,000 | open med   11,300 | ratio med  2.45 p25  1.95 p75  5.70 | at-open(<1.05) 3.7% >2x 70.4% >5x 25.9% | over-open med $16,000
+  open $20k-40k                  n=  10 price med    25,000 p25   22,250 p75    33,500 | open med   22,500 | ratio med  1.07 p25  1.00 p75  1.63 | at-open(<1.05) 50.0% >2x 10.0% >5x 0.0% | over-open med $1,500
+Tax lien, other
+  open $10k-20k                  n=  24 price med    20,439 p25   17,322 p75    27,250 | open med   17,158 | ratio med  1.12 p25  1.00 p75  1.84 | at-open(<1.05) 33.3% >2x 25.0% >5x 8.3% | over-open med $2,175
+  open $20k-40k                  n=  65 price med    37,000 p25   29,000 p75    54,000 | open med   26,673 | ratio med  1.19 p25  1.00 p75  2.09 | at-open(<1.05) 40.0% >2x 26.2% >5x 4.6% | over-open med $5,820
+  open $40k-80k                  n=  31 price med    79,304 p25   61,000 p75   112,500 | open med   52,675 | ratio med  1.57 p25  1.05 p75  2.16 | at-open(<1.05) 25.8% >2x 25.8% >5x 0.0% | over-open med $27,881
+  open $80k-1000000k             n=   5 price med    97,500 p25   82,709 p75   195,300 | open med   95,419 | ratio med  1.00 p25  1.00 p75  1.33 | at-open(<1.05) 60.0% >2x 20.0% >5x 20.0% | over-open med $-23
+Mortgage foreclosure
+  open $0k-3k                    n=  12 price med    29,200 p25   25,166 p75    42,975 | open med    2,693 | ratio med 11.30 p25 10.20 p75 14.92 | at-open(<1.05) 0.0% >2x 100.0% >5x 91.7% | over-open med $26,435
+  open $3k-6k                    n=  83 price med    68,000 p25   44,750 p75    90,500 | open med    4,580 | ratio med 16.31 p25 10.64 p75 20.09 | at-open(<1.05) 0.0% >2x 100.0% >5x 91.6% | over-open med $64,183
+  open $6k-10k                   n=  61 price med    98,000 p25   61,000 p75   145,000 | open med    7,820 | ratio med 13.43 p25  6.99 p75 20.33 | at-open(<1.05) 0.0% >2x 100.0% >5x 91.8% | over-open med $91,590
+  open $10k-20k                  n=  46 price med   110,250 p25   70,250 p75   182,250 | open med   12,291 | ratio med  8.55 p25  5.75 p75 14.65 | at-open(<1.05) 0.0% >2x 97.8% >5x 80.4% | over-open med $99,001
+  open $20k-40k                  n=  13 price med    80,000 p25   69,700 p75   181,000 | open med   27,104 | ratio med  3.80 p25  1.88 p75  5.91 | at-open(<1.05) 7.7% >2x 69.2% >5x 30.8% | over-open med $56,885
+  open $40k-80k                  n=   6 price med    48,945 p25   47,222 p75    50,038 | open med   50,026 | ratio med  0.96 p25  0.95 p75  0.99 | at-open(<1.05) 83.3% >2x 0.0% >5x 0.0% | over-open med $-2,516
+  open $80k-1000000k             n=   6 price med   162,595 p25  108,700 p75   255,048 | open med  106,375 | ratio med  1.13 p25  1.03 p75  1.16 | at-open(<1.05) 33.3% >2x 16.7% >5x 16.7% | over-open med $13,017
+== HALF-YEAR TREND
+2025 H1 sales 6
+  Tax lien, free & clear min bid n=  33 price med    23,000 p25   12,000 p75    32,000 | open med    8,000 | ratio med  2.57 p25  1.29 p75  3.91 | at-open(<1.05) 21.2% >2x 54.5% >5x 12.1% | over-open med $14,000
+  Tax lien, other                n=  35 price med    34,000 p25   25,500 p75    55,050 | open med   28,782 | ratio med  1.14 p25  1.00 p75  2.19 | at-open(<1.05) 42.9% >2x 28.6% >5x 3.6% | over-open med $3,926
+  Tax lien, decree               n=  27 price med    38,098 p25   22,855 p75    73,065 | open med   38,086 | ratio med  1.00 p25  1.00 p75  1.01 | at-open(<1.05) 88.9% >2x 0.0% >5x 0.0% | over-open med $-39
+  Mortgage foreclosure           n=  75 price med    86,000 p25   66,850 p75   120,800 | open med    6,681 | ratio med 14.67 p25  6.89 p75 20.28 | at-open(<1.05) 4.5% >2x 93.9% >5x 86.4% | over-open med $80,388
+  ALL                            n= 171 price med    53,000 p25   26,500 p75    88,444 | open med   10,629 | ratio med  3.17 p25  1.00 p75 12.51 | at-open(<1.05) 29.7% >2x 56.8% >5x 40.0% | over-open med $21,000
+2025 H2 sales 6
+  Tax lien, free & clear min bid n=  34 price med    23,300 p25   13,950 p75    29,750 | open med    8,600 | ratio med  2.65 p25  1.52 p75  3.87 | at-open(<1.05) 11.8% >2x 64.7% >5x 17.6% | over-open med $13,250
+  Tax lien, other                n=  53 price med    35,000 p25   19,500 p75    84,000 | open med   33,469 | ratio med  1.11 p25  1.00 p75  1.95 | at-open(<1.05) 41.9% >2x 25.8% >5x 6.5% | over-open med $2,038
+  Tax lien, decree               n=  23 price med    55,401 p25   31,776 p75    78,226 | open med   64,084 | ratio med  1.00 p25  1.00 p75  1.01 | at-open(<1.05) 100.0% >2x 0.0% >5x 0.0% | over-open med $-33
+  Mortgage foreclosure           n=  67 price med    86,100 p25   44,722 p75   127,500 | open med    6,860 | ratio med 10.80 p25  5.74 p75 16.83 | at-open(<1.05) 3.8% >2x 88.7% >5x 81.1% | over-open med $67,021
+  ALL                            n= 185 price med    47,000 p25   25,000 p75    97,506 | open med   13,372 | ratio med  2.62 p25  1.02 p75 10.00 | at-open(<1.05) 28.4% >2x 56.1% >5x 37.8% | over-open med $19,806
+2026 H1 sales 6
+  Tax lien, free & clear min bid n=  42 price med    24,500 p25    9,750 p75    47,125 | open med    7,500 | ratio med  3.00 p25  1.00 p75  5.63 | at-open(<1.05) 28.6% >2x 57.1% >5x 33.3% | over-open med $16,950
+  Tax lien, other                n=  36 price med    53,000 p25   30,625 p75    78,250 | open med   26,806 | ratio med  1.79 p25  1.06 p75  2.38 | at-open(<1.05) 25.0% >2x 34.4% >5x 6.2% | over-open med $24,179
+  Tax lien, decree               n=  28 price med    25,769 p25   13,078 p75    78,200 | open med   40,127 | ratio med  1.00 p25  0.36 p75  1.01 | at-open(<1.05) 82.1% >2x 0.0% >5x 0.0% | over-open med $-32
+  Mortgage foreclosure           n=  65 price med    68,000 p25   46,000 p75   128,000 | open med    6,264 | ratio med 11.39 p25  6.27 p75 16.82 | at-open(<1.05) 4.7% >2x 92.2% >5x 79.7% | over-open med $60,053
+  ALL                            n= 176 price med    50,525 p25   25,529 p75    85,000 | open med   11,207 | ratio med  3.50 p25  1.01 p75  9.46 | at-open(<1.05) 26.9% >2x 57.9% >5x 40.9% | over-open med $28,000
+2026 H2 sales 5
+  Tax lien, free & clear min bid n=  41 price med    21,000 p25   13,600 p75    31,000 | open med    8,500 | ratio med  2.12 p25  1.41 p75  3.68 | at-open(<1.05) 14.6% >2x 58.5% >5x 14.6% | over-open med $12,500
+  Tax lien, other                n=  34 price med    37,789 p25   25,000 p75    65,125 | open med   26,581 | ratio med  1.19 p25  1.00 p75  1.65 | at-open(<1.05) 35.3% >2x 14.7% >5x 2.9% | over-open med $5,398
+  Tax lien, decree               n=  39 price med    38,975 p25   21,849 p75    56,011 | open med   39,451 | ratio med  1.00 p25  1.00 p75  1.01 | at-open(<1.05) 92.3% >2x 0.0% >5x 0.0% | over-open med $-66
+  Mortgage foreclosure           n=  44 price med    79,250 p25   45,125 p75   126,250 | open med    8,042 | ratio med 10.94 p25  6.54 p75 20.04 | at-open(<1.05) 0.0% >2x 97.7% >5x 77.3% | over-open med $72,342
+  ALL                            n= 161 price med    38,826 p25   22,000 p75    70,000 | open med   14,102 | ratio med  1.75 p25  1.00 p75  5.66 | at-open(<1.05) 33.5% >2x 46.6% >5x 26.7% | over-open med $10,898
+== bid endings
+[('x,000', 432), ('cents', 108), ('x,100', 69), ('x,500', 56), ('other odd', 26), ('ends 1 (e.g. 50,001)', 2)]
+min increments: differences within small ratios?
+cents & at-open: 93 cents total 108
+== CASH NEEDED percentiles (residential 3P)
+617 [18000, 26834, 50000, 90000, 152000] under 25k 20.4 under 50k 49.8 under 100k 78.9
+##### a3
+== MORTGAGE: auctioned 879 Counter({'plaintiff_overbid': 557, 'sold_3p': 289, 'plaintiff_costs': 31, 'unsold': 2})
+overbid amount: med 75000.0 p25 50000.0 p75 117670.0
+3P amount: med 81000.0
+overbid ratio to opening: med 11.52926942410621
+3P with reassessed damages 59 of 251 price/damages med 1.03 p25 0.61 p75 1.32 damages med 80472.78 share price<damages 47.5 share <0.5 11.9
+plaintiff overbid with reassessed damages 100 of 557 price/damages med 0.71 p25 0.51 p75 0.92 damages med 118552.775 share price<damages 78.0 share <0.5 23.0
+has reassessed damages 172 3P share 40.1
+no reassessed 707 3P share 31.1
+FHA 26 3P share 46.2 med 3P price 70000.0
+REVERSE 2 3P share 0.0 med 3P price None
+overbid price/damages distribution [(0.6, 15), (0.8, 13), (0.5, 12), (0.7, 10), (1.0, 9), (0.3, 9), (0.4, 8), (1.1, 8), (0.9, 5), (0.2, 4), (1.2, 2), (0.1, 2), (1.3, 2), (1.4, 1)]
+3P price/damages distribution [(0.2, 1), (0.3, 4), (0.4, 2), (0.5, 7), (0.6, 4), (0.7, 3), (0.8, 4), (0.9, 3), (1.0, 4), (1.1, 8), (1.2, 4), (1.3, 4), (1.4, 3), (1.5, 8)]
+== MF by plaintiff (auctioned >=10)
+(70.0, 'KEYBANK', 10, 7, 250000.0, 175000.0)
+(47.2, 'PENNSYLVANIA HOUSING FINANCE', 36, 17, 72000.0, 50000.0)
+(45.5, 'DOLLAR BANK FEDERAL', 22, 10, 70500.0, 92500.0)
+(43.3, 'CITIZENS BANK', 30, 13, 91000.0, 97000.0)
+(42.9, 'NEWREZ', 21, 9, 66000.0, 77500.0)
+(42.9, 'NATIONSTAR MORTGAGE', 21, 9, 90000.0, 81250.0)
+(42.6, 'US BANK NATIONAL', 47, 20, 60000.0, 50000.0)
+(41.7, 'DEUTSCHE BANK NATIONAL', 12, 5, 63000.0, 80000.0)
+(41.2, 'CARRINGTON MORTGAGE SERVICES', 17, 7, 120000.0, 90405.0)
+(38.5, 'PNC BANK NATIONAL', 26, 10, 103000.0, 54255.0)
+(36.4, 'WELLS FARGO BANK', 22, 8, 36450.0, 75000.0)
+(36.4, 'TOWD POINT MORTGAGE', 11, 4, 75180.0, 45000.0)
+(35.7, 'WILMINGTON SAVINGS FUND', 28, 10, 69000.0, 67500.0)
+(33.3, 'PENNYMAC LOAN SERVICES', 39, 13, 82000.0, 100000.0)
+(28.6, 'HUNTINGTON NATIONAL BANK', 14, 4, 55502.5, 50000.0)
+(28.6, 'BANK OF NEW', 14, 4, 87500.0, 50000.0)
+(27.0, 'LAKEVIEW LOAN SERVICING', 37, 10, 82500.0, 100000.0)
+(24.3, 'US BANK TRUST', 111, 27, 70000.0, 67506.53)
+(20.0, 'HSBC BANK USA', 10, 2, 79000.0, 57500.0)
+(19.0, 'ROCKET MORTGAGE', 21, 4, 87500.0, 70000.0)
+(0.0, 'WESTAIRCOMM FCU', 10, 0, None, 57500.0)
+== MF by attorney (auctioned >=15)
+ROBERTSON ANSCHUTZ SCHNEID     listings  499 auctioned  88 (17.6% of listings) 3P  28 (31.8%) med3P 72,850
+KML LAW GROUP                  listings  333 auctioned  85 (25.5% of listings) 3P  26 (30.6%) med3P 71,000
+STERN & EISENBERG              listings  349 auctioned  81 (23.2% of listings) 3P  19 (23.5%) med3P 70,000
+BROCK & SCOTT PLLC             listings  318 auctioned  78 (24.5% of listings) 3P  29 (37.2%) med3P 82,000
+MANLEY DEAS KOCHALSKI LLC      listings  330 auctioned  66 (20.0% of listings) 3P  33 (50.0%) med3P 63,000
+FRIEDMAN VARTOLO LLP           listings  357 auctioned  64 (17.9% of listings) 3P  11 (17.2%) med3P 55,555
+MCCABE WEISBERG & CONWAY P.C   listings  238 auctioned  49 (20.6% of listings) 3P  18 (36.7%) med3P 91,000
+HLADIK ONORATO AND FEDERMAN    listings  179 auctioned  43 (24.0% of listings) 3P  15 (34.9%) med3P 87,000
+LOGS LEGAL GROUP LLC           listings  171 auctioned  35 (20.5% of listings) 3P  15 (42.9%) med3P 110,000
+PURCELL KRUG & HALLER          listings   91 auctioned  34 (37.4% of listings) 3P  18 (52.9%) med3P 79,050
+HILL WALLACK LLP               listings   87 auctioned  25 (28.7% of listings) 3P   8 (32.0%) med3P 57,445
+GRENEN & BIRSIC P.C.           listings  148 auctioned  25 (16.9% of listings) 3P   9 (36.0%) med3P 81,000
+POWERS KIRN LLC                listings  118 auctioned  25 (21.2% of listings) 3P  11 (44.0%) med3P 75,000
+GINGO PALUMBO LAW GROUP        listings   35 auctioned  16 (45.7% of listings) 3P   1 (6.2%) med3P 62,000
+GREGORY JAVARDIAN ESQ          listings  112 auctioned  15 (13.4% of listings) 3P   5 (33.3%) med3P 105,349
+== MF 3P share by half and by opening band, by owner type, by docket age
+2025 H1 219 38.4
+2025 H2 247 33.6
+2026 H1 239 30.5
+2026 H2 174 28.2
+Individual 702 36.8
+Estate / heirs / trust 61 32.8
+Entity (LLC/LP/Inc) 116 9.5
+docket 0 1 320 31.6
+docket 1 3 267 32.6
+docket 3 6 176 33.5
+docket 6 12 86 36.0
+docket 12 999 30 36.7
+== plaintiff_costs cases: what are they
+Counter({'Mortgage foreclosure': 31, 'Tax lien, decree': 30, 'Tax lien, free & clear min bid': 12, 'Other': 2}) [('Wilkinsburg Borough', 25), ('Borough of Wilkinsburg', 16), ('U.S. Bank National Association', 3), ('NATIONSTAR MORTGAGE LLC D/B/A ', 2), ('FTF REO LLC', 2), ('Bank of America N.A.', 2), ('U.S. Bank Trust National Assoc', 2), ('Angle Fund Inc.', 1)]
+##### a4
+== TAX LIEN by plaintiff kind
+Allegheny County                 listings 1106 completed3P 169 (15.3%) stayed 20.7% paid 4.5% medprice 28,000 ratio 1.09 fcmin 59 decree 54
+Borough / township / authority   listings 1347 completed3P 120 (8.9%) stayed 11.8% paid 1.6% medprice 36,000 ratio 1.16 fcmin 41 decree 31
+School district                  listings 1390 completed3P 136 (9.8%) stayed 15.2% paid 1.7% medprice 31,100 ratio 1.22 fcmin 50 decree 32
+Other                            listings   21 completed3P   0 (0.0%) stayed 33.3% paid 0.0% medprice 0 ratio 0.00 fcmin 0 decree 0
+City of Pittsburgh / PWSA        listings    4 completed3P   0 (0.0%) stayed 0.0% paid 0.0% medprice 0 ratio 0.00 fcmin 0 decree 0
+== TAX LIEN by attorney
+GOEHRING RUTTER & BOEHM      listings 1613 cases  766 3P 217 (28.3% of cases) medprice   28,197 ratio 1.13 at-open 43.4% fcmin 67 decree 62 forf 21
+MAIELLO BRUNGO & MAIELLO     listings  930 cases  364 3P 125 (34.3% of cases) medprice   35,000 ratio 1.01 at-open 60.7% fcmin 41 decree 53 forf 22
+KRATZENBERG & LAZZARO        listings  408 cases  106 3P  37 (34.9% of cases) medprice   28,000 ratio 1.76 at-open 28.1% fcmin 19 decree 2 forf 6
+LEGAL TAX SERVICE            listings  322 cases   60 3P   4 (6.7% of cases) medprice   33,550 ratio 1.00 at-open 75.0% fcmin 0 decree 0 forf 0
+WEISS BURKARDT KRAMER LLC    listings  283 cases  122 3P  21 (17.2% of cases) medprice   74,000 ratio 1.56 at-open 19.0% fcmin 10 decree 0 forf 5
+TUCKER ARENSBURG PC          listings  126 cases   46 3P  15 (32.6% of cases) medprice   42,000 ratio 1.84 at-open 40.0% fcmin 8 decree 0 forf 0
+ANDREWS & PRICE ESQ          listings   43 cases   10 3P   2 (20.0% of cases) medprice    9,000 ratio 1.25 at-open 50.0% fcmin 2 decree 0 forf 0
+Jeffrey D Ries               listings   40 cases   12 3P   1 (8.3% of cases) medprice   18,000 ratio 4.50 at-open 0.0% fcmin 1 decree 0 forf 0
+Ries, Jeffrey D              listings   19 cases    3 3P   0 (0.0% of cases) medprice        0 ratio 0.00 at-open None% fcmin 0 decree 0 forf 0
+Jennifer L Cerce             listings   17 cases    6 3P   0 (0.0% of cases) medprice        0 ratio 0.00 at-open None% fcmin 0 decree 0 forf 0
+Lawrence J Maiello           listings   11 cases    4 3P   0 (0.0% of cases) medprice        0 ratio 0.00 at-open None% fcmin 0 decree 0 forf 0
+& LAZZARO                    listings    7 cases    1 3P   0 (0.0% of cases) medprice        0 ratio 0.00 at-open None% fcmin 0 decree 0 forf 0
+GOLDBERG KAMIN & GARVIN      listings    7 cases    2 3P   1 (50.0% of cases) medprice    9,000 ratio 0.00 at-open None% fcmin 0 decree 0 forf 1
+GIUFFRE LAW OFFICE           listings    6 cases    2 3P   1 (50.0% of cases) medprice    8,000 ratio 1.33 at-open 0.0% fcmin 1 decree 0 forf 0
+== TAX LIEN top plaintiffs by completed 3P
+COUNTY OF ALLEGHENY                  cases  466 3P 162 (34.8%) medprice   27,850 ratio 1.09 at-open 46.4% fcmin 57 decree 53 pl-took 0
+WILKINSBURG BOROUGH                  cases  130 3P  49 (37.7%) medprice   34,205 ratio 1.00 at-open 75.6% fcmin 11 decree 30 pl-took 41
+WILKINSBURG SCHOOL DISTRICT          cases   31 3P  24 (77.4%) medprice   64,239 ratio 1.00 at-open 87.0% fcmin 3 decree 19 pl-took 0
+WOODLAND HILLS SCHOOL DISTRICT       cases   59 3P  13 (22.0%) medprice   25,209 ratio 1.00 at-open 63.6% fcmin 3 decree 5 pl-took 0
+SHALER AREA SCHOOL DISTRICT          cases   28 3P  10 (35.7%) medprice   36,000 ratio 1.05 at-open 50.0% fcmin 6 decree 0 pl-took 0
+SOUTH ALLEGHENY SCHOOL DISTRICT      cases   34 3P   9 (26.5%) medprice   13,600 ratio 1.31 at-open 44.4% fcmin 8 decree 0 pl-took 0
+ELIZABETH FORWARD SCHOOL DISTRICT    cases   22 3P   8 (36.4%) medprice   16,000 ratio 1.00 at-open 57.1% fcmin 5 decree 1 pl-took 0
+PENN HILLS SCHOOL DISTRICT           cases   56 3P   8 (14.3%) medprice   45,150 ratio 1.94 at-open 12.5% fcmin 1 decree 0 pl-took 0
+ALLEGHENY COUNTY                     cases   36 3P   7 (19.4%) medprice   34,100 ratio 1.02 at-open 57.1% fcmin 2 decree 1 pl-took 0
+MT. OLIVER BOROUGH                   cases   14 3P   6 (42.9%) medprice   23,000 ratio 2.12 at-open 0.0% fcmin 5 decree 0 pl-took 0
+RIVERVIEW SCHOOL DISTRICT            cases   15 3P   6 (40.0%) medprice   28,150 ratio 1.53 at-open 33.3% fcmin 2 decree 1 pl-took 0
+PENN HILLS MUNICIPALITY              cases    9 3P   5 (55.6%) medprice   23,000 ratio 1.59 at-open 50.0% fcmin 3 decree 0 pl-took 0
+NORTH VERSAILLES TOWNSHIP            cases   10 3P   4 (40.0%) medprice   51,050 ratio 1.82 at-open 25.0% fcmin 3 decree 0 pl-took 0
+PLUM BOROUGH SCHOOL DISTRICT         cases   18 3P   4 (22.2%) medprice  101,500 ratio 1.62 at-open 0.0% fcmin 3 decree 0 pl-took 0
+DEER LAKES SCHOOL DISTRICT           cases    7 3P   4 (57.1%) medprice   51,850 ratio 2.46 at-open 33.3% fcmin 1 decree 0 pl-took 0
+CITY OF MCKEESPORT                   cases   20 3P   4 (20.0%) medprice   30,500 ratio 2.21 at-open 0.0% fcmin 2 decree 0 pl-took 0
+EAST ALLEGHENY SCHOOL DISTRICT       cases    8 3P   4 (50.0%) medprice   22,100 ratio 1.20 at-open 33.3% fcmin 2 decree 0 pl-took 0
+WHITE OAK BOROUGH                    cases    6 3P   3 (50.0%) medprice   40,000 ratio 1.12 at-open 33.3% fcmin 0 decree 0 pl-took 0
+WEST JEFFERSON HILLS SCHOOL DISTRI   cases   12 3P   3 (25.0%) medprice   33,000 ratio 1.58 at-open 33.3% fcmin 2 decree 0 pl-took 0
+BETHEL PARK SCHOOL DISTRICT          cases   21 3P   3 (14.3%) medprice   77,000 ratio 1.87 at-open 0.0% fcmin 0 decree 0 pl-took 0
+QUAKER VALLEY SCHOOL DISTRICT        cases   13 3P   3 (23.1%) medprice   31,000 ratio 1.95 at-open 33.3% fcmin 1 decree 1 pl-took 0
+KEYSTONE OAKS SCHOOL DISTRICT        cases    8 3P   3 (37.5%) medprice   91,000 ratio 2.65 at-open 0.0% fcmin 0 decree 0 pl-took 0
+== MUNICIPALITY (completed 3P >=10), residential
+Pittsburgh             3P  81 of 243 auctioned (33.3%) med   56,180 | taxlien n= 3 ratio 8.40 at-open 0.0% | MF n=56 med   64,750 | forfeit 9/80
+Wilkinsburg            3P  76 of 137 auctioned (55.5%) med   48,492 | taxlien n=19 ratio 1.54 at-open 31.6% | MF n= 2 med 2,806,061 | forfeit 6/80
+Penn Hills             3P  55 of 106 auctioned (51.9%) med   67,000 | taxlien n=23 ratio 2.00 at-open 30.4% | MF n=31 med   80,000 | forfeit 10/63
+Monroeville            3P  18 of  28 auctioned (64.3%) med   83,500 | taxlien n= 4 ratio 1.27 at-open 25.0% | MF n=12 med  101,000 | forfeit 0/18
+McKeesport             3P  17 of  40 auctioned (42.5%) med   29,500 | taxlien n= 9 ratio 1.82 at-open 44.4% | MF n= 4 med   76,940 | forfeit 6/22
+West Mifflin           3P  17 of  34 auctioned (50.0%) med   62,000 | taxlien n= 3 ratio 1.57 at-open 0.0% | MF n=12 med   71,500 | forfeit 0/16
+Elizabeth Twp          3P  15 of  27 auctioned (55.6%) med   27,000 | taxlien n= 7 ratio 1.03 at-open 57.1% | MF n= 6 med   89,550 | forfeit 4/18
+Homestead              3P  13 of  14 auctioned (92.9%) med   33,994 | taxlien n= 0 ratio 0.00 at-open None% | MF n= 0 med        0 | forfeit 0/13
+North Versailles       3P  12 of  24 auctioned (50.0%) med   57,050 | taxlien n= 6 ratio 2.13 at-open 16.7% | MF n= 5 med   82,000 | forfeit 1/12
+Munhall                3P  12 of  21 auctioned (57.1%) med   44,600 | taxlien n= 5 ratio 1.15 at-open 40.0% | MF n= 4 med   83,100 | forfeit 0/10
+Stowe                  3P  12 of  19 auctioned (63.2%) med   18,650 | taxlien n= 5 ratio 2.64 at-open 40.0% | MF n= 2 med   32,945 | forfeit 1/13
+Clairton               3P  12 of  21 auctioned (57.1%) med   29,517 | taxlien n= 6 ratio 2.38 at-open 0.0% | MF n= 4 med   33,925 | forfeit 1/12
+Mount Oliver           3P  11 of  17 auctioned (64.7%) med   26,000 | taxlien n= 8 ratio 2.12 at-open 0.0% | MF n= 2 med   37,525 | forfeit 0/11
+Glassport              3P  11 of  19 auctioned (57.9%) med   17,500 | taxlien n= 5 ratio 2.09 at-open 20.0% | MF n= 2 med   41,250 | forfeit 3/14
+Tarentum               3P  11 of  21 auctioned (52.4%) med   25,800 | taxlien n= 8 ratio 2.03 at-open 25.0% | MF n= 3 med   32,500 | forfeit 4/15
+Brentwood              3P  10 of  21 auctioned (47.6%) med   85,500 | taxlien n= 4 ratio 3.04 at-open 0.0% | MF n= 6 med   91,500 | forfeit 0/9
+Millvale               3P  10 of  11 auctioned (90.9%) med   40,501 | taxlien n= 5 ratio 1.10 at-open 40.0% | MF n= 3 med   70,000 | forfeit 0/10
+== PITTSBURGH by zip (3P>=6)
+15210 23 med 39398.0 p25 27104.045 p75 53680.29
+15206 7 med 47000.0 p25 26000.0 p75 91900.0
+15203 7 med 121600.0 p25 89500.0 p75 149250.0
+15216 6 med 64000.0 p25 57375.0 p75 74375.0
+== CALENDAR MONTH (both years pooled)
+1 sales 2 3P/sale 35.0 auct/sale 66.0 TL ratio 2.54 n 28 MF med 84888.5 at-open TL 21.4
+2 sales 2 3P/sale 27.5 auct/sale 54.0 TL ratio 1.76 n 32 MF med 66000.0 at-open TL 37.5
+3 sales 2 3P/sale 18.5 auct/sale 56.0 TL ratio 1.9 n 12 MF med 76500.0 at-open TL 33.3
+4 sales 2 3P/sale 35.5 auct/sale 73.5 TL ratio 1.98 n 22 MF med 82000.0 at-open TL 22.7
+5 sales 2 3P/sale 27.0 auct/sale 66.0 TL ratio 2.0 n 20 MF med 91000.0 at-open TL 30.0
+6 sales 2 3P/sale 30.0 auct/sale 55.0 TL ratio 1.87 n 21 MF med 69699.0 at-open TL 28.6
+7 sales 2 3P/sale 35.0 auct/sale 67.5 TL ratio 2.0 n 35 MF med 94000.0 at-open TL 25.7
+8 sales 2 3P/sale 31.5 auct/sale 63.0 TL ratio 1.13 n 27 MF med 70000.0 at-open TL 44.4
+9 sales 2 3P/sale 25.5 auct/sale 52.0 TL ratio 1.56 n 9 MF med 105000.0 at-open TL 11.1
+10 sales 2 3P/sale 31.0 auct/sale 68.5 TL ratio 1.79 n 32 MF med 77500.0 at-open TL 9.4
+11 sales 2 3P/sale 32.5 auct/sale 57.0 TL ratio 1.53 n 29 MF med 62750.0 at-open TL 27.6
+12 sales 1 3P/sale 35.0 auct/sale 77.0 TL ratio 3.32 n 8 MF med 131000.0 at-open TL 25.0
+== OWNER TYPE (tax lien 3P)
+Estate / heirs / trust cases 119 3P 80 67.2 med 31000.0 ratio 1.55 stayed 2.8
+Individual cases 1228 3P 311 25.3 med 31000.0 ratio 1.88 stayed 15.8
+Entity (LLC/LP/Inc) cases 156 3P 34 21.8 med 27500.0 ratio 1.77 stayed 22.0
+== multi-tract
+1 679 46000.0
+2 13 49700.0
+3 1 8000.0
+##### a5
+== POSTPONEMENTS 5632
+months ahead: [(1, 1873), (2, 1992), (3, 1147), (4, 258), (5, 67), (6, 210), (7, 38), ('none/generally', 47)]
+outcome at promised date: {'postponed': '3497 (70.3%)', 'stayed': '697 (14.0%)', 'sold_3p': '413 (8.3%)', 'plaintiff_overbid': '315 (6.3%)', 'paid': '25 (0.5%)', 'plaintiff_costs': '19 (0.4%)', 'unsold': '3 (0.1%)', 'not on list': '2 (0.0%)'}
+TAX LIEN
+  all postponed                                  n=2308 auctioned  10.4% (3P  10.3%) postponed again  75.1% stayed  13.7% paid 0.7% off-list 0.1%
+  OK box checked                                 n= 845 auctioned  18.1% (3P  17.9%) postponed again  63.4% stayed  17.3% paid 1.1% off-list 0.1%
+  OK box not checked                             n=1463 auctioned   6.0% (3P   5.9%) postponed again  81.8% stayed  11.6% paid 0.5% off-list 0.1%
+  service+3129.2+3129.3 all checked              n=  17 auctioned  23.5% (3P  23.5%) postponed again  41.2% stayed  23.5% paid 11.8% off-list 0.0%
+  service & 3129.2, no 3129.3                    n=1801 auctioned  12.4% (3P  12.2%) postponed again  72.4% stayed  14.3% paid 0.8% off-list 0.1%
+  service not checked                            n= 405 auctioned   2.2% (3P   2.2%) postponed again  84.7% stayed  13.1% paid 0.0% off-list 0.0%
+  3129.2 not checked                             n= 211 auctioned   2.8% (3P   2.8%) postponed again  89.6% stayed   7.6% paid 0.0% off-list 0.0%
+  postponed 0 times before (in window)           n= 813 auctioned  13.7% (3P  13.4%) postponed again  68.9% stayed  16.0% paid 1.4% off-list 0.1%
+  postponed 1 times before (in window)           n= 526 auctioned  10.6% (3P  10.5%) postponed again  76.8% stayed  12.2% paid 0.4% off-list 0.0%
+  postponed 2 times before (in window)           n= 357 auctioned   9.0% (3P   9.0%) postponed again  75.6% stayed  14.3% paid 0.8% off-list 0.3%
+  postponed 3 times before (in window)           n= 221 auctioned   8.1% (3P   8.1%) postponed again  78.3% stayed  13.6% paid 0.0% off-list 0.0%
+  postponed 5+ times before (in window)          n= 241 auctioned   4.6% (3P   4.1%) postponed again  84.6% stayed  10.8% paid 0.0% off-list 0.0%
+  1 month ahead                                  n= 717 auctioned  12.3% (3P  11.7%) postponed again  70.3% stayed  15.9% paid 1.5% off-list 0.0%
+  2 months ahead                                 n= 444 auctioned   7.2% (3P   7.2%) postponed again  82.7% stayed   9.7% paid 0.5% off-list 0.0%
+  3+ months ahead                                n=1147 auctioned  10.5% (3P  10.5%) postponed again  75.2% stayed  13.9% paid 0.3% off-list 0.2%
+  status (Waived)                                n=  59 auctioned  15.3% (3P  15.3%) postponed again  67.8% stayed  15.3% paid 1.7% off-list 0.0%
+  notes: free & clear min bid stated             n=  58 auctioned  22.4% (3P  22.4%) postponed again  63.8% stayed  13.8% paid 0.0% off-list 0.0%
+  notes: F/C mentioned, no min yet               n=  34 auctioned  17.6% (3P  17.6%) postponed again  76.5% stayed   5.9% paid 0.0% off-list 0.0%
+  notes: NEED O/C                                n= 560 auctioned   3.0% (3P   3.0%) postponed again  86.6% stayed   9.8% paid 0.4% off-list 0.2%
+  notes: bankruptcy (BK)                         n= 298 auctioned   3.4% (3P   3.4%) postponed again  90.3% stayed   6.0% paid 0.0% off-list 0.3%
+  notes: NEED BKD                                n= 250 auctioned   2.0% (3P   2.0%) postponed again  91.6% stayed   5.6% paid 0.4% off-list 0.4%
+  notes: DECREE                                  n=  19 auctioned  36.8% (3P  36.8%) postponed again  57.9% stayed   5.3% paid 0.0% off-list 0.0%
+  notes: OK TO SELL                              n= 215 auctioned   4.7% (3P   4.7%) postponed again  68.4% stayed  25.6% paid 1.4% off-list 0.0%
+  notes empty                                    n=  31 auctioned  25.8% (3P  25.8%) postponed again  61.3% stayed  12.9% paid 0.0% off-list 0.0%
+  estate/heirs                                   n=  91 auctioned  23.1% (3P  23.1%) postponed again  72.5% stayed   3.3% paid 0.0% off-list 1.1%
+  entity owner                                   n= 211 auctioned   9.0% (3P   8.5%) postponed again  69.7% stayed  20.4% paid 0.9% off-list 0.0%
+  plaintiff: School district                     n= 842 auctioned   9.5% (3P   9.4%) postponed again  77.2% stayed  12.7% paid 0.4% off-list 0.2%
+  plaintiff: Borough / township / authority      n= 861 auctioned   9.1% (3P   8.7%) postponed again  80.4% stayed  10.2% paid 0.3% off-list 0.0%
+  plaintiff: Allegheny County                    n= 588 auctioned  14.1% (3P  14.1%) postponed again  64.3% stayed  19.9% paid 1.7% off-list 0.0%
+MORTGAGE
+  all postponed                                  n=2498 auctioned  19.6% (3P   6.5%) postponed again  65.7% stayed  14.3% paid 0.4% off-list 0.0%
+  OK box checked                                 n= 627 auctioned  21.9% (3P   8.0%) postponed again  60.6% stayed  16.6% paid 1.0% off-list 0.0%
+  OK box not checked                             n=1871 auctioned  18.8% (3P   6.0%) postponed again  67.5% stayed  13.5% paid 0.2% off-list 0.0%
+  service+3129.2+3129.3 all checked              n=  23 auctioned  30.4% (3P   8.7%) postponed again  56.5% stayed  13.0% paid 0.0% off-list 0.0%
+  service & 3129.2, no 3129.3                    n=1205 auctioned  20.7% (3P   6.7%) postponed again  60.8% stayed  17.8% paid 0.6% off-list 0.0%
+  service not checked                            n=1066 auctioned  18.6% (3P   6.3%) postponed again  70.4% stayed  10.8% paid 0.2% off-list 0.0%
+  3129.2 not checked                             n= 959 auctioned  16.1% (3P   5.5%) postponed again  72.3% stayed  11.5% paid 0.1% off-list 0.0%
+  postponed 0 times before (in window)           n= 989 auctioned  21.2% (3P   7.0%) postponed again  66.2% stayed  11.9% paid 0.4% off-list 0.0%
+  postponed 1 times before (in window)           n= 619 auctioned  21.8% (3P   7.8%) postponed again  59.9% stayed  17.9% paid 0.3% off-list 0.0%
+  postponed 2 times before (in window)           n= 351 auctioned  17.4% (3P   4.6%) postponed again  69.2% stayed  12.8% paid 0.6% off-list 0.0%
+  postponed 3 times before (in window)           n= 220 auctioned  16.4% (3P   6.4%) postponed again  64.5% stayed  18.6% paid 0.5% off-list 0.0%
+  postponed 5+ times before (in window)          n= 191 auctioned  11.5% (3P   3.1%) postponed again  78.5% stayed   9.9% paid 0.0% off-list 0.0%
+  1 month ahead                                  n= 990 auctioned  31.4% (3P  10.8%) postponed again  57.9% stayed  10.0% paid 0.5% off-list 0.0%
+  2 months ahead                                 n=1298 auctioned  11.8% (3P   3.5%) postponed again  72.0% stayed  16.2% paid 0.1% off-list 0.0%
+  3+ months ahead                                n= 210 auctioned  11.9% (3P   4.8%) postponed again  64.3% stayed  22.4% paid 1.4% off-list 0.0%
+  status (Waived)                                n=  99 auctioned  22.2% (3P   8.1%) postponed again  61.6% stayed  14.1% paid 2.0% off-list 0.0%
+  notes: NEED O/C                                n= 197 auctioned  14.2% (3P   5.1%) postponed again  72.6% stayed  13.2% paid 0.0% off-list 0.0%
+  notes: bankruptcy (BK)                         n= 358 auctioned   4.7% (3P   2.2%) postponed again  73.2% stayed  22.1% paid 0.0% off-list 0.0%
+  notes: NEED BKD                                n= 312 auctioned   2.6% (3P   0.6%) postponed again  73.7% stayed  23.7% paid 0.0% off-list 0.0%
+  notes: OK TO SELL                              n= 300 auctioned  20.3% (3P   5.0%) postponed again  63.7% stayed  15.7% paid 0.3% off-list 0.0%
+  notes: handbill                                n= 122 auctioned  18.0% (3P   4.1%) postponed again  72.1% stayed   9.0% paid 0.0% off-list 0.0%
+  notes: REASSESS DAMAGES                        n= 240 auctioned  21.7% (3P   7.5%) postponed again  64.2% stayed  13.8% paid 0.4% off-list 0.0%
+  notes: loss mit / forbear / SAVE YOUR HOME     n=  20 auctioned   5.0% (3P   0.0%) postponed again  65.0% stayed  25.0% paid 5.0% off-list 0.0%
+  notes empty                                    n=  19 auctioned  21.1% (3P   5.3%) postponed again  68.4% stayed  10.5% paid 0.0% off-list 0.0%
+  estate/heirs                                   n=  85 auctioned  27.1% (3P  10.6%) postponed again  62.4% stayed  10.6% paid 0.0% off-list 0.0%
+  entity owner                                   n= 227 auctioned  28.2% (3P   2.6%) postponed again  67.0% stayed   4.8% paid 0.0% off-list 0.0%
+  plaintiff: Lender / servicer                   n=2498 auctioned  19.6% (3P   6.5%) postponed again  65.7% stayed  14.3% paid 0.4% off-list 0.0%
+== NEED lines vocabulary in postponed rows
+[('NEED # FOR #', 893), ('NEED BKD', 635), ('NEED O#C FOR #', 299), ('NEED #', 291), ('NEED # #', 174), ('NEED O#C FOR # #', 125), ('NEED O#C # # # # # # # # # # #', 85), ('NEED O#C #', 57), ('NEED O#C FOR # # #', 53), ('NEED O#C FOR # # # #', 32), ('NEED O#C # #', 27), ('NEED O#C # # #', 27), ('NEED O#C # # # # # # # # #', 26), ('NEED O#C FOR # # # # # # # # #', 24), ('NEED O#C # # # # # # #', 23), ('NEED # # # #', 22), ('NEED O#C # # # # #', 21), ('NEED # # #', 21), ('NEED O#C # # # #', 20), ('NEED O#C # # # # # # # # # #', 19), ('NEED O#C # # # # # # # #', 18), ('NEED O#C # # # # # #', 17), ('NEED # # # # #', 14), ('NEED # & NSM ON DEF', 12), ('NEED O#C FOR # # # # #', 12)]
+##### a6
+== OK-TO-SELL lead time (days before sale of the latest OK/ALL DOCS date <= sale date)
+3P sold Tax n with date 356 of 480 median 0.0 p25 0.0 p75 0.0 <=3d 99.4 <=7d 99.4 <=14d 99.4 >30d 0.0
+3P sold Mortgage n with date 204 of 289 median 0.0 p25 0.0 p75 0.0 <=3d 99.5 <=7d 99.5 <=14d 99.5 >30d 0.5
+plaintiff took Tax n with date 42 of 42 median 0.0 p25 0.0 p75 0.0 <=3d 97.6 <=7d 97.6 <=14d 97.6 >30d 0.0
+plaintiff took Mortgage n with date 483 of 588 median 0 p25 0.0 p75 0.0 <=3d 99.6 <=7d 99.6 <=14d 99.6 >30d 0.2
+lead histogram (days): [(0, 578), (1, 1), (28, 1), (29, 1), (40, 1)]
+== boxes on 3P-sold rows: [((True, True, True, True), 491), ((True, True, False, True), 293), ((True, True, True, False), 6), ((True, True, False, False), 2), ((True, False, True, True), 1), ((False, False, True, False), 1)]
+== FORFEITS
+checkable 755 forfeit 101 13.4
+  Tax lien, free & clear min bid 173 18.5
+  Tax lien, other 169 11.8
+  Tax lien, decree 110 2.7
+  Mortgage foreclosure 279 13.6
+  price 0-10k 47 6.4
+  price 10-25k 146 20.5
+  price 25-50k 206 12.6
+  price 50-100k 206 12.6
+  price 100-1000000k 150 10.7
+  ratio 0-1.05 178 3.4
+  ratio 1.05-2 115 18.3
+  ratio 2-5 138 24.6
+  ratio 5-10 97 12.4
+  ratio 10-999 168 16.1
+  2025 H1 198 13.6
+  2025 H2 224 17.4
+  2026 H1 197 10.7
+  2026 H2 136 10.3
+ next appearance: [('sold_3p', 56), ('postponed', 24), ('plaintiff_overbid', 8), ('stayed', 7), ('plaintiff_costs', 6)]  months to next appearance [(1, 95), (3, 5), (5, 1)]
+ eventual: [('resold 3P (completed)', 64), ('plaintiff', 18), ('stayed', 12), ('still re-listing/forfeited again', 7)]
+ completed re-sale vs forfeited bid: n 64 median ratio 0.63 p25 0.45 p75 0.93 lower 79.7 same 6.2 higher 14.1 median $ change -11616.880000000001 months 1.0
+    Tax lien, free & clear min bid 28 0.53
+    Tax lien, other 12 0.92
+    Tax lien, decree 3 0.49
+    Mortgage foreclosure 17 0.7
+ cases by # forfeits [(0, 3136), (1, 81), (2, 7), (3, 2)]
+== at re-auction, was FORF in the notes?
+69 of 101
+== FREE & CLEAR: how much lien is wiped
+150 min bid med 8100.0 cost&tax med 55716.955 min/C&T med 0.16 price/C&T med 0.43 price<C&T 86.7
+ min bid common values [(8500.0, 19), (8000.0, 14), (5000.0, 10), (10000.0, 9), (7000.0, 8), (6000.0, 8), (7500.0, 8), (6500.0, 7), (15000.0, 6), (20000.0, 3)]
+== BUYERS named in notes (deeded)
+66 entity-like 42 repeat buyers [('individual', 3), ('NEW HOMESTEAD DEVELOPMENT CO', 4), ('TUFF PROPERTIES LLC', 2), ('individual', 2), ('PENN PIONEER ENTERPRISES, LLC', 8)]
+ extra fee amounts [('181.75', 57), ('200.00', 5), ('181.71', 1)]
+== STAYED / PAID
+stayed rows 1214 cases 1192 reappear later 76
+ after stay next outcomes [('postponed', 52), ('plaintiff_overbid', 12), ('sold_3p', 6), ('stayed', 4), ('plaintiff_costs', 2)]
+##### a7
+['37JUL19', '48AUG19', '1AUG20', '3AUG20', '1NOV21', '54JAN22', '58JAN22', '88MAY22', '46JUL22', '4MAY23', '27MAY23', '16JUN23'] ['117OCT26', '118OCT26', '119OCT26', '120OCT26', '121OCT26', '122OCT26', '123OCT26', '124OCT26'] [2, 2, 2, 3, 3] 82
+== POSITION IN SALE (auctioned order tercile) 
+  FC min bid      quartile 0.00-0.25 auctioned  96 3P  79 (82.3%) price med   24,500 ratio 2.64 at-open 17.7% forf 17.4
+  FC min bid      quartile 0.25-0.50 auctioned  64 3P  51 (79.7%) price med   24,100 ratio 3.14 at-open 11.8% forf 22.0
+  FC min bid      quartile 0.50-0.75 auctioned  11 3P   9 (81.8%) price med   10,000 ratio 1.25 at-open 44.4% forf 18.2
+  FC min bid      quartile 0.75-1.01 auctioned  23 3P  11 (47.8%) price med    9,000 ratio 1.26 at-open 45.5% forf 9.1
+  Tax lien other  quartile 0.00-0.25 auctioned  60 3P  54 (90.0%) price med   36,000 ratio 1.02 at-open 55.0% forf 10.9
+  Tax lien other  quartile 0.25-0.50 auctioned  31 3P  26 (83.9%) price med   49,850 ratio 1.68 at-open 21.1% forf 16.1
+  Tax lien other  quartile 0.50-0.75 auctioned  38 3P  34 (89.5%) price med   39,950 ratio 1.51 at-open 34.6% forf 11.1
+  Tax lien other  quartile 0.75-1.01 auctioned  49 3P  44 (89.8%) price med   34,550 ratio 1.23 at-open 25.0% forf 10.6
+  MF              quartile 0.00-0.25 auctioned 191 3P  56 (29.3%) price med   80,000 ratio 8.81 at-open 5.9% forf 16.1
+  MF              quartile 0.25-0.50 auctioned 247 3P  69 (27.9%) price med   85,000 ratio 13.19 at-open 6.3% forf 16.9
+  MF              quartile 0.50-0.75 auctioned 281 3P  85 (30.2%) price med   85,000 ratio 12.30 at-open 1.3% forf 11.1
+  MF              quartile 0.75-1.01 auctioned 160 3P  41 (25.6%) price med   80,000 ratio 11.73 at-open 0.0% forf 9.1
+== SALE SIZE vs competition
+('2025-01-06', 76, 35, 12, 2.31, 3.6, 16.7, 41.8, 8)
+('2025-02-03', 40, 23, 13, 1.8, 1.76, 30.8, 40.0, 2)
+('2025-03-03', 40, 11, 1, 3.14, 3.14, 0.0, 32.1, 9)
+('2025-04-07', 64, 42, 12, 1.19, 2.57, 33.3, 40.0, 1)
+('2025-05-05', 59, 24, 13, 1.12, 3.17, 38.5, 27.5, 5)
+('2025-06-02', 57, 36, 10, 1.39, 2.67, 40.0, 47.2, 2)
+('2025-07-07', 63, 33, 16, 2.18, 3.17, 18.8, 38.2, 9)
+('2025-08-04', 72, 33, 16, 1.24, 2.02, 43.8, 36.0, 7)
+('2025-09-02', 68, 33, 1, 1.02, None, 100.0, 28.9, 2)
+('2025-10-06', 60, 25, 13, 1.87, 2.11, 15.4, 21.1, 4)
+('2025-11-03', 50, 26, 11, 1.83, 2.17, 18.2, 41.9, 6)
+('2025-12-01', 77, 35, 8, 3.32, 4.85, 25.0, 36.7, 11)
+('2026-01-05', 56, 35, 16, 2.54, 4.64, 25.0, 38.7, 2)
+('2026-02-02', 68, 32, 19, 1.2, 1.2, 42.1, 27.0, 9)
+('2026-03-02', 72, 26, 11, 1.88, 2.14, 36.4, 23.1, 4)
+('2026-04-06', 83, 29, 10, 3.46, 5.79, 10.0, 35.1, 2)
+('2026-05-04', 73, 30, 7, 3.91, 7.87, 14.3, 29.3, 2)
+('2026-06-01', 53, 24, 11, 1.89, 1.0, 18.2, 29.4, 2)
+('2026-07-06', 72, 37, 19, 1.96, 3.73, 31.6, 29.3, 4)
+('2026-08-03', 54, 30, 11, 1.1, 1.38, 45.5, 29.0, 2)
+('2026-09-08', 36, 18, 8, 1.84, 2.12, 0.0, 37.5, 3)
+('2026-10-05', 77, 37, 19, 1.75, 2.1, 5.3, 20.9, 5)
+('2026-11-02', 64, 39, 18, 1.47, 1.46, 33.3, 28.6, 0)
+corr(#auctioned, TL ratio) 0.2 corr(#TL sold, TL ratio) -0.32 corr(#auct, at-open%) 0.18 corr(#auct, MF 3P share) -0.26
+== 3129.3 unchecked among 3P-sold, by type
+Tax lien, free & clear min bid 182 9.3
+Tax lien, other 178 40.4
+Tax lien, decree 120 80.0
+Mortgage foreclosure 289 36.0
+== FORFEIT re-sale, alt definition (next 3P sale of any kind)
+68 0.69 mean 0.92
+== given competition (ratio>=1.05), ratio
+Tax lien, free & clear min bid 121 3.16 1.95 5.0 over$ med 17500.0
+Tax lien, other 80 1.81 1.3 2.42 over$ med 23369.855000000003
+== MF bank overbid/damages by half; MF 3P counts
+2025 H1 overbid/dmg 0.78 21 overbid med 85000.0 130 3P med 86000.0 75
+2025 H2 overbid/dmg 0.51 22 overbid med 68500.0 152 3P med 86100.0 67
+2026 H1 overbid/dmg 0.8 27 overbid med 80950.0 158 3P med 68000.0 65
+2026 H2 overbid/dmg 0.65 30 overbid med 75500.0 122 3P med 79250.0 44
+== DECREE: 3P vs plaintiff took, by plaintiff
+150 Counter({'sold_3p': 120, 'plaintiff_costs': 30})
+[(('County of Allegheny', 'sold_3p'), 37), (('Wilkinsburg Borough', 'sold_3p'), 27), (('Wilkinsburg Borough', 'plaintiff_costs'), 25), (('Wilkinsburg School Dis', 'sold_3p'), 19), (('COUNTY OF ALLEGHENY', 'sold_3p'), 15), (('Woodland Hills School ', 'sold_3p'), 6), (('Borough of Wilkinsburg', 'plaintiff_costs'), 5), (('County Of Allegheny', 'sold_3p'), 2), (('Allegheny Valley Schoo', 'sold_3p'), 2), (('Borough of Wilkinsburg', 'sold_3p'), 2), (('Penn Hills School Dist', 'sold_3p'), 1), (('Wilkinsburg Borough Sc', 'sold_3p'), 1)]
+decree below opening: 21 [(8000.0, 40641.04, 'OK TO SELL 11/3/25/DECREE'), (18000.0, 79080.36, 'OK TO SELL 11/3/25/DECREE'), (16700.0, 45706.84, 'OK TO SELL 1-5-26/FORFEITED 12-1-25/RCVD AMENDED DECREE 12-30-25 O/C F/C FOR A M'), (35000.0, 66365.4, 'OK TO SELL 1/5/26/DECREE F/C UPSET'), (7000.0, 37803.02, 'OK TO SELL 1/5/26/DECREE F/C UPSET')]
+== total volume
+693 54.9 M; per sale 2.39
+== first-appearance 3P share by type
+Tax lien, free & clear min bid 29 51.7
+Tax lien, other 1067 6.7
+Tax lien, decree 141 68.1
+Mortgage foreclosure 1520 6.6
+##### a8
+meta [('sale_date', '2026-11-02', None, None, None), ('source', 'November-Sale-List-Updated-10-30.pdf (printed 10/30/2026 3:11:20PM)', None, None, None), ('last_run', '2026-11-01 04:30', None, None, None), ('log', '2026-10-25 22:15', 105, 'November-Sale-List-Updated-10-22.pdf (printed 10/22/2026 2:51:38PM)', 17), ('log', '2026-10-26 04:31', 105, 'November-Sale-List-Updated-10-22.pdf (printed 10/22/2026 2:51:38PM)', 17), ('log', '2026-10-28 04:31', 105, 'November-Sale-List-Updated-10-22.pdf (printed 10/22/2026 2:51:38PM)', 17), ('log', '2026-10-30 04:31', 113, 'November-Sale-List-Updated-10-28.pdf (printed 10/28/2026 3:47:38PM)', 10), ('log', '2026-11-01 04:30', 104, 'November-Sale-List-Updated-10-30.pdf (printed 10/30/2026 3:11:20PM)', 5)]
+== NOV 2 PREP LIST (built Nov 1) vs RESULT
+ok 104 [('sold_3p', 37), ('postponed', 36), ('plaintiff_overbid', 22), ('stayed', 8), ('plaintiff_costs', 1)]
+    Tax 56 [('sold_3p', 26), ('postponed', 26), ('stayed', 4)]
+    Mortgage 47 [('plaintiff_overbid', 22), ('sold_3p', 10), ('postponed', 10), ('stayed', 4), ('plaintiff_costs', 1)]
+almost 5 [('postponed', 4), ('stayed', 1)]
+    Tax 1 [('stayed', 1)]
+    Mortgage 3 [('postponed', 3)]
+excluded 321 [('postponed', 253), ('stayed', 59), ('paid', 5), ('sold_3p', 2), ('plaintiff_overbid', 2)]
+excluded but auctioned: [('Non-residential (Vacant Land)', 'sold_3p', 'Vacant Land'), ('Non-residential (Vacant Land)', 'sold_3p', 'Vacant Land'), ('Non-residential (Commercial)', 'plaintiff_overbid', 'Commercial'), ('Non-residential (Commercial)', 'plaintiff_overbid', 'Commercial')]
+== FC MIN BID: lead time before the sale
+182 F/C mentioned at an earlier sale:  20.9 % ; months before (if any) median 1.0
+min bid already stated at an earlier sale: 19.8 % [(0, 146), (1, 25), (2, 5), (3, 3), (4, 2), (16, 1)]
+on the list at an earlier sale in window: 82.4
+[('prev: no F/C hint', 111), ('prev: min bid stated | forfeited', 22), ('prev: min bid stated', 11), ('prev: no F/C hint | forfeited', 2), ('prev: NEED O/C', 2), ('prev: F/C mentioned | forfeited', 1), ('prev: F/C mentioned', 1)]
+== competitive wins: bid endings
+447 {'x,000': 77.0, 'x,500': 6.9, 'odd': 6.3, 'other hundreds': 5.8, 'x,100': 4.0}
+== NEW LISTINGS per sale by half (docket_m==0)
+2025 H1 tax 47.7 mortgage 58.7 3P per sale 28.5 auctioned/sale 56.0
+2025 H2 tax 54.5 mortgage 70.7 3P per sale 30.8 auctioned/sale 65.0
+2026 H1 tax 57.8 mortgage 71.0 3P per sale 29.3 auctioned/sale 67.5
+2026 H2 tax 55.4 mortgage 63.6 3P per sale 32.2 auctioned/sale 60.6
+== ESTATE check: defendants sample
+['Unknown Heirs of Mary A. Smith Deceased', 'KNOWN HEIRS OF ADRIENNE N. DEVINE', 'UNKNOWN HEIRS OF CAROLYN GREEN, DECEASED', 'Unknown Heirs of R. Meghan White aka Meg', 'Unknown Heirs of Lydia M. Austin decease', 'Unknown Heirs of Charles E. Flack', 'Unknown Heirs of Quechawn Quemar Lamont ', 'Unknown Heirs of Francis J. Skerkoski']
+== tax-lien cases outcome by owner type & plaintiff County vs others (cases)
+Individual | Allegheny County 422 30.6
+Individual | School district 427 23.2
+Individual | Borough / township / authority 369 22.5
+Estate / heirs / trust | Allegheny County 29 93.1
+Estate / heirs / trust | School district 42 66.7
+Estate / heirs / trust | Borough / township / authority 48 52.1
+Entity (LLC/LP/Inc) | Allegheny County 52 25.0
+Entity (LLC/LP/Inc) | School district 49 14.3
+Entity (LLC/LP/Inc) | Borough / township / authority 55 25.5
+##### a9
+== CLEARED FOR THIS SALE (notes say OK TO SELL / ALL DOCS for this sale date) 1956 of 8394
+ share of auctioned rows that carry the note: 77.1
+ by sale:  [('25-01', 55), ('25-02', 45), ('25-03', 40), ('25-04', 42), ('25-05', 25), ('25-06', 28), ('25-07', 86), ('25-08', 66), ('25-09', 67), ('25-10', 118), ('25-11', 92), ('25-12', 152), ('26-01', 116), ('26-02', 120), ('26-03', 119), ('26-04', 132), ('26-05', 103), ('26-06', 91), ('26-07', 99), ('26-08', 101), ('26-09', 61), ('26-10', 111), ('26-11', 87)]
+  ALL cleared                                  n=1956 auctioned  56.5% | 3P  29.6% plaintiff  27.0% | postponed  31.6% stayed  10.2% paid 1.6%
+TAX LIEN
+  all                                          n= 771 auctioned  51.1% | 3P  45.8% plaintiff   5.3% | postponed  31.5% stayed  14.4% paid 3.0%
+  2025 H1                                      n=  80 auctioned  43.8% | 3P  43.8% plaintiff   0.0% | postponed  28.8% stayed  25.0% paid 2.5%
+  2025 H2                                      n= 215 auctioned  43.3% | 3P  43.3% plaintiff   0.0% | postponed  34.9% stayed  17.2% paid 4.7%
+  2026 H1                                      n= 283 auctioned  52.3% | 3P  38.2% plaintiff  14.1% | postponed  33.6% stayed  11.7% paid 2.5%
+  2026 H2                                      n= 193 auctioned  61.1% | 3P  60.6% plaintiff   0.5% | postponed  25.9% stayed  10.9% paid 2.1%
+  Tax lien, decree                             n= 124 auctioned  91.9% | 3P  68.5% plaintiff  23.4% | postponed   4.8% stayed   3.2% paid 0.0%
+  Tax lien, free & clear min bid               n= 176 auctioned  92.6% | 3P  85.8% plaintiff   6.8% | postponed   5.1% stayed   1.7% paid 0.6%
+  Tax lien, other                              n= 471 auctioned  24.8% | 3P  24.8% plaintiff   0.0% | postponed  48.4% stayed  22.1% paid 4.7%
+  owner: Entity (LLC/LP/Inc)                   n=  87 auctioned  40.2% | 3P  35.6% plaintiff   4.6% | postponed  29.9% stayed  27.6% paid 2.3%
+  owner: Estate / heirs / trust                n=  80 auctioned  93.8% | 3P  76.2% plaintiff  17.5% | postponed   5.0% stayed   1.2% paid 0.0%
+  owner: Individual                            n= 604 auctioned  47.0% | 3P  43.2% plaintiff   3.8% | postponed  35.3% stayed  14.2% paid 3.5%
+  plaintiff: Allegheny County                  n= 339 auctioned  42.2% | 3P  42.2% plaintiff   0.0% | postponed  40.1% stayed  13.3% paid 4.4%
+  plaintiff: Borough / township / authority    n= 227 auctioned  58.6% | 3P  41.0% plaintiff  17.6% | postponed  26.4% stayed  14.1% paid 0.9%
+  plaintiff: School district                   n= 202 auctioned  58.4% | 3P  57.9% plaintiff   0.5% | postponed  21.8% stayed  16.8% paid 3.0%
+  atty: GOEHRING RUTTER & BOEHM                n= 470 auctioned  37.9% | 3P  37.9% plaintiff   0.0% | postponed  40.4% stayed  17.2% paid 4.5%
+  atty: MAIELLO BRUNGO & MAIELLO               n= 174 auctioned  82.8% | 3P  59.2% plaintiff  23.6% | postponed   9.2% stayed   7.5% paid 0.6%
+  atty: KRATZENBERG & LAZZARO                  n=  55 auctioned  56.4% | 3P  56.4% plaintiff   0.0% | postponed  40.0% stayed   3.6% paid 0.0%
+  atty: WEISS BURKARDT KRAMER LLC              n=  34 auctioned  61.8% | 3P  61.8% plaintiff   0.0% | postponed   2.9% stayed  32.4% paid 2.9%
+  first time on list                           n= 262 auctioned  59.5% | 3P  45.4% plaintiff  14.1% | postponed  21.4% stayed  13.4% paid 5.7%
+  on list 1-3 months                           n= 256 auctioned  40.6% | 3P  39.5% plaintiff   1.2% | postponed  39.1% stayed  17.6% paid 2.7%
+  on list 4-12 months                          n= 192 auctioned  51.0% | 3P  50.5% plaintiff   0.5% | postponed  35.9% stayed  12.5% paid 0.5%
+  on list >12 months                           n=  61 auctioned  59.0% | 3P  59.0% plaintiff   0.0% | postponed  29.5% stayed  11.5% paid 0.0%
+  3129.3 box checked                           n= 321 auctioned  73.5% | 3P  72.3% plaintiff   1.2% | postponed   0.3% stayed  23.7% paid 2.5%
+  3129.3 box not checked                       n= 450 auctioned  35.1% | 3P  26.9% plaintiff   8.2% | postponed  53.8% stayed   7.8% paid 3.3%
+  notes: bankruptcy history                    n=  35 auctioned  77.1% | 3P  77.1% plaintiff   0.0% | postponed  14.3% stayed   8.6% paid 0.0%
+  notes: forfeited before                      n=  46 auctioned  89.1% | 3P  89.1% plaintiff   0.0% | postponed   8.7% stayed   2.2% paid 0.0%
+  opening $5k-10k                              n= 126 auctioned  89.7% | 3P  89.7% plaintiff   0.0% | postponed   5.6% stayed   4.0% paid 0.8%
+  opening $10k-20k                             n= 117 auctioned  49.6% | 3P  48.7% plaintiff   0.9% | postponed  30.8% stayed  17.1% paid 2.6%
+  opening $20k-40k                             n= 272 auctioned  36.0% | 3P  34.6% plaintiff   1.5% | postponed  42.3% stayed  17.6% paid 4.0%
+  opening $40k-80k                             n= 176 auctioned  42.0% | 3P  35.8% plaintiff   6.2% | postponed  35.8% stayed  17.6% paid 4.5%
+  opening $80k-1000000k                        n=  61 auctioned  59.0% | 3P  36.1% plaintiff  23.0% | postponed  32.8% stayed   8.2% paid 0.0%
+  muni: Wilkinsburg                            n=  97 auctioned  91.8% | 3P  49.5% plaintiff  42.3% | postponed   3.1% stayed   5.2% paid 0.0%
+  muni: Penn Hills                             n=  60 auctioned  41.7% | 3P  41.7% plaintiff   0.0% | postponed  40.0% stayed  13.3% paid 5.0%
+  muni: McKeesport                             n=  37 auctioned  24.3% | 3P  24.3% plaintiff   0.0% | postponed  64.9% stayed  10.8% paid 0.0%
+  muni: Pittsburgh                             n=  23 auctioned  82.6% | 3P  82.6% plaintiff   0.0% | postponed  17.4% stayed   0.0% paid 0.0%
+MORTGAGE
+  all                                          n=1145 auctioned  59.7% | 3P  17.7% plaintiff  42.0% | postponed  31.9% stayed   7.6% paid 0.8%
+  2025 H1                                      n= 151 auctioned  59.6% | 3P  17.9% plaintiff  41.7% | postponed  35.1% stayed   4.6% paid 0.7%
+  2025 H2                                      n= 350 auctioned  53.7% | 3P  16.6% plaintiff  37.1% | postponed  35.4% stayed  10.3% paid 0.6%
+  2026 H1                                      n= 386 auctioned  61.1% | 3P  18.4% plaintiff  42.7% | postponed  31.1% stayed   7.0% paid 0.8%
+  2026 H2                                      n= 258 auctioned  65.9% | 3P  18.2% plaintiff  47.7% | postponed  26.4% stayed   6.6% paid 1.2%
+  Mortgage foreclosure                         n=1145 auctioned  59.7% | 3P  17.7% plaintiff  42.0% | postponed  31.9% stayed   7.6% paid 0.8%
+  owner: Entity (LLC/LP/Inc)                   n= 129 auctioned  76.0% | 3P   5.4% plaintiff  70.5% | postponed  22.5% stayed   1.6% paid 0.0%
+  owner: Estate / heirs / trust                n=  52 auctioned  78.8% | 3P  23.1% plaintiff  55.8% | postponed  15.4% stayed   5.8% paid 0.0%
+  owner: Individual                            n= 964 auctioned  56.5% | 3P  19.1% plaintiff  37.4% | postponed  34.0% stayed   8.5% paid 0.9%
+  plaintiff: Lender / servicer                 n=1145 auctioned  59.7% | 3P  17.7% plaintiff  42.0% | postponed  31.9% stayed   7.6% paid 0.8%
+  atty: ROBERTSON ANSCHUTZ SCHNEID             n= 156 auctioned  47.4% | 3P  12.8% plaintiff  34.6% | postponed  48.1% stayed   3.8% paid 0.6%
+  atty: MANLEY DEAS KOCHALSKI LLC              n= 108 auctioned  47.2% | 3P  24.1% plaintiff  23.1% | postponed  38.9% stayed  10.2% paid 3.7%
+  atty: BROCK & SCOTT PLLC                     n= 103 auctioned  51.5% | 3P  14.6% plaintiff  36.9% | postponed  40.8% stayed   6.8% paid 1.0%
+  atty: STERN & EISENBERG                      n=  90 auctioned  76.7% | 3P  17.8% plaintiff  58.9% | postponed  18.9% stayed   4.4% paid 0.0%
+  atty: FRIEDMAN VARTOLO LLP                   n=  87 auctioned  66.7% | 3P   9.2% plaintiff  57.5% | postponed  27.6% stayed   5.7% paid 0.0%
+  atty: KML LAW GROUP                          n=  83 auctioned  73.5% | 3P  16.9% plaintiff  56.6% | postponed  16.9% stayed   9.6% paid 0.0%
+  atty: MCCABE WEISBERG & CONWAY P             n=  58 auctioned  67.2% | 3P  22.4% plaintiff  44.8% | postponed  27.6% stayed   3.4% paid 1.7%
+  atty: GRENEN & BIRSIC P.C.                   n=  54 auctioned  33.3% | 3P   7.4% plaintiff  25.9% | postponed  53.7% stayed  13.0% paid 0.0%
+  atty: HLADIK ONORATO AND FEDERMA             n=  48 auctioned  70.8% | 3P  20.8% plaintiff  50.0% | postponed  22.9% stayed   6.2% paid 0.0%
+  atty: GREGORY JAVARDIAN ESQ                  n=  35 auctioned  25.7% | 3P  11.4% plaintiff  14.3% | postponed  54.3% stayed  17.1% paid 2.9%
+  atty: LOGS LEGAL GROUP LLC                   n=  34 auctioned  85.3% | 3P  35.3% plaintiff  50.0% | postponed   8.8% stayed   5.9% paid 0.0%
+  atty: POWERS KIRN LLC                        n=  32 auctioned  59.4% | 3P  28.1% plaintiff  31.2% | postponed  34.4% stayed   6.2% paid 0.0%
+  atty: PURCELL KRUG & HALLER                  n=  30 auctioned  76.7% | 3P  43.3% plaintiff  33.3% | postponed  10.0% stayed  13.3% paid 0.0%
+  atty: HILL WALLACK LLP                       n=  24 auctioned  58.3% | 3P  16.7% plaintiff  41.7% | postponed  20.8% stayed  16.7% paid 4.2%
+  first time on list                           n= 288 auctioned  70.5% | 3P  19.1% plaintiff  51.4% | postponed  20.5% stayed   8.0% paid 1.0%
+  on list 1-3 months                           n= 482 auctioned  62.0% | 3P  19.3% plaintiff  42.7% | postponed  31.5% stayed   6.0% paid 0.4%
+  on list 4-12 months                          n= 317 auctioned  51.4% | 3P  15.5% plaintiff  36.0% | postponed  37.2% stayed  10.1% paid 1.3%
+  on list >12 months                           n=  58 auctioned  32.8% | 3P  10.3% plaintiff  22.4% | postponed  62.1% stayed   5.2% paid 0.0%
+  3129.3 box checked                           n= 555 auctioned  86.1% | 3P  26.5% plaintiff  59.6% | postponed   1.3% stayed  11.5% paid 1.1%
+  3129.3 box not checked                       n= 590 auctioned  34.9% | 3P   9.5% plaintiff  25.4% | postponed  60.7% stayed   3.9% paid 0.5%
+  notes: bankruptcy history                    n=  52 auctioned  42.3% | 3P  13.5% plaintiff  28.8% | postponed  46.2% stayed   9.6% paid 1.9%
+  notes: forfeited before                      n=  33 auctioned  87.9% | 3P  45.5% plaintiff  42.4% | postponed  12.1% stayed   0.0% paid 0.0%
+  notes: FHA                                   n=  31 auctioned  80.6% | 3P  38.7% plaintiff  41.9% | postponed   6.5% stayed   6.5% paid 6.5%
+  notes: reassessed damages                    n= 195 auctioned  71.8% | 3P  28.2% plaintiff  43.6% | postponed  21.5% stayed   5.6% paid 1.0%
+  plf: US BANK                                 n= 219 auctioned  61.6% | 3P  16.4% plaintiff  45.2% | postponed  29.7% stayed   7.8% paid 0.9%
+  plf: LAKEVIEW LOAN                           n=  53 auctioned  60.4% | 3P  13.2% plaintiff  47.2% | postponed  34.0% stayed   5.7% paid 0.0%
+  plf: PENNYMAC LOAN                           n=  48 auctioned  64.6% | 3P  20.8% plaintiff  43.8% | postponed  29.2% stayed   4.2% paid 2.1%
+  plf: DOLLAR BANK                             n=  47 auctioned  38.3% | 3P  12.8% plaintiff  25.5% | postponed  46.8% stayed  14.9% paid 0.0%
+  plf: CITIZENS BANK                           n=  43 auctioned  48.8% | 3P  23.3% plaintiff  25.6% | postponed  37.2% stayed  11.6% paid 2.3%
+  plf: PNC BANK                                n=  38 auctioned  42.1% | 3P  13.2% plaintiff  28.9% | postponed  44.7% stayed  10.5% paid 2.6%
+  plf: PENNSYLVANIA HOUSING                    n=  33 auctioned  72.7% | 3P  36.4% plaintiff  36.4% | postponed  15.2% stayed  12.1% paid 0.0%
+  plf: ROCKET MORTGAGE                         n=  33 auctioned  54.5% | 3P   9.1% plaintiff  45.5% | postponed  36.4% stayed   9.1% paid 0.0%
+  plf: WELLS FARGO                             n=  31 auctioned  54.8% | 3P  16.1% plaintiff  38.7% | postponed  25.8% stayed  12.9% paid 6.5%
+  plf: WILMINGTON SAVINGS                      n=  31 auctioned  74.2% | 3P  25.8% plaintiff  48.4% | postponed  16.1% stayed   9.7% paid 0.0%
+  plf: BANK OF                                 n=  29 auctioned  75.9% | 3P  37.9% plaintiff  37.9% | postponed  20.7% stayed   3.4% paid 0.0%
+  plf: NEWREZ LLC                              n=  28 auctioned  57.1% | 3P  25.0% plaintiff  32.1% | postponed  28.6% stayed  14.3% paid 0.0%
+  plf: FREEDOM MORTGAGE                        n=  23 auctioned  21.7% | 3P   0.0% plaintiff  21.7% | postponed  69.6% stayed   8.7% paid 0.0%
+  plf: NATIONSTAR MORTGAGE                     n=  21 auctioned  66.7% | 3P  23.8% plaintiff  42.9% | postponed  28.6% stayed   4.8% paid 0.0%
+  plf: CARRINGTON MORTGAGE                     n=  17 auctioned  88.2% | 3P  35.3% plaintiff  52.9% | postponed   5.9% stayed   5.9% paid 0.0%
+  plf: HUNTINGTON NATIONAL                     n=  16 auctioned  62.5% | 3P  18.8% plaintiff  43.8% | postponed  31.2% stayed   6.2% paid 0.0%
+  opening $0k-5k                               n= 463 auctioned  47.9% | 3P  13.2% plaintiff  34.8% | postponed  42.3% stayed   9.7% paid 0.0%
+  opening $5k-10k                              n= 369 auctioned  70.7% | 3P  21.1% plaintiff  49.6% | postponed  24.1% stayed   5.1% paid 0.0%
+  opening $10k-20k                             n= 202 auctioned  68.8% | 3P  20.8% plaintiff  48.0% | postponed  23.8% stayed   7.4% paid 0.0%
+  opening $20k-40k                             n=  58 auctioned  69.0% | 3P  20.7% plaintiff  48.3% | postponed  24.1% stayed   6.9% paid 0.0%
+  opening $40k-80k                             n=  37 auctioned  40.5% | 3P  13.5% plaintiff  27.0% | postponed  43.2% stayed   5.4% paid 10.8%
+  muni: Pittsburgh                             n= 265 auctioned  66.0% | 3P  17.4% plaintiff  48.7% | postponed  26.8% stayed   7.2% paid 0.0%
+  muni: Penn Hills                             n=  91 auctioned  57.1% | 3P  19.8% plaintiff  37.4% | postponed  34.1% stayed   7.7% paid 1.1%
+  muni: West Mifflin                           n=  49 auctioned  51.0% | 3P  20.4% plaintiff  30.6% | postponed  46.9% stayed   2.0% paid 0.0%
+  muni: Plum                                   n=  35 auctioned  22.9% | 3P   8.6% plaintiff  14.3% | postponed  57.1% stayed  20.0% paid 0.0%
+  muni: Monroeville                            n=  30 auctioned  43.3% | 3P  30.0% plaintiff  13.3% | postponed  46.7% stayed  10.0% paid 0.0%
+  muni: North Versailles                       n=  25 auctioned  52.0% | 3P  16.0% plaintiff  36.0% | postponed  36.0% stayed  12.0% paid 0.0%
+  muni: McKees Rocks                           n=  22 auctioned  68.2% | 3P  31.8% plaintiff  36.4% | postponed  31.8% stayed   0.0% paid 0.0%
+  muni: Wilkinsburg                            n=  20 auctioned  65.0% | 3P  10.0% plaintiff  55.0% | postponed  30.0% stayed   5.0% paid 0.0%
+  muni: McKeesport                             n=  20 auctioned  95.0% | 3P  35.0% plaintiff  60.0% | postponed   0.0% stayed   5.0% paid 0.0%
+cleared-then-postponed, eventual: [('stayed', 269), ('still postponed', 143), ('sold_3p', 80), ('plaintiff_overbid', 76), ('no later appearance', 44), ('paid', 5), ('plaintiff_costs', 1)] n 618
+ postponed how far: [(-1, 4), (1, 198), (2, 244), (3, 137), (4, 22), (5, 3), (6, 10)]
+##### a10
+Counter({'Sheriff OK box checked': 104})
+  3129.3 done on Oct 30 list               n=104 [('sold_3p', 37), ('postponed', 36), ('plaintiff_overbid', 22), ('stayed', 8), ('plaintiff_costs', 1)]
+  Tax 3129.3 done                          n= 56 [('sold_3p', 26), ('postponed', 26), ('stayed', 4)]
+  Mortgage 3129.3 done                     n= 47 [('plaintiff_overbid', 22), ('sold_3p', 10), ('postponed', 10), ('stayed', 4), ('plaintiff_costs', 1)]
+  Tax lien, free & clear min bid           n=  9 [('sold_3p', 9)]
+  Tax lien, decree                         n=  8 [('sold_3p', 8)]
+  Tax lien, other                          n= 39 [('postponed', 26), ('sold_3p', 9), ('stayed', 4)]
+  estate                                   n= 11 [('sold_3p', 6), ('plaintiff_overbid', 3), ('postponed', 2)]
+  flag forfeited                           n=  6 [('sold_3p', 5), ('plaintiff_overbid', 1)]
+##### a11
+2025-03-03 named 1 of 20 3P; distinct buyers 1 top [('VALENTI CAPITAL LLC', 1)]
+2025-06-02 named 16 of 38 3P; distinct buyers 15 top [('NEW HOMESTEAD DEVELOPMENT CO', 2), ('VIPER PILOT INVESTMENTS LLC', 1), ('an individual', 1)]
+2025-07-07 named 1 of 42 3P; distinct buyers 1 top [('an individual', 1)]
+2025-08-04 named 5 of 40 3P; distinct buyers 4 top [('an individual', 2), ('an individual', 1), ('an individual', 1)]
+2025-09-02 named 34 of 35 3P; distinct buyers 29 top [('PENN PIONEER ENTERPRISES, LLC', 5), ('NEW HOMESTEAD DEVELOPMENT CO', 2), ('an individual', 1)]
+2025-10-06 named 1 of 29 3P; distinct buyers 1 top [('an individual', 1)]
+2026-05-04 named 6 of 32 3P; distinct buyers 6 top [('PENN PIONEER ENTERPRISES, LLC', 1), ('an individual', 1), ('an individual', 1)]
+2026-08-03 named 1 of 32 3P; distinct buyers 1 top [('PENN PIONEER ENTERPRISES, LLC', 1)]
+2026-10-05 named 1 of 42 3P; distinct buyers 1 top [('PENN PIONEER ENTERPRISES, LLC', 1)]
+Counter({'Tax lien, other': 32, 'Mortgage foreclosure': 29, 'Tax lien, free & clear min bid': 4, 'HOA / condo': 1}) 46000.0
+Penn Pioneer: [('Elizabeth Twp', None, 'Tax lien, fr'), ('East McKeesport', 31200.0, 'Tax lien, ot'), ('Richland', 8000.0, 'Tax lien, ot'), ('Penn Hills', 108700.0, 'Mortgage for'), ('Braddock', 14200.0, 'Tax lien, ot'), ('Elizabeth Twp', None, 'Tax lien, fr'), ('Elizabeth Twp', None, 'Tax lien, fr'), ('Elizabeth Twp', None, 'Tax lien, fr')]
+Tax 1503 final stayed 40.3 paid 6.4
+Mortgage 1633 final stayed 29.8 paid 1.0
+completed 3P 693 residential 617 all 3P rows 794
