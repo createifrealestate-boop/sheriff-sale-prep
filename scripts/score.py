@@ -50,7 +50,25 @@ def score_case(c, z, cfg):
         arv, arv_src = statistics.median(comps), "median of comps' sale prices"
     rehab = rehab_estimate(z, cfg)
     bid = float(c.get("opening_bid") or 0)
-    exp_bid = max(bid, cfg["win_pct_of_arv"] * arv)
+    flags_l = " | ".join(c.get("flags") or []).lower()
+    cat_l = (c.get("sale_category") or "").lower()
+    byt = cfg.get("win_pct_by_type")
+    if byt:
+        if c.get("fc_min_bid"):
+            grp, pct = "free & clear", byt["free_and_clear"]
+        elif cat_l.startswith("tax lien") and "court decree" in flags_l:
+            grp, pct = "tax-lien decree", byt["tax_lien_decree"]
+        elif cat_l.startswith("tax lien"):
+            grp, pct = "tax lien", byt["tax_lien"]
+        elif cat_l.startswith("mortgage"):
+            grp, pct = "mortgage", byt["mortgage"]
+        elif cat_l.startswith("hoa"):
+            grp, pct = "HOA/condo", byt["hoa"]
+        else:
+            grp, pct = "other", byt["other"]
+    else:
+        grp, pct = "all", cfg["win_pct_of_arv"]
+    exp_bid = max(bid, pct * arv)
     basis = exp_bid * (1 + cfg["buyer_cost_pct_of_bid"]) + rehab
     profit = arv * (1 - cfg["sell_hold_pct_of_arv"]) - basis
     roi = profit / basis if basis else 0
@@ -92,6 +110,8 @@ def score_case(c, z, cfg):
         pen += pc["almost_ready"]; notes.append(f"-{pc['almost_ready']} not fully cleared")
     if z.get("anchored"):
         pen += pc["zestimate_anchored_to_price"]; notes.append(f"-{pc['zestimate_anchored_to_price']} Zestimate tied to a listing/sale price")
+    if "forfeited" in flags_l:
+        notes.append("FORF: re-auction, prior winner walked away")
     bonus = 0.0
     if c.get("fc_min_bid"):
         bonus = cfg["bonuses"]["free_and_clear_order"]; notes.append(f"+{bonus:g} free & clear order")
@@ -101,7 +121,7 @@ def score_case(c, z, cfg):
         "prelim_score": score, "zestimate": Z, "arv": round(arv), "arv_source": arv_src, "rehab_est": rehab,
         "expected_bid": round(exp_bid), "roi_expected": round(roi, 3), "max_bid_target": round(max_bid),
         "headroom": round(max_bid - bid), "rent_est": rent, "gross_yield": round(yld, 3) if yld is not None else None,
-        "score_notes": f"ARV ${arv:,.0f} ({arv_src}); rehab ~${rehab:,.0f}; assumed winning bid ${exp_bid:,.0f}; "
+        "score_notes": f"ARV ${arv:,.0f} ({arv_src}); rehab ~${rehab:,.0f}; assumed winning bid ${exp_bid:,.0f} ({grp}, {pct*100:.0f}% of ARV or opening bid if higher); "
                        f"ROI {roi*100:.0f}%" + (f"; rent ${rent:,.0f}/mo" if rent else "; no rent est.")
                        + ("; " + ", ".join(notes) if notes else ""),
     }

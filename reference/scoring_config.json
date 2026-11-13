@@ -1,6 +1,10 @@
 {
   "_readme": "Assumptions behind the preliminary score. Edit and the next update uses them. Calibrate win_pct_of_arv and rehab from real auction results.",
   "win_pct_of_arv": 0.55,
+  "win_pct_by_type": {
+    "_note": "Conservative: the 75th percentile of what outside buyers paid, as a share of Zillow value, 2026 sales (about 3 in 4 winning bids were at or below this). Tax-lien decrees sell at the opening (upset) price, so 0.",
+    "free_and_clear": 0.38, "tax_lien": 0.46, "tax_lien_decree": 0.0, "mortgage": 0.64, "hoa": 0.63, "other": 0.55
+  },
   "buyer_cost_pct_of_bid": 0.04,
   "sell_hold_pct_of_arv": 0.10,
   "target_roi": 0.20,
