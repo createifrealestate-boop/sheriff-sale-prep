@@ -12,6 +12,7 @@ ch = "".join(f"<li>{html.escape(x)}</li>" for x in rs.get("changes", [])[:40]) o
 scored_rows = [r for r in rows if r.get("prelim_score") is not None][:top]
 tr = "".join(
     f"<tr><td>{c['prelim_score']}</td><td>{html.escape(c['address'])}, {html.escape(c.get('municipality') or '')}</td>"
+    f"<td>{c.get('sell_label') or ''}{'' if c.get('sell_chance') is None else ' ' + format(c['sell_chance'], '.0%')}</td>"
     f"<td>{'OK' if c['bucket']=='ok' else 'Almost'}</td><td>{m(c.get('opening_bid'))}</td><td>{m(c.get('arv'))}</td>"
     f"<td>{'' if c.get('roi_expected') is None else format(c['roi_expected'],'.0%')}</td><td>{m(c.get('max_bid_target'))}</td></tr>"
     for c in scored_rows)
@@ -22,8 +23,9 @@ body = f"""<div style="font-family:Arial,sans-serif;font-size:14px">
 <h3>What changed</h3><ul>{ch}</ul>
 <h3>Top {top} by preliminary score</h3>
 <table border="1" cellpadding="4" cellspacing="0" style="border-collapse:collapse;font-size:13px">
-<tr style="background:#1F3A5F;color:#fff"><th>Score</th><th>Property</th><th>Status</th><th>Opening bid</th><th>ARV</th><th>Est. ROI</th><th>Max bid @ target</th></tr>{tr}</table>
-<p style="color:#666">Score is a rough Zillow-based screen, not an appraisal or DealScore. {unscored} properties have no Zestimate and need manual research. {"The full workbook (all columns, Transfer Tax, Glossary) is attached." if "--attached" in sys.argv else "The full workbook (all columns, Transfer Tax, Glossary) is in the Claude session for this run and in the repo state file."}</p></div>"""
+<tr style="background:#1F3A5F;color:#fff"><th>Score</th><th>Property</th><th>Sell odds</th><th>Status</th><th>Opening bid</th><th>ARV</th><th>Est. ROI</th><th>Max bid @ target</th></tr>{tr}</table>
+<p><b>OK to Sell with High sell odds</b> (chance an outside buyer wins, from the Sheriff's past results): {", ".join(html.escape(c['address']) for c in sorted([r for r in rows if r.get('sell_label') == 'High' and r['bucket'] == 'ok'], key=lambda r: -r['sell_chance'])) or "none"}.</p>
+<p style="color:#666">Sell odds come from 23 months of the Sheriff's results: High = 60%+, Medium = 30-60%, Low = under 30%; for Almost Ready properties they assume the Sheriff clears them. Score is a rough Zillow-based screen, not an appraisal or DealScore. {unscored} properties have no Zestimate and need manual research. {"The full workbook (all columns, Transfer Tax, Glossary) is attached." if "--attached" in sys.argv else "The full workbook (all columns, Transfer Tax, Glossary) is in the Claude session for this run and in the repo state file."}</p></div>"""
 text = subj + "\n" + "\n".join(x for x in rs.get("changes", [])[:40])
 json.dump({"sale_date": d, "subject": subj, "html": body, "text": text}, open(out, "w"))
 print(subj)

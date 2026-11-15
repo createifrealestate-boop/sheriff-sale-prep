@@ -95,6 +95,10 @@ def main():
     if r.returncode:
         print("score step failed; building without scores")
         scored = cls
+    r = run([S / "sell_chance.py", scored, "--sale-date", sale_date.isoformat()])
+    print(r.stdout.strip(), r.stderr.strip()[-300:])
+    if r.returncode:
+        print("sell-chance step failed; building without sell odds")
 
     state = ROOT / "state" / f"{sale_date.isoformat()}.xlsx"
     out = work / f"Sheriff Sale {sale_date.isoformat()} Prep.xlsx"

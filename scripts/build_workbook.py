@@ -24,6 +24,8 @@ COLUMNS = [
     ("Case #", "case_no", 14, "text"),
     ("Property address", "address", 26, "text"),
     ("Prelim score (0-100, rough screen)", "prelim_score", 11, "int"),
+    ("Sell odds", "sell_label", 9, "text"),
+    ("Chance outside buyer wins", "sell_chance", 10, "pct0"),
     ("City", "city", 14, "text"),
     ("ZIP", "zip", 7, "text"),
     ("Municipality", "municipality", 16, "text"),
@@ -49,6 +51,7 @@ COLUMNS = [
     ("Zillow rent est. /mo", "rent_est", 10, "int-money"),
     ("Gross rent yield", "gross_yield", 8, "pct"),
     ("Score notes", "score_notes", 40, "wrap"),
+    ("Why these sell odds", "sell_reasons", 34, "wrap"),
     ("Boxes  Svs · 3129.2 · 3129.3 · OK", "boxes", 14, "text"),
     ("__STATUS__", "status_note", 34, "wrap"),
     ("Flags / title & bidding risks", "flags_text", 34, "wrap"),
@@ -192,7 +195,7 @@ def style_header(ws, row, ncol, manual_cols=()):
         c.font = WHITE_B
         c.fill = YELLOW_H if i in manual_cols else NAVY
         c.alignment = Alignment(wrap_text=True, vertical="center")
-    ws.row_dimensions[row].height = 42
+    ws.row_dimensions[row].height = 56
 
 
 def write_case_tab(ws, title, subtitle, rows, status_header, today, prev):
@@ -228,13 +231,18 @@ def write_case_tab(ws, title, subtitle, rows, status_header, today, prev):
                 cell.number_format = '"$"#,##0;[Red]-"$"#,##0'
             elif kind.endswith("money"):
                 cell.number_format = MONEY_FMT
+            elif kind == "pct0":
+                cell.number_format = "0%"
             elif kind.endswith("pct"):
                 cell.number_format = PCT_FMT
             cell.alignment = Alignment(wrap_text=kind == "wrap" or k in ("flags_text",), vertical="top")
             cell.border = Border(bottom=THIN)
             if k == "status_note" and str(c.get("status_note", "")).startswith("VERIFY"):
                 cell.fill = AMBER
-    ws.freeze_panes = ws.cell(row=FIRST, column=5)
+            if k == "sell_label" and c.get(k):
+                cell.fill = {"High": GREEN, "Medium": YELLOW, "Low": GREY}.get(c[k], GREY)
+                cell.font = Font(bold=c[k] == "High")
+    ws.freeze_panes = ws.cell(row=FIRST, column=7)
     sc = col_of("prelim_score")
     if rows:
         from openpyxl.formatting.rule import ColorScaleRule
@@ -320,9 +328,12 @@ def write_overview(ws, sale_date, source, cases, changes, prev, run_time, droppe
         "transfer-tax estimate). Every update keeps what you typed, matched by Sale ID. The Sheriff finalizes the list the "
         "morning of the sale — check the morning-of list before bidding. Not legal advice; see Glossary. "
         "PRELIM SCORE: a rough 0-100 screen from Zillow data (Zestimate, sold comps, rent) used only to decide which properties to research first. "
-        "It is not an appraisal or a DealScore. Blank = Zillow has no Zestimate; research those by hand. Assumptions are in reference/scoring_config.json.")).alignment = Alignment(wrap_text=True)
+        "It is not an appraisal or a DealScore. Blank = Zillow has no Zestimate; research those by hand. Assumptions are in reference/scoring_config.json. "
+        "SELL ODDS: the chance an outside buyer wins the property at this sale, from 23 months of the Sheriff's own results (sale type, free & clear "
+        "minimum bid, decree, estate owner, FORF, law firm, plaintiff, time on the list). High = 60%+ (about 9 in 10 sold to outside buyers in testing), "
+        "Medium = 30-60%, Low = under 30% (mostly postponed or taken back by the plaintiff). No property values are used.")).alignment = Alignment(wrap_text=True)
     ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=6)
-    ws.row_dimensions[r].height = 90
+    ws.row_dimensions[r].height = 140
 
 
 def write_transfer_tax(ws, tt):

@@ -1,0 +1,13 @@
+== trained before 2026-05-01, tested on 585 cleared listings after
+   High (60%+)      n=100  outside buyer won 92%
+   Medium (30-60%)  n= 52  outside buyer won 44%
+   Low (under 30%)  n=433  outside buyer won 20%
+== trained before 2026-11-01, tested on 81 cleared listings after
+   High (60%+)      n= 20  outside buyer won 95%
+   Medium (30-60%)  n= 13  outside buyer won 38%
+   Low (under 30%)  n= 48  outside buyer won 27%
+== Nov 2 prep list, 104 OK to Sell properties (model trained on earlier sales)
+   High    n= 20  outside buyer 19  plaintiff  0  postponed  0  stayed  1
+   Medium  n= 29  outside buyer  5  plaintiff  5  postponed 17  stayed  2
+   Low     n= 55  outside buyer 13  plaintiff 18  postponed 19  stayed  5
+   expected outside-buyer wins 39 actual 37

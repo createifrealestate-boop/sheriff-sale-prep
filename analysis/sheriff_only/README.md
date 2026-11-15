@@ -13,3 +13,13 @@ Write-up: Claude Doc "Sheriff Sale Results: What the Sheriff's Own Data Shows".
   `a7.py` position, sale size, 3129.3. `a8.py`/`a10.py` Nov 2 prep list vs result. `a9.py` cleared listings.
   `a11.py` named buyers per sale.
 - `output.txt` - full output of all scripts. Run: `python3 -I a1.py` etc. from this folder.
+
+## Sell odds model (added 2026-11-15)
+
+- `fit_sell.py` fits the chance an outside buyer wins a cleared residential listing (logistic model on sale
+  type, free & clear minimum bid, decree, owner type, FORF/FHA/bankruptcy/reassessed damages in the notes,
+  months on the list, law firm, plaintiff) and writes `reference/sell_model.json`. Refit after adding new
+  months of results: `python3 -I fit_sell.py`.
+- `check_sell.py` prints the out-of-sample checks (later months, and the Nov 2, 2026 prep list).
+- The live pipeline applies it with `scripts/sell_chance.py` (same feature code), adding sell_chance,
+  sell_label (High 60%+ / Medium 30-60% / Low) and sell_reasons to the workbook, email and CRM.
