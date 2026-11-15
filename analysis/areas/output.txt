@@ -1,0 +1,138 @@
+municipalities with listings 124 with a completed outside purchase 105 residential completed 617
+top 3 = 32.4%
+top 5 = 37.8%
+top 10 = 47.2%
+top 20 = 60.9%
+== TOP 25 (A)
+name=Pittsburgh | cases=392 | n=77 | per_100_cases=19.6 | price=56,180 | p25=33,000 | p75=92,500 | fc=2 | decree=17 | plain=0 | mf=55 | tl_price=41,602 | mf_price=64,500
+name=Wilkinsburg | cases=144 | n=70 | per_100_cases=48.6 | price=47,238 | p25=22,250 | p75=77,936 | fc=14 | decree=45 | plain=10 | mf=1 | tl_price=48,476 | mf_price=46,000
+name=Penn Hills | cases=246 | n=53 | per_100_cases=21.5 | price=67,500 | p25=43,300 | p75=87,000 | fc=6 | decree=0 | plain=16 | mf=31 | tl_price=41,400 | mf_price=80,000
+name=Monroeville | cases=66 | n=17 | per_100_cases=25.8 | price=82,000 | p25=63,000 | p75=108,000 | fc=0 | decree=0 | plain=5 | mf=12 | tl_price=54,000 | mf_price=101,000
+name=West Mifflin | cases=71 | n=16 | per_100_cases=22.5 | price=64,000 | p25=45,500 | p75=95,750 | fc=1 | decree=0 | plain=3 | mf=12 | tl_price=52,413 | mf_price=71,500
+name=McKeesport | cases=71 | n=15 | per_100_cases=21.1 | price=31,600 | p25=27,500 | p75=47,887 | fc=5 | decree=0 | plain=6 | mf=4 | tl_price=31,600 | mf_price=76,940
+name=Mount Oliver | cases=30 | n=11 | per_100_cases=36.7 | price=26,000 | p25=22,225 | p75=36,500 | fc=6 | decree=0 | plain=3 | mf=2 | tl_price=26,000 | mf_price=37,525
+name=Elizabeth Twp | cases=42 | n=11 | per_100_cases=26.2 | price=34,000 | p25=24,000 | p75=89,550 | fc=3 | decree=0 | plain=2 | mf=6 | tl_price=21,000 | mf_price=89,550
+name=Clairton | cases=30 | n=11 | per_100_cases=36.7 | price=28,850 | p25=22,250 | p75=35,500 | fc=5 | decree=1 | plain=1 | mf=4 | tl_price=28,000 | mf_price=33,925
+name=Munhall | cases=75 | n=10 | per_100_cases=13.3 | price=53,600 | p25=35,750 | p75=91,676 | fc=1 | decree=2 | plain=3 | mf=4 | tl_price=47,000 | mf_price=83,100
+name=Tarentum | cases=18 | n=10 | per_100_cases=55.6 | price=22,900 | p25=15,750 | p75=28,250 | fc=6 | decree=0 | plain=2 | mf=2 | tl_price=19,000 | mf_price=29,250
+name=North Versailles | cases=60 | n=9 | per_100_cases=15.0 | price=75,000 | p25=40,000 | p75=82,000 | fc=2 | decree=0 | plain=2 | mf=5 | tl_price=46,000 | mf_price=82,000
+name=Glassport | cases=27 | n=9 | per_100_cases=33.3 | price=20,000 | p25=16,095 | p75=27,000 | fc=2 | decree=2 | plain=3 | mf=2 | tl_price=17,500 | mf_price=41,250
+name=Bethel Park | cases=63 | n=9 | per_100_cases=14.3 | price=91,500 | p25=77,000 | p75=140,000 | fc=1 | decree=0 | plain=5 | mf=3 | tl_price=81,778 | mf_price=140,000
+name=Brentwood | cases=33 | n=9 | per_100_cases=27.3 | price=82,000 | p25=73,000 | p75=94,000 | fc=1 | decree=0 | plain=2 | mf=6 | tl_price=59,000 | mf_price=91,500
+name=Millvale | cases=20 | n=9 | per_100_cases=45.0 | price=41,002 | p25=31,000 | p75=70,000 | fc=3 | decree=2 | plain=1 | mf=3 | tl_price=36,001 | mf_price=70,000
+name=Plum | cases=49 | n=8 | per_100_cases=16.3 | price=104,807 | p25=76,000 | p75=127,500 | fc=3 | decree=0 | plain=1 | mf=4 | tl_price=101,500 | mf_price=104,807
+name=Verona | cases=15 | n=8 | per_100_cases=53.3 | price=46,000 | p25=31,500 | p75=67,750 | fc=2 | decree=0 | plain=3 | mf=3 | tl_price=35,000 | mf_price=70,000
+name=McKees Rocks | cases=32 | n=7 | per_100_cases=21.9 | price=40,000 | p25=29,200 | p75=44,050 | fc=1 | decree=0 | plain=0 | mf=6 | tl_price=35,000 | mf_price=41,050
+name=South Fayette | cases=41 | n=7 | per_100_cases=17.1 | price=53,000 | p25=31,000 | p75=142,500 | fc=0 | decree=0 | plain=2 | mf=1 | tl_price=26,000 | mf_price=270,906
+name=Port Vue | cases=29 | n=7 | per_100_cases=24.1 | price=16,000 | p25=8,250 | p75=43,080 | fc=4 | decree=0 | plain=0 | mf=3 | tl_price=8,250 | mf_price=44,500
+name=Reserve | cases=17 | n=7 | per_100_cases=41.2 | price=49,652 | p25=19,939 | p75=102,850 | fc=2 | decree=1 | plain=1 | mf=3 | tl_price=19,939 | mf_price=136,000
+name=Shaler | cases=47 | n=6 | per_100_cases=12.8 | price=55,619 | p25=41,935 | p75=89,750 | fc=1 | decree=0 | plain=4 | mf=1 | tl_price=44,738 | mf_price=183,000
+name=White Oak | cases=32 | n=6 | per_100_cases=18.8 | price=43,000 | p25=35,575 | p75=51,250 | fc=1 | decree=0 | plain=4 | mf=1 | tl_price=40,000 | mf_price=88,888
+name=Swissvale | cases=39 | n=6 | per_100_cases=15.4 | price=37,000 | p25=24,238 | p75=57,000 | fc=2 | decree=0 | plain=2 | mf=1 | tl_price=24,825 | mf_price=116,000
+== TOP 25 (B)
+name=Pittsburgh | tl_ratio=9.28 | tl_n=2 | tl_at_open=0.0 | mf_auct=206 | mf_outside=31.1 | cleared=278 | cleared_auct=68.0 | stayed=11.3 | forf=9/76 | pv=0.39 | pv_n=57 | n25=33 | n26=44 | price25=84,777 | price26=46,500 | resales=6 | resale_gain=128,450 | estate=11.7
+name=Wilkinsburg | tl_ratio=1.54 | tl_n=19 | tl_at_open=31.6 | mf_auct=14 | mf_outside=7.1 | cleared=69 | cleared_auct=79.7 | stayed=7.8 | forf=6/74 | pv=0.58 | pv_n=24 | n25=41 | n26=29 | price25=53,872 | price26=41,000 | resales=3 | resale_gain=13,640 | estate=28.6
+name=Penn Hills | tl_ratio=2.19 | tl_n=21 | tl_at_open=23.8 | mf_auct=76 | mf_outside=46.1 | cleared=146 | cleared_auct=50.7 | stayed=15.8 | forf=9/60 | pv=0.41 | pv_n=47 | n25=31 | n26=22 | price25=76,000 | price26=53,500 | resales=10 | resale_gain=111,800 | estate=11.3
+name=Monroeville | tl_ratio=1.27 | tl_n=4 | tl_at_open=25.0 | mf_auct=22 | mf_outside=54.5 | cleared=38 | cleared_auct=39.5 | stayed=14.2 | forf=0/17 | pv=0.36 | pv_n=15 | n25=11 | n26=6 | price25=82,000 | price26=77,500 | resales=4 | resale_gain=107,200 | estate=11.8
+name=West Mifflin | tl_ratio=1.57 | tl_n=3 | tl_at_open=0.0 | mf_auct=29 | mf_outside=41.4 | cleared=63 | cleared_auct=44.4 | stayed=7.8 | forf=0/15 | pv=0.43 | pv_n=16 | n25=8 | n26=8 | price25=50,000 | price26=80,500 | resales=2 | resale_gain=93,500 | estate=12.5
+name=McKeesport | tl_ratio=1.82 | tl_n=9 | tl_at_open=44.4 | mf_auct=25 | mf_outside=36.0 | cleared=48 | cleared_auct=52.1 | stayed=9.8 | forf=6/21 | pv=0.32 | pv_n=9 | n25=8 | n26=7 | price25=32,200 | price26=31,600 | resales=4 | resale_gain=46,010 | estate=6.7
+name=Mount Oliver | tl_ratio=2.12 | tl_n=8 | tl_at_open=0.0 | mf_auct=8 | mf_outside=25.0 | cleared=20 | cleared_auct=75.0 | stayed=6.2 | forf=0/11 | pv=0.28 | pv_n=5 | n25=3 | n26=8 | price25=35,000 | price26=25,500 | resales=0 | resale_gain=None | estate=9.1
+name=Elizabeth Twp | tl_ratio=1.56 | tl_n=4 | tl_at_open=50.0 | mf_auct=14 | mf_outside=42.9 | cleared=31 | cleared_auct=51.6 | stayed=11.6 | forf=3/13 | pv=0.33 | pv_n=10 | n25=7 | n26=4 | price25=63,265 | price26=27,500 | resales=2 | resale_gain=41,500 | estate=9.1
+name=Clairton | tl_ratio=2.38 | tl_n=6 | tl_at_open=0.0 | mf_auct=12 | mf_outside=33.3 | cleared=22 | cleared_auct=86.4 | stayed=4.9 | forf=1/11 | pv=0.42 | pv_n=7 | n25=5 | n26=6 | price25=30,185 | price26=27,000 | resales=1 | resale_gain=16,500 | estate=18.2
+name=Munhall | tl_ratio=1.08 | tl_n=4 | tl_at_open=50.0 | mf_auct=13 | mf_outside=30.8 | cleared=25 | cleared_auct=60.0 | stayed=4.6 | forf=0/9 | pv=0.35 | pv_n=7 | n25=3 | n26=7 | price25=56,000 | price26=38,000 | resales=0 | resale_gain=None | estate=10.0
+name=Tarentum | tl_ratio=2.03 | tl_n=8 | tl_at_open=25.0 | mf_auct=8 | mf_outside=25.0 | cleared=16 | cleared_auct=100.0 | stayed=4.5 | forf=4/14 | pv=0.19 | pv_n=6 | n25=5 | n26=5 | price25=18,000 | price26=25,800 | resales=1 | resale_gain=10,700 | estate=0.0
+name=North Versailles | tl_ratio=2.78 | tl_n=4 | tl_at_open=25.0 | mf_auct=16 | mf_outside=37.5 | cleared=38 | cleared_auct=42.1 | stayed=15.4 | forf=1/9 | pv=0.4 | pv_n=8 | n25=6 | n26=3 | price25=78,500 | price26=52,000 | resales=2 | resale_gain=141,500 | estate=0.0
+name=Glassport | tl_ratio=2.06 | tl_n=4 | tl_at_open=25.0 | mf_auct=6 | mf_outside=33.3 | cleared=16 | cleared_auct=87.5 | stayed=9.6 | forf=3/12 | pv=0.2 | pv_n=5 | n25=6 | n26=3 | price25=18,750 | price26=24,000 | resales=0 | resale_gain=None | estate=11.1
+name=Bethel Park | tl_ratio=1.89 | tl_n=6 | tl_at_open=0.0 | mf_auct=11 | mf_outside=36.4 | cleared=32 | cleared_auct=43.8 | stayed=22.5 | forf=3/12 | pv=0.45 | pv_n=9 | n25=6 | n26=3 | price25=120,000 | price26=77,000 | resales=4 | resale_gain=146,750 | estate=11.1
+name=Brentwood | tl_ratio=1.87 | tl_n=3 | tl_at_open=0.0 | mf_auct=17 | mf_outside=35.3 | cleared=15 | cleared_auct=93.3 | stayed=12.3 | forf=0/8 | pv=0.5 | pv_n=8 | n25=3 | n26=6 | price25=89,000 | price26=78,500 | resales=0 | resale_gain=None | estate=0.0
+name=Millvale | tl_ratio=1.53 | tl_n=4 | tl_at_open=50.0 | mf_auct=4 | mf_outside=75.0 | cleared=15 | cleared_auct=40.0 | stayed=5.7 | forf=0/9 | pv=0.4 | pv_n=8 | n25=2 | n26=7 | price25=100,769 | price26=40,000 | resales=0 | resale_gain=None | estate=11.1
+name=Plum | tl_ratio=1.62 | tl_n=4 | tl_at_open=0.0 | mf_auct=11 | mf_outside=45.5 | cleared=40 | cleared_auct=25.0 | stayed=20.9 | forf=2/10 | pv=0.43 | pv_n=8 | n25=6 | n26=2 | price25=112,307 | price26=94,000 | resales=2 | resale_gain=172,143 | estate=12.5
+name=Verona | tl_ratio=2.54 | tl_n=4 | tl_at_open=25.0 | mf_auct=6 | mf_outside=50.0 | cleared=10 | cleared_auct=80.0 | stayed=4.8 | forf=1/9 | pv=0.38 | pv_n=6 | n25=5 | n26=3 | price25=37,000 | price26=55,000 | resales=3 | resale_gain=35,500 | estate=12.5
+name=McKees Rocks | tl_ratio=1.75 | tl_n=1 | tl_at_open=0.0 | mf_auct=20 | mf_outside=35.0 | cleared=23 | cleared_auct=69.6 | stayed=12.5 | forf=1/7 | pv=0.36 | pv_n=6 | n25=3 | n26=4 | price25=46,000 | price26=29,200 | resales=1 | resale_gain=110,300 | estate=14.3
+name=South Fayette | tl_ratio=0.96 | tl_n=2 | tl_at_open=100.0 | mf_auct=5 | mf_outside=20.0 | cleared=22 | cleared_auct=36.4 | stayed=24.4 | forf=1/8 | pv=0.52 | pv_n=5 | n25=4 | n26=3 | price25=44,000 | price26=140,000 | resales=1 | resale_gain=159,094 | estate=0.0
+name=Port Vue | tl_ratio=1.15 | tl_n=4 | tl_at_open=50.0 | mf_auct=8 | mf_outside=37.5 | cleared=23 | cleared_auct=43.5 | stayed=9.6 | forf=2/8 | pv=0.41 | pv_n=3 | n25=4 | n26=3 | price25=24,830 | price26=16,000 | resales=3 | resale_gain=60,640 | estate=0.0
+name=Reserve | tl_ratio=1.5 | tl_n=3 | tl_at_open=0.0 | mf_auct=4 | mf_outside=75.0 | cleared=13 | cleared_auct=61.5 | stayed=18.0 | forf=1/8 | pv=0.2 | pv_n=5 | n25=4 | n26=3 | price25=59,675 | price26=20,878 | resales=0 | resale_gain=None | estate=0.0
+name=Shaler | tl_ratio=1.0 | tl_n=5 | tl_at_open=60.0 | mf_auct=8 | mf_outside=25.0 | cleared=29 | cleared_auct=31.0 | stayed=16.5 | forf=1/7 | pv=0.34 | pv_n=4 | n25=2 | n26=4 | price25=60,400 | price26=55,619 | resales=1 | resale_gain=77,500 | estate=16.7
+name=White Oak | tl_ratio=1.44 | tl_n=5 | tl_at_open=20.0 | mf_auct=5 | mf_outside=20.0 | cleared=23 | cleared_auct=34.8 | stayed=11.2 | forf=1/6 | pv=0.48 | pv_n=4 | n25=4 | n26=2 | price25=49,500 | price26=27,883 | resales=3 | resale_gain=62,400 | estate=33.3
+name=Swissvale | tl_ratio=2.02 | tl_n=4 | tl_at_open=25.0 | mf_auct=8 | mf_outside=12.5 | cleared=20 | cleared_auct=55.0 | stayed=18.9 | forf=0/4 | pv=0.42 | pv_n=2 | n25=1 | n26=5 | price25=23,650 | price26=48,000 | resales=0 | resale_gain=None | estate=33.3
+name=ALL | cases=2946 | n=617 | per_100_cases=20.9 | price=50,000 | p25=26,834 | p75=90,000 | fc=120 | decree=85 | plain=148 | mf=248 | tl_price=34,409 | mf_price=81,000
+name=ALL | tl_ratio=1.89 | tl_n=240 | tl_at_open=24.6 | mf_auct=853 | mf_outside=33.5 | cleared=1761 | cleared_auct=55.6 | stayed=14.4 | forf=97/677 | pv=0.4 | pv_n=447 | n25=320 | n26=297 | price25=53,936 | price26=46,300 | resales=77 | resale_gain=89,000 | estate=12.3
+== TIERS by median outside price (munis with >=5 purchases); others pooled
+A under $35k munis: ['Brackenridge', 'Braddock', 'Clairton', 'Elizabeth Twp', 'Glassport', 'McKeesport', 'Mount Oliver', 'North Braddock', 'Port Vue', 'Stowe', 'Tarentum']
+cases=313 | n=95 | per_100_cases=30.4 | price=26,010 | p25=19,400 | p75=37,500 | fc=38 | decree=9 | plain=21 | mf=27 | tl_price=24,725 | mf_price=43,000
+tl_ratio=2.12 | tl_n=52 | tl_at_open=26.9 | mf_auct=102 | mf_outside=32.4 | cleared=223 | cleared_auct=66.4 | stayed=8.6 | forf=20/112 | pv=0.32 | pv_n=56 | n25=48 | n26=47 | price25=27,000 | price26=26,000 | resales=13 | resale_gain=25,800 | estate=6.3
+    Tax lien, free & clear n= 38 price    20,500 ratio 2.62 price/value 0.22 (n=17)
+    Tax lien, other        n= 21 price    27,000 ratio 1.00 price/value 0.32 (n=18)
+    Mortgage foreclosure   n= 27 price    43,000 ratio 7.87 price/value 0.41 (n=20)
+B $35k-$70k munis: ['Avalon', 'Coraopolis', 'Homestead', 'McKees Rocks', 'Millvale', 'Munhall', 'Oakmont', 'Penn Hills', 'Pittsburgh', 'Reserve', 'Shaler', 'South Fayette', 'Swissvale', 'Verona', 'West Mifflin', 'White Oak', 'Wilkinsburg']
+cases=1245 | n=304 | per_100_cases=24.4 | price=52,500 | p25=31,211 | p75=83,226 | fc=40 | decree=72 | plain=58 | mf=126 | tl_price=41,000 | mf_price=71,500
+tl_ratio=1.71 | tl_n=90 | tl_at_open=28.9 | mf_auct=410 | mf_outside=34.4 | cleared=772 | cleared_auct=60.0 | stayed=11.8 | forf=34/316 | pv=0.41 | pv_n=209 | n25=148 | n26=156 | price25=59,500 | price26=46,500 | resales=31 | resale_gain=91,512 | estate=16.4
+    Tax lien, free & clear n= 40 price    25,500 ratio 3.31 price/value 0.27 (n=23)
+    Tax lien, other        n= 58 price    37,500 ratio 1.26 price/value 0.37 (n=46)
+    Mortgage foreclosure   n=126 price    71,500 ratio 10.64 price/value 0.41 (n=105)
+C over $70k munis: ['Bethel Park', 'Brentwood', 'Castle Shannon', 'Jefferson Hills', 'Monroeville', 'Mount Lebanon', 'North Versailles', 'Plum', 'Scott', 'Wilkins']
+cases=410 | n=81 | per_100_cases=19.8 | price=89,000 | p25=70,000 | p75=130,000 | fc=12 | decree=0 | plain=21 | mf=48 | tl_price=70,000 | mf_price=105,000
+tl_ratio=2.18 | tl_n=30 | tl_at_open=10.0 | mf_auct=118 | mf_outside=46.6 | cleared=245 | cleared_auct=44.1 | stayed=17.7 | forf=12/91 | pv=0.45 | pv_n=73 | n25=49 | n26=32 | price25=94,000 | price26=80,000 | resales=15 | resale_gain=135,000 | estate=8.6
+    Tax lien, free & clear n= 12 price    46,000 ratio 3.70 price/value 0.4 (n=10)
+    Tax lien, other        n= 21 price    77,000 ratio 1.87 price/value 0.4 (n=18)
+    Mortgage foreclosure   n= 48 price   105,000 ratio 15.91 price/value 0.51 (n=45)
+D few purchases munis: 86
+cases=979 | n=137 | per_100_cases=14.0 | price=50,005 | p25=25,000 | p75=130,000 | fc=30 | decree=4 | plain=48 | mf=47 | tl_price=30,300 | mf_price=130,000
+tl_ratio=1.76 | tl_n=68 | tl_at_open=23.5 | mf_auct=223 | mf_outside=25.6 | cleared=521 | cleared_auct=49.9 | stayed=18.7 | forf=31/158 | pv=0.37 | pv_n=109 | n25=75 | n26=62 | price25=45,000 | price26=50,502 | resales=18 | resale_gain=103,350 | estate=9.5
+    Tax lien, free & clear n= 30 price    24,750 ratio 2.71 price/value 0.27 (n=23)
+    Tax lien, other        n= 48 price    39,950 ratio 1.37 price/value 0.34 (n=43)
+    Mortgage foreclosure   n= 47 price   130,000 ratio 14.36 price/value 0.55 (n=36)
+== ZIP (>=8 purchases)
+15221 [('Wilkinsburg', 76), ('Penn Hills', 4)] n=79 price 43,570 tax_share 93.7 tl_ratio 2.0 at_open 26.1 mf_outside 28.6 forf 10/87 pv 0.53(30) 25/26 45/34
+15235 [('Penn Hills', 43), ('Churchill', 1)] n=40 price 75,500 tax_share 35.0 tl_ratio 2.05 at_open 28.6 mf_outside 51.9 forf 5/44 pv 0.42(36) 25/26 25/15
+15210 [('Pittsburgh', 23), ('Mount Oliver', 11)] n=34 price 35,000 tax_share 70.6 tl_ratio 2.12 at_open 0.0 mf_outside 26.5 forf 0/26 pv 0.33(19) 25/26 6/28
+15147 [('Penn Hills', 15), ('Verona', 9)] n=21 price 47,000 tax_share 61.9 tl_ratio 2.49 at_open 18.2 mf_outside 32.1 forf 3/23 pv 0.38(17) 25/26 11/10
+15132 [('McKeesport', 21), ('Versailles', 2)] n=19 price 31,600 tax_share 68.4 tl_ratio 2.6 at_open 36.4 mf_outside 39.3 forf 6/25 pv 0.32(13) 25/26 9/10
+15120 [('Munhall', 10), ('Homestead', 5)] n=17 price 38,975 tax_share 76.5 tl_ratio 1.08 at_open 50.0 mf_outside 21.1 forf 0/15 pv 0.42(8) 25/26 4/13
+15146 [('Monroeville', 17)] n=17 price 82,000 tax_share 29.4 tl_ratio 1.27 at_open 25.0 mf_outside 54.5 forf 0/17 pv 0.36(15) 25/26 11/6
+15025 [('Clairton', 12), ('Jefferson Hills', 5)] n=16 price 32,500 tax_share 62.5 tl_ratio 2.64 at_open 0.0 mf_outside 37.5 forf 1/16 pv 0.5(12) 25/26 8/8
+15122 [('West Mifflin', 15)] n=15 price 66,000 tax_share 20.0 tl_ratio 2.52 at_open 0.0 mf_outside 42.9 forf 0/14 pv 0.44(15) 25/26 8/7
+15227 [('Brentwood', 9), ('Whitehall', 3)] n=14 price 78,500 tax_share 35.7 tl_ratio 1.86 at_open 0.0 mf_outside 32.3 forf 1/14 pv 0.49(12) 25/26 6/8
+15084 [('Tarentum', 14), ('Frazer', 3)] n=14 price 27,500 tax_share 71.4 tl_ratio 1.34 at_open 40.0 mf_outside 28.6 forf 4/18 pv 0.26(10) 25/26 7/7
+15136 [('McKees Rocks', 7), ('Stowe', 6)] n=13 price 35,000 tax_share 46.2 tl_ratio 2.64 at_open 20.0 mf_outside 28.6 forf 1/13 pv 0.33(10) 25/26 7/6
+15209 [('Millvale', 9), ('Shaler', 1)] n=10 price 42,870 tax_share 70.0 tl_ratio 1.0 at_open 60.0 mf_outside 37.5 forf 0/10 pv 0.37(9) 25/26 2/8
+15106 [('Carnegie', 6), ('Scott', 5)] n=10 price 66,050 tax_share 40.0 tl_ratio 3.28 at_open 0.0 mf_outside 40.0 forf 4/14 pv 0.42(8) 25/26 3/7
+15234 [('Castle Shannon', 7), ('Whitehall', 2)] n=10 price 110,000 tax_share 40.0 tl_ratio 2.72 at_open 0.0 mf_outside 55.6 forf 2/12 pv 0.46(10) 25/26 5/5
+15104 [('Braddock', 6), ('North Braddock', 5)] n=10 price 23,318 tax_share 90.0 tl_ratio 1.73 at_open 50.0 mf_outside 28.6 forf 1/11 pv 0.35(3) 25/26 5/5
+15137 [('North Versailles', 10)] n=9 price 75,000 tax_share 44.4 tl_ratio 2.78 at_open 25.0 mf_outside 37.5 forf 1/9 pv 0.4(8) 25/26 6/3
+15212 [('Reserve', 7), ('Pittsburgh', 4)] n=9 price 46,000 tax_share 44.4 tl_ratio 1.5 at_open 0.0 mf_outside 21.4 forf 2/11 pv 0.2(5) 25/26 4/5
+15045 [('Glassport', 12)] n=9 price 20,000 tax_share 77.8 tl_ratio 2.06 at_open 25.0 mf_outside 33.3 forf 3/12 pv 0.2(5) 25/26 6/3
+15108 [('Coraopolis', 7), ('Kennedy', 1)] n=9 price 42,000 tax_share 66.7 tl_ratio 2.48 at_open 16.7 mf_outside 50.0 forf 1/10 pv 0.37(9) 25/26 2/7
+15205 [('Crafton', 4), ('Ingram', 3)] n=8 price 78,000 tax_share 62.5 tl_ratio 2.49 at_open 0.0 mf_outside 21.4 forf 0/8 pv 0.39(7) 25/26 4/4
+15216 [('Pittsburgh', 8), ('Dormont', 2)] n=8 price 68,550 tax_share 12.5 tl_ratio 2.58 at_open 0.0 mf_outside 60.0 forf 2/10 pv 0.36(7) 25/26 3/5
+15102 [('Bethel Park', 11)] n=8 price 89,028 tax_share 62.5 tl_ratio 1.87 at_open 0.0 mf_outside 36.4 forf 3/11 pv 0.44(8) 25/26 5/3
+== STREETS with 3+ completed outside purchases
+  LAKETON, Wilkinsburg: 13 purchases, prices [21000, 28500, 31343, 34000, 53871, 68954, 77176, 86202, 87422, 122338, 122601, 129979, 203390], types {'tax': 13}
+  MONTIER, Wilkinsburg: 10 purchases, prices [8000, 22000, 23000, 34409, 48508, 54242, 54418, 64356, 78515, 97506], types {'tax': 10}
+  ARDMORE, Wilkinsburg: 7 purchases, prices [12000, 18500, 33367, 55401, 64729, 66937, 77936], types {'tax': 7}
+  RAMSEY, Wilkinsburg: 5 purchases, prices [26465, 34204, 48476, 77933, 86592], types {'tax': 5}
+  MARIE, Wilkinsburg: 4 purchases, prices [43569, 64122, 99720, 138392], types {'tax': 4}
+  COMRIE, Braddock: 4 purchases, prices [8957, 25208, 25538, 27449], types {'tax': 4}
+  WOOD, Wilkinsburg: 3 purchases, prices [7000, 91815, 187333], types {'tax': 3}
+  SUNCREST, Pittsburgh: 3 purchases, prices [26000, 30000, 45500], types {'mortgage': 3}
+  RIDGE, Verona: 3 purchases, prices [21000, 37000, 55000], types {'tax': 3}
+  NORTH, Wilkinsburg: 3 purchases, prices [21902, 55842, 79009], types {'tax': 3}
+  MINOOKA, Pittsburgh: 3 purchases, prices [20848, 29714, 39398], types {'tax': 3}
+purchases by street repeat count {'1': 479, '3+': 58, '2': 80}
+== PIPELINE: cases still pending at the Nov 2026 sale (postponed), by municipality, top 15
+  Pittsburgh: 33 pending (tax 1, mortgage 32)
+  Penn Hills: 22 pending (tax 13, mortgage 9)
+  Munhall: 22 pending (tax 17, mortgage 4)
+  McKeesport: 13 pending (tax 7, mortgage 6)
+  Wilkinsburg: 10 pending (tax 6, mortgage 4)
+  Monroeville: 7 pending (tax 1, mortgage 6)
+  Jefferson Hills: 7 pending (tax 5, mortgage 2)
+  Ross: 6 pending (tax 2, mortgage 3)
+  Elizabeth Twp: 6 pending (tax 3, mortgage 3)
+  Bethel Park: 6 pending (tax 3, mortgage 3)
+  McCandless: 6 pending (tax 2, mortgage 4)
+  West Mifflin: 5 pending (tax 4, mortgage 1)
+  White Oak: 5 pending (tax 2, mortgage 3)
+  Stowe: 5 pending (tax 1, mortgage 4)
+  Scott: 5 pending (tax 3, mortgage 2)
+total pending 273

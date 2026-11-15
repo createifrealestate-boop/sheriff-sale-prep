@@ -1,0 +1,36 @@
+Penn Hills         on list 11 (OK 7, tax 9, High 2, Med 4) | history: 53 purchases, median $67,500, tl x2.19, cleared->auction 50.7%, bank loses 46.1%, forf 9/60, price/value 0.41
+Wilkinsburg        on list  6 (OK 3, tax 5, High 0, Med 5) | history: 70 purchases, median $47,238, tl x1.54, cleared->auction 79.7%, bank loses 7.1%, forf 6/74, price/value 0.58
+Pittsburgh         on list  6 (OK 3, tax 0, High 0, Med 0) | history: 77 purchases, median $56,180, tl x9.28, cleared->auction 68.0%, bank loses 31.1%, forf 9/76, price/value 0.39
+West Mifflin       on list  5 (OK 5, tax 0, High 0, Med 0) | history: 16 purchases, median $64,000, tl x1.57, cleared->auction 44.4%, bank loses 41.4%, forf 0/15, price/value 0.43
+Munhall            on list  4 (OK 0, tax 4, High 0, Med 3) | history: 10 purchases, median $53,600, tl x1.08, cleared->auction 60.0%, bank loses 30.8%, forf 0/9, price/value 0.35
+Port Vue           on list  3 (OK 2, tax 2, High 0, Med 1) | history: 7 purchases, median $16,000, tl x1.15, cleared->auction 43.5%, bank loses 37.5%, forf 2/8, price/value 0.41
+Mount Oliver       on list  3 (OK 2, tax 3, High 0, Med 0) | history: 11 purchases, median $26,000, tl x2.12, cleared->auction 75.0%, bank loses 25.0%, forf 0/11, price/value 0.28
+Monroeville        on list  3 (OK 3, tax 2, High 0, Med 2) | history: 17 purchases, median $82,000, tl x1.27, cleared->auction 39.5%, bank loses 54.5%, forf 0/17, price/value 0.36
+South Park         on list  2 (OK 2, tax 2, High 1, Med 0) | history: 4 purchases, median $175,000, tl xNone, cleared->auction 36.4%, bank loses 50.0%, forf 0/3, price/value 0.66
+Bethel Park        on list  2 (OK 2, tax 2, High 0, Med 1) | history: 9 purchases, median $91,500, tl x1.89, cleared->auction 43.8%, bank loses 36.4%, forf 3/12, price/value 0.45
+Coraopolis         on list  2 (OK 2, tax 2, High 0, Med 0) | history: 6 purchases, median $39,000, tl x2.48, cleared->auction 70.0%, bank loses 40.0%, forf 1/7, price/value 0.36
+Brentwood          on list  1 (OK 1, tax 1, High 0, Med 0) | history: 9 purchases, median $82,000, tl x1.87, cleared->auction 93.3%, bank loses 35.3%, forf 0/8, price/value 0.5
+Mount Lebanon      on list  1 (OK 1, tax 0, High 0, Med 0) | history: 6 purchases, median $172,500, tl x3.4, cleared->auction 37.5%, bank loses 88.9%, forf 3/9, price/value 0.52
+Moon               on list  1 (OK 0, tax 0, High 1, Med 0) | history: 1 purchases, median $29,000, tl x1.26, cleared->auction 20.0%, bank loses None%, forf 0/1, price/value 0.08
+West View          on list  1 (OK 1, tax 1, High 0, Med 1) | history: 2 purchases, median $125,000, tl xNone, cleared->auction 40.0%, bank loses 42.9%, forf 1/3, price/value 0.48
+Shaler             on list  1 (OK 1, tax 1, High 0, Med 0) | history: 6 purchases, median $55,619, tl x1.0, cleared->auction 31.0%, bank loses 25.0%, forf 1/7, price/value 0.34
+O'Hara             on list  1 (OK 1, tax 0, High 0, Med 0) | history: 3 purchases, median $18,000, tl x1.16, cleared->auction 50.0%, bank loses 50.0%, forf 1/3, price/value 0.29
+Clairton           on list  1 (OK 0, tax 1, High 0, Med 0) | history: 11 purchases, median $28,850, tl x2.38, cleared->auction 86.4%, bank loses 33.3%, forf 1/11, price/value 0.42
+North Versailles   on list  1 (OK 1, tax 1, High 0, Med 0) | history: 9 purchases, median $75,000, tl x2.78, cleared->auction 42.1%, bank loses 37.5%, forf 1/9, price/value 0.4
+Richland           on list  1 (OK 1, tax 1, High 0, Med 0) | history: 1 purchases, median $8,000, tl xNone, cleared->auction 0.0%, bank loses None%, forf 1/2, price/value 0.07
+Carnegie           on list  1 (OK 1, tax 1, High 0, Med 0) | history: 4 purchases, median $66,550, tl x2.37, cleared->auction 47.8%, bank loses 28.6%, forf 2/6, price/value 0.46
+Braddock           on list  1 (OK 1, tax 1, High 1, Med 0) | history: 5 purchases, median $25,209, tl xNone, cleared->auction 87.5%, bank loses 33.3%, forf 1/6, price/value 0.56
+Green Tree         on list  1 (OK 0, tax 1, High 0, Med 1) | history: 3 purchases, median $148,900, tl xNone, cleared->auction 100.0%, bank loses 75.0%, forf 0/3, price/value 0.54
+Elizabeth Twp      on list  1 (OK 1, tax 0, High 0, Med 0) | history: 11 purchases, median $34,000, tl x1.56, cleared->auction 51.6%, bank loses 42.9%, forf 3/13, price/value 0.33
+Collier            on list  1 (OK 1, tax 0, High 0, Med 0) | history: 4 purchases, median $41,000, tl x1.96, cleared->auction 50.0%, bank loses 66.7%, forf 2/6, price/value 0.43
+White Oak          on list  1 (OK 1, tax 0, High 0, Med 0) | history: 6 purchases, median $43,000, tl x1.44, cleared->auction 34.8%, bank loses 20.0%, forf 1/6, price/value 0.48
+West Deer          on list  1 (OK 1, tax 1, High 0, Med 0) | history: 4 purchases, median $85,000, tl x6.35, cleared->auction 64.7%, bank loses 10.0%, forf 1/5, price/value 0.36
+Homestead          on list  1 (OK 1, tax 1, High 0, Med 0) | history: 5 purchases, median $38,975, tl xNone, cleared->auction 85.7%, bank loses 0.0%, forf 0/5, price/value 0.58
+Franklin Park      on list  1 (OK 1, tax 1, High 0, Med 1) | history: 3 purchases, median $240,000, tl x1.33, cleared->auction 100.0%, bank loses 75.0%, forf 1/4, price/value 0.42
+Scott              on list  1 (OK 1, tax 1, High 0, Med 1) | history: 6 purchases, median $77,500, tl x3.6, cleared->auction 50.0%, bank loses 41.7%, forf 1/7, price/value 0.45
+McKeesport         on list  1 (OK 0, tax 0, High 0, Med 0) | history: 15 purchases, median $31,600, tl x1.82, cleared->auction 52.1%, bank loses 36.0%, forf 6/21, price/value 0.32
+McKees Rocks       on list  1 (OK 1, tax 1, High 0, Med 1) | history: 7 purchases, median $40,000, tl x1.75, cleared->auction 69.6%, bank loses 35.0%, forf 1/7, price/value 0.36
+Ross               on list  1 (OK 1, tax 0, High 0, Med 0) | history: 4 purchases, median $105,000, tl xNone, cleared->auction 30.0%, bank loses 33.3%, forf 2/5, price/value 0.44
+Upper St. Clair    on list  1 (OK 1, tax 1, High 0, Med 0) | history: 0 purchases, median $0, tl xNone, cleared->auction 44.4%, bank loses 0.0%, forf 0/0, price/value None
+Forest Hills       on list  1 (OK 1, tax 1, High 0, Med 0) | history: 1 purchases, median $80,000, tl xNone, cleared->auction 50.0%, bank loses 50.0%, forf 0/1, price/value None
+71 35
