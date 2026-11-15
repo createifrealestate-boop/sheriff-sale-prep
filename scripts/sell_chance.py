@@ -136,20 +136,50 @@ def chance(c, model, sale_date=None):
     return round(p, 3), lab, reasons
 
 
+def bank_bid(c, model):
+    """Bank's likely winning bid on a mortgage foreclosure: share of the reassessed judgment in the Sheriff's
+    notes (by judgment size), else share of the Zestimate. Returns (est, lo, hi, note) or None."""
+    if group(c) != "mortgage" or "bank_bid" not in model:
+        return None
+    bb = model["bank_bid"]
+    r100 = lambda x: int(round(x, -2))
+    d = c.get("reassessed_damages")
+    if d:
+        b = next(x for x in bb["judgment_bands"] if d >= x["judgment_from"] and (x["judgment_to"] is None or d < x["judgment_to"]))
+        note = (f"{b['median']:.0%} of the ${d:,.0f} judgment in the Sheriff's notes; banks bid {b['p25']:.0%}-{b['p75']:.0%} "
+                f"of judgments this size in half their wins (n={b['n']})")
+        if b.get("outside_winners_median"):
+            note += f". Outside buyers who won these paid a median {b['outside_winners_median']:.0%} of the judgment"
+        return r100(b["median"] * d), r100(b["p25"] * d), r100(b["p75"] * d), note
+    v = c.get("zestimate")
+    if v:
+        z = bb["zestimate"]
+        note = (f"No judgment in the notes, so {z['median']:.0%} of the ${v:,.0f} Zestimate; banks bid {z['p25']:.0%}-{z['p75']:.0%} "
+                f"of the Zestimate in half their wins (n={z['n']}). Less reliable than a judgment")
+        return r100(z["median"] * v), r100(z["p25"] * v), r100(z["p75"] * v), note
+    return None
+
+
 def main():
     path = sys.argv[1]
     sale_date = sys.argv[sys.argv.index("--sale-date") + 1] if "--sale-date" in sys.argv else None
     model = json.load(open(REF / "sell_model.json"))
     cases = json.load(open(path))
-    n = 0
+    n = nb = 0
     for c in cases:
         if c.get("bucket") not in ("ok", "almost"):
             continue
         c["sell_chance"], c["sell_label"], c["sell_reasons"] = chance(c, model, sale_date)
+        c["sell_group"] = group(c)
+        b = bank_bid(c, model)
+        if b:
+            c["bank_bid_est"], c["bank_bid_lo"], c["bank_bid_hi"], c["bank_bid_note"] = b
+            nb += 1
         n += 1
     json.dump(cases, open(path, "w"), indent=1, default=str)
     from collections import Counter
-    print(f"sell chance for {n} cases:", dict(Counter(c.get('sell_label') for c in cases if c.get('sell_label'))))
+    print(f"sell chance for {n} cases:", dict(Counter(c.get('sell_label') for c in cases if c.get('sell_label'))),
+          f"| bank's likely bid for {nb} mortgage cases")
 
 
 if __name__ == "__main__":

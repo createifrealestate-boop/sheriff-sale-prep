@@ -3,7 +3,9 @@
 Sales are on the first Monday of each month. Update schedule:
   * weekly (every 7 days) until the week before the sale: 28, 21, 14 days out ... and 7 days out
   * every other day in the final week: 5, 3 and 1 days out
-So for a Monday sale: the Monday a week before, then Wed, Fri, Sun.
+So for a Monday sale: the Monday a week before, then Wed, Fri, Sun ("mode": "full").
+On the other final-week days (6, 4 and 2 days out: Tue, Thu, Sat) it returns "mode": "alert": a quick check
+for new free & clear / decree / High sell odds properties (scripts/hot.py), emailed only when something is new.
 
 Usage: python3 -I should_run.py [--today YYYY-MM-DD]
 Prints JSON {"run": bool, "sale_date": ..., "days_until": ..., "reason": ...}. Exit code is always 0.
@@ -30,7 +32,10 @@ def decide(today):
     sale = next_sale(today)
     d = (sale - today).days
     if d in (1, 3, 5) or (d >= 7 and d % 7 == 0):
-        return {"run": True, "sale_date": sale.isoformat(), "days_until": d, "reason": "scheduled update day"}
+        return {"run": True, "mode": "full", "sale_date": sale.isoformat(), "days_until": d, "reason": "scheduled update day"}
+    if d in (2, 4, 6):
+        return {"run": True, "mode": "alert", "sale_date": sale.isoformat(), "days_until": d,
+                "reason": "final-week check for new free & clear / decree / High sell odds properties"}
     return {"run": False, "sale_date": sale.isoformat(), "days_until": d, "reason": "not an update day"}
 
 

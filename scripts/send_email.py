@@ -13,18 +13,20 @@ if not (user and pw and to):
     sys.exit(0)
 
 em = json.load(open(sys.argv[1] if len(sys.argv) > 1 else ROOT / "state" / "email.json"))
+attach = em.get("attach", True)  # final-week alerts go out without the workbook
 wb = ROOT / "state" / f"{em['sale_date']}.xlsx"
-if not wb.exists():
+if attach and not wb.exists():
     sys.exit(f"workbook {wb} not found")
 
 msg = EmailMessage()
 msg["Subject"], msg["From"], msg["To"] = em["subject"], user, ", ".join(to)
 msg.set_content(em.get("text") or em["subject"])
 msg.add_alternative(em["html"], subtype="html")
-msg.add_attachment(wb.read_bytes(), maintype="application",
-                   subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-                   filename=f"Sheriff Sale {em['sale_date']} Prep.xlsx")
+if attach:
+    msg.add_attachment(wb.read_bytes(), maintype="application",
+                       subtype="vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                       filename=f"Sheriff Sale {em['sale_date']} Prep.xlsx")
 with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=ssl.create_default_context()) as s:
     s.login(user, pw)
     s.send_message(msg)
-print(f"sent '{em['subject']}' to {len(to)} recipient(s) with {wb.name}")
+print(f"sent '{em['subject']}' to {len(to)} recipient(s)" + (f" with {wb.name}" if attach else " (no attachment)"))

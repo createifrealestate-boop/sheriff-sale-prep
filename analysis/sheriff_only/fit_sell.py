@@ -102,7 +102,10 @@ if __name__ == "__main__":
            "fitted": dt.date.today().isoformat(), "n": len(pop), "outside_rate": round(float(np.mean([c['y'] for c in pop])), 4),
            "intercept": round(float(m.intercept_[0]), 4), "coef": coef, "firms": sorted(firms), "plaintiffs": sorted(plfs),
            "bands": {"High": 0.6, "Medium": 0.3}}
-    json.dump(out, open(os.path.join(REPO, "reference", "sell_model.json"), "w"), indent=1)
+    mp = os.path.join(REPO, "reference", "sell_model.json")
+    if os.path.exists(mp) and "bank_bid" in json.load(open(mp)):  # keep the section written by fit_bank.py
+        out["bank_bid"] = json.load(open(mp))["bank_bid"]
+    json.dump(out, open(mp, "w"), indent=1)
     print("\nFINAL MODEL (all data) coefficients, log-odds:")
     for n, w in sorted(coef.items(), key=lambda kv: -abs(kv[1])):
         print(f"  {w:+.2f}  {n}")

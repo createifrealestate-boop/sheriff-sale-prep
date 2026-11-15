@@ -133,6 +133,13 @@ def main():
     summary = {"ok": True, "sale_date": sale_date.isoformat(), "workbook": str(out), "state_file": str(state),
                "source": source, "list_printed": meta.get("printed"), **counts,
                "total_cases": meta.get("cases_parsed"), "changes": changes}
+    if not a.no_state:  # free & clear / decree / High sell odds properties not reported before (state/hot_<date>.json)
+        try:
+            sys.path.insert(0, str(S))
+            from hot import new_hot
+            summary["new_hot"] = new_hot(json.load(open(scored)), sale_date.isoformat())
+        except Exception as e:  # never block the update over this
+            print("hot-property check failed:", e)
     if not a.no_state:  # data for the CRM's Sheriff Sale page (pushed by the GitHub workflow)
         r = run([S / "crm_payload.py", scored, json.dumps(summary), cache, ROOT / "state" / "crm.json"])
         print(r.stdout.strip(), r.stderr.strip()[-300:])

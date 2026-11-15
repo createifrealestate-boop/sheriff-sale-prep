@@ -7,7 +7,8 @@ rows = [c for c in sc if c["bucket"] in ("ok", "almost")]
 rows.sort(key=lambda c: -(c["prelim_score"] if c.get("prelim_score") is not None else -1))
 m = lambda v: "" if v is None else f"${v:,.0f}"
 d = rs["sale_date"]
-subj = f"Sheriff sale {d} prep: {rs['ok_to_sell']} OK to sell, {rs['almost_ready']} almost ready" + (f" ({len(rs['changes'])} changes)" if rs.get("changes") else "")
+hot = rs.get("new_hot") or []
+subj = (f"NEW likely-to-sell: {len(hot)} | " if hot else "") + f"Sheriff sale {d} prep: {rs['ok_to_sell']} OK to sell, {rs['almost_ready']} almost ready" + (f" ({len(rs['changes'])} changes)" if rs.get("changes") else "")
 ch = "".join(f"<li>{html.escape(x)}</li>" for x in rs.get("changes", [])[:40]) or "<li>No changes since the last update.</li>"
 scored_rows = [r for r in rows if r.get("prelim_score") is not None][:top]
 tr = "".join(
@@ -17,15 +18,19 @@ tr = "".join(
     f"<td>{'' if c.get('roi_expected') is None else format(c['roi_expected'],'.0%')}</td><td>{m(c.get('max_bid_target'))}</td></tr>"
     for c in scored_rows)
 unscored = sum(1 for c in rows if c.get("prelim_score") is None)
+sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
+from hot import rows_html, TABLE_HEAD  # noqa: E402
+hot_html = (f"<h3 style='color:#1d6b38'>New free &amp; clear / decree / High sell odds since the last update ({len(hot)})</h3>"
+            f"{TABLE_HEAD}{rows_html(hot)}</table>") if hot else ""
 body = f"""<div style="font-family:Arial,sans-serif;font-size:14px">
 <h2>Sheriff sale {d}</h2>
 <p><b>{rs['ok_to_sell']}</b> OK to sell · <b>{rs['almost_ready']}</b> almost ready · list printed {html.escape(str(rs.get('list_printed')))}</p>
-<h3>What changed</h3><ul>{ch}</ul>
+{hot_html}<h3>What changed</h3><ul>{ch}</ul>
 <h3>Top {top} by preliminary score</h3>
 <table border="1" cellpadding="4" cellspacing="0" style="border-collapse:collapse;font-size:13px">
 <tr style="background:#1F3A5F;color:#fff"><th>Score</th><th>Property</th><th>Sell odds</th><th>Status</th><th>Opening bid</th><th>ARV</th><th>Est. ROI</th><th>Max bid @ target</th></tr>{tr}</table>
 <p><b>OK to Sell with High sell odds</b> (chance an outside buyer wins, from the Sheriff's past results): {", ".join(html.escape(c['address']) for c in sorted([r for r in rows if r.get('sell_label') == 'High' and r['bucket'] == 'ok'], key=lambda r: -r['sell_chance'])) or "none"}.</p>
 <p style="color:#666">Sell odds come from 23 months of the Sheriff's results: High = 60%+, Medium = 30-60%, Low = under 30%; for Almost Ready properties they assume the Sheriff clears them. Score is a rough Zillow-based screen, not an appraisal or DealScore. {unscored} properties have no Zestimate and need manual research. {"The full workbook (all columns, Transfer Tax, Glossary) is attached." if "--attached" in sys.argv else "The full workbook (all columns, Transfer Tax, Glossary) is in the Claude session for this run and in the repo state file."}</p></div>"""
-text = subj + "\n" + "\n".join(x for x in rs.get("changes", [])[:40])
+text = subj + "\n" + "".join(f"NEW: {h['address']}, {h['municipality']}: {h['why']}\n" for h in hot) + "\n".join(x for x in rs.get("changes", [])[:40])
 json.dump({"sale_date": d, "subject": subj, "html": body, "text": text}, open(out, "w"))
 print(subj)

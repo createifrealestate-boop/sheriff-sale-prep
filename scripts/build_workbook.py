@@ -41,6 +41,8 @@ COLUMNS = [
     ("Free & clear min bid", "fc_min_bid", 12, "money"),
     ("Opening bid to watch", "opening_bid", 12, "money"),
     ("Reassessed damages (judgment)", "reassessed_damages", 13, "money"),
+    ("Bank's likely bid (mortgage)", "bank_bid_est", 12, "int-money"),
+    ("Bank's bid: range and basis", "bank_bid_note", 30, "wrap"),
     ("Zillow Zestimate", "zestimate", 12, "int-money"),
     ("ARV used (conservative)", "arv", 12, "int-money"),
     ("Est. rehab", "rehab_est", 11, "int-money"),
@@ -331,9 +333,11 @@ def write_overview(ws, sale_date, source, cases, changes, prev, run_time, droppe
         "It is not an appraisal or a DealScore. Blank = Zillow has no Zestimate; research those by hand. Assumptions are in reference/scoring_config.json. "
         "SELL ODDS: the chance an outside buyer wins the property at this sale, from 23 months of the Sheriff's own results (sale type, free & clear "
         "minimum bid, decree, estate owner, FORF, law firm, plaintiff, time on the list). High = 60%+ (about 9 in 10 sold to outside buyers in testing), "
-        "Medium = 30-60%, Low = under 30% (mostly postponed or taken back by the plaintiff). No property values are used.")).alignment = Alignment(wrap_text=True)
+        "Medium = 30-60%, Low = under 30% (mostly postponed or taken back by the plaintiff). No property values are used. "
+        "BANK'S LIKELY BID (mortgage foreclosures): what the bank typically bid when it won, as a share of the reassessed judgment in the "
+        "Sheriff's notes, or of the Zestimate when no judgment is shown. To win you usually need to beat it.")).alignment = Alignment(wrap_text=True)
     ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=6)
-    ws.row_dimensions[r].height = 140
+    ws.row_dimensions[r].height = 165
 
 
 def write_transfer_tax(ws, tt):

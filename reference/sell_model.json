@@ -111,5 +111,46 @@
  "bands": {
   "High": 0.6,
   "Medium": 0.3
+ },
+ "bank_bid": {
+  "_readme": "Bank's likely winning bid on a mortgage foreclosure: share of the reassessed judgment in the Sheriff's notes (by judgment size), else share of the Zestimate. Fit by analysis/sheriff_only/fit_bank.py.",
+  "judgment_bands": [
+   {
+    "judgment_from": 0,
+    "judgment_to": 60000,
+    "n": 20,
+    "median": 0.965,
+    "p25": 0.819,
+    "p75": 1.143,
+    "outside_winners_median": 1.222,
+    "outside_n": 17
+   },
+   {
+    "judgment_from": 60000,
+    "judgment_to": 200000,
+    "n": 64,
+    "median": 0.686,
+    "p25": 0.51,
+    "p75": 0.884,
+    "outside_winners_median": 0.993,
+    "outside_n": 36
+   },
+   {
+    "judgment_from": 200000,
+    "judgment_to": null,
+    "n": 16,
+    "median": 0.517,
+    "p25": 0.379,
+    "p75": 0.667,
+    "outside_winners_median": 0.778,
+    "outside_n": 6
+   }
+  ],
+  "zestimate": {
+   "n": 167,
+   "median": 0.537,
+   "p25": 0.394,
+   "p75": 0.759
+  }
  }
 }

@@ -12,7 +12,8 @@ KEEP = ["sale_id", "case_no", "address", "city", "zip", "municipality", "parcels
         "property_type", "sale_category", "bucket", "bucket_reason", "opening_bid", "fc_min_bid", "plaintiff",
         "plaintiff_attorney", "defendant", "owner_type", "outstanding", "flags", "comments", "prelim_score",
         "zestimate", "arv", "arv_source", "rehab_est", "expected_bid", "roi_expected", "max_bid_target", "headroom",
-        "rent_est", "gross_yield", "score_notes", "sell_chance", "sell_label", "sell_reasons"]
+        "rent_est", "gross_yield", "score_notes", "sell_chance", "sell_label", "sell_reasons",
+        "bank_bid_est", "bank_bid_lo", "bank_bid_hi", "bank_bid_note"]
 ZKEEP = ["sqft", "beds", "baths", "year_built", "range_lo", "range_hi", "renovated", "anchored"]
 
 
