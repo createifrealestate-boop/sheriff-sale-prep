@@ -3,20 +3,44 @@
   "win_pct_of_arv": 0.55,
   "win_pct_by_type": {
     "_note": "Conservative: the 75th percentile of what outside buyers paid, as a share of Zillow value, 2026 sales (about 3 in 4 winning bids were at or below this). Tax-lien decrees sell at the opening (upset) price, so 0.",
-    "free_and_clear": 0.38, "tax_lien": 0.46, "tax_lien_decree": 0.0, "mortgage": 0.64, "hoa": 0.63, "other": 0.55
+    "free_and_clear": 0.38,
+    "tax_lien": 0.46,
+    "tax_lien_decree": 0.0,
+    "mortgage": 0.64,
+    "hoa": 0.63,
+    "other": 0.55
   },
   "buyer_cost_pct_of_bid": 0.04,
-  "sell_hold_pct_of_arv": 0.10,
-  "target_roi": 0.20,
+  "sell_hold_pct_of_arv": 0.1,
+  "target_roi": 0.2,
   "default_sqft": 1200,
   "min_rehab": 15000,
-  "rehab_per_sqft_by_year_built": [[1940, 38], [1970, 32], [2000, 26], [9999, 20]],
+  "rehab_per_sqft_by_year_built": [
+    [
+      1940,
+      38
+    ],
+    [
+      1970,
+      32
+    ],
+    [
+      2000,
+      26
+    ],
+    [
+      9999,
+      20
+    ]
+  ],
   "rehab_renovated_factor": 0.75,
-  "roi_zero_points_at": -0.10,
-  "roi_full_points_at": 0.30,
-  "yield_zero_points_at": 0.07,
-  "yield_full_points_at": 0.14,
-  "points": {"profit": 55, "rent": 25, "confidence": 20},
+  "roi_zero_points_at": -0.1,
+  "roi_full_points_at": 0.3,
+  "points": {
+    "profit": 55,
+    "brrrr": 25,
+    "confidence": 20
+  },
   "penalties": {
     "hoa_condo_judgment": 12,
     "federal_tax_lien": 8,
@@ -27,5 +51,13 @@
     "almost_ready": 3,
     "zestimate_anchored_to_price": 3
   },
-  "bonuses": {"free_and_clear_order": 3}
+  "bonuses": {
+    "free_and_clear_order": 3
+  },
+  "brrrr": {
+    "_note": "BRRRR points come from the Deal Calculator's refi optimizer (scripts/refi.py): best refi with >= $200/mo cash flow and DSCR >= 1.1, least cash left in the deal. No passing refi (or no rent estimate) = 0 points. A passing refi gets base_points, plus the rest scaled from cash_left_zero_points_at (none) down to cash_left_full_points_at (all). Purchase = the assumed winning bid.",
+    "base_points": 8,
+    "cash_left_zero_points_at": 40000,
+    "cash_left_full_points_at": 0
+  }
 }

@@ -8,6 +8,9 @@ max_bid_target, headroom, zestimate, rent_est, gross_yield, score_notes. Cases w
 import json, re, statistics, sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from refi import optimize as refi_optimize, describe as refi_describe  # noqa: E402
+
 REF = Path(__file__).resolve().parent.parent / "reference"
 
 
@@ -79,7 +82,14 @@ def score_case(c, z, cfg):
 
     P = cfg["points"]
     profit_pts = P["profit"] * lerp(roi, cfg["roi_zero_points_at"], cfg["roi_full_points_at"])
-    rent_pts = P["rent"] * lerp(yld, cfg["yield_zero_points_at"], cfg["yield_full_points_at"]) if yld is not None else 0
+    # BRRRR: the Deal Calculator's refi optimizer at the assumed winning bid
+    rf = refi_optimize(exp_bid, arv, rehab, rent) if rent else None
+    B = cfg["brrrr"]
+    if rf and rf["best"]:
+        left = rf["best"]["cash_left"]
+        brrrr_pts = B["base_points"] + (P["brrrr"] - B["base_points"]) * lerp(left, B["cash_left_zero_points_at"], B["cash_left_full_points_at"])
+    else:
+        brrrr_pts = 0.0
     lo, hi = z.get("range_lo"), z.get("range_hi")
     conf = 0.0
     if lo and hi:
@@ -116,13 +126,21 @@ def score_case(c, z, cfg):
     if c.get("fc_min_bid"):
         bonus = cfg["bonuses"]["free_and_clear_order"]; notes.append(f"+{bonus:g} free & clear order")
 
-    score = int(round(clip(profit_pts + rent_pts + conf_pts - pen + bonus, 0, 100)))
+    score = int(round(clip(profit_pts + brrrr_pts + conf_pts - pen + bonus, 0, 100)))
     return {
         "prelim_score": score, "zestimate": Z, "arv": round(arv), "arv_source": arv_src, "rehab_est": rehab,
         "expected_bid": round(exp_bid), "roi_expected": round(roi, 3), "max_bid_target": round(max_bid),
         "headroom": round(max_bid - bid), "rent_est": rent, "gross_yield": round(yld, 3) if yld is not None else None,
+        "refi_ok": bool(rf and rf["best"]) if rf else None,
+        "refi_cash_left": rf["best"]["cash_left"] if rf and rf["best"] else None,
+        "refi_cash_flow": (rf["best"] or rf["best_any"])["cash_flow"] if rf else None,
+        "refi_terms": (f"{rf['best']['ltv']}% LTV, {rf['best']['loan_type']}, {rf['best']['points']} pts @ {rf['best']['rate']:.1f}%, DSCR {rf['best']['dscr']:.2f}"
+                       if rf and rf["best"] else (refi_describe(rf) if rf else None)),
+        "score_points": {"profit": round(profit_pts, 1), "brrrr": round(brrrr_pts, 1), "confidence": round(conf_pts, 1), "penalties": -pen, "bonus": bonus},
         "score_notes": f"ARV ${arv:,.0f} ({arv_src}); rehab ~${rehab:,.0f}; assumed winning bid ${exp_bid:,.0f} ({grp}, {pct*100:.0f}% of ARV or opening bid if higher); "
                        f"ROI {roi*100:.0f}%" + (f"; rent ${rent:,.0f}/mo" if rent else "; no rent est.")
+                       + (f"; {refi_describe(rf)}" if rf else "")
+                       + f"; points: profit {profit_pts:.0f}/{P['profit']}, BRRRR {brrrr_pts:.0f}/{P['brrrr']}, confidence {conf_pts:.0f}/{P['confidence']}"
                        + ("; " + ", ".join(notes) if notes else ""),
     }
 

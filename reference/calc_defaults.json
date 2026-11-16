@@ -1,0 +1,80 @@
+{
+ "_readme": "Copy of the CRM Deal Calculator's DEFAULTS (src/lib/calcDefaults.js) and Refi Optimizer constants (src/lib/refiOptimizer.js), used by scripts/refi.py. Keep in step with the app if those change.",
+ "defaults": {
+  "purchase_price": "150000",
+  "closing_costs": "4000",
+  "title_escrow_fees": "0",
+  "transfer_tax_pct": "2",
+  "attorney_fees": "0",
+  "recording_fees": "0",
+  "other_purchase_fees": "2000",
+  "property_taxes_annual": "2400",
+  "insurance_annual": "1500",
+  "purchase_ltv_percent": "75",
+  "rehab_ltv_percent": "100",
+  "hm_financing": "lending",
+  "hm_interest_rate": "12",
+  "hm_points": "2",
+  "hm_points_override": "0",
+  "hm_term_months": "6",
+  "appraisal_fee": "700",
+  "underwriting_fee": "0",
+  "other_lender_fees": "1500",
+  "state_local_tax_monthly": "0",
+  "utilities_monthly": "300",
+  "maintenance_reserve_monthly": "8",
+  "maintenance_reserve_mode": "percent",
+  "capex_reserve_monthly": "10",
+  "capex_reserve_mode": "percent",
+  "vacancy_rate": "7",
+  "misc_reserve_monthly": "0",
+  "hoa_monthly": "0"
+ },
+ "optimizer": {
+  "ltv_options": [
+   60,
+   65,
+   70,
+   75
+  ],
+  "points_options": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "loan_types": [
+   {
+    "key": "30yr_fixed",
+    "label": "30yr fixed",
+    "term_months": 360,
+    "kind": "amort"
+   },
+   {
+    "key": "15yr_fixed",
+    "label": "15yr fixed",
+    "term_months": 180,
+    "kind": "amort"
+   },
+   {
+    "key": "5yr_io",
+    "label": "5yr interest-only",
+    "term_months": 60,
+    "kind": "io"
+   }
+  ],
+  "base_rate": 7,
+  "point_cost_pct": 1,
+  "origination_pct": 3,
+  "rate_cut_per_point": 0.2,
+  "min_cash_flow": 200,
+  "min_dscr": 1.1
+ },
+ "sheriff": {
+  "rehab_contingency_pct": 0.1,
+  "rehab_contingency_min": 10000,
+  "state_local_tax_pct_of_rent": 0.0307
+ }
+}

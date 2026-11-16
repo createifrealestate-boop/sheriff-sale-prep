@@ -52,6 +52,9 @@ COLUMNS = [
     ("Headroom vs opening bid", "headroom", 12, "int-money"),
     ("Zillow rent est. /mo", "rent_est", 10, "int-money"),
     ("Gross rent yield", "gross_yield", 8, "pct"),
+    ("Best refi: cash left in deal", "refi_cash_left", 11, "int-money"),
+    ("Best refi: cash flow /mo", "refi_cash_flow", 10, "int-money"),
+    ("Best refi terms", "refi_terms", 34, "wrap"),
     ("Score notes", "score_notes", 40, "wrap"),
     ("Why these sell odds", "sell_reasons", 34, "wrap"),
     ("Boxes  Svs · 3129.2 · 3129.3 · OK", "boxes", 14, "text"),
@@ -331,6 +334,10 @@ def write_overview(ws, sale_date, source, cases, changes, prev, run_time, droppe
         "morning of the sale — check the morning-of list before bidding. Not legal advice; see Glossary. "
         "PRELIM SCORE: a rough 0-100 screen from Zillow data (Zestimate, sold comps, rent) used only to decide which properties to research first. "
         "It is not an appraisal or a DealScore. Blank = Zillow has no Zestimate; research those by hand. Assumptions are in reference/scoring_config.json. "
+        "Points: flip profit up to 55, BRRRR up to 25, data confidence up to 20, minus penalties. BRRRR runs the CRM Deal Calculator's refi optimizer "
+        "at the assumed winning bid (every LTV 60-75% x 0-5 points x 30yr / 15yr / 5yr interest-only, default assumptions): the best refi is the one "
+        "with at least $200/mo cash flow and DSCR 1.1 that leaves the least cash in the deal. No such refi = 0 BRRRR points; one that leaves $0 or "
+        "less in the deal = all 25. "
         "SELL ODDS: the chance an outside buyer wins the property at this sale, from 23 months of the Sheriff's own results (sale type, free & clear "
         "minimum bid, decree, estate owner, FORF, law firm, plaintiff, time on the list). High = 60%+ (about 9 in 10 sold to outside buyers in testing), "
         "Medium = 30-60%, Low = under 30% (mostly postponed or taken back by the plaintiff). No property values are used. "
