@@ -3,8 +3,11 @@ name: Email workbook
 # with the workbook attached (when email.json changed) and sends the data + workbook to the CRM's
 # Sheriff Sale page (when crm.json changed). In the final week, state/alert_email.json (new free & clear /
 # decree / High sell odds properties, from scripts/hot.py) is emailed on its own, without the workbook.
-# Run it by hand to do any of these again.
+# It also keeps state/assessed.json (county assessed values from WPRDC, for the sheriff-deed transfer tax):
+# daily before the Claude run, and whenever crm.json changes (new parcels). Run it by hand to do any of these again.
 on:
+  schedule:
+    - cron: "17 13 * * *"
   push:
     branches: [main]
     paths: ["state/email.json", "state/crm.json", "state/alert_email.json"]
@@ -22,6 +25,8 @@ on:
         description: "Send the latest final-week alert again"
         type: boolean
         default: false
+permissions:
+  contents: write
 jobs:
   send:
     runs-on: ubuntu-latest
@@ -42,6 +47,9 @@ jobs:
           IN_CRM: ${{ inputs.update_crm }}
           IN_ALERT: ${{ inputs.send_alert }}
         run: |
+          if [ "$EVENT" = "schedule" ]; then
+            echo "email=false" >> "$GITHUB_OUTPUT"; echo "crm=false" >> "$GITHUB_OUTPUT"; echo "alert=false" >> "$GITHUB_OUTPUT"; exit 0
+          fi
           if [ "$EVENT" = "workflow_dispatch" ]; then
             echo "email=$IN_EMAIL" >> "$GITHUB_OUTPUT"; echo "crm=$IN_CRM" >> "$GITHUB_OUTPUT"; echo "alert=$IN_ALERT" >> "$GITHUB_OUTPUT"; exit 0
           fi
@@ -50,6 +58,18 @@ jobs:
           echo "email=$(echo "$files" | grep -qx 'state/email.json' && echo true || echo false)" >> "$GITHUB_OUTPUT"
           echo "crm=$(echo "$files" | grep -qx 'state/crm.json' && echo true || echo false)" >> "$GITHUB_OUTPUT"
           echo "alert=$(echo "$files" | grep -qx 'state/alert_email.json' && echo true || echo false)" >> "$GITHUB_OUTPUT"
+      - name: Fetch county assessed values (transfer tax)
+        if: github.event_name == 'schedule' || steps.changed.outputs.crm == 'true'
+        continue-on-error: true
+        run: |
+          python3 scripts/fetch_assessed.py
+          if ! git diff --quiet -- state/assessed.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add state/assessed.json
+            git commit -m "Update county assessed values"
+            git pull --rebase -q && git push -q || echo "push of assessed.json failed"
+          fi
       - name: Send email
         if: steps.changed.outputs.email == 'true'
         env:
@@ -68,4 +88,6 @@ jobs:
         if: always() && steps.changed.outputs.crm == 'true'
         env:
           CRM_API_KEY: ${{ secrets.CRM_API_KEY }}
-        run: python3 scripts/push_to_crm.py
+        run: |
+          python3 scripts/fill_assessed.py || true
+          python3 scripts/push_to_crm.py

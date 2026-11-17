@@ -1,0 +1,123 @@
+{
+ "_readme": "Sheriff-sale underwriting assumptions (set by the user 2026-11-16). Used by scripts/deal.py for the score, workbook and CRM payload, and mirrored in the CRM popup (src/lib/sheriffDeal.js). Change here and in that file together.",
+ "rehab": {
+  "per_sqft": 50,
+  "default_sqft": 1200,
+  "premium_factor": 1.15,
+  "premium_arv_at": 400000,
+  "contingency_pct": 0.1,
+  "contingency_min": 10000
+ },
+ "hard_money": {
+  "purchase_ltv": 0.9,
+  "rehab_ltv": 1.0,
+  "points_pct": 2.5,
+  "rate_pct": 11,
+  "hold_months": 6
+ },
+ "holding_per_month": 500,
+ "buy_closing_flat": 300,
+ "flip_sale_cost_pct": 0.1,
+ "refi": {
+  "ltv_options": [
+   60,
+   65,
+   70,
+   75
+  ],
+  "points_options": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "loan_types": [
+   {
+    "key": "30yr_fixed",
+    "label": "30yr fixed",
+    "term_months": 360,
+    "kind": "amort"
+   },
+   {
+    "key": "15yr_fixed",
+    "label": "15yr fixed",
+    "term_months": 180,
+    "kind": "amort"
+   },
+   {
+    "key": "5yr_io",
+    "label": "5yr interest-only",
+    "term_months": 60,
+    "kind": "io"
+   }
+  ],
+  "base_rate": 7,
+  "rate_cut_per_point": 0.2,
+  "point_cost_pct": 1,
+  "cost_pct": 3,
+  "cost_flat": 600,
+  "min_cash_flow": 200,
+  "min_dscr": 1.1
+ },
+ "operating": {
+  "property_taxes_annual": 2400,
+  "insurance_annual": 1500,
+  "maintenance_pct": 8,
+  "capex_pct": 10,
+  "vacancy_pct": 7,
+  "misc_monthly": 0,
+  "hoa_monthly": 0,
+  "state_local_pct_of_rent": 3.07
+ },
+ "targets": {
+  "flip_profit": [
+   40000,
+   50000,
+   60000
+  ],
+  "brrrr_cash_left": [
+   0,
+   15000,
+   30000
+  ]
+ },
+ "scores": {
+  "_note": "Flip score at the assumed winning bid: $0 profit = 0, $40k = 80, $60k+ = 100 (straight lines between). BRRRR score: no refi with >= $200/mo = 0; $0 or less left = 100, $30k = 60, $75k+ = 0. Total = 45% BRRRR + 35% flip + up to 20 data confidence, minus penalties.",
+  "flip_points": [
+   [
+    0,
+    0
+   ],
+   [
+    40000,
+    80
+   ],
+   [
+    60000,
+    100
+   ]
+  ],
+  "brrrr_points": [
+   [
+    0,
+    100
+   ],
+   [
+    30000,
+    60
+   ],
+   [
+    75000,
+    0
+   ]
+  ],
+  "total_weights": {
+   "brrrr": 45,
+   "flip": 35,
+   "confidence": 20
+  }
+ },
+ "_later": "Not used yet (user note 2026-11-16): the CRM already stores year-over-year home value growth by ZIP (ZipMarketData.yoy_growth_pct, Zillow ZHVI; HUD SAFMR only fills rent gaps). Candidate input for appreciation in ARV / BRRRR equity."
+}

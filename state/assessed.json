@@ -1,0 +1,485 @@
+{
+ "0004R00300000000": {
+  "fmv": 39100.0,
+  "county": 21100.0,
+  "muni": "18th Ward - PITTSBURGH",
+  "school": "Pittsburgh",
+  "fetched": "2026-11-17"
+ },
+ "0014M00160000000": {
+  "fmv": 31000.0,
+  "county": 31000.0,
+  "muni": "Mt. Oliver",
+  "school": "Pittsburgh",
+  "fetched": "2026-11-17"
+ },
+ "0014R00281000000": {
+  "fmv": 48700.0,
+  "county": 48700.0,
+  "muni": "Mt. Oliver",
+  "school": "Pittsburgh",
+  "fetched": "2026-11-17"
+ },
+ "0021J00186000000": {
+  "fmv": 15600.0,
+  "county": 15600.0,
+  "muni": "20th Ward - PITTSBURGH",
+  "school": "Pittsburgh",
+  "fetched": "2026-11-17"
+ },
+ "0032E00360000000": {
+  "fmv": 27300.0,
+  "county": 9300.0,
+  "muni": "Mt. Oliver",
+  "school": "Pittsburgh",
+  "fetched": "2026-11-17"
+ },
+ "0034K00282000000": {
+  "fmv": 111600.0,
+  "county": 111600.0,
+  "muni": "19th Ward - PITTSBURGH",
+  "school": "Pittsburgh",
+  "fetched": "2026-11-17"
+ },
+ "0037H00158000000": {
+  "fmv": 219600.0,
+  "county": 201600.0,
+  "muni": "Greentree",
+  "school": "Keystone Oaks",
+  "fetched": "2026-11-17"
+ },
+ "0043E00170000000": {
+  "fmv": 37300.0,
+  "county": 19300.0,
+  "muni": "McKees Rocks",
+  "school": "Sto-Rox",
+  "fetched": "2026-11-17"
+ },
+ "0045B00013000000": {
+  "fmv": 30000.0,
+  "county": 30000.0,
+  "muni": "27th Ward - PITTSBURGH",
+  "school": "Pittsburgh",
+  "fetched": "2026-11-17"
+ },
+ "0055F00135000000": {
+  "fmv": 50000.0,
+  "county": 50000.0,
+  "muni": "15th Ward - PITTSBURGH",
+  "school": "Pittsburgh",
+  "fetched": "2026-11-17"
+ },
+ "0076K00062000000": {
+  "fmv": 64600.0,
+  "county": 64600.0,
+  "muni": "27th Ward - PITTSBURGH",
+  "school": "Pittsburgh",
+  "fetched": "2026-11-17"
+ },
+ "0102B00358000000": {
+  "fmv": 61700.0,
+  "county": 43700.0,
+  "muni": "Carnegie",
+  "school": "Carlynton",
+  "fetched": "2026-11-17"
+ },
+ "0118D00052000000": {
+  "fmv": 124900.0,
+  "county": 106900.0,
+  "muni": "Shaler",
+  "school": "Shaler Area",
+  "fetched": "2026-11-17"
+ },
+ "0130M00143000000": {
+  "fmv": 20000.0,
+  "county": 20000.0,
+  "muni": "Munhall",
+  "school": "Steel Valley",
+  "fetched": "2026-11-17"
+ },
+ "0130S00321000000": {
+  "fmv": 27200.0,
+  "county": 9200.0,
+  "muni": "Munhall",
+  "school": "Steel Valley",
+  "fetched": "2026-11-17"
+ },
+ "0131B00132000000": {
+  "fmv": 18300.0,
+  "county": 18300.0,
+  "muni": "Homestead",
+  "school": "Steel Valley",
+  "fetched": "2026-11-17"
+ },
+ "0132L00213000000": {
+  "fmv": 68300.0,
+  "county": 50300.0,
+  "muni": "Munhall",
+  "school": "Steel Valley",
+  "fetched": "2026-11-17"
+ },
+ "0145S00002000000": {
+  "fmv": 118100.0,
+  "county": 118100.0,
+  "muni": "Collier",
+  "school": "Chartiers Valley",
+  "fetched": "2026-11-17"
+ },
+ "0162J00094000000": {
+  "fmv": 115000.0,
+  "county": 115000.0,
+  "muni": "Ross",
+  "school": "North Hills",
+  "fetched": "2026-11-17"
+ },
+ "0173G00275000000": {
+  "fmv": 42800.0,
+  "county": 24800.0,
+  "muni": "Penn Hills",
+  "school": "Penn Hills Twp",
+  "fetched": "2026-11-17"
+ },
+ "0179K00091000000": {
+  "fmv": 22500.0,
+  "county": 22500.0,
+  "muni": "Munhall",
+  "school": "Steel Valley",
+  "fetched": "2026-11-17"
+ },
+ "0188B00264000000": {
+  "fmv": 93400.0,
+  "county": 75400.0,
+  "muni": "Brentwood",
+  "school": "Brentwood Boro",
+  "fetched": "2026-11-17"
+ },
+ "0192G00138000000": {
+  "fmv": 272800.0,
+  "county": 254800.0,
+  "muni": "Mt.Lebanon",
+  "school": "Mt Lebanon",
+  "fetched": "2026-11-17"
+ },
+ "0195B00132000000": {
+  "fmv": 85000.0,
+  "county": 67000.0,
+  "muni": "Scott",
+  "school": "Chartiers Valley",
+  "fetched": "2026-11-17"
+ },
+ "0230K00074000000": {
+  "fmv": 52700.0,
+  "county": 52700.0,
+  "muni": "Penn Hills",
+  "school": "Penn Hills Twp",
+  "fetched": "2026-11-17"
+ },
+ "0231C00171000000": {
+  "fmv": 47100.0,
+  "county": 29100.0,
+  "muni": "Penn Hills",
+  "school": "Penn Hills Twp",
+  "fetched": "2026-11-17"
+ },
+ "0231D00298000000": {
+  "fmv": 35200.0,
+  "county": 35200.0,
+  "muni": "Penn Hills",
+  "school": "Penn Hills Twp",
+  "fetched": "2026-11-17"
+ },
+ "0231D00337000000": {
+  "fmv": 57100.0,
+  "county": 57100.0,
+  "muni": "Penn Hills",
+  "school": "Penn Hills Twp",
+  "fetched": "2026-11-17"
+ },
+ "0232E00195000000": {
+  "fmv": 28500.0,
+  "county": 28500.0,
+  "muni": "Wilkinsburg",
+  "school": "Wilkinsburg Boro",
+  "fetched": "2026-11-17"
+ },
+ "0232H00248000000": {
+  "fmv": 46600.0,
+  "county": 46600.0,
+  "muni": "Wilkinsburg",
+  "school": "Wilkinsburg Boro",
+  "fetched": "2026-11-17"
+ },
+ "0233A00310000000": {
+  "fmv": 39000.0,
+  "county": 39000.0,
+  "muni": "Wilkinsburg",
+  "school": "Wilkinsburg Boro",
+  "fetched": "2026-11-17"
+ },
+ "0236L00005000000": {
+  "fmv": 28200.0,
+  "county": 28200.0,
+  "muni": "Braddock",
+  "school": "Woodland Hills",
+  "fetched": "2026-11-17"
+ },
+ "0240S00238000000": {
+  "fmv": 63500.0,
+  "county": 45500.0,
+  "muni": "West Mifflin",
+  "school": "West Mifflin Area",
+  "fetched": "2026-11-17"
+ },
+ "0243R00094000000": {
+  "fmv": 112800.0,
+  "county": 112800.0,
+  "muni": "West Mifflin",
+  "school": "West Mifflin Area",
+  "fetched": "2026-11-17"
+ },
+ "0289M00058000000": {
+  "fmv": 340200.0,
+  "county": 322200.0,
+  "muni": "O''Hara",
+  "school": "Fox Chapel Area",
+  "fetched": "2026-11-17"
+ },
+ "0295E00389000000": {
+  "fmv": 50100.0,
+  "county": 50100.0,
+  "muni": "Penn Hills",
+  "school": "Penn Hills Twp",
+  "fetched": "2026-11-17"
+ },
+ "0295L00392000000": {
+  "fmv": 58100.0,
+  "county": 40100.0,
+  "muni": "Penn Hills",
+  "school": "Penn Hills Twp",
+  "fetched": "2026-11-17"
+ },
+ "0296D00222000000": {
+  "fmv": 87200.0,
+  "county": 87200.0,
+  "muni": "Penn Hills",
+  "school": "Penn Hills Twp",
+  "fetched": "2026-11-17"
+ },
+ "0297E00069000000": {
+  "fmv": 29900.0,
+  "county": 29900.0,
+  "muni": "Wilkinsburg",
+  "school": "Wilkinsburg Boro",
+  "fetched": "2026-11-17"
+ },
+ "0297F00099000000": {
+  "fmv": 43900.0,
+  "county": 25900.0,
+  "muni": "Wilkinsburg",
+  "school": "Wilkinsburg Boro",
+  "fetched": "2026-11-17"
+ },
+ "0297K00035000000": {
+  "fmv": 35000.0,
+  "county": 35000.0,
+  "muni": "Wilkinsburg",
+  "school": "Wilkinsburg Boro",
+  "fetched": "2026-11-17"
+ },
+ "0306G00095000000": {
+  "fmv": 61800.0,
+  "county": 61800.0,
+  "muni": "West Mifflin",
+  "school": "West Mifflin Area",
+  "fetched": "2026-11-17"
+ },
+ "0310A00142000000": {
+  "fmv": 64400.0,
+  "county": 46400.0,
+  "muni": "West Mifflin",
+  "school": "West Mifflin Area",
+  "fetched": "2026-11-17"
+ },
+ "0319F00110000000": {
+  "fmv": 160000.0,
+  "county": 160000.0,
+  "muni": "Upper St. Clair",
+  "school": "Upper St Clair",
+  "fetched": "2026-11-17"
+ },
+ "0341D00253000000": {
+  "fmv": 65400.0,
+  "county": 65400.0,
+  "muni": "Coraopolis",
+  "school": "Cornell",
+  "fetched": "2026-11-17"
+ },
+ "0342L00226000000": {
+  "fmv": 21700.0,
+  "county": 21700.0,
+  "muni": "Coraopolis",
+  "school": "Cornell",
+  "fetched": "2026-11-17"
+ },
+ "0350S00188000000": {
+  "fmv": 95800.0,
+  "county": 77800.0,
+  "muni": "West View",
+  "school": "North Hills",
+  "fetched": "2026-11-17"
+ },
+ "0372P00054000000": {
+  "fmv": 99800.0,
+  "county": 81800.0,
+  "muni": "Forest Hills",
+  "school": "Woodland Hills",
+  "fetched": "2026-11-17"
+ },
+ "0381N00103000000": {
+  "fmv": 12300.0,
+  "county": 12300.0,
+  "muni": "7th Ward - McKEESPORT",
+  "school": "McKeesport Area",
+  "fetched": "2026-11-17"
+ },
+ "0382N00278000000": {
+  "fmv": 57100.0,
+  "county": 57100.0,
+  "muni": "Port Vue",
+  "school": "South Allegheny",
+  "fetched": "2026-11-17"
+ },
+ "0383B00327000000": {
+  "fmv": 87000.0,
+  "county": 87000.0,
+  "muni": "Port Vue",
+  "school": "South Allegheny",
+  "fetched": "2026-11-17"
+ },
+ "0383C00023000000": {
+  "fmv": 75200.0,
+  "county": 75200.0,
+  "muni": "Port Vue",
+  "school": "South Allegheny",
+  "fetched": "2026-11-17"
+ },
+ "0394R00016000000": {
+  "fmv": 118200.0,
+  "county": 100200.0,
+  "muni": "Bethel Park",
+  "school": "Bethel Park",
+  "fetched": "2026-11-17"
+ },
+ "0447P00207000000": {
+  "fmv": 84400.0,
+  "county": 66400.0,
+  "muni": "Penn Hills",
+  "school": "Penn Hills Twp",
+  "fetched": "2026-11-17"
+ },
+ "0450H00110000000": {
+  "fmv": 71800.0,
+  "county": 53800.0,
+  "muni": "Penn Hills",
+  "school": "Penn Hills Twp",
+  "fetched": "2026-11-17"
+ },
+ "0459A00184000000": {
+  "fmv": 56900.0,
+  "county": 38900.0,
+  "muni": "North Versailles",
+  "school": "East Allegheny",
+  "fetched": "2026-11-17"
+ },
+ "0461L00133000000": {
+  "fmv": 81800.0,
+  "county": 63800.0,
+  "muni": "White Oak",
+  "school": "McKeesport Area",
+  "fetched": "2026-11-17"
+ },
+ "0538M00393000000": {
+  "fmv": 56300.0,
+  "county": 56300.0,
+  "muni": "Penn Hills",
+  "school": "Penn Hills Twp",
+  "fetched": "2026-11-17"
+ },
+ "0637F00271000000": {
+  "fmv": 137100.0,
+  "county": 137100.0,
+  "muni": "Monroeville",
+  "school": "Gateway",
+  "fetched": "2026-11-17"
+ },
+ "0746G00187000000": {
+  "fmv": 76200.0,
+  "county": 58200.0,
+  "muni": "Monroeville",
+  "school": "Gateway",
+  "fetched": "2026-11-17"
+ },
+ "0764D00072000000": {
+  "fmv": 32800.0,
+  "county": 14800.0,
+  "muni": "1st Ward - CLAIRTON",
+  "school": "Clairton City",
+  "fetched": "2026-11-17"
+ },
+ "0771B00084000000": {
+  "fmv": 64100.0,
+  "county": 64100.0,
+  "muni": "South Park",
+  "school": "South Park",
+  "fetched": "2026-11-17"
+ },
+ "0773A00132000000": {
+  "fmv": 163400.0,
+  "county": 145400.0,
+  "muni": "Bethel Park",
+  "school": "Bethel Park",
+  "fetched": "2026-11-17"
+ },
+ "0885N00012000000": {
+  "fmv": 71300.0,
+  "county": 53300.0,
+  "muni": "South Park",
+  "school": "South Park",
+  "fetched": "2026-11-17"
+ },
+ "0976H00058000000": {
+  "fmv": 108400.0,
+  "county": 90400.0,
+  "muni": "Monroeville",
+  "school": "Gateway",
+  "fetched": "2026-11-17"
+ },
+ "0999C00180000000": {
+  "fmv": 121000.0,
+  "county": 121000.0,
+  "muni": "Elizabeth Twp",
+  "school": "Elizabeth Forward",
+  "fetched": "2026-11-17"
+ },
+ "1203L00089000000": {
+  "fmv": 189100.0,
+  "county": 171100.0,
+  "muni": "Franklin Park",
+  "school": "North Allegheny",
+  "fetched": "2026-11-17"
+ },
+ "1219N00372000000": {
+  "fmv": 77600.0,
+  "county": 77600.0,
+  "muni": "West Deer",
+  "school": "Deer Lakes",
+  "fetched": "2026-11-17"
+ },
+ "2190C00370000000": {
+  "fmv": 99700.0,
+  "county": 99700.0,
+  "muni": "Richland",
+  "school": "Pine-Richland",
+  "fetched": "2026-11-17"
+ }
+}

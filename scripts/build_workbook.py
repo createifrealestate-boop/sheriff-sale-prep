@@ -24,6 +24,8 @@ COLUMNS = [
     ("Case #", "case_no", 14, "text"),
     ("Property address", "address", 26, "text"),
     ("Prelim score (0-100, rough screen)", "prelim_score", 11, "int"),
+    ("BRRRR score", "brrrr_score", 8, "int"),
+    ("Flip score", "flip_score", 8, "int"),
     ("Sell odds", "sell_label", 9, "text"),
     ("Chance outside buyer wins", "sell_chance", 10, "pct0"),
     ("City", "city", 14, "text"),
@@ -45,16 +47,21 @@ COLUMNS = [
     ("Bank's bid: range and basis", "bank_bid_note", 30, "wrap"),
     ("Zillow Zestimate", "zestimate", 12, "int-money"),
     ("ARV used (conservative)", "arv", 12, "int-money"),
-    ("Est. rehab", "rehab_est", 11, "int-money"),
+    ("Rehab ($50/sqft)", "rehab_est", 11, "int-money"),
+    ("Rehab contingency", "contingency", 10, "int-money"),
+    ("Transfer tax (county assessment)", "transfer_tax", 11, "int-money"),
     ("Assumed winning bid", "expected_bid", 12, "int-money"),
-    ("Est. ROI at that bid", "roi_expected", 9, "pct"),
-    ("Max bid for target ROI", "max_bid_target", 12, "int-money"),
-    ("Headroom vs opening bid", "headroom", 12, "int-money"),
-    ("Zillow rent est. /mo", "rent_est", 10, "int-money"),
-    ("Gross rent yield", "gross_yield", 8, "pct"),
-    ("Best refi: cash left in deal", "refi_cash_left", 11, "int-money"),
+    ("Flip profit at that bid", "flip_profit", 12, "int-money"),
+    ("MAO flip ($40k profit)", "mao_flip_40k", 12, "int-money"),
+    ("MAO flip ($50k profit)", "mao_flip_50k", 12, "int-money"),
+    ("MAO flip ($60k profit)", "mao_flip_60k", 12, "int-money"),
+    ("BRRRR cash left at that bid", "brrrr_cash_left", 12, "int-money"),
+    ("MAO BRRRR ($0 left in deal)", "mao_brrrr_0k", 12, "int-money"),
+    ("MAO BRRRR ($15k left)", "mao_brrrr_15k", 12, "int-money"),
+    ("MAO BRRRR ($30k left)", "mao_brrrr_30k", 12, "int-money"),
     ("Best refi: cash flow /mo", "refi_cash_flow", 10, "int-money"),
     ("Best refi terms", "refi_terms", 34, "wrap"),
+    ("Zillow rent est. /mo", "rent_est", 10, "int-money"),
     ("Score notes", "score_notes", 40, "wrap"),
     ("Why these sell odds", "sell_reasons", 34, "wrap"),
     ("Boxes  Svs · 3129.2 · 3129.3 · OK", "boxes", 14, "text"),
@@ -63,7 +70,7 @@ COLUMNS = [
     ("Sheriff comments (verbatim)", "comments", 44, "wrap"),
     ("Transfer tax municipality", "tax_municipality", 20, "text"),
     ("Transfer tax rate (total)", "=RATE", 10, "formula-pct"),
-    ("YOUR ENTRY: Assessed value", "assessed_value", 13, "manual-money"),
+    ("Assessed value (county; type to override)", "assessed_value", 13, "manual-money"),
     ("Est. transfer tax on sheriff deed", "=TAX", 13, "formula-money"),
     ("YOUR ENTRY: Max bid", "max_bid", 12, "manual-money"),
     ("YOUR ENTRY: My notes", "my_notes", 30, "manual-text"),
@@ -226,7 +233,7 @@ def write_case_tab(ws, title, subtitle, rows, status_header, today, prev):
             elif k == "=TAX":
                 cell.value = f"=IF(OR({av}{r_i}=\"\",{rate_col}{r_i}=\"\"),\"\",{av}{r_i}*'Transfer Tax'!$B$6*{rate_col}{r_i})"
             elif kind.startswith("manual"):
-                cell.value = m.get(k)
+                cell.value = m.get(k) if m.get(k) not in (None, "") else (c.get(k) if k == "assessed_value" else None)
                 cell.fill = YELLOW
             elif k == "first_seen":
                 cell.value = prev["first_seen"].get(c["sale_id"]) or today
@@ -247,7 +254,7 @@ def write_case_tab(ws, title, subtitle, rows, status_header, today, prev):
             if k == "sell_label" and c.get(k):
                 cell.fill = {"High": GREEN, "Medium": YELLOW, "Low": GREY}.get(c[k], GREY)
                 cell.font = Font(bold=c[k] == "High")
-    ws.freeze_panes = ws.cell(row=FIRST, column=7)
+    ws.freeze_panes = ws.cell(row=FIRST, column=9)
     sc = col_of("prelim_score")
     if rows:
         from openpyxl.formatting.rule import ColorScaleRule
@@ -334,10 +341,12 @@ def write_overview(ws, sale_date, source, cases, changes, prev, run_time, droppe
         "morning of the sale — check the morning-of list before bidding. Not legal advice; see Glossary. "
         "PRELIM SCORE: a rough 0-100 screen from Zillow data (Zestimate, sold comps, rent) used only to decide which properties to research first. "
         "It is not an appraisal or a DealScore. Blank = Zillow has no Zestimate; research those by hand. Assumptions are in reference/scoring_config.json. "
-        "Points: flip profit up to 55, BRRRR up to 25, data confidence up to 20, minus penalties. BRRRR runs the CRM Deal Calculator's refi optimizer "
-        "at the assumed winning bid (every LTV 60-75% x 0-5 points x 30yr / 15yr / 5yr interest-only, default assumptions): the best refi is the one "
-        "with at least $200/mo cash flow and DSCR 1.1 that leaves the least cash in the deal. No such refi = 0 BRRRR points; one that leaves $0 or "
-        "less in the deal = all 25. "
+        "Points: BRRRR up to 45, flip up to 35, data confidence up to 20, minus penalties. Both are worked out at the assumed winning bid with your "
+        "underwriting (reference/deal_model.json): rehab $50/sqft (x1.15 when ARV is $400k+), contingency 10% or $10k, hard money 90% of price + 100% "
+        "of rehab at 2.5 pts + 11% for 6 months, holding $500/mo, $300 sheriff closing, transfer tax on the county assessed value x CLR x rates, "
+        "flip sale costs 10% of ARV. Flip score: $0 profit = 0, $40k = 80, $60k+ = 100. BRRRR uses the refi optimizer (every LTV 60-75% x 0-5 pts x "
+        "30yr / 15yr / 5yr interest-only, refi costs 3% + points + $600; best = least cash left with $200+/mo and DSCR 1.1): $0 left = 100, $30k = 60, "
+        "$75k+ = 0, no refi reaching $200/mo = 0. MAO columns are the highest price that still hits each target; a negative MAO means no price does. "
         "SELL ODDS: the chance an outside buyer wins the property at this sale, from 23 months of the Sheriff's own results (sale type, free & clear "
         "minimum bid, decree, estate owner, FORF, law firm, plaintiff, time on the list). High = 60%+ (about 9 in 10 sold to outside buyers in testing), "
         "Medium = 30-60%, Low = under 30% (mostly postponed or taken back by the plaintiff). No property values are used. "

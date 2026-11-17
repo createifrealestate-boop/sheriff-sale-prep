@@ -2,16 +2,34 @@
 NOT an appraisal, NOT DealScore. All assumptions live in reference/scoring_config.json.
 
 Usage: python3 -I score.py classified.json zillow_cache.json out.json
-Adds to every OK-to-Sell / Almost-Ready case: prelim_score, arv, rehab_est, expected_bid, roi_expected,
-max_bid_target, headroom, zestimate, rent_est, gross_yield, score_notes. Cases without Zillow data get prelim_score = None.
+Adds to every OK-to-Sell / Almost-Ready case: prelim_score (BRRRR 45 + flip 35 + data confidence 20 - penalties),
+flip_score, brrrr_score, arv, rehab_est ($50/sqft), expected_bid, flip/BRRRR MAOs (scripts/deal.py), best refi,
+transfer tax, zestimate, rent_est, score_notes. Cases without Zillow data get prelim_score = None.
 """
 import json, re, statistics, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from refi import optimize as refi_optimize, describe as refi_describe  # noqa: E402
+from deal import underwrite, M as DM  # noqa: E402
 
 REF = Path(__file__).resolve().parent.parent / "reference"
+ASSESSED_PATH = Path(__file__).resolve().parent.parent / "state" / "assessed.json"
+_ASSESSED = None
+
+
+def parid(c):
+    """WPRDC parcel id (e.g. 0188B00264000000) of the first parcel on the listing."""
+    p = (c.get("portal_parcel") or "").split(";")[0].strip()
+    return p.replace("-", "") if p and p[0].isdigit() else None
+
+
+def assessed_for(c):
+    """County assessed value (WPRDC FAIRMARKETTOTAL) from state/assessed.json, kept by the GitHub workflow."""
+    global _ASSESSED
+    if _ASSESSED is None:
+        _ASSESSED = json.load(open(ASSESSED_PATH)) if ASSESSED_PATH.exists() else {}
+    rec = _ASSESSED.get(parid(c) or "")
+    return rec.get("fmv") if rec else None
 
 
 def cache_key(c):
@@ -32,16 +50,6 @@ def lerp(x, x0, x1):
     return clip((x - x0) / (x1 - x0), 0.0, 1.0)
 
 
-def rehab_estimate(z, cfg):
-    sqft = z.get("sqft") or cfg["default_sqft"]
-    yb = z.get("year_built") or 1950
-    per = next(p for lim, p in cfg["rehab_per_sqft_by_year_built"] if yb < lim)
-    r = sqft * per
-    if z.get("renovated"):
-        r *= cfg["rehab_renovated_factor"]
-    return max(cfg["min_rehab"], round(r, -2))
-
-
 def score_case(c, z, cfg):
     if not z or not z.get("zestimate"):
         return None
@@ -51,7 +59,6 @@ def score_case(c, z, cfg):
     arv_src = "Zestimate"
     if len(comps) >= 2 and statistics.median(comps) < Z:
         arv, arv_src = statistics.median(comps), "median of comps' sale prices"
-    rehab = rehab_estimate(z, cfg)
     bid = float(c.get("opening_bid") or 0)
     flags_l = " | ".join(c.get("flags") or []).lower()
     cat_l = (c.get("sale_category") or "").lower()
@@ -72,24 +79,12 @@ def score_case(c, z, cfg):
     else:
         grp, pct = "all", cfg["win_pct_of_arv"]
     exp_bid = max(bid, pct * arv)
-    basis = exp_bid * (1 + cfg["buyer_cost_pct_of_bid"]) + rehab
-    profit = arv * (1 - cfg["sell_hold_pct_of_arv"]) - basis
-    roi = profit / basis if basis else 0
-    max_all_in = arv * (1 - cfg["sell_hold_pct_of_arv"]) / (1 + cfg["target_roi"])
-    max_bid = (max_all_in - rehab) / (1 + cfg["buyer_cost_pct_of_bid"])
     rent = float(z["rent"]) if z.get("rent") else None
-    yld = (rent * 12 / basis) if rent and basis else None
-
-    P = cfg["points"]
-    profit_pts = P["profit"] * lerp(roi, cfg["roi_zero_points_at"], cfg["roi_full_points_at"])
-    # BRRRR: the Deal Calculator's refi optimizer at the assumed winning bid
-    rf = refi_optimize(exp_bid, arv, rehab, rent) if rent else None
-    B = cfg["brrrr"]
-    if rf and rf["best"]:
-        left = rf["best"]["cash_left"]
-        brrrr_pts = B["base_points"] + (P["brrrr"] - B["base_points"]) * lerp(left, B["cash_left_zero_points_at"], B["cash_left_full_points_at"])
-    else:
-        brrrr_pts = 0.0
+    assessed = assessed_for(c)
+    uw = underwrite(exp_bid, arv, z.get("sqft"), rent, assessed, c.get("tax_municipality"))
+    rehab = uw["rehab_est"]
+    yld = (rent * 12 / (exp_bid + rehab)) if rent and (exp_bid + rehab) else None
+    W = DM["scores"]["total_weights"]
     lo, hi = z.get("range_lo"), z.get("range_hi")
     conf = 0.0
     if lo and hi:
@@ -98,7 +93,6 @@ def score_case(c, z, cfg):
         conf += 0.25
     if comps and abs(Z - statistics.median(comps)) / Z <= 0.15:
         conf += 0.25
-    conf_pts = P["confidence"] * conf
 
     pen, notes = 0.0, []
     pc = cfg["penalties"]
@@ -126,22 +120,28 @@ def score_case(c, z, cfg):
     if c.get("fc_min_bid"):
         bonus = cfg["bonuses"]["free_and_clear_order"]; notes.append(f"+{bonus:g} free & clear order")
 
-    score = int(round(clip(profit_pts + brrrr_pts + conf_pts - pen + bonus, 0, 100)))
+    flip_pts = W["flip"] * uw["flip_score"] / 100
+    brrrr_pts = W["brrrr"] * uw["brrrr_score"] / 100
+    conf_pts = W["confidence"] * conf
+    score = int(round(clip(flip_pts + brrrr_pts + conf_pts - pen + bonus, 0, 100)))
+    tt_note = (f"transfer tax ${uw['transfer_tax']:,.0f}" if uw["transfer_tax"] is not None
+               else "transfer tax not included (no assessed value yet)")
+    fm = lambda k: "n/a" if uw.get(k) is None else f"${uw[k]:,.0f}"
     return {
-        "prelim_score": score, "zestimate": Z, "arv": round(arv), "arv_source": arv_src, "rehab_est": rehab,
-        "expected_bid": round(exp_bid), "roi_expected": round(roi, 3), "max_bid_target": round(max_bid),
-        "headroom": round(max_bid - bid), "rent_est": rent, "gross_yield": round(yld, 3) if yld is not None else None,
-        "refi_ok": bool(rf and rf["best"]) if rf else None,
-        "refi_cash_left": rf["best"]["cash_left"] if rf and rf["best"] else None,
-        "refi_cash_flow": (rf["best"] or rf["best_any"])["cash_flow"] if rf else None,
-        "refi_terms": (f"{rf['best']['ltv']}% LTV, {rf['best']['loan_type']}, {rf['best']['points']} pts @ {rf['best']['rate']:.1f}%, DSCR {rf['best']['dscr']:.2f}"
-                       if rf and rf["best"] else (refi_describe(rf) if rf else None)),
-        "score_points": {"profit": round(profit_pts, 1), "brrrr": round(brrrr_pts, 1), "confidence": round(conf_pts, 1), "penalties": -pen, "bonus": bonus},
-        "score_notes": f"ARV ${arv:,.0f} ({arv_src}); rehab ~${rehab:,.0f}; assumed winning bid ${exp_bid:,.0f} ({grp}, {pct*100:.0f}% of ARV or opening bid if higher); "
-                       f"ROI {roi*100:.0f}%" + (f"; rent ${rent:,.0f}/mo" if rent else "; no rent est.")
-                       + (f"; {refi_describe(rf)}" if rf else "")
-                       + f"; points: profit {profit_pts:.0f}/{P['profit']}, BRRRR {brrrr_pts:.0f}/{P['brrrr']}, confidence {conf_pts:.0f}/{P['confidence']}"
-                       + ("; " + ", ".join(notes) if notes else ""),
+        "prelim_score": score, "zestimate": Z, "arv": round(arv), "arv_source": arv_src, "expected_bid": round(exp_bid),
+        "rent_est": rent, "gross_yield": round(yld, 3) if yld is not None else None,
+        **uw,
+        "headroom": round(uw["mao_flip_40k"] - bid),
+        "score_points": {"brrrr": round(brrrr_pts, 1), "flip": round(flip_pts, 1), "confidence": round(conf_pts, 1), "penalties": -pen, "bonus": bonus},
+        "score_notes": (f"ARV ${arv:,.0f} ({arv_src}); rehab ${rehab:,.0f} ($50/sqft) + ${uw['contingency']:,.0f} contingency; {tt_note}; "
+                        f"assumed winning bid ${exp_bid:,.0f} ({grp}, {pct*100:.0f}% of ARV or opening bid if higher). "
+                        f"At that bid: flip profit ${uw['flip_profit']:,.0f} (flip score {uw['flip_score']}); "
+                        + (f"BRRRR {uw['refi_terms']}, ${uw['refi_cash_flow']:,.0f}/mo, ${uw['brrrr_cash_left']:,.0f} left in the deal (BRRRR score {uw['brrrr_score']})"
+                           if uw.get("refi_ok") else f"BRRRR: {uw['refi_terms']} (BRRRR score 0)")
+                        + f". MAO flip {fm('mao_flip_40k')} ($40k profit), {fm('mao_flip_50k')} ($50k), {fm('mao_flip_60k')} ($60k); "
+                        + f"MAO BRRRR {fm('mao_brrrr_0k')} ($0 left), {fm('mao_brrrr_15k')} ($15k), {fm('mao_brrrr_30k')} ($30k). "
+                        + f"Points: BRRRR {brrrr_pts:.0f}/{W['brrrr']}, flip {flip_pts:.0f}/{W['flip']}, confidence {conf_pts:.0f}/{W['confidence']}"
+                        + ("; " + ", ".join(notes) if notes else "")),
     }
 
 
