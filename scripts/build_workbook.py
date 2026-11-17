@@ -344,7 +344,7 @@ def write_overview(ws, sale_date, source, cases, changes, prev, run_time, droppe
         "Points: BRRRR up to 45, flip up to 35, data confidence up to 20, minus penalties. Both are worked out at the assumed winning bid with your "
         "underwriting (reference/deal_model.json): rehab $50/sqft (x1.15 when ARV is $400k+), contingency 10% or $10k, hard money 90% of price + 100% "
         "of rehab at 2.5 pts + 11% for 6 months, holding $500/mo, $300 sheriff closing, transfer tax on the county assessed value x CLR x rates, "
-        "flip sale costs 10% of ARV. Flip score: $0 profit = 0, $45k = 80, $60k+ = 100. BRRRR uses the refi optimizer (every LTV 60-75% x 0-5 pts x "
+        "flip sale costs 10% of ARV. Flip score: $0 profit = 0, $10k = 20, $20k = 50, $30k = 70, $45k = 90, $50k+ = 100. BRRRR uses the refi optimizer (every LTV 60-75% x 0-5 pts x "
         "30yr / 15yr / 5yr interest-only, refi costs 3% + points + $600; best = least cash left with $200+/mo and DSCR 1.1): $0 left = 100, $30k = 60, "
         "$75k+ = 0, no refi reaching $200/mo = 0. MAO columns are the highest price that still hits each target; a negative MAO means no price does. "
         "SELL ODDS: the chance an outside buyer wins the property at this sale, from 23 months of the Sheriff's own results (sale type, free & clear "

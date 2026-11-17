@@ -84,18 +84,30 @@
   ]
  },
  "scores": {
-  "_note": "Flip score at the assumed winning bid: $0 profit = 0, $45k = 80, $60k+ = 100 (straight lines between). BRRRR score: no refi with >= $200/mo = 0; $0 or less left = 100, $30k = 60, $75k+ = 0. Total = 45% BRRRR + 35% flip + up to 20 data confidence, minus penalties.",
+  "_note": "Flip score at the assumed winning bid: $0 profit = 0, $10k = 20, $20k = 50, $30k = 70, $45k = 90, $50k+ = 100 (straight lines between). BRRRR score: no refi with >= $200/mo = 0; $0 or less left = 100, $30k = 60, $75k+ = 0. Total = 45% BRRRR + 35% flip + up to 20 data confidence, minus penalties.",
   "flip_points": [
    [
     0,
     0
    ],
    [
-    45000,
-    80
+    10000,
+    20
    ],
    [
-    60000,
+    20000,
+    50
+   ],
+   [
+    30000,
+    70
+   ],
+   [
+    45000,
+    90
+   ],
+   [
+    50000,
     100
    ]
   ],
