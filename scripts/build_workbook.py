@@ -49,7 +49,6 @@ COLUMNS = [
     ("ARV used (conservative)", "arv", 12, "int-money"),
     ("Rehab ($50/sqft)", "rehab_est", 11, "int-money"),
     ("Rehab contingency", "contingency", 10, "int-money"),
-    ("Transfer tax (county assessment)", "transfer_tax", 11, "int-money"),
     ("Assumed winning bid", "expected_bid", 12, "int-money"),
     ("Flip profit at that bid", "flip_profit", 12, "int-money"),
     ("MAO flip ($30k profit)", "mao_flip_30k", 12, "int-money"),
@@ -68,10 +67,6 @@ COLUMNS = [
     ("__STATUS__", "status_note", 34, "wrap"),
     ("Flags / title & bidding risks", "flags_text", 34, "wrap"),
     ("Sheriff comments (verbatim)", "comments", 44, "wrap"),
-    ("Transfer tax municipality", "tax_municipality", 20, "text"),
-    ("Transfer tax rate (total)", "=RATE", 10, "formula-pct"),
-    ("Assessed value (county; type to override)", "assessed_value", 13, "manual-money"),
-    ("Est. transfer tax on sheriff deed", "=TAX", 13, "formula-money"),
     ("YOUR ENTRY: Max bid", "max_bid", 12, "manual-money"),
     ("YOUR ENTRY: My notes", "my_notes", 30, "manual-text"),
     ("YOUR ENTRY: Sold for", "sold_for", 12, "manual-money"),
@@ -222,18 +217,12 @@ def write_case_tab(ws, title, subtitle, rows, status_header, today, prev):
         if kind.startswith("manual"):
             manual_cols.append(i)
     style_header(ws, HEADER_ROW, len(COLUMNS), manual_cols)
-    tm, av = col_of("tax_municipality"), col_of("assessed_value")
-    rate_col = get_column_letter([i for i, c in enumerate(COLUMNS, 1) if c[1] == "=RATE"][0])
     for r_i, c in enumerate(rows, FIRST):
         m = prev["manual"].get(c["sale_id"], {})
         for i, (h, k, w, kind) in enumerate(COLUMNS, 1):
             cell = ws.cell(row=r_i, column=i)
-            if k == "=RATE":
-                cell.value = (f"=IFERROR(VLOOKUP({tm}{r_i},'Transfer Tax'!$A${TT_FIRST}:$H$400,8,FALSE),\"\")")
-            elif k == "=TAX":
-                cell.value = f"=IF(OR({av}{r_i}=\"\",{rate_col}{r_i}=\"\"),\"\",{av}{r_i}*'Transfer Tax'!$B$6*{rate_col}{r_i})"
-            elif kind.startswith("manual"):
-                cell.value = m.get(k) if m.get(k) not in (None, "") else (c.get(k) if k == "assessed_value" else None)
+            if kind.startswith("manual"):
+                cell.value = m.get(k) if m.get(k) not in (None, "") else None
                 cell.fill = YELLOW
             elif k == "first_seen":
                 cell.value = prev["first_seen"].get(c["sale_id"]) or today
@@ -336,14 +325,14 @@ def write_overview(ws, sale_date, source, cases, changes, prev, run_time, droppe
         r += 1
     r += 1
     ws.cell(row=r, column=1, value=(
-        "How to use: type only in the yellow YOUR ENTRY columns on OK to Sell / Almost Ready (assessed value fills in the "
-        "transfer-tax estimate). Every update keeps what you typed, matched by Sale ID. The Sheriff finalizes the list the "
+        "How to use: type only in the yellow YOUR ENTRY columns on OK to Sell / Almost Ready"
+        ". Every update keeps what you typed, matched by Sale ID. The Sheriff finalizes the list the "
         "morning of the sale — check the morning-of list before bidding. Not legal advice; see Glossary. "
         "PRELIM SCORE: a rough 0-100 screen from Zillow data (Zestimate, sold comps, rent) used only to decide which properties to research first. "
         "It is not an appraisal or a DealScore. Blank = Zillow has no Zestimate; research those by hand. Assumptions are in reference/scoring_config.json. "
         "Points: BRRRR up to 45, flip up to 35, data confidence up to 20, minus penalties. Both are worked out at the assumed winning bid with your "
         "underwriting (reference/deal_model.json): rehab $50/sqft (x1.15 when ARV is $400k+), contingency 10% or $10k, hard money 90% of price + 100% "
-        "of rehab at 2.5 pts + 11% for 6 months, holding $500/mo, $300 sheriff closing, transfer tax on the county assessed value x CLR x rates, "
+        "of rehab at 2.5 pts + 11% for 6 months, holding $500/mo, $300 closing + $200 sheriff closing fee (no transfer tax), "
         "flip sale costs 10% of ARV. Flip score: $0 profit = 0, $10k = 20, $20k = 50, $30k = 70, $45k = 90, $50k+ = 100. BRRRR uses the refi optimizer (every LTV 60-75% x 0-5 pts x "
         "30yr / 15yr / 5yr interest-only, refi costs 3% + points + $600; best = least cash left with $200+/mo and DSCR 1.1): $0 left = 100, $30k = 60, "
         "$75k+ = 0, no refi reaching $200/mo = 0. MAO columns are the highest price that still hits each target; a negative MAO means no price does. "
@@ -467,7 +456,6 @@ def main():
     write_case_tab(wb.create_sheet("Almost Ready"), f"Almost Ready — {sd}",
                    "Active residential cases where Service and 3129.2 are done and only Rule 3129.3 is still needed (often filed at the last minute), plus VERIFY cases where the OK box and notes disagree.",
                    al, "What's still missing", today, prev)
-    write_transfer_tax(wb.create_sheet("Transfer Tax"), json.load(open(REF / "transfer_tax.json")))
     write_glossary(wb.create_sheet("Glossary"), json.load(open(REF / "glossary.json")))
 
     # hidden state used by the next update

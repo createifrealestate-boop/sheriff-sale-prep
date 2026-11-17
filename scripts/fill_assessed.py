@@ -7,6 +7,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from deal import transfer_rate, transfer_tax  # noqa: E402
+if not json.load(open(ROOT / "reference" / "deal_model.json")).get("include_transfer_tax", True):
+    print("transfer tax is off in reference/deal_model.json; skipping"); sys.exit(0)
 
 p = ROOT / "state" / "crm.json"
 crm = json.load(open(p))

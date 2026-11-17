@@ -131,5 +131,8 @@
    "confidence": 20
   }
  },
- "_later": "Not used yet (user note 2026-11-16): the CRM already stores year-over-year home value growth by ZIP (ZipMarketData.yoy_growth_pct, Zillow ZHVI; HUD SAFMR only fills rent gaps). Candidate input for appreciation in ARV / BRRRR equity."
+ "_later": "Not used yet (user note 2026-11-16): the CRM already stores year-over-year home value growth by ZIP (ZipMarketData.yoy_growth_pct, Zillow ZHVI; HUD SAFMR only fills rent gaps). Candidate input for appreciation in ARV / BRRRR equity.",
+ "include_transfer_tax": false,
+ "sheriff_closing_fee": 200,
+ "_transfer_tax_note": "Transfer tax removed from the underwriting at the user's request (2026-11-17); replaced by a $200 sheriff closing fee on top of the $300 buy closing. Set include_transfer_tax true to bring it back."
 }

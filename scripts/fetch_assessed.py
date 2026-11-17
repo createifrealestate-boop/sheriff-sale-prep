@@ -54,4 +54,6 @@ def main():
 
 
 if __name__ == "__main__":
+    if not json.load(open(ROOT / "reference" / "deal_model.json")).get("include_transfer_tax", True):
+        print("transfer tax is off in reference/deal_model.json; skipping"); sys.exit(0)
     main()

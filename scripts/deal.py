@@ -9,7 +9,8 @@ BRRRR: cash left(P) = cash in (10% down + closing + transfer tax + contingency +
        The refi is the optimizer's pick: of every LTV x points x loan type with >= $200/mo cash flow and DSCR >= 1.1,
        the one that returns the most cash (least left in the deal). Which one wins does not depend on the price.
 Hard money = 90% of the price + 100% of rehab, 2.5 points, 11% interest-only for 6 months.
-Transfer tax on a sheriff deed = county assessed value x CLR x (state + local rates), whatever the price.
+Buy costs: $300 closing + $200 sheriff closing fee. Transfer tax (county assessed value x CLR x rates) is off
+(include_transfer_tax in deal_model.json).
 """
 import json
 from pathlib import Path
@@ -56,9 +57,9 @@ def flip_at(P, arv, rehab, tt):
     cont = contingency_for(rehab)
     holding = M["holding_per_month"] * M["hard_money"]["hold_months"]
     sale = arv * M["flip_sale_cost_pct"]
-    profit = arv - sale - P - M["buy_closing_flat"] - (tt or 0) - rehab - cont - holding - points - interest
-    return {"price": P, "arv": arv, "sale_costs": sale, "buy_closing": M["buy_closing_flat"], "transfer_tax": tt or 0,
-            "rehab": rehab, "contingency": cont, "holding": holding, "hm_loan": loan, "hm_points": points,
+    profit = arv - sale - P - M["buy_closing_flat"] - M["sheriff_closing_fee"] - (tt or 0) - rehab - cont - holding - points - interest
+    return {"price": P, "arv": arv, "sale_costs": sale, "buy_closing": M["buy_closing_flat"], "sheriff_fee": M["sheriff_closing_fee"],
+            "transfer_tax": tt or 0, "rehab": rehab, "contingency": cont, "holding": holding, "hm_loan": loan, "hm_points": points,
             "hm_interest": interest, "profit": profit}
 
 
@@ -113,9 +114,10 @@ def brrrr_at(P, arv, rehab, tt, refi):
     cont = contingency_for(rehab)
     holding = M["holding_per_month"] * H["hold_months"]
     down = P - H["purchase_ltv"] * P + rehab - H["rehab_ltv"] * rehab
-    cash_in = down + M["buy_closing_flat"] + (tt or 0) + cont + points + interest + holding
+    cash_in = down + M["buy_closing_flat"] + M["sheriff_closing_fee"] + (tt or 0) + cont + points + interest + holding
     cash_back = refi["refi_loan"] - refi["refi_costs"] - loan
-    return {"price": P, "down_payment": down, "buy_closing": M["buy_closing_flat"], "transfer_tax": tt or 0, "contingency": cont,
+    return {"price": P, "down_payment": down, "buy_closing": M["buy_closing_flat"], "sheriff_fee": M["sheriff_closing_fee"],
+            "transfer_tax": tt or 0, "contingency": cont,
             "hm_loan": loan, "hm_points": points, "hm_interest": interest, "holding": holding, "cash_in": cash_in,
             "refi_loan": refi["refi_loan"], "refi_costs": refi["refi_costs"], "cash_back": cash_back, "cash_left": cash_in - cash_back}
 
@@ -146,7 +148,7 @@ def underwrite(price, arv, sqft, rent, assessed, tax_municipality):
     """Everything for one property at a given price. Returns a flat dict for the score / workbook / CRM."""
     rehab = rehab_for(sqft, arv)
     rate = transfer_rate(tax_municipality)
-    tt = transfer_tax(assessed, rate)
+    tt = transfer_tax(assessed, rate) if M.get("include_transfer_tax", True) else None
     f = flip_at(price, arv, rehab, tt)
     out = {"rehab_est": rehab, "contingency": round(contingency_for(rehab)), "transfer_rate": rate, "assessed_value": assessed,
            "transfer_tax": tt, "flip_profit": round(f["profit"]), "flip_score": flip_score(f["profit"])}

@@ -125,7 +125,7 @@ def score_case(c, z, cfg):
     conf_pts = W["confidence"] * conf
     score = int(round(clip(flip_pts + brrrr_pts + conf_pts - pen + bonus, 0, 100)))
     tt_note = (f"transfer tax ${uw['transfer_tax']:,.0f}" if uw["transfer_tax"] is not None
-               else "transfer tax not included (no assessed value yet)")
+               else f"closing ${DM['buy_closing_flat']:,} + sheriff fee ${DM['sheriff_closing_fee']:,}, no transfer tax")
     fm = lambda k: "n/a" if uw.get(k) is None else f"${uw[k]:,.0f}"
     return {
         "prelim_score": score, "zestimate": Z, "arv": round(arv), "arv_source": arv_src, "expected_bid": round(exp_bid),
