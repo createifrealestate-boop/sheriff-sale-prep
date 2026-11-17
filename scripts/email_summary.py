@@ -17,7 +17,7 @@ tr = "".join(
     f"<td>{c.get('sell_label') or ''}{'' if c.get('sell_chance') is None else ' ' + format(c['sell_chance'], '.0%')}</td>"
     f"<td>{'OK' if c['bucket']=='ok' else 'Almost'}</td><td>{m(c.get('opening_bid'))}</td><td>{m(c.get('arv'))}</td>"
     f"<td>{c.get('brrrr_score', '')} / {c.get('flip_score', '')}</td>"
-    f"<td>{mao(c.get('mao_brrrr_0k'))}</td><td>{mao(c.get('mao_flip_40k'))}</td></tr>"
+    f"<td>{mao(c.get('mao_brrrr_0k'))}</td><td>{mao(c.get('mao_flip_30k'))}</td></tr>"
     for c in scored_rows)
 unscored = sum(1 for c in rows if c.get("prelim_score") is None)
 sys.path.insert(0, __import__("os").path.dirname(__import__("os").path.abspath(__file__)))
@@ -30,9 +30,9 @@ body = f"""<div style="font-family:Arial,sans-serif;font-size:14px">
 {hot_html}<h3>What changed</h3><ul>{ch}</ul>
 <h3>Top {top} by preliminary score</h3>
 <table border="1" cellpadding="4" cellspacing="0" style="border-collapse:collapse;font-size:13px">
-<tr style="background:#1F3A5F;color:#fff"><th>Score</th><th>Property</th><th>Sell odds</th><th>Status</th><th>Opening bid</th><th>ARV</th><th>BRRRR / flip score</th><th>MAO BRRRR ($0 left)</th><th>MAO flip ($40k profit)</th></tr>{tr}</table>
+<tr style="background:#1F3A5F;color:#fff"><th>Score</th><th>Property</th><th>Sell odds</th><th>Status</th><th>Opening bid</th><th>ARV</th><th>BRRRR / flip score</th><th>MAO BRRRR ($0 left)</th><th>MAO flip ($30k profit)</th></tr>{tr}</table>
 <p><b>OK to Sell with High sell odds</b> (chance an outside buyer wins, from the Sheriff's past results): {", ".join(html.escape(c['address']) for c in sorted([r for r in rows if r.get('sell_label') == 'High' and r['bucket'] == 'ok'], key=lambda r: -r['sell_chance'])) or "none"}.</p>
-<p style="color:#666">Sell odds come from 23 months of the Sheriff's results: High = 60%+, Medium = 30-60%, Low = under 30%; for Almost Ready properties they assume the Sheriff clears them. Score = BRRRR (45) + flip (35) + data confidence (20) at the assumed winning bid, using your underwriting numbers; MAOs are the highest price that still leaves $0 in the deal (BRRRR) or $40k profit (flip). Zillow-based, not an appraisal. {unscored} properties have no Zestimate and need manual research. {"The full workbook (all columns, Transfer Tax, Glossary) is attached." if "--attached" in sys.argv else "The full workbook (all columns, Transfer Tax, Glossary) is in the Claude session for this run and in the repo state file."}</p></div>"""
+<p style="color:#666">Sell odds come from 23 months of the Sheriff's results: High = 60%+, Medium = 30-60%, Low = under 30%; for Almost Ready properties they assume the Sheriff clears them. Score = BRRRR (45) + flip (35) + data confidence (20) at the assumed winning bid, using your underwriting numbers; MAOs are the highest price that still leaves $0 in the deal (BRRRR) or $30k profit (flip). Zillow-based, not an appraisal. {unscored} properties have no Zestimate and need manual research. {"The full workbook (all columns, Transfer Tax, Glossary) is attached." if "--attached" in sys.argv else "The full workbook (all columns, Transfer Tax, Glossary) is in the Claude session for this run and in the repo state file."}</p></div>"""
 text = subj + "\n" + "".join(f"NEW: {h['address']}, {h['municipality']}: {h['why']}\n" for h in hot) + "\n".join(x for x in rs.get("changes", [])[:40])
 json.dump({"sale_date": d, "subject": subj, "html": body, "text": text}, open(out, "w"))
 print(subj)

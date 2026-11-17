@@ -131,14 +131,14 @@ def score_case(c, z, cfg):
         "prelim_score": score, "zestimate": Z, "arv": round(arv), "arv_source": arv_src, "expected_bid": round(exp_bid),
         "rent_est": rent, "gross_yield": round(yld, 3) if yld is not None else None,
         **uw,
-        "headroom": round(uw["mao_flip_40k"] - bid),
+        "headroom": round(uw["mao_flip_30k"] - bid),
         "score_points": {"brrrr": round(brrrr_pts, 1), "flip": round(flip_pts, 1), "confidence": round(conf_pts, 1), "penalties": -pen, "bonus": bonus},
         "score_notes": (f"ARV ${arv:,.0f} ({arv_src}); rehab ${rehab:,.0f} ($50/sqft) + ${uw['contingency']:,.0f} contingency; {tt_note}; "
                         f"assumed winning bid ${exp_bid:,.0f} ({grp}, {pct*100:.0f}% of ARV or opening bid if higher). "
                         f"At that bid: flip profit ${uw['flip_profit']:,.0f} (flip score {uw['flip_score']}); "
                         + (f"BRRRR {uw['refi_terms']}, ${uw['refi_cash_flow']:,.0f}/mo, ${uw['brrrr_cash_left']:,.0f} left in the deal (BRRRR score {uw['brrrr_score']})"
                            if uw.get("refi_ok") else f"BRRRR: {uw['refi_terms']} (BRRRR score 0)")
-                        + f". MAO flip {fm('mao_flip_40k')} ($40k profit), {fm('mao_flip_50k')} ($50k), {fm('mao_flip_60k')} ($60k); "
+                        + f". MAO flip {fm('mao_flip_30k')} ($30k profit), {fm('mao_flip_45k')} ($45k), {fm('mao_flip_60k')} ($60k); "
                         + f"MAO BRRRR {fm('mao_brrrr_0k')} ($0 left), {fm('mao_brrrr_15k')} ($15k), {fm('mao_brrrr_30k')} ($30k). "
                         + f"Points: BRRRR {brrrr_pts:.0f}/{W['brrrr']}, flip {flip_pts:.0f}/{W['flip']}, confidence {conf_pts:.0f}/{W['confidence']}"
                         + ("; " + ", ".join(notes) if notes else "")),
