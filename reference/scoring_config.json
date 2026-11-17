@@ -2,12 +2,12 @@
   "_readme": "Assumptions behind the preliminary score: the assumed winning bid by sale type, data confidence, penalties. Underwriting (rehab, hard money, MAOs, flip/BRRRR scores and weights) is in reference/deal_model.json.",
   "win_pct_of_arv": 0.55,
   "win_pct_by_type": {
-    "_note": "Conservative: the 75th percentile of what outside buyers paid, as a share of Zillow value, 2026 sales (about 3 in 4 winning bids were at or below this). Tax-lien decrees sell at the opening (upset) price, so 0.",
-    "free_and_clear": 0.38,
-    "tax_lien": 0.46,
+    "_note": "Typical (median) winning bid by sale type, as a share of Zillow value: outside-buyer wins in 2026 sales (n: mortgage 77, tax lien 54, free & clear 41, HOA 6). Tax-lien decrees sell at the opening (upset) price, so 0. HOA has few sales; 0.55 is a rounded median.",
+    "free_and_clear": 0.27,
+    "tax_lien": 0.38,
     "tax_lien_decree": 0.0,
-    "mortgage": 0.64,
-    "hoa": 0.63,
+    "mortgage": 0.51,
+    "hoa": 0.55,
     "other": 0.55
   },
   "penalties": {
