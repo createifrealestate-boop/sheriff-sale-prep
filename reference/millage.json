@@ -1,0 +1,534 @@
+{
+ "_readme": "2026 real-estate millage (mills = $ per $1,000 of assessed value) by municipality, from Allegheny County's Community Profile pages (apps.alleghenycounty.us/website/MuniProfile.asp). Annual tax = full assessed value (FAIRMARKETTOTAL, no homestead exclusion since an investor owner has none) x (county + municipal + school) / 1000. Clairton and McKeesport tax land and buildings at different rates. Refresh each year (county and most school rates change in July/January).",
+ "year": 2026,
+ "source": "https://apps.alleghenycounty.us/website/MuniProfile.asp",
+ "county": 6.43,
+ "municipalities": {
+  "City of Pittsburgh": {
+   "muni": 9.67,
+   "school": 10.457
+  },
+  "Aleppo Township": {
+   "muni": 3.5,
+   "school": 22.8469
+  },
+  "Aspinwall Borough": {
+   "muni": 8.36,
+   "school": 22.6898
+  },
+  "Avalon Borough": {
+   "muni": 9.83,
+   "school": 31.202
+  },
+  "Baldwin Borough": {
+   "muni": 8.03,
+   "school": 26.0
+  },
+  "Baldwin Township": {
+   "muni": 9.8,
+   "school": 26.0
+  },
+  "Bell Acres Borough": {
+   "muni": 5.07,
+   "school": 22.8469
+  },
+  "Bellevue Borough": {
+   "muni": 5.89,
+   "school": 31.202
+  },
+  "Ben Avon Borough": {
+   "muni": 5.5,
+   "school": 23.05
+  },
+  "Ben Avon Heights Borough": {
+   "muni": 7.95,
+   "school": 23.05
+  },
+  "Bethel Park": {
+   "muni": 4.13,
+   "school": 28.4739
+  },
+  "Blawnox Borough": {
+   "muni": 10.85,
+   "school": 22.6898
+  },
+  "Brackenridge Borough": {
+   "muni": 8.5,
+   "school": 25.13
+  },
+  "Braddock Borough": {
+   "muni": 13.65,
+   "school": 29.08
+  },
+  "Braddock Hills Borough": {
+   "muni": 9.4,
+   "school": 29.08
+  },
+  "Bradford Woods Borough": {
+   "muni": 3.375,
+   "school": 20.4309
+  },
+  "Brentwood Borough": {
+   "muni": 11.0,
+   "school": 39.1977
+  },
+  "Bridgeville Borough": {
+   "muni": 8.25,
+   "school": 20.1909
+  },
+  "Carnegie Borough": {
+   "muni": 8.5,
+   "school": 29.7622
+  },
+  "Castle Shannon Borough": {
+   "muni": 12.158,
+   "school": 22.7122
+  },
+  "Chalfant Borough": {
+   "muni": 8.9,
+   "school": 29.08
+  },
+  "Cheswick Borough": {
+   "muni": 5.85,
+   "school": 21.7049
+  },
+  "Churchill Borough": {
+   "muni": 9.0,
+   "school": 29.08
+  },
+  "Collier Township": {
+   "muni": 5.0,
+   "school": 20.1909
+  },
+  "Coraopolis Borough": {
+   "muni": 12.5,
+   "school": 29.0006
+  },
+  "Crafton Borough": {
+   "muni": 8.59,
+   "school": 29.7622
+  },
+  "Crescent Township": {
+   "muni": 8.4,
+   "school": 26.0415
+  },
+  "Dormont Borough": {
+   "muni": 12.47,
+   "school": 22.7122
+  },
+  "Dravosburg Borough": {
+   "muni": 8.55,
+   "school": 20.96
+  },
+  "City of Duquesne": {
+   "muni": 20.0,
+   "school": 23.88
+  },
+  "East Deer Township": {
+   "muni": 4.65,
+   "school": 24.25
+  },
+  "East McKeesport Borough": {
+   "muni": 12.4,
+   "school": 29.453
+  },
+  "East Pittsburgh Borough": {
+   "muni": 15.0,
+   "school": 29.08
+  },
+  "Edgewood Borough": {
+   "muni": 8.185,
+   "school": 29.08
+  },
+  "Edgeworth Borough": {
+   "muni": 4.15,
+   "school": 22.8469
+  },
+  "Elizabeth Borough": {
+   "muni": 10.0,
+   "school": 29.7437
+  },
+  "Elizabeth Township": {
+   "muni": 4.026,
+   "school": 29.7437
+  },
+  "Emsworth Borough": {
+   "muni": 6.955,
+   "school": 23.05
+  },
+  "Etna Borough": {
+   "muni": 9.5,
+   "school": 26.3391
+  },
+  "Fawn Township": {
+   "muni": 3.04,
+   "school": 25.13
+  },
+  "Findlay Township": {
+   "muni": 1.6,
+   "school": 18.51
+  },
+  "Forest Hills Borough": {
+   "muni": 9.75,
+   "school": 29.08
+  },
+  "Forward Township": {
+   "muni": 1.0,
+   "school": 29.7437
+  },
+  "Fox Chapel Borough": {
+   "muni": 2.95,
+   "school": 22.6898
+  },
+  "Franklin Park Borough": {
+   "muni": 2.59,
+   "school": 20.4309
+  },
+  "Frazer Township": {
+   "muni": 3.5,
+   "school": 24.25
+  },
+  "Glassport Borough": {
+   "muni": 19.49,
+   "school": 30.0
+  },
+  "Glenfield Borough": {
+   "muni": 4.15,
+   "school": 22.8469
+  },
+  "Green Tree Borough": {
+   "muni": 4.61,
+   "school": 22.7122
+  },
+  "Hampton Township": {
+   "muni": 2.9241,
+   "school": 24.75
+  },
+  "Harmar Township": {
+   "muni": 3.4,
+   "school": 21.7049
+  },
+  "Harrison Township": {
+   "muni": 5.606,
+   "school": 25.13
+  },
+  "Haysville Borough": {
+   "muni": 6.344,
+   "school": 22.8469
+  },
+  "Heidelberg Borough": {
+   "muni": 9.45,
+   "school": 20.1909
+  },
+  "Homestead Borough": {
+   "muni": 15.33,
+   "school": 32.8595
+  },
+  "Indiana Township": {
+   "muni": 3.47,
+   "school": 22.6898
+  },
+  "Ingram Borough": {
+   "muni": 6.4,
+   "school": 17.9638
+  },
+  "Jefferson Hills Borough": {
+   "muni": 5.66,
+   "school": 26.119
+  },
+  "Kennedy Township": {
+   "muni": 2.65,
+   "school": 17.9638
+  },
+  "Kilbuck Township": {
+   "muni": 3.79,
+   "school": 23.05
+  },
+  "Leet Township": {
+   "muni": 9.1,
+   "school": 22.8469
+  },
+  "Leetsdale Borough": {
+   "muni": 9.5,
+   "school": 22.8469
+  },
+  "Liberty Borough": {
+   "muni": 9.0,
+   "school": 30.0
+  },
+  "Lincoln Borough": {
+   "muni": 11.0,
+   "school": 30.0
+  },
+  "Marshall Township": {
+   "muni": 1.42,
+   "school": 20.4309
+  },
+  "McCandless Township": {
+   "muni": 1.236,
+   "school": 20.4309
+  },
+  "McDonald Borough": {
+   "muni": 8.39,
+   "school": 16.952
+  },
+  "McKees Rocks Borough": {
+   "muni": 9.4,
+   "school": 32.2837
+  },
+  "Millvale Borough": {
+   "muni": 15.0,
+   "school": 26.3391
+  },
+  "Monroeville Municipality": {
+   "muni": 5.5,
+   "school": 25.2718
+  },
+  "Moon Township": {
+   "muni": 4.28,
+   "school": 26.0415
+  },
+  "Mount Lebanon": {
+   "muni": 4.5,
+   "school": 32.033
+  },
+  "Mount Oliver Borough": {
+   "muni": 17.5,
+   "school": 10.457
+  },
+  "Munhall Borough": {
+   "muni": 14.25,
+   "school": 32.8595
+  },
+  "Neville Township": {
+   "muni": 5.2917,
+   "school": 29.0006
+  },
+  "North Braddock Borough": {
+   "muni": 12.5,
+   "school": 29.08
+  },
+  "North Fayette Township": {
+   "muni": 3.29,
+   "school": 18.51
+  },
+  "North Versailles Township": {
+   "muni": 7.75,
+   "school": 29.453
+  },
+  "Oakdale Borough": {
+   "muni": 8.0,
+   "school": 18.51
+  },
+  "Oakmont Borough": {
+   "muni": 4.95,
+   "school": 25.8294
+  },
+  "O'Hara Township": {
+   "muni": 2.4,
+   "school": 22.6898
+  },
+  "Ohio Township": {
+   "muni": 4.99,
+   "school": 23.05
+  },
+  "Glen Osborne Borough": {
+   "muni": 4.9,
+   "school": 22.8469
+  },
+  "Penn Hills Township": {
+   "muni": 6.944,
+   "school": 32.5965
+  },
+  "Pennsbury Village": {
+   "muni": 7.0,
+   "school": 17.9638
+  },
+  "Pine Township": {
+   "muni": 0.998,
+   "school": 20.6228
+  },
+  "Pitcairn Borough": {
+   "muni": 10.25,
+   "school": 25.2718
+  },
+  "Pleasant Hills Borough": {
+   "muni": 11.5,
+   "school": 26.119
+  },
+  "Plum Borough": {
+   "muni": 6.63,
+   "school": 24.619
+  },
+  "Port Vue Borough": {
+   "muni": 9.4,
+   "school": 30.0
+  },
+  "Rankin Borough": {
+   "muni": 11.6928,
+   "school": 29.08
+  },
+  "Reserve Township": {
+   "muni": 6.47,
+   "school": 26.3391
+  },
+  "Richland Township": {
+   "muni": 2.69,
+   "school": 20.6228
+  },
+  "Robinson Township": {
+   "muni": 3.2,
+   "school": 17.9638
+  },
+  "Ross Township": {
+   "muni": 4.0,
+   "school": 21.22
+  },
+  "Rosslyn Farms Borough": {
+   "muni": 8.0,
+   "school": 29.7622
+  },
+  "Scott Township": {
+   "muni": 7.9741,
+   "school": 20.1909
+  },
+  "Sewickley Borough": {
+   "muni": 6.25,
+   "school": 22.8469
+  },
+  "Sewickley Heights Borough": {
+   "muni": 5.5,
+   "school": 22.8469
+  },
+  "Sewickley Hills Borough": {
+   "muni": 2.84,
+   "school": 22.8469
+  },
+  "Shaler Township": {
+   "muni": 3.49,
+   "school": 26.3391
+  },
+  "Sharpsburg Borough": {
+   "muni": 9.75,
+   "school": 22.6898
+  },
+  "South Fayette Township": {
+   "muni": 5.98,
+   "school": 28.9465
+  },
+  "South Park Township": {
+   "muni": 3.062,
+   "school": 30.31
+  },
+  "South Versailles Township": {
+   "muni": 2.9,
+   "school": 20.96
+  },
+  "Springdale Borough": {
+   "muni": 9.75,
+   "school": 21.7049
+  },
+  "Springdale Township": {
+   "muni": 9.5,
+   "school": 21.7049
+  },
+  "Stowe Township": {
+   "muni": 10.48,
+   "school": 32.2837
+  },
+  "Swissvale Borough": {
+   "muni": 10.0,
+   "school": 29.08
+  },
+  "Tarentum Borough": {
+   "muni": 5.48,
+   "school": 25.13
+  },
+  "Thornburg Borough": {
+   "muni": 6.6,
+   "school": 17.9638
+  },
+  "Trafford Borough": {
+   "muni": 31.5,
+   "school": 14.18
+  },
+  "Turtle Creek Borough": {
+   "muni": 10.0,
+   "school": 29.08
+  },
+  "Upper St. Clair Township": {
+   "muni": 3.83,
+   "school": 32.4605
+  },
+  "Verona Borough": {
+   "muni": 11.7,
+   "school": 25.8294
+  },
+  "Versailles Borough": {
+   "muni": 8.0,
+   "school": 20.96
+  },
+  "Wall Borough": {
+   "muni": 9.0,
+   "school": 29.453
+  },
+  "West Deer Township": {
+   "muni": 2.9,
+   "school": 24.25
+  },
+  "West Elizabeth Borough": {
+   "muni": 4.55,
+   "school": 26.119
+  },
+  "West Homestead Borough": {
+   "muni": 11.75,
+   "school": 32.8595
+  },
+  "West Mifflin Borough": {
+   "muni": 11.53,
+   "school": 28.6137
+  },
+  "West View Borough": {
+   "muni": 7.8,
+   "school": 21.22
+  },
+  "Whitaker Borough": {
+   "muni": 12.5,
+   "school": 28.6137
+  },
+  "White Oak Borough": {
+   "muni": 9.0,
+   "school": 20.96
+  },
+  "Whitehall Borough": {
+   "muni": 5.42,
+   "school": 26.0
+  },
+  "Wilkins Township": {
+   "muni": 7.674,
+   "school": 29.08
+  },
+  "Wilkinsburg Borough": {
+   "muni": 14.0,
+   "school": 28.901
+  },
+  "Wilmerding Borough": {
+   "muni": 13.5,
+   "school": 29.453
+  }
+ },
+ "split": {
+  "City of Clairton": {
+   "muni_building": 40.0,
+   "muni_land": 5.0,
+   "school_building": 10.56,
+   "school_land": 111.6748
+  },
+  "City of McKeesport": {
+   "muni_building": 20.5,
+   "muni_land": 11.26,
+   "school_building": 20.96,
+   "school_land": 20.96
+  }
+ }
+}

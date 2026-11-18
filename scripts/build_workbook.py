@@ -59,6 +59,7 @@ COLUMNS = [
     ("MAO BRRRR ($15k left)", "mao_brrrr_15k", 12, "int-money"),
     ("MAO BRRRR ($30k left)", "mao_brrrr_30k", 12, "int-money"),
     ("Best refi: cash flow /mo", "refi_cash_flow", 10, "int-money"),
+    ("Property tax /yr (county + town + school)", "property_tax", 11, "int-money"),
     ("Best refi terms", "refi_terms", 34, "wrap"),
     ("Zillow rent est. /mo", "rent_est", 10, "int-money"),
     ("Score notes", "score_notes", 40, "wrap"),

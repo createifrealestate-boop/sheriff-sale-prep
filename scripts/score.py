@@ -10,7 +10,7 @@ import json, re, statistics, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from deal import underwrite, M as DM  # noqa: E402
+from deal import underwrite, property_tax, M as DM  # noqa: E402
 
 REF = Path(__file__).resolve().parent.parent / "reference"
 ASSESSED_PATH = Path(__file__).resolve().parent.parent / "state" / "assessed.json"
@@ -30,6 +30,13 @@ def assessed_for(c):
         _ASSESSED = json.load(open(ASSESSED_PATH)) if ASSESSED_PATH.exists() else {}
     rec = _ASSESSED.get(parid(c) or "")
     return rec.get("fmv") if rec else None
+
+
+def assessed_rec(c):
+    global _ASSESSED
+    if _ASSESSED is None:
+        _ASSESSED = json.load(open(ASSESSED_PATH)) if ASSESSED_PATH.exists() else {}
+    return _ASSESSED.get(parid(c) or "")
 
 
 def cache_key(c):
@@ -80,8 +87,10 @@ def score_case(c, z, cfg):
         grp, pct = "all", cfg["win_pct_of_arv"]
     exp_bid = max(bid, pct * arv)
     rent = float(z["rent"]) if z.get("rent") else None
-    assessed = assessed_for(c)
-    uw = underwrite(exp_bid, arv, z.get("sqft"), rent, assessed, c.get("tax_municipality"))
+    rec = assessed_rec(c)
+    assessed = rec.get("fmv") if rec else None
+    ptax, ptax_note = property_tax(rec)
+    uw = underwrite(exp_bid, arv, z.get("sqft"), rent, assessed, c.get("tax_municipality"), ptax, ptax_note)
     rehab = uw["rehab_est"]
     yld = (rent * 12 / (exp_bid + rehab)) if rent and (exp_bid + rehab) else None
     W = DM["scores"]["total_weights"]

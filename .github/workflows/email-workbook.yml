@@ -3,7 +3,7 @@ name: Email workbook
 # with the workbook attached (when email.json changed) and sends the data + workbook to the CRM's
 # Sheriff Sale page (when crm.json changed). In the final week, state/alert_email.json (new free & clear /
 # decree / High sell odds properties, from scripts/hot.py) is emailed on its own, without the workbook.
-# It also keeps state/assessed.json (county assessed values from WPRDC, for the sheriff-deed transfer tax):
+# It also keeps state/assessed.json (county assessed values from WPRDC, for each property's real-estate tax):
 # daily before the Claude run, and whenever crm.json changes (new parcels). Run it by hand to do any of these again.
 on:
   schedule:
@@ -58,7 +58,7 @@ jobs:
           echo "email=$(echo "$files" | grep -qx 'state/email.json' && echo true || echo false)" >> "$GITHUB_OUTPUT"
           echo "crm=$(echo "$files" | grep -qx 'state/crm.json' && echo true || echo false)" >> "$GITHUB_OUTPUT"
           echo "alert=$(echo "$files" | grep -qx 'state/alert_email.json' && echo true || echo false)" >> "$GITHUB_OUTPUT"
-      - name: Fetch county assessed values (transfer tax)
+      - name: Fetch county assessed values (property tax)
         if: github.event_name == 'schedule' || steps.changed.outputs.crm == 'true'
         continue-on-error: true
         run: |

@@ -12,13 +12,47 @@ Hard money = 90% of the price + 100% of rehab, 2.5 points, 11% interest-only for
 Buy costs: $300 closing + $200 sheriff closing fee. Transfer tax (county assessed value x CLR x rates) is off
 (include_transfer_tax in deal_model.json).
 """
-import json
+import json, re
 from pathlib import Path
 
 REF = Path(__file__).resolve().parent.parent / "reference"
 M = json.load(open(REF / "deal_model.json"))
 TT = json.load(open(REF / "transfer_tax.json"))
 TT_RATES = {x["municipality"]: TT["state_rate"] + x["muni_rate"] + x["school_rate"] for x in TT["municipalities"]}
+MILL = json.load(open(REF / "millage.json"))
+
+
+def _norm_muni(s):
+    s = re.sub(r"\bmt\.?\s*", "mount ", (s or "").lower()).replace("'", "")
+    s = re.sub(r"\b(borough|township|twp|city of|municipality|village|boro|city)\b", "", s)
+    return re.sub(r"[^a-z]", "", s)
+
+
+_MILL_BY = {_norm_muni(k): (k, v) for k, v in MILL["municipalities"].items()}
+_SPLIT_BY = {_norm_muni(k): (k, v) for k, v in MILL["split"].items()}
+
+
+def property_tax(rec):
+    """Annual real-estate tax (county + municipal + school) at the year's millage, on the full assessed value
+    (an investor owner gets no homestead exclusion). rec: a state/assessed.json entry (fmv, land, bldg, muni).
+    Returns (annual_tax, note) or (None, reason)."""
+    if not rec or not rec.get("fmv"):
+        return None, "no county assessment"
+    d = rec.get("muni") or ""
+    m = re.search(r"ward\s*-\s*(.+)$", d, re.I)
+    key = _norm_muni(m.group(1) if m else d)
+    T, L, B = rec["fmv"], rec.get("land"), rec.get("bldg")
+    if key in _SPLIT_BY:
+        name, s = _SPLIT_BY[key]
+        if L is None or B is None:
+            return None, f"{name} taxes land and buildings separately; land/building split missing"
+        tax = T * MILL["county"] / 1000 + B * (s["muni_building"] + s["school_building"]) / 1000 + L * (s["muni_land"] + s["school_land"]) / 1000
+        return round(tax), f"{name}, {MILL['year']} land/building rates, on ${T:,.0f} assessed"
+    if key not in _MILL_BY:
+        return None, f"no millage for {d.strip()}"
+    name, r = _MILL_BY[key]
+    mills = MILL["county"] + r["muni"] + r["school"]
+    return round(T * mills / 1000), f"{name}, {mills:.2f} mills ({MILL['year']}) on ${T:,.0f} assessed"
 
 
 def rehab_for(sqft, arv):
@@ -84,10 +118,11 @@ def _payment(loan, rate, lt):
     return loan / lt["term_months"] if mr == 0 else loan * mr / (1 - (1 + mr) ** -lt["term_months"])
 
 
-def refi_options(arv, rent):
-    """All refi structures with their cash flow; passing ones sorted by most cash returned (least left)."""
+def refi_options(arv, rent, taxes_annual=None):
+    """All refi structures with their cash flow; passing ones sorted by most cash returned (least left).
+    taxes_annual: this property's real-estate tax; the generic default when unknown."""
     R, O = M["refi"], M["operating"]
-    tax, ins = O["property_taxes_annual"] / 12, O["insurance_annual"] / 12
+    tax, ins = (taxes_annual if taxes_annual else O["property_taxes_annual"]) / 12, O["insurance_annual"] / 12
     opex = rent * (O["maintenance_pct"] + O["capex_pct"] + O["vacancy_pct"] + O["management_pct"]) / 100 + O["misc_monthly"]
     state_local = round(rent * O["state_local_pct_of_rent"] / 100)
     out = []
@@ -144,7 +179,7 @@ def brrrr_score(cash_left):
     return 0 if cash_left is None else round(_piecewise(cash_left, M["scores"]["brrrr_points"]))
 
 
-def underwrite(price, arv, sqft, rent, assessed, tax_municipality):
+def underwrite(price, arv, sqft, rent, assessed, tax_municipality, taxes_annual=None, tax_note=None):
     """Everything for one property at a given price. Returns a flat dict for the score / workbook / CRM."""
     rehab = rehab_for(sqft, arv)
     rate = transfer_rate(tax_municipality)
@@ -154,7 +189,9 @@ def underwrite(price, arv, sqft, rent, assessed, tax_municipality):
            "transfer_tax": tt, "flip_profit": round(f["profit"]), "flip_score": flip_score(f["profit"])}
     for m in flip_maos(arv, rehab, tt):
         out[f"mao_flip_{m['target'] // 1000}k"] = m["mao"]
-    passing, allo = refi_options(arv, rent) if rent else ([], [])
+    out["property_tax"] = taxes_annual
+    out["property_tax_note"] = tax_note if taxes_annual else f"generic ${M['operating']['property_taxes_annual']:,}/yr ({tax_note or 'no county assessment'})"
+    passing, allo = refi_options(arv, rent, taxes_annual) if rent else ([], [])
     best = passing[0] if passing else None
     if best:
         b = brrrr_at(price, arv, rehab, tt, best)
