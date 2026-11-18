@@ -67,6 +67,7 @@
   "maintenance_pct": 8,
   "capex_pct": 10,
   "vacancy_pct": 7,
+  "management_pct": 5,
   "misc_monthly": 0,
   "hoa_monthly": 0,
   "state_local_pct_of_rent": 3.07

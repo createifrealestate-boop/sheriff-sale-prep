@@ -88,7 +88,7 @@ def refi_options(arv, rent):
     """All refi structures with their cash flow; passing ones sorted by most cash returned (least left)."""
     R, O = M["refi"], M["operating"]
     tax, ins = O["property_taxes_annual"] / 12, O["insurance_annual"] / 12
-    opex = rent * (O["maintenance_pct"] + O["capex_pct"] + O["vacancy_pct"]) / 100 + O["misc_monthly"]
+    opex = rent * (O["maintenance_pct"] + O["capex_pct"] + O["vacancy_pct"] + O["management_pct"]) / 100 + O["misc_monthly"]
     state_local = round(rent * O["state_local_pct_of_rent"] / 100)
     out = []
     for ltv in R["ltv_options"]:
