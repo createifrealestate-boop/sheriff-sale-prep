@@ -4,7 +4,8 @@ name: Email workbook
 # Sheriff Sale page (when crm.json changed). In the final week, state/alert_email.json (new free & clear /
 # decree / High sell odds properties, from scripts/hot.py) is emailed on its own, without the workbook.
 # It also keeps state/assessed.json (county assessed values from WPRDC, for each property's real-estate tax):
-# daily before the Claude run, and whenever crm.json changes (new parcels). Run it by hand to do any of these again.
+# daily before the Claude run, and whenever crm.json changes (new parcels). Each CRM push also adds a second-opinion
+# county ARV (scripts/county.py, county data in the Actions cache). Run it by hand to do any of these again.
 on:
   schedule:
     - cron: "17 13 * * *"
@@ -30,7 +31,7 @@ permissions:
 jobs:
   send:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
         with:
@@ -84,10 +85,32 @@ jobs:
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           MAIL_TO: ${{ secrets.MAIL_TO }}
         run: python3 scripts/send_email.py state/alert_email.json
+      - name: Week
+        id: wk
+        if: always() && steps.changed.outputs.crm == 'true'
+        run: echo "week=$(date -u +%G-%V)" >> "$GITHUB_OUTPUT"
+      - name: Restore county data
+        if: always() && steps.changed.outputs.crm == 'true'
+        uses: actions/cache@v4
+        with:
+          path: cache
+          key: county-${{ steps.wk.outputs.week }}
+          restore-keys: county-
+      - name: County data (for the second-opinion ARV)
+        if: always() && steps.changed.outputs.crm == 'true'
+        continue-on-error: true
+        run: |
+          built=$(cat cache/county.built 2>/dev/null || echo 2000-01-01)
+          age=$(( ( $(date -u +%s) - $(date -u -d "$built" +%s) ) / 86400 ))
+          if [ ! -f cache/county.pkl.gz ] || [ "$age" -ge 7 ]; then
+            python3 scripts/county.py build /tmp/county && date -u +%F > cache/county.built
+          fi
       - name: Update CRM Sheriff Sale page
         if: always() && steps.changed.outputs.crm == 'true'
         env:
           CRM_API_KEY: ${{ secrets.CRM_API_KEY }}
         run: |
           python3 scripts/fill_assessed.py || true
-          python3 scripts/push_to_crm.py
+          cp state/crm.json /tmp/crm_county.json
+          python3 scripts/county.py sheriff /tmp/crm_county.json || cp state/crm.json /tmp/crm_county.json
+          if [ -f /tmp/crm_county.json ]; then python3 scripts/push_to_crm.py /tmp/crm_county.json; else python3 scripts/push_to_crm.py; fi

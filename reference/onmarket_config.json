@@ -21,8 +21,8 @@
   "dom_bonus": [[90, 3], [120, 6], [150, 9], [180, 12]]
  },
  "rent": {
-  "_note": "Rent Zestimates are looked up by the Claude run (Zillow tool) only for listings that could work: flip profit at 90% of list above -$25k. Up to 150 a day.",
-  "todo_min_flip_profit": -25000,
+  "_note": "Rent Zestimates are looked up by the Claude run (Zillow tool) only for listings that could work: flip profit at 90% of list above -$40k (roughly: BRRRR cash left under ~$30k). Up to 150 a day.",
+  "todo_min_flip_profit": -40000,
   "todo_max_per_run": 150,
   "refresh_days": 90
  },
