@@ -1,1 +1,752 @@
-[]
+[
+{
+"zpid": "11287820",
+"query": "7206 Meade St, Pittsburgh, PA 15208",
+"flip_profit": 97758
+},
+{
+"zpid": "11615399",
+"query": "4257 Upview Ter, Pittsburgh, PA 15201",
+"flip_profit": 89446
+},
+{
+"zpid": "11595396",
+"query": "2031 Riddle Run Rd, Tarentum, PA 15084",
+"flip_profit": 82267
+},
+{
+"zpid": "11520124",
+"query": "5001 Broad St, Pittsburgh, PA 15224",
+"flip_profit": 79189
+},
+{
+"zpid": "11417454",
+"query": "1524 Marie St, Pittsburgh, PA 15221",
+"flip_profit": 78154
+},
+{
+"zpid": "11505170",
+"query": "2526 Perrysville Ave, Pittsburgh, PA 15214",
+"flip_profit": 75164
+},
+{
+"zpid": "11417051",
+"query": "2040 Laketon Rd, Pittsburgh, PA 15221",
+"flip_profit": 74446
+},
+{
+"zpid": "11610460",
+"query": "2851 Mount Troy Rd, Pittsburgh, PA 15212",
+"flip_profit": 68394
+},
+{
+"zpid": "11506252",
+"query": "647 Rising Main Ave, Pittsburgh, PA 15212",
+"flip_profit": 67928
+},
+{
+"zpid": "11402515",
+"query": "416 Ella St, Bloomfield, PA 15224",
+"flip_profit": 61342
+},
+{
+"zpid": "11482326",
+"query": "3324 Radcliffe St, Pittsburgh, PA 15204",
+"flip_profit": 56142
+},
+{
+"zpid": "11511154",
+"query": "2118 Rockledge St, Pittsburgh, PA 15212",
+"flip_profit": 56032
+},
+{
+"zpid": "11378773",
+"query": "1842 Montier St, Pittsburgh, PA 15221",
+"flip_profit": 55150
+},
+{
+"zpid": "11510806",
+"query": "1134 Fabyan St, Pittsburgh, PA 15212",
+"flip_profit": 54421
+},
+{
+"zpid": "11379308",
+"query": "1740 Wesley St, Pittsburgh, PA 15221",
+"flip_profit": 54350
+},
+{
+"zpid": "11375891",
+"query": "824 California Ave, Allegheny, PA 15212",
+"flip_profit": 54015
+},
+{
+"zpid": "11639314",
+"query": "938 Greenfield Ave, Pittsburgh, PA 15217",
+"flip_profit": 52866
+},
+{
+"zpid": "11308620",
+"query": "2332 Eccles St, Pittsburgh, PA 15210",
+"flip_profit": 52731
+},
+{
+"zpid": "11291951",
+"query": "1823 Edwards Way, Pittsburgh, PA 15203",
+"flip_profit": 51333
+},
+{
+"zpid": "11539518",
+"query": "713 Saline St, Pittsburgh, PA 15207",
+"flip_profit": 51282
+},
+{
+"zpid": "11515302",
+"query": "308 Merrimac St, Pittsburgh, PA 15211",
+"flip_profit": 50769
+},
+{
+"zpid": "59844326",
+"query": "1347 Washington Pike, Bridgeville, PA 15017",
+"flip_profit": 47779
+},
+{
+"zpid": "11593377",
+"query": "106 Wagon Wheel Ln, Pittsburgh, PA 15238",
+"flip_profit": 46816
+},
+{
+"zpid": "11348831",
+"query": "3228 West St, West Mifflin, PA 15122",
+"flip_profit": 45210
+},
+{
+"zpid": "11379285",
+"query": "1307 Labelle Ave, Pittsburgh, PA 15221",
+"flip_profit": 44845
+},
+{
+"zpid": "11448637",
+"query": "469 Center Ave, Verona, PA 15147",
+"flip_profit": 43396
+},
+{
+"zpid": "11490240",
+"query": "7144 Shannon Rd, Verona, PA 15147",
+"flip_profit": 43040
+},
+{
+"zpid": "11524693",
+"query": "4900 Sciota St, Pittsburgh, PA 15224",
+"flip_profit": 41284
+},
+{
+"zpid": "11417428",
+"query": "1529 Marie St, Pittsburgh, PA 15221",
+"flip_profit": 40030
+},
+{
+"zpid": "11565349",
+"query": "1927 Woodward Ave, Pittsburgh, PA 15226",
+"flip_profit": 39838
+},
+{
+"zpid": "11388146",
+"query": "127 Fountain St, Allegheny, PA 15212",
+"flip_profit": 38555
+},
+{
+"zpid": "11475097",
+"query": "912 Arlington Ave, Pittsburgh, PA 15203",
+"flip_profit": 38472
+},
+{
+"zpid": "11394821",
+"query": "1000 Spring Garden Ave, Pittsburgh, PA 15212",
+"flip_profit": 37938
+},
+{
+"zpid": "11613388",
+"query": "4602 Modoc Way, Pittsburgh, PA 15201",
+"flip_profit": 37046
+},
+{
+"zpid": "11379119",
+"query": "1615 Montier St, Pittsburgh, PA 15221",
+"flip_profit": 34756
+},
+{
+"zpid": "11373940",
+"query": "57 Lower Rd, Pittsburgh, PA 15215",
+"flip_profit": 33075
+},
+{
+"zpid": "11572063",
+"query": "246 Willow Dr, Monroeville, PA 15146",
+"flip_profit": 33062
+},
+{
+"zpid": "11379210",
+"query": "1602 Montier St, Pittsburgh, PA 15221",
+"flip_profit": 32947
+},
+{
+"zpid": "11387286",
+"query": "1931 Perrysville Ave, Pittsburgh, PA 15214",
+"flip_profit": 32883
+},
+{
+"zpid": "11373432",
+"query": "1014 Sadowski Ave, Pittsburgh, PA 15215",
+"flip_profit": 32479
+},
+{
+"zpid": "11436213",
+"query": "4 Camfield St, Pittsburgh, PA 15210",
+"flip_profit": 32004
+},
+{
+"zpid": "11569096",
+"query": "2544 School St, Pittsburgh, PA 15235",
+"flip_profit": 30559
+},
+{
+"zpid": "11299659",
+"query": "81 Trump Rd, Cheswick, PA 15024",
+"flip_profit": 29124
+},
+{
+"zpid": "11380559",
+"query": "1308 Franklin Ave, Pittsburgh, PA 15221",
+"flip_profit": 28584
+},
+{
+"zpid": "11576539",
+"query": "203 Elm St, Clairton, PA 15025",
+"flip_profit": 28445
+},
+{
+"zpid": "11415493",
+"query": "9431 Glendale Rd, Pittsburgh, PA 15235",
+"flip_profit": 26423
+},
+{
+"zpid": "2093369476",
+"query": "1114 Daisy Ln, Crescent, PA 15046",
+"flip_profit": 26008
+},
+{
+"zpid": "11378807",
+"query": "1303 Singer Pl, Pittsburgh, PA 15221",
+"flip_profit": 25158
+},
+{
+"zpid": "11443493",
+"query": "1534 Butler Plank Rd, Glenshaw, PA 15116",
+"flip_profit": 24850
+},
+{
+"zpid": "11267570",
+"query": "188 Kendall Ave, Pittsburgh, PA 15202",
+"flip_profit": 24683
+},
+{
+"zpid": "11426549",
+"query": "705 Clearview Dr, Dravosburg, PA 15034",
+"flip_profit": 24592
+},
+{
+"zpid": "11588516",
+"query": "58 Evans Ave, Pittsburgh, PA 15205",
+"flip_profit": 24552
+},
+{
+"zpid": "11304933",
+"query": "38 W Bellecrest Ave, Pittsburgh, PA 15227",
+"flip_profit": 23454
+},
+{
+"zpid": "11510814",
+"query": "1108 Fabyan St, Pittsburgh, PA 15212",
+"flip_profit": 22098
+},
+{
+"zpid": "11355444",
+"query": "3401 Margaret St, Pittsburgh, PA 15227",
+"flip_profit": 21474
+},
+{
+"zpid": "11574879",
+"query": "1504 Schweitzer Rd, McKeesport, PA 15135",
+"flip_profit": 21132
+},
+{
+"zpid": "11611130",
+"query": "613 Stanton Ave, Pittsburgh, PA 15209",
+"flip_profit": 20986
+},
+{
+"zpid": "11475249",
+"query": "68 Saint Michael St, Pittsburgh, PA 15203",
+"flip_profit": 19120
+},
+{
+"zpid": "2059172029",
+"query": "97 Werner Camp Rd, Pittsburgh, PA 15238",
+"flip_profit": 18781
+},
+{
+"zpid": "460650885",
+"query": "521 Grant Ave, Duquesne, PA 15110",
+"flip_profit": 18754
+},
+{
+"zpid": "11565796",
+"query": "339 Fernhill Ave, Pittsburgh, PA 15226",
+"flip_profit": 18607
+},
+{
+"zpid": "11615325",
+"query": "5264 Wickliff St, Pittsburgh, PA 15201",
+"flip_profit": 18097
+},
+{
+"zpid": "11403347",
+"query": "3341 Webster Ave, Pittsburgh, PA 15219",
+"flip_profit": 16812
+},
+{
+"zpid": "11376223",
+"query": "1303 Pennsylvania Ave, Pittsburgh, PA 15233",
+"flip_profit": 16209
+},
+{
+"zpid": "11291945",
+"query": "1818 Mary St, Pittsburgh, PA 15203",
+"flip_profit": 15936
+},
+{
+"zpid": "11381213",
+"query": "1372 Traymore Ave, Pittsburgh, PA 15221",
+"flip_profit": 15901
+},
+{
+"zpid": "11562488",
+"query": "2218 Starkamp St, Pittsburgh, PA 15226",
+"flip_profit": 13563
+},
+{
+"zpid": "11562070",
+"query": "388 Lamarido St, Pittsburgh, PA 15226",
+"flip_profit": 12525
+},
+{
+"zpid": "11476480",
+"query": "128 Dinsmore Ave, Pittsburgh, PA 15205",
+"flip_profit": 11515
+},
+{
+"zpid": "11567096",
+"query": "305 Repp Rd, New Kensington, PA 15068",
+"flip_profit": 11509
+},
+{
+"zpid": "11449355",
+"query": "6615 Quincy Dr, Verona, PA 15147",
+"flip_profit": 11362
+},
+{
+"zpid": "11417439",
+"query": "1918 Laketon Rd, Pittsburgh, PA 15221",
+"flip_profit": 11284
+},
+{
+"zpid": "11307543",
+"query": "2534 Leticoe St, Pittsburgh, PA 15203",
+"flip_profit": 10699
+},
+{
+"zpid": "11482898",
+"query": "3225 Allendale St, Pittsburgh, PA 15204",
+"flip_profit": 10641
+},
+{
+"zpid": "11328016",
+"query": "4052 Franklin Rd, Pittsburgh, PA 15214",
+"flip_profit": 10537
+},
+{
+"zpid": "11505396",
+"query": "37 Kenwood Ave, Pittsburgh, PA 15214",
+"flip_profit": 10312
+},
+{
+"zpid": "59848842",
+"query": "4811 Main St, Mc Donald, PA 15057",
+"flip_profit": 9403
+},
+{
+"zpid": "11584061",
+"query": "105 Elm Ln, Coraopolis, PA 15108",
+"flip_profit": 9342
+},
+{
+"zpid": "11291042",
+"query": "1812 Harcum Way, Pittsburgh, PA 15203",
+"flip_profit": 9313
+},
+{
+"zpid": "11417441",
+"query": "1934 Laketon Rd, Pittsburgh, PA 15221",
+"flip_profit": 8602
+},
+{
+"zpid": "11537727",
+"query": "846 Florence Ave, East Mc Keesport, PA 15035",
+"flip_profit": 8560
+},
+{
+"zpid": "11337238",
+"query": "1365 Paulson Ave, Pittsburgh, PA 15206",
+"flip_profit": 7554
+},
+{
+"zpid": "11337239",
+"query": "1367 Paulson Ave, Pittsburgh, PA 15206",
+"flip_profit": 7554
+},
+{
+"zpid": "11390256",
+"query": "5907 Rodgers St, Pittsburgh, PA 15207",
+"flip_profit": 7292
+},
+{
+"zpid": "11568835",
+"query": "117 Colonial Village Dr, Pittsburgh, PA 15235",
+"flip_profit": 6357
+},
+{
+"zpid": "11534832",
+"query": "318 Dunbar Dr, Pittsburgh, PA 15235",
+"flip_profit": 6310
+},
+{
+"zpid": "11606039",
+"query": "1028 Grand Ave, Pittsburgh, PA 15212",
+"flip_profit": 6289
+},
+{
+"zpid": "11419856",
+"query": "101 Oakland Ct, Pittsburgh, PA 15213",
+"flip_profit": 5778
+},
+{
+"zpid": "11499357",
+"query": "1312 Marshall Ave, Pittsburgh, PA 15212",
+"flip_profit": 5448
+},
+{
+"zpid": "62983546",
+"query": "1345 Washington Pike, Bridgeville, PA 15017",
+"flip_profit": 4786
+},
+{
+"zpid": "11327902",
+"query": "401 Wabana St, Pittsburgh, PA 15214",
+"flip_profit": 4270
+},
+{
+"zpid": "11483401",
+"query": "1204 Sutherland St, Pittsburgh, PA 15204",
+"flip_profit": 3717
+},
+{
+"zpid": "11395694",
+"query": "3708 Grant St, Pittsburgh, PA 15234",
+"flip_profit": 2590
+},
+{
+"zpid": "11294853",
+"query": "2906 John St, Homestead, PA 15120",
+"flip_profit": 2527
+},
+{
+"zpid": "11309230",
+"query": "134 Rinne St, Pittsburgh, PA 15210",
+"flip_profit": 2413
+},
+{
+"zpid": "11375569",
+"query": "856 Brightridge St, Pittsburgh, PA 15214",
+"flip_profit": 2302
+},
+{
+"zpid": "11503832",
+"query": "1118 Woodland Ave, McKeesport, PA 15133",
+"flip_profit": 2005
+},
+{
+"zpid": "11648188",
+"query": "436 Overbrook Blvd, Pittsburgh, PA 15210",
+"flip_profit": 1665
+},
+{
+"zpid": "11601065",
+"query": "222 Victoria Dr, Monroeville, PA 15146",
+"flip_profit": 1650
+},
+{
+"zpid": "59836788",
+"query": "1110 Mifflin Rd, Pittsburgh, PA 15207",
+"flip_profit": 1057
+},
+{
+"zpid": "11393221",
+"query": "1264 Grove Rd, Pittsburgh, PA 15234",
+"flip_profit": 952
+},
+{
+"zpid": "11659550",
+"query": "1840 Webster Ave, Pittsburgh, PA 15219",
+"flip_profit": 799
+},
+{
+"zpid": "11564334",
+"query": "312 Shaw Ave, Springdale, PA 15144",
+"flip_profit": 773
+},
+{
+"zpid": "11467785",
+"query": "145 Old Lebanon Church Rd, Pittsburgh, PA 15236",
+"flip_profit": 547
+},
+{
+"zpid": "11420957",
+"query": "975 Wilkins Ave, Pittsburgh, PA 15221",
+"flip_profit": -200
+},
+{
+"zpid": "11493768",
+"query": "125 Burton Dr, Pittsburgh, PA 15235",
+"flip_profit": -587
+},
+{
+"zpid": "11538633",
+"query": "111 Robin St, North Versailles, PA 15137",
+"flip_profit": -704
+},
+{
+"zpid": "11475873",
+"query": "1234 Oakmont St, Pittsburgh, PA 15205",
+"flip_profit": -839
+},
+{
+"zpid": "11537596",
+"query": "1150 Morrelle Ave, East Mc Keesport, PA 15035",
+"flip_profit": -947
+},
+{
+"zpid": "11598022",
+"query": "7701 Saltsburg Rd, Pittsburgh, PA 15239",
+"flip_profit": -1100
+},
+{
+"zpid": "11576887",
+"query": "102 Payne Hill Rd, Clairton, PA 15025",
+"flip_profit": -1462
+},
+{
+"zpid": "11260613",
+"query": "2525 Webster Ave, Pittsburgh, PA 15219",
+"flip_profit": -1519
+},
+{
+"zpid": "11623595",
+"query": "308 N Sheridan Ave, Pittsburgh, PA 15206",
+"flip_profit": -2551
+},
+{
+"zpid": "11440514",
+"query": "422 Conniston Ave, Pittsburgh, PA 15210",
+"flip_profit": -2577
+},
+{
+"zpid": "11260207",
+"query": "244 Hickory St, Mc Kees Rocks, PA 15136",
+"flip_profit": -2846
+},
+{
+"zpid": "11581725",
+"query": "431 Noblestown Rd, Carnegie, PA 15106",
+"flip_profit": -2864
+},
+{
+"zpid": "11438110",
+"query": "1503 Fernhurst Ave, Coraopolis, PA 15108",
+"flip_profit": -2882
+},
+{
+"zpid": "11408114",
+"query": "15 Township Rd, Pittsburgh, PA 15229",
+"flip_profit": -3216
+},
+{
+"zpid": "11273074",
+"query": "26 Gazzam St, Pittsburgh, PA 15213",
+"flip_profit": -4122
+},
+{
+"zpid": "11605007",
+"query": "504 N 8th St, Clairton, PA 15025",
+"flip_profit": -5303
+},
+{
+"zpid": "11383067",
+"query": "2258 Hawthorne Ave, Pittsburgh, PA 15218",
+"flip_profit": -5486
+},
+{
+"zpid": "11355443",
+"query": "3331 Reiland St, Pittsburgh, PA 15227",
+"flip_profit": -5992
+},
+{
+"zpid": "11386088",
+"query": "4010 Kennywood Blvd, West Mifflin, PA 15122",
+"flip_profit": -6779
+},
+{
+"zpid": "11289096",
+"query": "2013 State St, Clairton, PA 15025",
+"flip_profit": -6779
+},
+{
+"zpid": "11348740",
+"query": "3110 West St, West Mifflin, PA 15122",
+"flip_profit": -6812
+},
+{
+"zpid": "11640376",
+"query": "473 New 8th Ave, Homestead, PA 15120",
+"flip_profit": -7163
+},
+{
+"zpid": "11569078",
+"query": "2634 Reiter Rd, Pittsburgh, PA 15235",
+"flip_profit": -7175
+},
+{
+"zpid": "11601655",
+"query": "419 Robinson St, Pitcairn, PA 15140",
+"flip_profit": -8286
+},
+{
+"zpid": "11387302",
+"query": "1832 Clayton Ave, Pittsburgh, PA 15214",
+"flip_profit": -8408
+},
+{
+"zpid": "11367189",
+"query": "303 Attica St, Pittsburgh, PA 15220",
+"flip_profit": -8570
+},
+{
+"zpid": "11367180",
+"query": "279 Advent St, Pittsburgh, PA 15220",
+"flip_profit": -9484
+},
+{
+"zpid": "11415625",
+"query": "452 Hochberg Rd, Pittsburgh, PA 15235",
+"flip_profit": -9520
+},
+{
+"zpid": "11362550",
+"query": "611 S Main St, Pittsburgh, PA 15220",
+"flip_profit": -9608
+},
+{
+"zpid": "11493365",
+"query": "309 Duff Rd, Pittsburgh, PA 15235",
+"flip_profit": -9690
+},
+{
+"zpid": "11371255",
+"query": "337 Hammond St, Pittsburgh, PA 15204",
+"flip_profit": -10103
+},
+{
+"zpid": "11565396",
+"query": "2007 Plainview Ave, Pittsburgh, PA 15226",
+"flip_profit": -10937
+},
+{
+"zpid": "11505466",
+"query": "435 E Burgess St, Pittsburgh, PA 15214",
+"flip_profit": -11130
+},
+{
+"zpid": "59848741",
+"query": "1448 Crawford St, Imperial, PA 15126",
+"flip_profit": -11675
+},
+{
+"zpid": "11338144",
+"query": "7305 Lemington Ave, Pittsburgh, PA 15235",
+"flip_profit": -11976
+},
+{
+"zpid": "11647171",
+"query": "226 Parkfield St, Pittsburgh, PA 15210",
+"flip_profit": -12372
+},
+{
+"zpid": "11379155",
+"query": "1344 Laketon Rd, Pittsburgh, PA 15221",
+"flip_profit": -12406
+},
+{
+"zpid": "11451071",
+"query": "310 Walpole Dr, Pittsburgh, PA 15235",
+"flip_profit": -12413
+},
+{
+"zpid": "11543718",
+"query": "613 8th St, Glassport, PA 15045",
+"flip_profit": -12618
+},
+{
+"zpid": "11499659",
+"query": "3077 Auberle St, McKeesport, PA 15132",
+"flip_profit": -12620
+},
+{
+"zpid": "11437750",
+"query": "1510 Hiland Ave, Coraopolis, PA 15108",
+"flip_profit": -12809
+},
+{
+"zpid": "11519624",
+"query": "5122 Rosetta St, Pittsburgh, PA 15224",
+"flip_profit": -13127
+},
+{
+"zpid": "11337932",
+"query": "97 Hilda St, Pittsburgh, PA 15235",
+"flip_profit": -13838
+},
+{
+"zpid": "11640765",
+"query": "4593 Marina Dr, Homestead, PA 15120",
+"flip_profit": -14334
+},
+{
+"zpid": "11586248",
+"query": "177 Hallock St, Pittsburgh, PA 15211",
+"flip_profit": -14946
+},
+{
+"zpid": "11576388",
+"query": "211 Pennsylvania Ave, Clairton, PA 15025",
+"flip_profit": -15230
+}
+]
