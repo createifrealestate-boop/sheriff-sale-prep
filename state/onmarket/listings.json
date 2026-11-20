@@ -21,14 +21,22 @@
 "complete": false,
 "listings": 0,
 "rents": 150
+},
+{
+"file": "2026-11-20T2051Z-daily.json",
+"kind": "daily",
+"complete": false,
+"listings": 134,
+"rents": 0
 }
 ],
 "processed": [
 "2026-11-20T2019Z-daily.json",
 "2026-11-20T2035Z-sweep.json",
-"2026-11-20T2049Z-daily.json"
+"2026-11-20T2049Z-daily.json",
+"2026-11-20T2051Z-daily.json"
 ],
-"updated_at": "2026-11-20T20:49:53+00:00",
+"updated_at": "2026-11-20T20:51:57+00:00",
 "county_data": "2026-11-20",
 "last_sweep": "2026-11-20"
 },
