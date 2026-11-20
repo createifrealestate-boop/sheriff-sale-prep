@@ -13,8 +13,10 @@ if not (user and pw and to):
     sys.exit(0)
 
 em = json.load(open(sys.argv[1] if len(sys.argv) > 1 else ROOT / "state" / "email.json"))
+if em.get("to"):  # e.g. On-Market alerts go to their own address
+    to = [x.strip() for x in em["to"].split(",") if x.strip()]
 attach = em.get("attach", True)  # final-week alerts go out without the workbook
-wb = ROOT / "state" / f"{em['sale_date']}.xlsx"
+wb = ROOT / "state" / f"{em.get('sale_date')}.xlsx"
 if attach and not wb.exists():
     sys.exit(f"workbook {wb} not found")
 

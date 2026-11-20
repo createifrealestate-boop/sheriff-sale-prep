@@ -135,5 +135,12 @@
  "_later": "Not used yet (user note 2026-11-16): the CRM already stores year-over-year home value growth by ZIP (ZipMarketData.yoy_growth_pct, Zillow ZHVI; HUD SAFMR only fills rent gaps). Candidate input for appreciation in ARV / BRRRR equity.",
  "include_transfer_tax": false,
  "sheriff_closing_fee": 200,
- "_transfer_tax_note": "Transfer tax removed from the underwriting at the user's request (2026-11-17); replaced by a $200 sheriff closing fee on top of the $300 buy closing. Set include_transfer_tax true to bring it back."
+ "_transfer_tax_note": "Transfer tax removed from the underwriting at the user's request (2026-11-17); replaced by a $200 sheriff closing fee on top of the $300 buy closing. Set include_transfer_tax true to bring it back.",
+ "on_market": {
+  "_note": "On-Market page (Zillow listings): assumed purchase at 90% of list; buy costs = $2,500 closing (title, settlement) + the buyer's half of the realty transfer tax on the price (state 1% + local rates from reference/transfer_tax.json; 2% total when the municipality is unknown). No sheriff fee. Everything else (rehab, hard money, refi, operating, targets, scores) is the same as the Sheriff page. Set by Claude 2026-11-20 as a starting point; change here and in src/lib/sheriffDeal.js together.",
+  "offer_pct_of_list": 0.9,
+  "buy_closing_flat": 2500,
+  "transfer_tax_buyer_share": 0.5,
+  "transfer_rate_default": 0.02
+ }
 }

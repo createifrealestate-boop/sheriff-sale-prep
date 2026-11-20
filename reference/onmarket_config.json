@@ -1,0 +1,39 @@
+{
+ "_readme": "On-Market page (Zillow listings in Allegheny County). Set with the user 2026-11-20. Underwriting (rehab, hard money, refi, targets, flip/BRRRR scores) is the Sheriff page's (reference/deal_model.json); on-market buy costs and the 90% offer are in deal_model.json on_market.",
+ "buy_box": {
+  "_note": "Searched and kept: list price up to $200k, single-family or 2-4 unit multi-family, regular listings only (agent or owner listed: no auctions, foreclosures or new construction), active only (no pending/contingent/coming soon). Ideal (a filter tile, no score effect): 2-3 beds and up to 1,250 sqft.",
+  "max_price": 200000,
+  "home_types": ["singleFamily", "multiFamily"],
+  "max_units": 4,
+  "ideal_beds": [2, 3],
+  "ideal_max_sqft": 1250
+ },
+ "arv": {
+  "_note": "ARV = the team's own if entered, else the county ARV (scripts/county.py). High confidence: used as is. Low confidence: 85% of it is used and the listing is marked 'needs your ARV'. No county ARV: not scored.",
+  "low_conf_factor": 0.85
+ },
+ "score": {
+  "_note": "Priority = BRRRR 45 + flip 35 + data confidence (up to 20), the Sheriff page's weights, at 90% of list. Plus: 'flips work here' +20 when 2+ flips of a similar house (beds within 1, size within 25%) resold in the same assessor neighborhood in the last 24 months; days on market +3 at 90 days, +6 at 120, +9 at 150, +12 at 180+. Capped at 100.",
+  "confidence_points": {"high_10_comps": 20, "high": 15, "low": 6},
+  "flip_area_bonus": 20,
+  "flip_area_min_flips": 2,
+  "flip_area_months": 24,
+  "dom_bonus": [[90, 3], [120, 6], [150, 9], [180, 12]]
+ },
+ "rent": {
+  "_note": "Rent Zestimates are looked up by the Claude run (Zillow tool) only for listings that could work: flip profit at 90% of list above -$25k. Up to 150 a day.",
+  "todo_min_flip_profit": -25000,
+  "todo_max_per_run": 150,
+  "refresh_days": 90
+ },
+ "alerts": {
+  "_note": "Emailed by the GitHub workflow after each update: new listings, price drops and listings back on the market that reach the priority threshold (or pass $0-left BRRRR / $30k+ flip at 90% of list).",
+  "to": "createifrealestate@gmail.com",
+  "min_priority": 70
+ },
+ "gone": {
+  "_note": "A listing missing from a complete weekly sweep, or found in a recently-sold search, moves to Gone. Gone listings stay on the page 45 days and in the repo's state 120 days.",
+  "show_days": 45,
+  "keep_days": 120
+ }
+}

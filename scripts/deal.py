@@ -30,6 +30,7 @@ def _norm_muni(s):
 
 _MILL_BY = {_norm_muni(k): (k, v) for k, v in MILL["municipalities"].items()}
 _SPLIT_BY = {_norm_muni(k): (k, v) for k, v in MILL["split"].items()}
+_TT_BY = {_norm_muni(re.sub(r"\s*\(.*\)", "", k)): v for k, v in sorted(TT_RATES.items(), key=lambda kv: "Pittsburgh SD" in kv[0])}  # Pittsburgh SD rate wins
 
 
 def property_tax(rec):
@@ -72,6 +73,16 @@ def transfer_rate(tax_municipality):
     return TT_RATES.get(tax_municipality)
 
 
+def transfer_rate_county(desc):
+    """Total transfer-tax rate for a county MUNIDESC ('Penn Hills', '18th Ward - PITTSBURGH') or a TT name."""
+    if not desc:
+        return None
+    if desc in TT_RATES:
+        return TT_RATES[desc]
+    m = re.search(r"ward\s*-\s*(.+)$", desc, re.I)
+    return _TT_BY.get(_norm_muni(m.group(1) if m else desc))
+
+
 def transfer_tax(assessed, rate):
     if not assessed or rate is None:
         return None
@@ -86,14 +97,33 @@ def _hm(P, rehab):
     return loan, points, interest
 
 
-def flip_at(P, arv, rehab, tt):
+def buy_costs(P, tt, costs=None):
+    """(closing, sheriff fee, transfer tax) for a purchase at P. costs=None: sheriff sale (flat closing + sheriff fee,
+    transfer tax tt on assessed value). costs=market_costs(...): an on-market purchase (closing + buyer's share of
+    the transfer tax on the price, no sheriff fee)."""
+    if costs is None:
+        return M["buy_closing_flat"], M["sheriff_closing_fee"], (tt or 0)
+    return costs["closing"], 0, P * costs["tt_pct"]
+
+
+def market_costs(tax_desc):
+    """On-market buy costs (reference/deal_model.json on_market): flat closing + the buyer's share of the realty
+    transfer tax (state 1% + local rates) on the price. tax_desc: county MUNIDESC or a municipality name."""
+    O = M["on_market"]
+    rate = transfer_rate_county(tax_desc)
+    return {"closing": O["buy_closing_flat"], "tt_pct": (rate if rate is not None else O["transfer_rate_default"]) * O["transfer_tax_buyer_share"],
+            "tt_rate": rate}
+
+
+def flip_at(P, arv, rehab, tt, costs=None):
     loan, points, interest = _hm(P, rehab)
     cont = contingency_for(rehab)
     holding = M["holding_per_month"] * M["hard_money"]["hold_months"]
     sale = arv * M["flip_sale_cost_pct"]
-    profit = arv - sale - P - M["buy_closing_flat"] - M["sheriff_closing_fee"] - (tt or 0) - rehab - cont - holding - points - interest
-    return {"price": P, "arv": arv, "sale_costs": sale, "buy_closing": M["buy_closing_flat"], "sheriff_fee": M["sheriff_closing_fee"],
-            "transfer_tax": tt or 0, "rehab": rehab, "contingency": cont, "holding": holding, "hm_loan": loan, "hm_points": points,
+    bc, sf, tx = buy_costs(P, tt, costs)
+    profit = arv - sale - P - bc - sf - tx - rehab - cont - holding - points - interest
+    return {"price": P, "arv": arv, "sale_costs": sale, "buy_closing": bc, "sheriff_fee": sf,
+            "transfer_tax": tx, "rehab": rehab, "contingency": cont, "holding": holding, "hm_loan": loan, "hm_points": points,
             "hm_interest": interest, "profit": profit}
 
 
@@ -104,8 +134,8 @@ def _solve(fn, target, increasing):
     return (target - f0) / slope
 
 
-def flip_maos(arv, rehab, tt):
-    return [{"target": t, "mao": round(_solve(lambda P: flip_at(P, arv, rehab, tt)["profit"], t, False))}
+def flip_maos(arv, rehab, tt, costs=None):
+    return [{"target": t, "mao": round(_solve(lambda P: flip_at(P, arv, rehab, tt, costs)["profit"], t, False))}
             for t in M["targets"]["flip_profit"]]
 
 
@@ -143,22 +173,23 @@ def refi_options(arv, rent, taxes_annual=None):
     return passing, out
 
 
-def brrrr_at(P, arv, rehab, tt, refi):
+def brrrr_at(P, arv, rehab, tt, refi, costs=None):
     loan, points, interest = _hm(P, rehab)
     H = M["hard_money"]
     cont = contingency_for(rehab)
     holding = M["holding_per_month"] * H["hold_months"]
     down = P - H["purchase_ltv"] * P + rehab - H["rehab_ltv"] * rehab
-    cash_in = down + M["buy_closing_flat"] + M["sheriff_closing_fee"] + (tt or 0) + cont + points + interest + holding
+    bc, sf, tx = buy_costs(P, tt, costs)
+    cash_in = down + bc + sf + tx + cont + points + interest + holding
     cash_back = refi["refi_loan"] - refi["refi_costs"] - loan
-    return {"price": P, "down_payment": down, "buy_closing": M["buy_closing_flat"], "sheriff_fee": M["sheriff_closing_fee"],
-            "transfer_tax": tt or 0, "contingency": cont,
+    return {"price": P, "down_payment": down, "buy_closing": bc, "sheriff_fee": sf,
+            "transfer_tax": tx, "contingency": cont,
             "hm_loan": loan, "hm_points": points, "hm_interest": interest, "holding": holding, "cash_in": cash_in,
             "refi_loan": refi["refi_loan"], "refi_costs": refi["refi_costs"], "cash_back": cash_back, "cash_left": cash_in - cash_back}
 
 
-def brrrr_maos(arv, rehab, tt, refi):
-    return [{"target": t, "mao": round(_solve(lambda P: brrrr_at(P, arv, rehab, tt, refi)["cash_left"], t, True))}
+def brrrr_maos(arv, rehab, tt, refi, costs=None):
+    return [{"target": t, "mao": round(_solve(lambda P: brrrr_at(P, arv, rehab, tt, refi, costs)["cash_left"], t, True))}
             for t in M["targets"]["brrrr_cash_left"]]
 
 
@@ -179,26 +210,32 @@ def brrrr_score(cash_left):
     return 0 if cash_left is None else round(_piecewise(cash_left, M["scores"]["brrrr_points"]))
 
 
-def underwrite(price, arv, sqft, rent, assessed, tax_municipality, taxes_annual=None, tax_note=None):
-    """Everything for one property at a given price. Returns a flat dict for the score / workbook / CRM."""
+def underwrite(price, arv, sqft, rent, assessed, tax_municipality, taxes_annual=None, tax_note=None, costs=None):
+    """Everything for one property at a given price. Returns a flat dict for the score / workbook / CRM.
+    costs: None for a sheriff sale; market_costs(...) for an on-market purchase."""
     rehab = rehab_for(sqft, arv)
-    rate = transfer_rate(tax_municipality)
-    tt = transfer_tax(assessed, rate) if M.get("include_transfer_tax", True) else None
-    f = flip_at(price, arv, rehab, tt)
+    if costs is None:
+        rate = transfer_rate(tax_municipality)
+        tt = transfer_tax(assessed, rate) if M.get("include_transfer_tax", True) else None
+    else:
+        rate, tt = costs.get("tt_rate"), None
+    f = flip_at(price, arv, rehab, tt, costs)
     out = {"rehab_est": rehab, "contingency": round(contingency_for(rehab)), "transfer_rate": rate, "assessed_value": assessed,
-           "transfer_tax": tt, "flip_profit": round(f["profit"]), "flip_score": flip_score(f["profit"])}
-    for m in flip_maos(arv, rehab, tt):
+           "transfer_tax": tt if costs is None else round(f["transfer_tax"]), "flip_profit": round(f["profit"]), "flip_score": flip_score(f["profit"])}
+    if costs is not None:
+        out["buy_closing"] = costs["closing"]
+    for m in flip_maos(arv, rehab, tt, costs):
         out[f"mao_flip_{m['target'] // 1000}k"] = m["mao"]
     out["property_tax"] = taxes_annual
     out["property_tax_note"] = tax_note if taxes_annual else f"generic ${M['operating']['property_taxes_annual']:,}/yr ({tax_note or 'no county assessment'})"
     passing, allo = refi_options(arv, rent, taxes_annual) if rent else ([], [])
     best = passing[0] if passing else None
     if best:
-        b = brrrr_at(price, arv, rehab, tt, best)
+        b = brrrr_at(price, arv, rehab, tt, best, costs)
         out.update({"brrrr_cash_left": round(b["cash_left"]), "brrrr_score": brrrr_score(b["cash_left"]),
                     "refi_terms": f"{best['ltv']}% LTV, {best['loan_type']}, {best['points']} pts @ {best['rate']:.1f}%",
                     "refi_cash_flow": round(best["cash_flow"]), "refi_dscr": round(best["dscr"], 2), "refi_ok": True})
-        for m in brrrr_maos(arv, rehab, tt, best):
+        for m in brrrr_maos(arv, rehab, tt, best, costs):
             out[f"mao_brrrr_{m['target'] // 1000}k"] = m["mao"]
     else:
         top = max(allo, key=lambda o: o["cash_flow"]) if allo else None

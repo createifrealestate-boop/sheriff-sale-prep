@@ -1,0 +1,83 @@
+name: On-Market update
+# A Claude run (daily scheduled task) pulls Zillow listings and commits them to state/onmarket/raw/. This workflow
+# then values and scores them with the county's own sales records (scripts/county.py, scripts/onmarket_update.py),
+# sends them to the CRM's On-Market page, emails alerts to the On-Market address, and commits the updated state
+# (including state/onmarket/rent_todo.json, the listings the next Claude run should get a Rent Zestimate for).
+# The county data (about 330 MB from WPRDC) is rebuilt weekly and kept in the Actions cache.
+on:
+  push:
+    branches: [main]
+    paths: ["state/onmarket/raw/**"]
+  workflow_dispatch:
+    inputs:
+      push_all:
+        description: "Resend every listing to the CRM (not just changed ones)"
+        type: boolean
+        default: false
+      send_alert:
+        description: "Send the latest alert email again"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency:
+  group: onmarket
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Week
+        id: wk
+        run: echo "week=$(date -u +%G-%V)" >> "$GITHUB_OUTPUT"
+      - name: Restore county data
+        uses: actions/cache@v4
+        with:
+          path: cache
+          key: county-${{ steps.wk.outputs.week }}
+          restore-keys: county-
+      - name: Build county data (weekly)
+        run: |
+          built=$(cat cache/county.built 2>/dev/null || echo 2000-01-01)
+          age=$(( ( $(date -u +%s) - $(date -u -d "$built" +%s) ) / 86400 ))
+          if [ ! -f cache/county.pkl.gz ] || [ "$age" -ge 7 ]; then
+            python3 scripts/county.py build /tmp/county && date -u +%F > cache/county.built
+          else
+            echo "county data from $built ($age days old)"
+          fi
+      - name: Update listings
+        run: python3 scripts/onmarket_update.py
+      - name: Update CRM On-Market page
+        env:
+          CRM_API_KEY: ${{ secrets.CRM_API_KEY }}
+          PUSH_ALL: ${{ inputs.push_all }}
+        run: |
+          if [ "$PUSH_ALL" = "true" ]; then python3 scripts/push_onmarket.py --all; else python3 scripts/push_onmarket.py; fi
+      - name: Send alert
+        if: always()
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          RESEND: ${{ inputs.send_alert }}
+        run: |
+          if [ -f state/onmarket/alert_email.json ] && { [ "$RESEND" = "true" ] || ! git diff --quiet HEAD -- state/onmarket/alert_email.json 2>/dev/null || ! git ls-files --error-unmatch state/onmarket/alert_email.json >/dev/null 2>&1; }; then
+            python3 scripts/send_email.py state/onmarket/alert_email.json
+          else
+            echo "no new alert"
+          fi
+      - name: Save state
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A state/onmarket
+          if git diff --cached --quiet; then echo "nothing to save"; exit 0; fi
+          git commit -q -m "On-Market update $(date -u +%FT%H%MZ)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done
+          echo "::error::could not push the On-Market state"; exit 1
