@@ -3,5 +3,755 @@
 "rent": 1334,
 "date": "2026-11-20",
 "note": null
+},
+"11287820": {
+"rent": 2480,
+"date": "2026-11-20",
+"note": null
+},
+"11615399": {
+"rent": 2240,
+"date": "2026-11-20",
+"note": null
+},
+"11595396": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11520124": {
+"rent": 2290,
+"date": "2026-11-20",
+"note": null
+},
+"11417454": {
+"rent": 1933,
+"date": "2026-11-20",
+"note": null
+},
+"11505170": {
+"rent": 1464,
+"date": "2026-11-20",
+"note": null
+},
+"11417051": {
+"rent": 1836,
+"date": "2026-11-20",
+"note": null
+},
+"11610460": {
+"rent": 1915,
+"date": "2026-11-20",
+"note": null
+},
+"11506252": {
+"rent": 1953,
+"date": "2026-11-20",
+"note": null
+},
+"11402515": {
+"rent": 2050,
+"date": "2026-11-20",
+"note": null
+},
+"11482326": {
+"rent": 1564,
+"date": "2026-11-20",
+"note": null
+},
+"11511154": {
+"rent": 1542,
+"date": "2026-11-20",
+"note": null
+},
+"11378773": {
+"rent": 1543,
+"date": "2026-11-20",
+"note": null
+},
+"11510806": {
+"rent": 2011,
+"date": "2026-11-20",
+"note": null
+},
+"11379308": {
+"rent": 1355,
+"date": "2026-11-20",
+"note": null
+},
+"11375891": {
+"rent": 2153,
+"date": "2026-11-20",
+"note": null
+},
+"11639314": {
+"rent": 2132,
+"date": "2026-11-20",
+"note": null
+},
+"11308620": {
+"rent": 1033,
+"date": "2026-11-20",
+"note": null
+},
+"11291951": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11539518": {
+"rent": 1581,
+"date": "2026-11-20",
+"note": null
+},
+"11515302": {
+"rent": 1860,
+"date": "2026-11-20",
+"note": null
+},
+"59844326": {
+"rent": 1989,
+"date": "2026-11-20",
+"note": null
+},
+"11593377": {
+"rent": 1767,
+"date": "2026-11-20",
+"note": null
+},
+"11348831": {
+"rent": 1315,
+"date": "2026-11-20",
+"note": null
+},
+"11379285": {
+"rent": 1560,
+"date": "2026-11-20",
+"note": null
+},
+"11448637": {
+"rent": 2010,
+"date": "2026-11-20",
+"note": null
+},
+"11490240": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11524693": {
+"rent": 2658,
+"date": "2026-11-20",
+"note": null
+},
+"11417428": {
+"rent": 1408,
+"date": "2026-11-20",
+"note": null
+},
+"11565349": {
+"rent": 1657,
+"date": "2026-11-20",
+"note": null
+},
+"11388146": {
+"rent": 2515,
+"date": "2026-11-20",
+"note": null
+},
+"11475097": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11394821": {
+"rent": 1887,
+"date": "2026-11-20",
+"note": null
+},
+"11613388": {
+"rent": 1628,
+"date": "2026-11-20",
+"note": null
+},
+"11379119": {
+"rent": 1530,
+"date": "2026-11-20",
+"note": null
+},
+"11373940": {
+"rent": 1926,
+"date": "2026-11-20",
+"note": null
+},
+"11572063": {
+"rent": 1363,
+"date": "2026-11-20",
+"note": null
+},
+"11379210": {
+"rent": 1457,
+"date": "2026-11-20",
+"note": null
+},
+"11387286": {
+"rent": 2110,
+"date": "2026-11-20",
+"note": null
+},
+"11373432": {
+"rent": 1520,
+"date": "2026-11-20",
+"note": null
+},
+"11436213": {
+"rent": 1428,
+"date": "2026-11-20",
+"note": null
+},
+"11569096": {
+"rent": 1345,
+"date": "2026-11-20",
+"note": null
+},
+"11299659": {
+"rent": 1312,
+"date": "2026-11-20",
+"note": null
+},
+"11380559": {
+"rent": 1661,
+"date": "2026-11-20",
+"note": null
+},
+"11576539": {
+"rent": 1527,
+"date": "2026-11-20",
+"note": null
+},
+"11415493": {
+"rent": 1504,
+"date": "2026-11-20",
+"note": null
+},
+"2093369476": {
+"rent": 1926,
+"date": "2026-11-20",
+"note": null
+},
+"11378807": {
+"rent": 2534,
+"date": "2026-11-20",
+"note": null
+},
+"11443493": {
+"rent": 1818,
+"date": "2026-11-20",
+"note": null
+},
+"11267570": {
+"rent": 1370,
+"date": "2026-11-20",
+"note": null
+},
+"11426549": {
+"rent": 1353,
+"date": "2026-11-20",
+"note": null
+},
+"11588516": {
+"rent": 1571,
+"date": "2026-11-20",
+"note": null
+},
+"11304933": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11510814": {
+"rent": 1888,
+"date": "2026-11-20",
+"note": null
+},
+"11355444": {
+"rent": 1908,
+"date": "2026-11-20",
+"note": null
+},
+"11574879": {
+"rent": 1211,
+"date": "2026-11-20",
+"note": null
+},
+"11611130": {
+"rent": 1301,
+"date": "2026-11-20",
+"note": null
+},
+"11475249": {
+"rent": 2937,
+"date": "2026-11-20",
+"note": null
+},
+"2059172029": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"460650885": {
+"rent": 1182,
+"date": "2026-11-20",
+"note": null
+},
+"11565796": {
+"rent": 1585,
+"date": "2026-11-20",
+"note": null
+},
+"11615325": {
+"rent": 1648,
+"date": "2026-11-20",
+"note": null
+},
+"11403347": {
+"rent": 1789,
+"date": "2026-11-20",
+"note": null
+},
+"11376223": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11291945": {
+"rent": 1863,
+"date": "2026-11-20",
+"note": null
+},
+"11381213": {
+"rent": 1493,
+"date": "2026-11-20",
+"note": null
+},
+"11562488": {
+"rent": 1808,
+"date": "2026-11-20",
+"note": null
+},
+"11562070": {
+"rent": 1608,
+"date": "2026-11-20",
+"note": null
+},
+"11476480": {
+"rent": 1615,
+"date": "2026-11-20",
+"note": null
+},
+"11567096": {
+"rent": 1630,
+"date": "2026-11-20",
+"note": null
+},
+"11449355": {
+"rent": 1400,
+"date": "2026-11-20",
+"note": null
+},
+"11417439": {
+"rent": 1172,
+"date": "2026-11-20",
+"note": null
+},
+"11307543": {
+"rent": 1755,
+"date": "2026-11-20",
+"note": null
+},
+"11482898": {
+"rent": 1780,
+"date": "2026-11-20",
+"note": null
+},
+"11328016": {
+"rent": 1818,
+"date": "2026-11-20",
+"note": null
+},
+"11505396": {
+"rent": 1661,
+"date": "2026-11-20",
+"note": null
+},
+"59848842": {
+"rent": 1439,
+"date": "2026-11-20",
+"note": null
+},
+"11584061": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11291042": {
+"rent": 1436,
+"date": "2026-11-20",
+"note": null
+},
+"11417441": {
+"rent": 1700,
+"date": "2026-11-20",
+"note": null
+},
+"11537727": {
+"rent": 1616,
+"date": "2026-11-20",
+"note": null
+},
+"11337238": {
+"rent": 1367,
+"date": "2026-11-20",
+"note": null
+},
+"11337239": {
+"rent": 1367,
+"date": "2026-11-20",
+"note": null
+},
+"11390256": {
+"rent": 1394,
+"date": "2026-11-20",
+"note": null
+},
+"11568835": {
+"rent": 1594,
+"date": "2026-11-20",
+"note": null
+},
+"11534832": {
+"rent": 1581,
+"date": "2026-11-20",
+"note": null
+},
+"11606039": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11419856": {
+"rent": 1696,
+"date": "2026-11-20",
+"note": null
+},
+"11499357": {
+"rent": 1443,
+"date": "2026-11-20",
+"note": null
+},
+"62983546": {
+"rent": 1856,
+"date": "2026-11-20",
+"note": null
+},
+"11327902": {
+"rent": 1536,
+"date": "2026-11-20",
+"note": null
+},
+"11483401": {
+"rent": 1127,
+"date": "2026-11-20",
+"note": null
+},
+"11395694": {
+"rent": 1700,
+"date": "2026-11-20",
+"note": null
+},
+"11294853": {
+"rent": 1795,
+"date": "2026-11-20",
+"note": null
+},
+"11309230": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11375569": {
+"rent": 1680,
+"date": "2026-11-20",
+"note": null
+},
+"11503832": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11648188": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11601065": {
+"rent": 1474,
+"date": "2026-11-20",
+"note": null
+},
+"59836788": {
+"rent": 1420,
+"date": "2026-11-20",
+"note": null
+},
+"11393221": {
+"rent": 1788,
+"date": "2026-11-20",
+"note": null
+},
+"11659550": {
+"rent": 2020,
+"date": "2026-11-20",
+"note": null
+},
+"11564334": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11467785": {
+"rent": 1329,
+"date": "2026-11-20",
+"note": null
+},
+"11420957": {
+"rent": 1986,
+"date": "2026-11-20",
+"note": null
+},
+"11493768": {
+"rent": 1212,
+"date": "2026-11-20",
+"note": null
+},
+"11538633": {
+"rent": 1280,
+"date": "2026-11-20",
+"note": null
+},
+"11475873": {
+"rent": 1714,
+"date": "2026-11-20",
+"note": null
+},
+"11537596": {
+"rent": 1421,
+"date": "2026-11-20",
+"note": null
+},
+"11598022": {
+"rent": 1987,
+"date": "2026-11-20",
+"note": null
+},
+"11576887": {
+"rent": 2124,
+"date": "2026-11-20",
+"note": null
+},
+"11260613": {
+"rent": 2045,
+"date": "2026-11-20",
+"note": null
+},
+"11623595": {
+"rent": 2053,
+"date": "2026-11-20",
+"note": null
+},
+"11440514": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11260207": {
+"rent": 1543,
+"date": "2026-11-20",
+"note": null
+},
+"11581725": {
+"rent": 1907,
+"date": "2026-11-20",
+"note": null
+},
+"11438110": {
+"rent": 1448,
+"date": "2026-11-20",
+"note": null
+},
+"11408114": {
+"rent": 2196,
+"date": "2026-11-20",
+"note": null
+},
+"11273074": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11605007": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11383067": {
+"rent": 1588,
+"date": "2026-11-20",
+"note": null
+},
+"11355443": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\n\\nWhat is the Zestimate\\n\\nThe Zestimate"
+},
+"11386088": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11289096": {
+"rent": 1291,
+"date": "2026-11-20",
+"note": null
+},
+"11348740": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11640376": {
+"rent": 1526,
+"date": "2026-11-20",
+"note": null
+},
+"11569078": {
+"rent": 1559,
+"date": "2026-11-20",
+"note": null
+},
+"11601655": {
+"rent": 1568,
+"date": "2026-11-20",
+"note": null
+},
+"11387302": {
+"rent": 1778,
+"date": "2026-11-20",
+"note": null
+},
+"11367189": {
+"rent": 1446,
+"date": "2026-11-20",
+"note": null
+},
+"11367180": {
+"rent": 1159,
+"date": "2026-11-20",
+"note": null
+},
+"11415625": {
+"rent": 1204,
+"date": "2026-11-20",
+"note": null
+},
+"11362550": {
+"rent": 2140,
+"date": "2026-11-20",
+"note": null
+},
+"11493365": {
+"rent": 1602,
+"date": "2026-11-20",
+"note": null
+},
+"11371255": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11565396": {
+"rent": 1807,
+"date": "2026-11-20",
+"note": null
+},
+"11505466": {
+"rent": 1417,
+"date": "2026-11-20",
+"note": null
+},
+"59848741": {
+"rent": 1643,
+"date": "2026-11-20",
+"note": null
+},
+"11338144": {
+"rent": 1436,
+"date": "2026-11-20",
+"note": null
+},
+"11647171": {
+"rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11379155": {
+"rent": 2126,
+"date": "2026-11-20",
+"note": null
+},
+"11451071": {
+"rent": 1338,
+"date": "2026-11-20",
+"note": null
+},
+"11543718": {
+"rent": 1651,
+"date": "2026-11-20",
+"note": null
+},
+"11499659": {
+"rent": 1656,
+"date": "2026-11-20",
+"note": null
+},
+"11437750": {
+"rent": 1424,
+"date": "2026-11-20",
+"note": null
+},
+"11519624": {
+"rent": 2553,
+"date": "2026-11-20",
+"note": null
+},
+"11337932": {
+"rent": 1059,
+"date": "2026-11-20",
+"note": null
+},
+"11640765": {
+"rent": 1866,
+"date": "2026-11-20",
+"note": null
+},
+"11586248": {
+"rent": 1357,
+"date": "2026-11-20",
+"note": null
+},
+"11576388": {
+"rent": 1338,
+"date": "2026-11-20",
+"note": null
 }
 }
