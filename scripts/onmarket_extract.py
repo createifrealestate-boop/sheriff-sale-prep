@@ -110,7 +110,20 @@ def main():
                 rec["dom_min"] = max(old["dom_min"] or 0, rec["dom_min"] or 0)
             listings[(rec["zpid"], sold)] = rec
 
+    # A capped search is fine when narrower searches (same days-on-Zillow band) cover its whole price range.
+    def covered(c):
+        lo, hi = (c["price"] or {}).get("min", 0), (c["price"] or {}).get("max", 10 ** 9)
+        parts = sorted(((s["price"] or {}).get("min", 0), (s["price"] or {}).get("max", 10 ** 9)) for s in searches
+                       if s is not c and not s["sold"] and s["dom"] == c["dom"] and s["total"] is not None and s["total"] <= (s["shown"] or 0))
+        at = lo
+        for a, b in parts:
+            if a <= at + 1 and b >= at:
+                at = max(at, b)
+        return at >= hi
+    capped = [c for c in capped if not (c["sold"] is False and covered(c))]
     now = dt.datetime.now(dt.timezone.utc)
+    if a.kind == "sweep" and not any(not k[1] for k in listings):
+        raise SystemExit("refusing to save a sweep with no for-sale listings (it would mark every listing gone)")
     out = {"kind": a.kind, "taken_at": now.isoformat(timespec="seconds"), "since": a.since,
            "complete": a.kind == "sweep" and (not capped or a.complete), "searches": searches,
            "listings": list(listings.values()), "rents": rents}

@@ -89,7 +89,10 @@ def apply_raw(L, meta):
             lo = x.get("dom_min") or 0
             if r.get("dom_floor") is None or lo > dom_today(r):
                 r["dom_floor"], r["dom_floor_date"] = lo, day
-        if raw.get("kind") == "sweep" and raw.get("complete"):
+        n_active = sum(1 for r in L.values() if r.get("status") == "active")
+        if raw.get("kind") == "sweep" and raw.get("complete") and len(seen) < 0.5 * n_active:
+            print(f"::warning::sweep {name} saw only {len(seen)} of {n_active} active listings; not marking any gone")
+        elif raw.get("kind") == "sweep" and raw.get("complete"):
             for z, r in L.items():
                 if r.get("status") == "active" and z not in seen and (r.get("last_seen") or "") < day:
                     r.update(status="gone", gone_date=day, gone_reason="left the market (pending, sold or withdrawn)")

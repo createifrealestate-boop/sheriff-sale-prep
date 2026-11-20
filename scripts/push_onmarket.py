@@ -1,8 +1,8 @@
 """Send state/onmarket/crm.json to the CRM's On-Market page (Base44 function ingestMarketListings).
 Only listings that changed since the last successful push are sent (state/onmarket/pushed.json keeps a hash per
-listing), in chunks of 150, plus the full list of listing ids so the CRM can retire ones that dropped off.
+listing), in chunks of 120 a minute apart (Base44 allows 140 record updates a minute), plus the full list of listing ids so the CRM can retire ones that dropped off.
 Run by .github/workflows/onmarket.yml. Env: CRM_API_KEY. Usage: python3 scripts/push_onmarket.py [--all]"""
-import hashlib, json, os, sys, urllib.error, urllib.request
+import hashlib, json, os, sys, time, urllib.error, urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -31,9 +31,11 @@ def post(body):
 
 
 tot = {"created": 0, "updated": 0, "retired": 0}
-chunks = [changed[i:i + 150] for i in range(0, len(changed), 150)] or [[]]
+chunks = [changed[i:i + 120] for i in range(0, len(changed), 120)] or [[]]
 for i, ch in enumerate(chunks):
     last = i == len(chunks) - 1
+    if i:
+        time.sleep(62)
     res = post({"run": payload["run"], "listings": ch, **({"keep_zpids": keep} if last else {})})
     if not res.get("ok"):
         sys.exit(f"CRM update failed: {res}")
