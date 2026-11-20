@@ -1,0 +1,1684 @@
+{
+"kind": "daily",
+"taken_at": "2026-11-20T21:09:53+00:00",
+"since": "2026-11-20T20:48:06Z",
+"complete": false,
+"searches": [],
+"listings": [],
+"rents": {
+"7206 Meade St, Pittsburgh, PA 15208": {
+"rent": 2480,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"4257 Upview Ter, Pittsburgh, PA 15201": {
+"rent": 2240,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2031 Riddle Run Rd, Tarentum, PA 15084": {
+"rent": null,
+"comp_rent": 1650,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"5001 Broad St, Pittsburgh, PA 15224": {
+"rent": 2290,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1524 Marie St, Pittsburgh, PA 15221": {
+"rent": 1933,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2526 Perrysville Ave, Pittsburgh, PA 15214": {
+"rent": 1464,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2040 Laketon Rd, Pittsburgh, PA 15221": {
+"rent": 1836,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2851 Mount Troy Rd, Pittsburgh, PA 15212": {
+"rent": 1915,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"647 Rising Main Ave, Pittsburgh, PA 15212": {
+"rent": 1953,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"416 Ella St, Bloomfield, PA 15224": {
+"rent": 2050,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3324 Radcliffe St, Pittsburgh, PA 15204": {
+"rent": 1564,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2118 Rockledge St, Pittsburgh, PA 15212": {
+"rent": 1542,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1842 Montier St, Pittsburgh, PA 15221": {
+"rent": 1543,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1134 Fabyan St, Pittsburgh, PA 15212": {
+"rent": 2011,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1740 Wesley St, Pittsburgh, PA 15221": {
+"rent": 1355,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"824 California Ave, Allegheny, PA 15212": {
+"rent": 2153,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"938 Greenfield Ave, Pittsburgh, PA 15217": {
+"rent": 2132,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2332 Eccles St, Pittsburgh, PA 15210": {
+"rent": 1033,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1823 Edwards Way, Pittsburgh, PA 15203": {
+"rent": null,
+"comp_rent": 1950,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"713 Saline St, Pittsburgh, PA 15207": {
+"rent": 1581,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"308 Merrimac St, Pittsburgh, PA 15211": {
+"rent": 1860,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1347 Washington Pike, Bridgeville, PA 15017": {
+"rent": 1989,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"106 Wagon Wheel Ln, Pittsburgh, PA 15238": {
+"rent": 1767,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3228 West St, West Mifflin, PA 15122": {
+"rent": 1315,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1307 Labelle Ave, Pittsburgh, PA 15221": {
+"rent": 1560,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"469 Center Ave, Verona, PA 15147": {
+"rent": 2010,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"7144 Shannon Rd, Verona, PA 15147": {
+"rent": null,
+"comp_rent": 2300,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"4900 Sciota St, Pittsburgh, PA 15224": {
+"rent": 2658,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1529 Marie St, Pittsburgh, PA 15221": {
+"rent": 1408,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1927 Woodward Ave, Pittsburgh, PA 15226": {
+"rent": 1657,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"127 Fountain St, Allegheny, PA 15212": {
+"rent": 2515,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"912 Arlington Ave, Pittsburgh, PA 15203": {
+"rent": null,
+"comp_rent": 1550,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"1000 Spring Garden Ave, Pittsburgh, PA 15212": {
+"rent": 1887,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"4602 Modoc Way, Pittsburgh, PA 15201": {
+"rent": 1628,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1615 Montier St, Pittsburgh, PA 15221": {
+"rent": 1530,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"57 Lower Rd, Pittsburgh, PA 15215": {
+"rent": 1926,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"246 Willow Dr, Monroeville, PA 15146": {
+"rent": 1363,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1602 Montier St, Pittsburgh, PA 15221": {
+"rent": 1457,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1931 Perrysville Ave, Pittsburgh, PA 15214": {
+"rent": 2110,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1014 Sadowski Ave, Pittsburgh, PA 15215": {
+"rent": 1520,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"4 Camfield St, Pittsburgh, PA 15210": {
+"rent": 1428,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2544 School St, Pittsburgh, PA 15235": {
+"rent": 1345,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"81 Trump Rd, Cheswick, PA 15024": {
+"rent": 1312,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1308 Franklin Ave, Pittsburgh, PA 15221": {
+"rent": 1661,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"203 Elm St, Clairton, PA 15025": {
+"rent": 1527,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"9431 Glendale Rd, Pittsburgh, PA 15235": {
+"rent": 1504,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1114 Daisy Ln, Crescent, PA 15046": {
+"rent": 1926,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1303 Singer Pl, Pittsburgh, PA 15221": {
+"rent": 2534,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1534 Butler Plank Rd, Glenshaw, PA 15116": {
+"rent": 1818,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"188 Kendall Ave, Pittsburgh, PA 15202": {
+"rent": 1370,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"705 Clearview Dr, Dravosburg, PA 15034": {
+"rent": 1353,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"58 Evans Ave, Pittsburgh, PA 15205": {
+"rent": 1571,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"38 W Bellecrest Ave, Pittsburgh, PA 15227": {
+"rent": null,
+"comp_rent": 1600,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"1108 Fabyan St, Pittsburgh, PA 15212": {
+"rent": 1888,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3401 Margaret St, Pittsburgh, PA 15227": {
+"rent": 1908,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1504 Schweitzer Rd, McKeesport, PA 15135": {
+"rent": 1211,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"613 Stanton Ave, Pittsburgh, PA 15209": {
+"rent": 1301,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"68 Saint Michael St, Pittsburgh, PA 15203": {
+"rent": 2937,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"97 Werner Camp Rd, Pittsburgh, PA 15238": {
+"rent": null,
+"comp_rent": 1100,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"521 Grant Ave, Duquesne, PA 15110": {
+"rent": 1182,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"339 Fernhill Ave, Pittsburgh, PA 15226": {
+"rent": 1585,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"5264 Wickliff St, Pittsburgh, PA 15201": {
+"rent": 1648,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3341 Webster Ave, Pittsburgh, PA 15219": {
+"rent": 1789,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1303 Pennsylvania Ave, Pittsburgh, PA 15233": {
+"rent": null,
+"comp_rent": 1850,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"1818 Mary St, Pittsburgh, PA 15203": {
+"rent": 1863,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1372 Traymore Ave, Pittsburgh, PA 15221": {
+"rent": 1493,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2218 Starkamp St, Pittsburgh, PA 15226": {
+"rent": 1808,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"388 Lamarido St, Pittsburgh, PA 15226": {
+"rent": 1608,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"128 Dinsmore Ave, Pittsburgh, PA 15205": {
+"rent": 1615,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"305 Repp Rd, New Kensington, PA 15068": {
+"rent": 1630,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"6615 Quincy Dr, Verona, PA 15147": {
+"rent": 1400,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1918 Laketon Rd, Pittsburgh, PA 15221": {
+"rent": 1172,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2534 Leticoe St, Pittsburgh, PA 15203": {
+"rent": 1755,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3225 Allendale St, Pittsburgh, PA 15204": {
+"rent": 1780,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"4052 Franklin Rd, Pittsburgh, PA 15214": {
+"rent": 1818,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"37 Kenwood Ave, Pittsburgh, PA 15214": {
+"rent": 1661,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"4811 Main St, Mc Donald, PA 15057": {
+"rent": 1439,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"105 Elm Ln, Coraopolis, PA 15108": {
+"rent": null,
+"comp_rent": 2700,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"1812 Harcum Way, Pittsburgh, PA 15203": {
+"rent": 1436,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1934 Laketon Rd, Pittsburgh, PA 15221": {
+"rent": 1700,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"846 Florence Ave, East Mc Keesport, PA 15035": {
+"rent": 1616,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1365 Paulson Ave, Pittsburgh, PA 15206": {
+"rent": 1367,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1367 Paulson Ave, Pittsburgh, PA 15206": {
+"rent": 1367,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"5907 Rodgers St, Pittsburgh, PA 15207": {
+"rent": 1394,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"117 Colonial Village Dr, Pittsburgh, PA 15235": {
+"rent": 1594,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"318 Dunbar Dr, Pittsburgh, PA 15235": {
+"rent": 1581,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1028 Grand Ave, Pittsburgh, PA 15212": {
+"rent": null,
+"comp_rent": 1500,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"101 Oakland Ct, Pittsburgh, PA 15213": {
+"rent": 1696,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1312 Marshall Ave, Pittsburgh, PA 15212": {
+"rent": 1443,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1345 Washington Pike, Bridgeville, PA 15017": {
+"rent": 1856,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"401 Wabana St, Pittsburgh, PA 15214": {
+"rent": 1536,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1204 Sutherland St, Pittsburgh, PA 15204": {
+"rent": 1127,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3708 Grant St, Pittsburgh, PA 15234": {
+"rent": 1700,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2906 John St, Homestead, PA 15120": {
+"rent": 1795,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"134 Rinne St, Pittsburgh, PA 15210": {
+"rent": null,
+"comp_rent": 1900,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"856 Brightridge St, Pittsburgh, PA 15214": {
+"rent": 1680,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1118 Woodland Ave, McKeesport, PA 15133": {
+"rent": null,
+"comp_rent": 1250,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"436 Overbrook Blvd, Pittsburgh, PA 15210": {
+"rent": null,
+"comp_rent": 1700,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"222 Victoria Dr, Monroeville, PA 15146": {
+"rent": 1474,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1110 Mifflin Rd, Pittsburgh, PA 15207": {
+"rent": 1420,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1264 Grove Rd, Pittsburgh, PA 15234": {
+"rent": 1788,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1840 Webster Ave, Pittsburgh, PA 15219": {
+"rent": 2020,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"312 Shaw Ave, Springdale, PA 15144": {
+"rent": null,
+"comp_rent": 1700,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"145 Old Lebanon Church Rd, Pittsburgh, PA 15236": {
+"rent": 1329,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"975 Wilkins Ave, Pittsburgh, PA 15221": {
+"rent": 1986,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"125 Burton Dr, Pittsburgh, PA 15235": {
+"rent": 1212,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"111 Robin St, North Versailles, PA 15137": {
+"rent": 1280,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1234 Oakmont St, Pittsburgh, PA 15205": {
+"rent": 1714,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1150 Morrelle Ave, East Mc Keesport, PA 15035": {
+"rent": 1421,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"7701 Saltsburg Rd, Pittsburgh, PA 15239": {
+"rent": 1987,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"102 Payne Hill Rd, Clairton, PA 15025": {
+"rent": 2124,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2525 Webster Ave, Pittsburgh, PA 15219": {
+"rent": 2045,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"308 N Sheridan Ave, Pittsburgh, PA 15206": {
+"rent": 2053,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"422 Conniston Ave, Pittsburgh, PA 15210": {
+"rent": null,
+"comp_rent": 1500,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"244 Hickory St, Mc Kees Rocks, PA 15136": {
+"rent": 1543,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"431 Noblestown Rd, Carnegie, PA 15106": {
+"rent": 1907,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1503 Fernhurst Ave, Coraopolis, PA 15108": {
+"rent": 1448,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"15 Township Rd, Pittsburgh, PA 15229": {
+"rent": 2196,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"26 Gazzam St, Pittsburgh, PA 15213": {
+"rent": null,
+"comp_rent": 1850,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"504 N 8th St, Clairton, PA 15025": {
+"rent": null,
+"comp_rent": 1600,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"2258 Hawthorne Ave, Pittsburgh, PA 15218": {
+"rent": 1588,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3331 Reiland St, Pittsburgh, PA 15227": {
+"rent": null,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\n\\nWhat is the Zestimate\\n\\nThe Zestimate"
+},
+"4010 Kennywood Blvd, West Mifflin, PA 15122": {
+"rent": null,
+"comp_rent": 1600,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"2013 State St, Clairton, PA 15025": {
+"rent": 1291,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3110 West St, West Mifflin, PA 15122": {
+"rent": null,
+"comp_rent": 1100,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"473 New 8th Ave, Homestead, PA 15120": {
+"rent": 1526,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2634 Reiter Rd, Pittsburgh, PA 15235": {
+"rent": 1559,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"419 Robinson St, Pitcairn, PA 15140": {
+"rent": 1568,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1832 Clayton Ave, Pittsburgh, PA 15214": {
+"rent": 1778,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"303 Attica St, Pittsburgh, PA 15220": {
+"rent": 1446,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"279 Advent St, Pittsburgh, PA 15220": {
+"rent": 1159,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"452 Hochberg Rd, Pittsburgh, PA 15235": {
+"rent": 1204,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"611 S Main St, Pittsburgh, PA 15220": {
+"rent": 2140,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"309 Duff Rd, Pittsburgh, PA 15235": {
+"rent": 1602,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"337 Hammond St, Pittsburgh, PA 15204": {
+"rent": null,
+"comp_rent": 1250,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"2007 Plainview Ave, Pittsburgh, PA 15226": {
+"rent": 1807,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"435 E Burgess St, Pittsburgh, PA 15214": {
+"rent": 1417,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1448 Crawford St, Imperial, PA 15126": {
+"rent": 1643,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"7305 Lemington Ave, Pittsburgh, PA 15235": {
+"rent": 1436,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"226 Parkfield St, Pittsburgh, PA 15210": {
+"rent": null,
+"comp_rent": 1700,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"1344 Laketon Rd, Pittsburgh, PA 15221": {
+"rent": 2126,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"310 Walpole Dr, Pittsburgh, PA 15235": {
+"rent": 1338,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"613 8th St, Glassport, PA 15045": {
+"rent": 1651,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3077 Auberle St, McKeesport, PA 15132": {
+"rent": 1656,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1510 Hiland Ave, Coraopolis, PA 15108": {
+"rent": 1424,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"5122 Rosetta St, Pittsburgh, PA 15224": {
+"rent": 2553,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"97 Hilda St, Pittsburgh, PA 15235": {
+"rent": 1059,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"4593 Marina Dr, Homestead, PA 15120": {
+"rent": 1866,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"177 Hallock St, Pittsburgh, PA 15211": {
+"rent": 1357,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"211 Pennsylvania Ave, Clairton, PA 15025": {
+"rent": 1338,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"794 S Gray Ave, Bridgeville, PA 15017": {
+"rent": null,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\n\\nWhat is the Zestimate\\n\\nThe Zestimate"
+},
+"4814 Roberta Dr, Pittsburgh, PA 15236": {
+"rent": 1550,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"418 Ella St, Bloomfield, PA 15224": {
+"rent": 1447,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"204 Lee Ave, Pittsburgh, PA 15237": {
+"rent": 1738,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"6 Moga St, Pittsburgh, PA 15206": {
+"rent": null,
+"comp_rent": 1500,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"548 Burton Dr, Pittsburgh, PA 15235": {
+"rent": null,
+"comp_rent": 1400,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"308 Erie Ave, Glassport, PA 15045": {
+"rent": 1252,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"217 Ilion St, Pittsburgh, PA 15207": {
+"rent": 1633,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1633 New York Ave, McKeesport, PA 15133": {
+"rent": 1111,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"145 Payne Dr, Pittsburgh, PA 15235": {
+"rent": 1364,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"7117 Lemington Ave, Pittsburgh, PA 15206": {
+"rent": 1823,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"523 Delaware Ave, Glassport, PA 15045": {
+"rent": 903,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2728 Middletown Rd, Pittsburgh, PA 15205": {
+"rent": 1144,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"319 Strickler St, Pittsburgh, PA 15204": {
+"rent": 1212,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"912 Summit St, McKeesport, PA 15132": {
+"rent": 1020,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3015 Maryland Ave, North Versailles, PA 15137": {
+"rent": 1405,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1109 Grand Ave, Pittsburgh, PA 15212": {
+"rent": null,
+"comp_rent": 1600,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"311 Euclid Ave, Glassport, PA 15045": {
+"rent": 1483,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"5221 Schenley Ave, Pittsburgh, PA 15224": {
+"rent": 2023,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1102 Aurora Dr, Pittsburgh, PA 15236": {
+"rent": 1933,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"230 S Highland Ave, Oakdale, PA 15071": {
+"rent": null,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\n\\nWhat is the Zestimate\\n\\nThe Zestimate"
+},
+"1406 Maryland Ave, West Mifflin, PA 15122": {
+"rent": 1265,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"821 George St, Coraopolis, PA 15108": {
+"rent": 1345,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"208 Allegheny Ave, Cheswick, PA 15024": {
+"rent": 1236,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"258 Young Dr, Monroeville, PA 15146": {
+"rent": 1527,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3344 Vernon Ave, Pittsburgh, PA 15227": {
+"rent": 1674,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"714 Cherokee St, Pittsburgh, PA 15219": {
+"rent": 1377,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1009 4th St, East Mc Keesport, PA 15035": {
+"rent": 821,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"510 3rd St, Pitcairn, PA 15140": {
+"rent": 1360,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2106 Rockledge St, Pittsburgh, PA 15212": {
+"rent": 1639,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"769 Hamil Rd, Verona, PA 15147": {
+"rent": 1709,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"22-24 Oak St, Russellton, PA 15076": {
+"rent": 1125,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"165 Overland Ave, Duquesne, PA 15110": {
+"rent": 1223,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"427 Agatha St, Pitcairn, PA 15140": {
+"rent": 1558,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1024 Mirror St, Pittsburgh, PA 15217": {
+"rent": 1878,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"812 Prospect St, Brackenridge, PA 15014": {
+"rent": 1143,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1329 Stanley Dr, Verona, PA 15147": {
+"rent": 1643,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"270 Kane Rd, Pittsburgh, PA 15239": {
+"rent": 1730,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"225 Saylong Dr, Pittsburgh, PA 15235": {
+"rent": 1591,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"321 Lawnwood Ave, Pittsburgh, PA 15227": {
+"rent": 1323,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"522 3rd Ave, Tarentum, PA 15084": {
+"rent": 1547,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2819 Shawhan Ave, Pittsburgh, PA 15226": {
+"rent": 1309,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1822 Fox Way, Pittsburgh, PA 15203": {
+"rent": 1917,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2961 Ruthwood Ave, Pittsburgh, PA 15227": {
+"rent": 1308,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1927 Robinson Blvd, Pittsburgh, PA 15221": {
+"rent": 1614,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"504 Grace St, Pittsburgh, PA 15211": {
+"rent": 1956,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3326 Spring Garden Rd, Pittsburgh, PA 15212": {
+"rent": 1256,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2459 S Park Rd, Bethel Park, PA 15102": {
+"rent": 1529,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"205 Hester Ave, Mc Kees Rocks, PA 15136": {
+"rent": 1630,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"512 Hiland Ave, Coraopolis, PA 15108": {
+"rent": 1368,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"256 Duff Rd, Pittsburgh, PA 15235": {
+"rent": 1919,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"236 Hulton Rd, Verona, PA 15147": {
+"rent": null,
+"comp_rent": 1600,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"533 Finley Ave, Carnegie, PA 15106": {
+"rent": 1407,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"42 Grace St, Mc Kees Rocks, PA 15136": {
+"rent": 1235,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2686 5th St, Monroeville, PA 15146": {
+"rent": 1237,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2301 Larkins Way, Pittsburgh, PA 15203": {
+"rent": 1807,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"223 Lombard St, Pittsburgh, PA 15219": {
+"rent": 2210,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3528 Cambria St, Homestead, PA 15120": {
+"rent": 1597,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"813 Florence Ave, East Mc Keesport, PA 15035": {
+"rent": 1170,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"7722 Lloyd Ave, Pittsburgh, PA 15218": {
+"rent": 1619,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"6729 Leechburg Rd, Verona, PA 15147": {
+"rent": 1658,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1118 Woodbine St, Pittsburgh, PA 15201": {
+"rent": 2575,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"23 Anderson Rd, Glenshaw, PA 15116": {
+"rent": 1660,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"260 Cedar St, Pittsburgh, PA 15236": {
+"rent": 1229,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"232 Mary St, Homestead, PA 15120": {
+"rent": 1347,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1149 Stowe Ave, Mc Kees Rocks, PA 15136": {
+"rent": 819,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"314 N Mathilda St, Pittsburgh, PA 15224": {
+"rent": 2578,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"238 Parker St, Pittsburgh, PA 15223": {
+"rent": 1367,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"528 Roosevelt Ave, Pittsburgh, PA 15202": {
+"rent": 1589,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"126 Crescent Garden Dr, Pittsburgh, PA 15235": {
+"rent": 2028,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"386 Dorothy Dr, Pittsburgh, PA 15235": {
+"rent": 1426,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"900 Wellesley Ave, Pittsburgh, PA 15202": {
+"rent": null,
+"comp_rent": 950,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"43 Kenwood Ave, Pittsburgh, PA 15214": {
+"rent": 1289,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1317 New York Ave, McKeesport, PA 15133": {
+"rent": 985,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"451 Union St, Verona, PA 15147": {
+"rent": 1296,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"854 Suismon St, Pittsburgh, PA 15212": {
+"rent": 1919,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1634 Sahara St, Buena Vista, PA 15018": {
+"rent": 1235,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"520 Pinehurst Dr, North Versailles, PA 15137": {
+"rent": 1088,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"821 Worthington Ave, Clairton, PA 15025": {
+"rent": 1067,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2108 Monroeville Rd, Monroeville, PA 15146": {
+"rent": 1171,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"4412 Craighead Rd, Allison Park, PA 15101": {
+"rent": 1444,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"408 Dersam St, McKeesport, PA 15133": {
+"rent": null,
+"comp_rent": 1150,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"213 Caruso Dr, Monroeville, PA 15146": {
+"rent": 1556,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1436 Park Blvd, Pittsburgh, PA 15216": {
+"rent": 1972,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"225 Alries St, Pittsburgh, PA 15210": {
+"rent": 1622,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"603 Michigan Ave, Glassport, PA 15045": {
+"rent": 1968,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"235 Spring St, Harwick, PA 15049": {
+"rent": null,
+"comp_rent": 1200,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"670 Princeton Blvd, Pittsburgh, PA 15221": {
+"rent": null,
+"comp_rent": 2000,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"645 Illinois Ave, Pittsburgh, PA 15221": {
+"rent": 1746,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3027 Brentwood Ave, Pittsburgh, PA 15227": {
+"rent": null,
+"comp_rent": 1650,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"709 Maytide St, Pittsburgh, PA 15227": {
+"rent": null,
+"comp_rent": 1550,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"626 Perrilyn St, Pittsburgh, PA 15226": {
+"rent": 1684,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"102 Jucunda St, Pittsburgh, PA 15210": {
+"rent": 1111,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"3222 Liberty Way, McKeesport, PA 15133": {
+"rent": 1117,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"638 Elaine Dr, Pittsburgh, PA 15236": {
+"rent": 1872,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2529 Mercantile St, McKeesport, PA 15132": {
+"rent": 1074,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1813 Fox Way, Pittsburgh, PA 15203": {
+"rent": null,
+"comp_rent": 1900,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"405 32nd St, McKeesport, PA 15132": {
+"rent": 1252,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"815 Braddock Rd, Pittsburgh, PA 15221": {
+"rent": 1750,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1906 Mount Joseph St, Pittsburgh, PA 15210": {
+"rent": 1147,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1620 Belasco Ave, Pittsburgh, PA 15216": {
+"rent": 1445,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2910 Cedric Ave, Pittsburgh, PA 15226": {
+"rent": 1792,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"4229 Haldane St, Pittsburgh, PA 15207": {
+"rent": 1785,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"433 Ridgemont Dr, Pittsburgh, PA 15220": {
+"rent": 1656,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"857 6th Ave, Coraopolis, PA 15108": {
+"rent": 1649,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"360 Mitchell Ave, Clairton, PA 15025": {
+"rent": null,
+"comp_rent": 1500,
+"date": "2026-11-20",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"310 Rickey Dr, Monroeville, PA 15146": {
+"rent": 1758,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1414 Brinton Rd, Pittsburgh, PA 15221": {
+"rent": 1876,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2125 Jonquil Way, Pittsburgh, PA 15210": {
+"rent": 1397,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"512 Spruce St, Verona, PA 15147": {
+"rent": 1582,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1559 Westmoreland Ave, Pittsburgh, PA 15206": {
+"rent": 1755,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"235 Berkley Ave, Pittsburgh, PA 15221": {
+"rent": 1425,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1152 Woodbine St, Pittsburgh, PA 15201": {
+"rent": 1257,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1321 Hornbake Dr, Clairton, PA 15025": {
+"rent": 1279,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"402 Oakhurst Ave, North Versailles, PA 15137": {
+"rent": 1194,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2319 Dartmore St, Pittsburgh, PA 15210": {
+"rent": 1397,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"559 Negley Ave, Turtle Creek, PA 15145": {
+"rent": 1240,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"9604 Glendale Rd, Pittsburgh, PA 15235": {
+"rent": 1081,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"7336 Schley Ave, Pittsburgh, PA 15218": {
+"rent": 1726,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"4799 Allegheny River Blvd, Verona, PA 15147": {
+"rent": 1721,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"657 Orchard Ave, Bridgeville, PA 15017": {
+"rent": 1322,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"260 Bettis Rd, Dravosburg, PA 15034": {
+"rent": 1182,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"59 Pine Valley Dr, Pittsburgh, PA 15235": {
+"rent": 1562,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"15 Allen Way, White Oak, PA 15131": {
+"rent": 1339,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1102 Milan Ave, Pittsburgh, PA 15226": {
+"rent": 1577,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"4357 Winterburn Ave, Pittsburgh, PA 15207": {
+"rent": 1725,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"2283 Spokane Ave, Pittsburgh, PA 15210": {
+"rent": 1565,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"1222 Romine Ave, McKeesport, PA 15133": {
+"rent": 1390,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+},
+"551 Lime St, Pittsburgh, PA 15220": {
+"rent": 1355,
+"comp_rent": null,
+"date": "2026-11-20",
+"note": null
+}
+}
+}
