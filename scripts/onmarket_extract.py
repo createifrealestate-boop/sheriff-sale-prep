@@ -63,7 +63,13 @@ def main():
                         b.get("name", "").endswith("zillow_property_search") or b.get("name", "").endswith("get_rent_zestimate")):
                     uses[b["id"]] = (b["name"].rsplit("__", 1)[-1], b.get("input") or {}, ts)
                 elif b.get("type") == "tool_result" and b.get("tool_use_id"):
-                    results[b["tool_use_id"]] = text_of(b.get("content"))
+                    txt = text_of(b.get("content"))
+                    # Large results are not inlined: the harness saves them to a file and leaves its path here.
+                    sm = re.search(r"Output has been saved to (\S+?\.(?:txt|json))", txt)
+                    if sm and os.path.isfile(sm.group(1)) and os.path.realpath(sm.group(1)).startswith(
+                            os.path.realpath(os.path.expanduser("~/.claude"))):
+                        txt = open(sm.group(1), encoding="utf-8", errors="replace").read()
+                    results[b["tool_use_id"]] = txt
 
     listings, searches, rents, capped = {}, [], {}, []
     for uid, (name, inp, ts) in sorted(uses.items(), key=lambda kv: kv[1][2]):
