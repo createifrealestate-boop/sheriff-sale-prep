@@ -50,6 +50,11 @@ jobs:
           else
             echo "county data from $built ($age days old)"
           fi
+      - name: HUD rents (monthly check)
+        continue-on-error: true
+        run: |
+          pip install -q openpyxl
+          python3 scripts/hud_safmr.py
       - name: Update listings
         run: python3 scripts/onmarket_update.py
       - name: Update CRM On-Market page

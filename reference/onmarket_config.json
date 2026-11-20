@@ -3,9 +3,15 @@
  "buy_box": {
   "_note": "Searched and kept: list price up to $200k, single-family or 2-4 unit multi-family, regular listings only (agent or owner listed: no auctions, foreclosures or new construction), active only (no pending/contingent/coming soon). Ideal (a filter tile, no score effect): 2-3 beds and up to 1,250 sqft.",
   "max_price": 200000,
-  "home_types": ["singleFamily", "multiFamily"],
+  "home_types": [
+   "singleFamily",
+   "multiFamily"
+  ],
   "max_units": 4,
-  "ideal_beds": [2, 3],
+  "ideal_beds": [
+   2,
+   3
+  ],
   "ideal_max_sqft": 1250
  },
  "arv": {
@@ -14,14 +20,35 @@
  },
  "score": {
   "_note": "Priority = BRRRR 45 + flip 35 + data confidence (up to 20), the Sheriff page's weights, at 90% of list. Plus: 'flips work here' +20 when 2+ flips of a similar house (beds within 1, size within 25%) resold in the same assessor neighborhood in the last 24 months; days on market +3 at 90 days, +6 at 120, +9 at 150, +12 at 180+. Capped at 100.",
-  "confidence_points": {"high_10_comps": 20, "high": 15, "low": 6},
+  "confidence_points": {
+   "high_10_comps": 20,
+   "high": 15,
+   "low": 6
+  },
   "flip_area_bonus": 20,
   "flip_area_min_flips": 2,
   "flip_area_months": 24,
-  "dom_bonus": [[90, 3], [120, 6], [150, 9], [180, 12]]
+  "dom_bonus": [
+   [
+    90,
+    3
+   ],
+   [
+    120,
+    6
+   ],
+   [
+    150,
+    9
+   ],
+   [
+    180,
+    12
+   ]
+  ]
  },
  "rent": {
-  "_note": "Rent Zestimates are looked up by the Claude run (Zillow tool) only for listings that could work: flip profit at 90% of list above -$40k (roughly: BRRRR cash left under ~$30k). Up to 150 a day.",
+  "_note": "Rent Zestimates are looked up by the Claude run (Zillow tool) only for listings that could work: flip profit at 90% of list above -$40k (roughly: BRRRR cash left under ~$30k). Up to 150 a day. Rent used for the BRRRR math: the Rent Zestimate; if Zillow has none, its 'around $X' figure from nearby rentals (rent_comp); if neither, the HUD Small Area FMR (hud_rent), flagged in rent_source. Every listing also gets hud_rent: HUD's FY Small Area FMR for its ZIP and bedrooms (per unit x units for 2-4 units), gross rent incl. utilities, the basis of the Section 8 payment standard (90-110%). File: state/onmarket/hud_safmr.json, refreshed by scripts/hud_safmr.py.",
   "todo_min_flip_profit": -40000,
   "todo_max_per_run": 150,
   "refresh_days": 90

@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 ST = ROOT / "state" / "onmarket"
 CFG = json.load(open(ROOT / "reference" / "onmarket_config.json"))
 TODAY = dt.date.today()
+HUD = json.load(open(ST / "hud_safmr.json")) if (ST / "hud_safmr.json").exists() else {}
 
 
 def load(p, default):
@@ -38,6 +39,29 @@ def dom_today(r):
 
 def query_addr(r):
     return f"{r['line1']}, {r['city']}, PA {r['zip']}"
+
+
+def hud_rent(r, p):
+    """HUD Small Area FMR for the listing's ZIP and bedroom count (per unit, times the units for a 2-4 unit)."""
+    if not HUD:
+        return None, "No HUD rent file yet (scripts/hud_safmr.py)."
+    t = HUD["zips"].get(str(r.get("zip") or "").zfill(5))
+    if not t:
+        return None, f"ZIP {r.get('zip')} is not in HUD's Pittsburgh-area Small Area FMR list."
+    units = (p or {}).get("units") or 0
+    guessed = False
+    if units < 1:
+        units, guessed = (2, True) if r.get("home_type") == "multiFamily" else (1, False)
+    units = min(units, CFG["buy_box"]["max_units"])
+    beds = r.get("beds") or (p or {}).get("beds")
+    if not beds:
+        return None, "No bedroom count, so no HUD rent."
+    b = max(0, round(beds / units))
+    per = t[b] if b <= 4 else round(t[4] * (1 + 0.15 * (b - 4)))  # HUD: +15% of the 4BR rent per bedroom over 4
+    note = (f"HUD FY{HUD['fy']} Small Area FMR, ZIP {str(r.get('zip')).zfill(5)}, {b}BR ${per:,}"
+            + (f" x {units} units ({beds} beds total{', 2 units assumed' if guessed else ''})" if units > 1 else "")
+            + ". Gross rent (incl. utilities); the Section 8 payment standard is 90-110% of it.")
+    return per * units, note
 
 
 def in_box(x):
@@ -129,8 +153,14 @@ def score_listing(r, C, rents):
             out["out_of_box"] = "more than 4 units"
     sqft = r.get("sqft") or (p or {}).get("sqft")
     out["sqft_used"] = sqft
-    rent = (rents.get(r["zpid"]) or {}).get("rent")
-    out["rent_est"], out["rent_source"] = (rent, "Rent Zestimate") if rent else (None, None)
+    rv = rents.get(r["zpid"]) or {}
+    out["rent_zestimate"], out["rent_comp"] = rv.get("rent"), rv.get("comp_rent")
+    out["hud_rent"], out["hud_rent_note"] = hud_rent(r, p)
+    # rent used for the BRRRR math: Rent Zestimate, else Zillow's nearby-rentals figure, else HUD's
+    rent, out["rent_source"] = next(((v, s) for v, s in ((out["rent_zestimate"], "Rent Zestimate"),
+                                                        (out["rent_comp"], "Zillow nearby rentals (no Rent Zestimate)"),
+                                                        (out["hud_rent"], "HUD Small Area FMR (no Zillow rent)")) if v), (None, None))
+    out["rent_est"] = rent
     if not p:
         out.update({"score_notes": "No county parcel matched this address, so no county ARV: needs your ARV.", "needs_arv": True,
                     "priority_score": None})
@@ -171,6 +201,8 @@ def score_listing(r, C, rents):
              f"Points: BRRRR {brrrr_pts:.0f}/{W['brrrr']}, flip {flip_pts:.0f}/{W['flip']}, confidence {conf_pts}/20"
              + (f", flips work here +{fa_pts} ({len(fl)} similar flips nearby)" if fa_pts else "")
              + (f", {dom}+ days on market +{dom_pts}" if dom_pts else "") + ".")
+    if rent:
+        notes += f" Rent used ${rent:,.0f}/mo: {out['rent_source']}."
     out.update(uw)
     out.update({"offer_price": offer, "priority_score": pri, "dom_bonus": dom_pts, "flip_area_bonus": fa_pts,
                 "score_points": {"brrrr": round(brrrr_pts, 1), "flip": round(flip_pts, 1), "confidence": conf_pts,

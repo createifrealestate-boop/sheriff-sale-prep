@@ -79,7 +79,10 @@ def main():
         if name == "get_rent_zestimate":
             mm = re.search(r"Rent Zestimate for the given address: (.+?) is \$([\d,]+)", res)
             addr = inp.get("address", "")
-            rents[addr] = {"rent": int(mm.group(2).replace(",", "")) if mm else None, "date": ts[:10],
+            # No Rent Zestimate: Zillow often still quotes "around $X per month" from 3 nearby rentals.
+            cm = None if mm else re.search(r"works out to around \$([\d,]+) per month", res)
+            rents[addr] = {"rent": int(mm.group(2).replace(",", "")) if mm else None,
+                           "comp_rent": int(cm.group(1).replace(",", "")) if cm else None, "date": ts[:10],
                            "note": None if mm else res.strip()[:200]}
             continue
         req = inp.get("request") or {}
