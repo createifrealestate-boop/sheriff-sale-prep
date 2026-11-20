@@ -164,6 +164,7 @@ def main():
         if c["bucket"] == "excluded":
             continue
         n += 1
+        c["lot_sqft"] = (assessed_rec(c) or {}).get("lot")  # county lot area, square feet
         r = score_case(c, cache.get(cache_key(c)), cfg)
         if r is None:
             miss += 1
