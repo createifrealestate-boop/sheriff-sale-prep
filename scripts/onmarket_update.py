@@ -59,7 +59,7 @@ def hud_rent(r, p):
     b = max(0, round(beds / units))
     per = t[b] if b <= 4 else round(t[4] * (1 + 0.15 * (b - 4)))  # HUD: +15% of the 4BR rent per bedroom over 4
     note = (f"HUD FY{HUD['fy']} Small Area FMR, ZIP {str(r.get('zip')).zfill(5)}, {b}BR ${per:,}"
-            + (f" x {units} units ({beds} beds total{', 2 units assumed' if guessed else ''})" if units > 1 else "")
+            + (f" x {units} units ({beds:g} beds total{', 2 units assumed' if guessed else ''})" if units > 1 else "")
             + ". Gross rent (incl. utilities); the Section 8 payment standard is 90-110% of it.")
     return per * units, note
 
