@@ -1,0 +1,34 @@
+{
+"kind": "daily",
+"taken_at": "2026-11-21T12:01:30+00:00",
+"since": "2026-11-21T12:01:22Z",
+"complete": false,
+"searches": [],
+"listings": [],
+"rents": {
+"172 Plum Creek Rd, Pittsburgh, PA 15235": {
+"rent": 1496,
+"comp_rent": null,
+"date": "2026-11-21",
+"note": null
+},
+"33 Maplewood St, Pittsburgh, PA 15223": {
+"rent": 1787,
+"comp_rent": null,
+"date": "2026-11-21",
+"note": null
+},
+"2628 Stella St, Pittsburgh, PA 15203": {
+"rent": 1954,
+"comp_rent": null,
+"date": "2026-11-21",
+"note": null
+},
+"104 Hibiscus Dr, Turtle Creek, PA 15145": {
+"rent": 1522,
+"comp_rent": null,
+"date": "2026-11-21",
+"note": null
+}
+}
+}
