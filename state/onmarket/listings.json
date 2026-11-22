@@ -84,6 +84,13 @@
 "complete": false,
 "listings": 0,
 "rents": 118
+},
+{
+"file": "2026-11-22T1632Z-daily.json",
+"kind": "daily",
+"complete": false,
+"listings": 94,
+"rents": 0
 }
 ],
 "processed": [
@@ -98,9 +105,10 @@
 "2026-11-22T1148Z-daily.json",
 "2026-11-22T1149Z-daily.json",
 "2026-11-22T1612Z-daily.json",
-"2026-11-22T1631Z-daily.json"
+"2026-11-22T1631Z-daily.json",
+"2026-11-22T1632Z-daily.json"
 ],
-"updated_at": "2026-11-22T16:31:42+00:00",
+"updated_at": "2026-11-22T16:32:43+00:00",
 "county_data": "2026-11-20",
 "last_sweep": "2026-11-20",
 "words_backfill": "2026-11-22"
@@ -22730,6 +22738,7 @@
 "listing_words": [
 "move-in ready",
 "new kitchen",
+"new roof",
 "renovated"
 ],
 "ideal_box": false,
@@ -22834,6 +22843,7 @@
 "county condition poor",
 "listing says \"move-in ready\"",
 "listing says \"new kitchen\"",
+"listing says \"new roof\"",
 "listing says \"renovated\"",
 "listed at 163% of the ARV",
 "built 1920"
@@ -22872,7 +22882,7 @@
 "days_on_market": 0,
 "danger": -25
 },
-"score_notes": "ARV $69,200 (county sales x 85% (low confidence); $122,545 by $/sqft (top quarter of 5 sales (neighborhood)); $40,155 by price/assessed (top quarter of 6 sales (neighborhood)); low confidence: the two methods differ by 101%, under $100k, where it tends to read high). Offer $119,700 (90% of $133,000 list); rehab $45,800 (Cosmetic, $25/sqft: county condition poor; listing says \"move-in ready\"; listing says \"new kitchen\"; listing says \"renovated\"; listed at 163% of the ARV; built 1920) + $10,000 contingency; closing $2,500 + transfer tax $1,197 (buyer's half of 2.0%). At the offer: flip profit $-132,199 (flip score 0); BRRRR 75% LTV, 30yr fixed, 0 pts @ 7.0%, $726/mo, $144,736 left (BRRRR score 0). MAO flip $-30,207 / $-44,070 / $-57,933; MAO BRRRR $-14,067 / $-204 / $13,659. Points: BRRRR 0/45, flip 0/35, confidence 6/20, danger -25: county rates it poor (-15); similar buys here rarely got flipped (0 of 97) (-10). Rent used $1,930/mo: HUD Small Area FMR (no Zillow rent).",
+"score_notes": "ARV $69,200 (county sales x 85% (low confidence); $122,545 by $/sqft (top quarter of 5 sales (neighborhood)); $40,155 by price/assessed (top quarter of 6 sales (neighborhood)); low confidence: the two methods differ by 101%, under $100k, where it tends to read high). Offer $119,700 (90% of $133,000 list); rehab $45,800 (Cosmetic, $25/sqft: county condition poor; listing says \"move-in ready\"; listing says \"new kitchen\"; listing says \"new roof\"; listing says \"renovated\"; listed at 163% of the ARV; built 1920) + $10,000 contingency; closing $2,500 + transfer tax $1,197 (buyer's half of 2.0%). At the offer: flip profit $-132,199 (flip score 0); BRRRR 75% LTV, 30yr fixed, 0 pts @ 7.0%, $726/mo, $144,736 left (BRRRR score 0). MAO flip $-30,207 / $-44,070 / $-57,933; MAO BRRRR $-14,067 / $-204 / $13,659. Points: BRRRR 0/45, flip 0/35, confidence 6/20, danger -25: county rates it poor (-15); similar buys here rarely got flipped (0 of 97) (-10). Rent used $1,930/mo: HUD Small Area FMR (no Zillow rent).",
 "dom": 2
 },
 "11427321": {
