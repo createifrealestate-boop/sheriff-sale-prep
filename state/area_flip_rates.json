@@ -1,0 +1,802 @@
+{
+"10th Ward -  McKEESPORT": {
+"n": 19,
+"flipped": 0,
+"rate": 0.0
+},
+"10th Ward - PITTSBURGH": {
+"n": 67,
+"flipped": 3,
+"rate": 0.0448
+},
+"11th Ward  - McKEESPORT": {
+"n": 32,
+"flipped": 0,
+"rate": 0.0
+},
+"11th Ward - PITTSBURGH": {
+"n": 17,
+"flipped": 0,
+"rate": 0.0
+},
+"12th Ward  - McKEESPORT": {
+"n": 16,
+"flipped": 3,
+"rate": 0.1875
+},
+"12th Ward - PITTSBURGH": {
+"n": 71,
+"flipped": 0,
+"rate": 0.0
+},
+"13th Ward - PITTSBURGH": {
+"n": 61,
+"flipped": 1,
+"rate": 0.0164
+},
+"14th Ward - PITTSBURGH": {
+"n": 19,
+"flipped": 3,
+"rate": 0.1579
+},
+"15th Ward - PITTSBURGH": {
+"n": 90,
+"flipped": 5,
+"rate": 0.0556
+},
+"16th Ward - PITTSBURGH": {
+"n": 77,
+"flipped": 1,
+"rate": 0.013
+},
+"17th Ward - PITTSBURGH": {
+"n": 43,
+"flipped": 0,
+"rate": 0.0
+},
+"18th Ward - PITTSBURGH": {
+"n": 89,
+"flipped": 1,
+"rate": 0.0112
+},
+"19th Ward - PITTSBURGH": {
+"n": 250,
+"flipped": 14,
+"rate": 0.056
+},
+"1st Ward  - DUQUESNE": {
+"n": 18,
+"flipped": 0,
+"rate": 0.0
+},
+"1st Ward  - PITTSBURGH": {
+"n": 5,
+"flipped": 0,
+"rate": 0.0
+},
+"1st Ward - CLAIRTON": {
+"n": 40,
+"flipped": 0,
+"rate": 0.0
+},
+"20th Ward - PITTSBURGH": {
+"n": 179,
+"flipped": 5,
+"rate": 0.0279
+},
+"21st Ward - PITTSBURGH": {
+"n": 11,
+"flipped": 0,
+"rate": 0.0
+},
+"22nd Ward - PITTSBURGH": {
+"n": 3,
+"flipped": 0,
+"rate": 0.0
+},
+"23rd Ward - PITTSBURGH": {
+"n": 21,
+"flipped": 1,
+"rate": 0.0476
+},
+"24th Ward - PITTSBURGH": {
+"n": 45,
+"flipped": 1,
+"rate": 0.0222
+},
+"25th Ward - PITTSBURGH": {
+"n": 19,
+"flipped": 0,
+"rate": 0.0
+},
+"26th Ward - PITTSBURGH": {
+"n": 92,
+"flipped": 2,
+"rate": 0.0217
+},
+"27th Ward - PITTSBURGH": {
+"n": 133,
+"flipped": 4,
+"rate": 0.0301
+},
+"28th Ward - PITTSBURGH": {
+"n": 81,
+"flipped": 2,
+"rate": 0.0247
+},
+"29th Ward - PITTSBURGH": {
+"n": 196,
+"flipped": 8,
+"rate": 0.0408
+},
+"2nd Ward  - DUQUESNE": {
+"n": 28,
+"flipped": 0,
+"rate": 0.0
+},
+"2nd Ward - CLAIRTON": {
+"n": 97,
+"flipped": 0,
+"rate": 0.0
+},
+"30th Ward - PITTSBURGH": {
+"n": 63,
+"flipped": 0,
+"rate": 0.0
+},
+"31st Ward - PITTSBURGH": {
+"n": 54,
+"flipped": 3,
+"rate": 0.0556
+},
+"32nd Ward - PITTSBURGH": {
+"n": 83,
+"flipped": 4,
+"rate": 0.0482
+},
+"3rd Ward  - DUQUESNE": {
+"n": 26,
+"flipped": 0,
+"rate": 0.0
+},
+"3rd Ward - PITTSBURGH": {
+"n": 2,
+"flipped": 0,
+"rate": 0.0
+},
+"4th Ward - PITTSBURGH": {
+"n": 13,
+"flipped": 0,
+"rate": 0.0
+},
+"5th Ward  - McKEESPORT": {
+"n": 3,
+"flipped": 0,
+"rate": 0.0
+},
+"5th Ward - PITTSBURGH": {
+"n": 29,
+"flipped": 1,
+"rate": 0.0345
+},
+"6th Ward  - McKEESPORT": {
+"n": 10,
+"flipped": 0,
+"rate": 0.0
+},
+"6th Ward - PITTSBURGH": {
+"n": 23,
+"flipped": 1,
+"rate": 0.0435
+},
+"7th Ward  - McKEESPORT": {
+"n": 67,
+"flipped": 0,
+"rate": 0.0
+},
+"7th Ward - PITTSBURGH": {
+"n": 2,
+"flipped": 0,
+"rate": 0.0
+},
+"8th Ward  - McKEESPORT": {
+"n": 62,
+"flipped": 2,
+"rate": 0.0323
+},
+"8th Ward - PITTSBURGH": {
+"n": 9,
+"flipped": 0,
+"rate": 0.0
+},
+"9th Ward  -  McKEESPORT": {
+"n": 73,
+"flipped": 1,
+"rate": 0.0137
+},
+"9th Ward - PITTSBURGH": {
+"n": 20,
+"flipped": 0,
+"rate": 0.0
+},
+"Aleppo": {
+"n": 4,
+"flipped": 0,
+"rate": 0.0
+},
+"Avalon": {
+"n": 27,
+"flipped": 1,
+"rate": 0.037
+},
+"Baldwin Boro": {
+"n": 83,
+"flipped": 7,
+"rate": 0.0843
+},
+"Baldwin Twp": {
+"n": 14,
+"flipped": 0,
+"rate": 0.0
+},
+"Bell Acres": {
+"n": 2,
+"flipped": 1,
+"rate": 0.5
+},
+"Bellevue": {
+"n": 38,
+"flipped": 0,
+"rate": 0.0
+},
+"Ben Avon": {
+"n": 5,
+"flipped": 1,
+"rate": 0.2
+},
+"Bethel Park": {
+"n": 49,
+"flipped": 4,
+"rate": 0.0816
+},
+"Blawnox": {
+"n": 8,
+"flipped": 0,
+"rate": 0.0
+},
+"Brackenridge": {
+"n": 57,
+"flipped": 0,
+"rate": 0.0
+},
+"Braddock": {
+"n": 9,
+"flipped": 0,
+"rate": 0.0
+},
+"Braddock Hills": {
+"n": 15,
+"flipped": 0,
+"rate": 0.0
+},
+"Brentwood": {
+"n": 93,
+"flipped": 6,
+"rate": 0.0645
+},
+"Bridgeville": {
+"n": 32,
+"flipped": 0,
+"rate": 0.0
+},
+"Carnegie": {
+"n": 59,
+"flipped": 1,
+"rate": 0.0169
+},
+"Castle Shannon": {
+"n": 39,
+"flipped": 6,
+"rate": 0.1538
+},
+"Chalfant": {
+"n": 12,
+"flipped": 0,
+"rate": 0.0
+},
+"Cheswick": {
+"n": 13,
+"flipped": 0,
+"rate": 0.0
+},
+"Churchill": {
+"n": 8,
+"flipped": 1,
+"rate": 0.125
+},
+"Collier": {
+"n": 19,
+"flipped": 0,
+"rate": 0.0
+},
+"Coraopolis": {
+"n": 68,
+"flipped": 3,
+"rate": 0.0441
+},
+"Crafton": {
+"n": 27,
+"flipped": 2,
+"rate": 0.0741
+},
+"Crescent": {
+"n": 18,
+"flipped": 0,
+"rate": 0.0
+},
+"Dormont": {
+"n": 29,
+"flipped": 5,
+"rate": 0.1724
+},
+"Dravosburg": {
+"n": 28,
+"flipped": 0,
+"rate": 0.0
+},
+"East Deer": {
+"n": 28,
+"flipped": 0,
+"rate": 0.0
+},
+"East McKeesport": {
+"n": 39,
+"flipped": 1,
+"rate": 0.0256
+},
+"East Pittsburgh": {
+"n": 27,
+"flipped": 0,
+"rate": 0.0
+},
+"Edgewood": {
+"n": 8,
+"flipped": 1,
+"rate": 0.125
+},
+"Elizabeth Boro": {
+"n": 26,
+"flipped": 0,
+"rate": 0.0
+},
+"Elizabeth Twp": {
+"n": 91,
+"flipped": 3,
+"rate": 0.033
+},
+"Emsworth": {
+"n": 16,
+"flipped": 0,
+"rate": 0.0
+},
+"Etna": {
+"n": 42,
+"flipped": 2,
+"rate": 0.0476
+},
+"Fawn": {
+"n": 15,
+"flipped": 0,
+"rate": 0.0
+},
+"Findlay": {
+"n": 17,
+"flipped": 0,
+"rate": 0.0
+},
+"Forest Hills": {
+"n": 35,
+"flipped": 5,
+"rate": 0.1429
+},
+"Forward": {
+"n": 16,
+"flipped": 0,
+"rate": 0.0
+},
+"Franklin Park": {
+"n": 7,
+"flipped": 0,
+"rate": 0.0
+},
+"Frazer": {
+"n": 9,
+"flipped": 0,
+"rate": 0.0
+},
+"Glassport": {
+"n": 101,
+"flipped": 1,
+"rate": 0.0099
+},
+"Glenfield": {
+"n": 2,
+"flipped": 0,
+"rate": 0.0
+},
+"Greentree": {
+"n": 6,
+"flipped": 0,
+"rate": 0.0
+},
+"Hampton": {
+"n": 22,
+"flipped": 0,
+"rate": 0.0
+},
+"Harmar": {
+"n": 13,
+"flipped": 0,
+"rate": 0.0
+},
+"Harrison": {
+"n": 98,
+"flipped": 3,
+"rate": 0.0306
+},
+"Haysville": {
+"n": 1,
+"flipped": 0,
+"rate": 0.0
+},
+"Heidelberg": {
+"n": 15,
+"flipped": 1,
+"rate": 0.0667
+},
+"Homestead": {
+"n": 40,
+"flipped": 0,
+"rate": 0.0
+},
+"Indiana": {
+"n": 18,
+"flipped": 0,
+"rate": 0.0
+},
+"Ingram": {
+"n": 27,
+"flipped": 4,
+"rate": 0.1481
+},
+"Jefferson Hills": {
+"n": 23,
+"flipped": 1,
+"rate": 0.0435
+},
+"Kennedy": {
+"n": 23,
+"flipped": 2,
+"rate": 0.087
+},
+"Kilbuck": {
+"n": 2,
+"flipped": 0,
+"rate": 0.0
+},
+"Leet": {
+"n": 8,
+"flipped": 2,
+"rate": 0.25
+},
+"Leetsdale": {
+"n": 22,
+"flipped": 0,
+"rate": 0.0
+},
+"Liberty": {
+"n": 40,
+"flipped": 0,
+"rate": 0.0
+},
+"Lincoln": {
+"n": 5,
+"flipped": 0,
+"rate": 0.0
+},
+"Marshall": {
+"n": 7,
+"flipped": 0,
+"rate": 0.0
+},
+"McCandless": {
+"n": 14,
+"flipped": 3,
+"rate": 0.2143
+},
+"McDonald": {
+"n": 5,
+"flipped": 0,
+"rate": 0.0
+},
+"McKees Rocks": {
+"n": 106,
+"flipped": 0,
+"rate": 0.0
+},
+"Millvale": {
+"n": 50,
+"flipped": 0,
+"rate": 0.0
+},
+"Monroeville": {
+"n": 100,
+"flipped": 7,
+"rate": 0.07
+},
+"Moon": {
+"n": 31,
+"flipped": 2,
+"rate": 0.0645
+},
+"Mt. Oliver": {
+"n": 71,
+"flipped": 4,
+"rate": 0.0563
+},
+"Mt.Lebanon": {
+"n": 15,
+"flipped": 2,
+"rate": 0.1333
+},
+"Munhall": {
+"n": 151,
+"flipped": 5,
+"rate": 0.0331
+},
+"Neville": {
+"n": 17,
+"flipped": 0,
+"rate": 0.0
+},
+"North Braddock": {
+"n": 53,
+"flipped": 0,
+"rate": 0.0
+},
+"North Fayette": {
+"n": 20,
+"flipped": 0,
+"rate": 0.0
+},
+"North Versailles": {
+"n": 150,
+"flipped": 6,
+"rate": 0.04
+},
+"O''Hara": {
+"n": 13,
+"flipped": 0,
+"rate": 0.0
+},
+"Oakdale": {
+"n": 5,
+"flipped": 0,
+"rate": 0.0
+},
+"Oakmont": {
+"n": 21,
+"flipped": 2,
+"rate": 0.0952
+},
+"Ohio": {
+"n": 6,
+"flipped": 0,
+"rate": 0.0
+},
+"Penn Hills": {
+"n": 517,
+"flipped": 33,
+"rate": 0.0638
+},
+"Pine": {
+"n": 2,
+"flipped": 0,
+"rate": 0.0
+},
+"Pitcairn": {
+"n": 56,
+"flipped": 1,
+"rate": 0.0179
+},
+"Pleasant Hills": {
+"n": 14,
+"flipped": 0,
+"rate": 0.0
+},
+"Plum": {
+"n": 91,
+"flipped": 14,
+"rate": 0.1538
+},
+"Port Vue": {
+"n": 99,
+"flipped": 1,
+"rate": 0.0101
+},
+"Rankin": {
+"n": 19,
+"flipped": 0,
+"rate": 0.0
+},
+"Reserve": {
+"n": 16,
+"flipped": 2,
+"rate": 0.125
+},
+"Richland": {
+"n": 8,
+"flipped": 1,
+"rate": 0.125
+},
+"Robinson": {
+"n": 21,
+"flipped": 2,
+"rate": 0.0952
+},
+"Ross": {
+"n": 57,
+"flipped": 6,
+"rate": 0.1053
+},
+"Rosslyn Farms": {
+"n": 1,
+"flipped": 0,
+"rate": 0.0
+},
+"Scott": {
+"n": 50,
+"flipped": 0,
+"rate": 0.0
+},
+"Sewickley": {
+"n": 8,
+"flipped": 1,
+"rate": 0.125
+},
+"Sewickley Hills": {
+"n": 2,
+"flipped": 0,
+"rate": 0.0
+},
+"Shaler": {
+"n": 68,
+"flipped": 9,
+"rate": 0.1324
+},
+"Sharpsburg": {
+"n": 30,
+"flipped": 0,
+"rate": 0.0
+},
+"South Fayette": {
+"n": 37,
+"flipped": 0,
+"rate": 0.0
+},
+"South Park": {
+"n": 38,
+"flipped": 5,
+"rate": 0.1316
+},
+"South Versailles": {
+"n": 6,
+"flipped": 0,
+"rate": 0.0
+},
+"Springdale Boro": {
+"n": 41,
+"flipped": 0,
+"rate": 0.0
+},
+"Springdale Twp": {
+"n": 19,
+"flipped": 0,
+"rate": 0.0
+},
+"Stowe": {
+"n": 123,
+"flipped": 1,
+"rate": 0.0081
+},
+"Swissvale": {
+"n": 104,
+"flipped": 3,
+"rate": 0.0288
+},
+"Tarentum": {
+"n": 66,
+"flipped": 1,
+"rate": 0.0152
+},
+"Turtle Creek": {
+"n": 76,
+"flipped": 1,
+"rate": 0.0132
+},
+"Upper St. Clair": {
+"n": 2,
+"flipped": 0,
+"rate": 0.0
+},
+"Verona": {
+"n": 26,
+"flipped": 0,
+"rate": 0.0
+},
+"Versailles": {
+"n": 16,
+"flipped": 0,
+"rate": 0.0
+},
+"Wall": {
+"n": 10,
+"flipped": 0,
+"rate": 0.0
+},
+"West Deer": {
+"n": 54,
+"flipped": 3,
+"rate": 0.0556
+},
+"West Elizabeth": {
+"n": 5,
+"flipped": 0,
+"rate": 0.0
+},
+"West Homestead": {
+"n": 15,
+"flipped": 0,
+"rate": 0.0
+},
+"West Mifflin": {
+"n": 215,
+"flipped": 10,
+"rate": 0.0465
+},
+"West View": {
+"n": 22,
+"flipped": 1,
+"rate": 0.0455
+},
+"Whitaker": {
+"n": 20,
+"flipped": 0,
+"rate": 0.0
+},
+"White Oak": {
+"n": 79,
+"flipped": 4,
+"rate": 0.0506
+},
+"Whitehall": {
+"n": 32,
+"flipped": 1,
+"rate": 0.0312
+},
+"Wilkins": {
+"n": 71,
+"flipped": 4,
+"rate": 0.0563
+},
+"Wilkinsburg": {
+"n": 123,
+"flipped": 0,
+"rate": 0.0
+},
+"Wilmerding": {
+"n": 35,
+"flipped": 1,
+"rate": 0.0286
+}
+}
