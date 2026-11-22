@@ -28,10 +28,15 @@ def level(cond=None, words=None, price=None, arv=None, year_built=None, last_sal
     s = C["condition"].get(cond, C["condition_unknown"])
     why.append(f"county condition {cond.lower()}" if cond else "no county condition rating")
     up = down = 0.0
-    for w in words or []:
-        p = C["words"].get(w.lower())
-        if p is None:
-            continue
+    words = [w.lower() for w in words or [] if w.lower() in C["words"]]
+    heavy = [w for w in words if C["words"][w] > 0]
+    cheap = bool(price and arv and price / arv < C["light_words_ignored_below"])
+    # Zillow's word search is loose ("renovated" also catches "could be renovated"): a heavy word, or a price far
+    # under the ARV, overrules the light words.
+    if heavy or cheap:
+        words = heavy
+    for w in words:
+        p = C["words"][w]
         if p > 0:
             up += p
         else:

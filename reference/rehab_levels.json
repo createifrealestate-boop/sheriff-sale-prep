@@ -1,17 +1,62 @@
 {
  "_readme": "Points toward a rehab level (0 Cosmetic, 1 Medium, 2 Heavy, 3 Gut) for scripts/rehab_level.py. Signals chosen with the user 2026-11-22: county condition, listing words, price vs ARV, age, recent resale. Rates per level are in deal_model.json rehab.levels.",
- "condition": {"EXCELLENT": 0, "VERY GOOD": 0, "GOOD": 0.5, "AVERAGE": 1, "FAIR": 1.5, "POOR": 2, "VERY POOR": 3, "UNSOUND": 3},
+ "condition": {
+  "EXCELLENT": 0,
+  "VERY GOOD": 0,
+  "GOOD": 0.5,
+  "AVERAGE": 1,
+  "FAIR": 1.5,
+  "POOR": 2,
+  "VERY POOR": 3,
+  "UNSOUND": 3
+ },
  "condition_unknown": 1,
  "words": {
-  "as-is": 0.75, "cash only": 0.75, "investor special": 1, "contractor special": 1, "handyman special": 1,
-  "fixer upper": 1, "needs work": 0.75, "tlc": 0.5, "fire damage": 1.5, "foundation issues": 1.5, "water damage": 1,
-  "renovated": -1, "fully updated": -1, "move-in ready": -0.75, "new kitchen": -0.5, "new roof": -0.25
+  "as-is": 0.75,
+  "cash only": 0.75,
+  "investor special": 1,
+  "contractor special": 1,
+  "handyman special": 1,
+  "fixer upper": 1,
+  "needs work": 0.75,
+  "tlc": 0.5,
+  "fire damage": 1.5,
+  "foundation issues": 1.5,
+  "water damage": 1,
+  "renovated": -1,
+  "fully updated": -1,
+  "move-in ready": -0.75,
+  "new kitchen": -0.5,
+  "new roof": -0.25
  },
  "words_max_up": 1.5,
  "words_max_down": 1.5,
- "price_vs_arv": [[0, 0.3, 1], [0.3, 0.45, 0.5], [0.45, 0.75, 0], [0.75, 99, -0.5]],
+ "price_vs_arv": [
+  [
+   0,
+   0.3,
+   1
+  ],
+  [
+   0.3,
+   0.45,
+   0.5
+  ],
+  [
+   0.45,
+   0.75,
+   0
+  ],
+  [
+   0.75,
+   99,
+   -0.5
+  ]
+ ],
  "old_before": 1940,
  "old_points": 0.25,
  "resold_factor": 1.4,
- "resold_points": -1.5
+ "resold_points": -1.5,
+ "light_words_ignored_below": 0.45,
+ "_words_note": "Checked 2026-11-22 on 1,428 listings: heavy words come with price/ARV ~0.41-0.53, light words ~0.84-0.93 (all listings 0.79). 'renovated' also matched $4-15k shells, so heavy words, or a price under 45% of the ARV, overrule the light words."
 }
