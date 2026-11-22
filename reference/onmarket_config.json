@@ -13,8 +13,8 @@
    3
   ],
   "ideal_max_sqft": 1250,
-  "hide_under": 50000,
-  "_hide_note": "Listings under $50k stay in the data but are hidden on the page by a filter that is on by default, and are left out of alert emails (user 2026-11-21: cheap houses are usually far worse than they look)."
+  "hide_under": 40000,
+  "_hide_note": "Listings under $40k and land (no living area per Zillow or the county) stay in the data but are hidden on the page by filters that are on by default, and are left out of alert emails (user 2026-11-21; $50k lowered to $40k the same day)."
  },
  "arv": {
   "_note": "ARV = the team's own if entered, else the county ARV (scripts/county.py). High confidence: used as is. Low confidence: 85% of it is used and the listing is marked 'needs your ARV'. No county ARV: not scored.",

@@ -279,6 +279,8 @@ def main():
             continue
         if (r.get("price") or 0) < CFG["buy_box"].get("hide_under", 0):
             continue
+        if not (r.get("sqft") or 0) > 0 and not (r.get("county_sqft") or 0) > 0 and not (r.get("beds") or 0) > 0:
+            continue  # land (no living area, no bedrooms): hidden on the page by default
         good = (r.get("priority_score") or 0) >= A["min_priority"] or (r.get("brrrr_cash_left") is not None and r["brrrr_cash_left"] <= 0) \
             or (r.get("flip_profit") or 0) >= 30000
         if good and not (kind == "drop" and (before.get(z) or 0) >= A["min_priority"]):
