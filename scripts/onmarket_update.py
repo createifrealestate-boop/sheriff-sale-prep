@@ -19,6 +19,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from deal import underwrite, property_tax, market_costs, M as DM  # noqa: E402
 from county import County  # noqa: E402
+from risk import danger  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 ST = ROOT / "state" / "onmarket"
@@ -167,6 +168,8 @@ def score_listing(r, C, rents):
         return out
     a = C.arv(pid, sqft=sqft)
     out.update(a)
+    dpts, dwhy = danger(C.assessed_rec(pid), C.area, price=r["price"], arv=a.get("county_arv"))
+    out.update({"danger_points": dpts, "danger_reasons": dwhy, "area_flip_rate": (C.area.get(p["muni"]) or {}).get("rate")})
     fl = C.flips_like(pid, beds=r.get("beds"), sqft=sqft, months=S["flip_area_months"])
     out["flips_nearby"] = fl[:6]
     out["flips_nearby_count"] = len(fl)
@@ -182,7 +185,7 @@ def score_listing(r, C, rents):
                 "needs_arv": not hi})
     offer = round(r["price"] * DM["on_market"]["offer_pct_of_list"], -2)
     costs = market_costs(p["muni"])
-    uw = underwrite(offer, arv, sqft, rent, p["fmv"], None, tax, tax_note, costs=costs)
+    uw = underwrite(offer, arv, sqft, rent, p["fmv"], None, tax, tax_note, costs=costs, condition=p["cond"])
     W = DM["scores"]["total_weights"]
     cp = S["confidence_points"]
     conf_pts = (cp["high_10_comps"] if a["county_arv_comps"] >= 10 else cp["high"]) if hi else cp["low"]
@@ -190,23 +193,24 @@ def score_listing(r, C, rents):
     dom = dom_today(r)
     dom_pts = max([b for d, b in S["dom_bonus"] if dom is not None and dom >= d] or [0])
     fa_pts = S["flip_area_bonus"] if out["flips_work"] else 0
-    pri = int(round(max(0, min(100, flip_pts + brrrr_pts + conf_pts + fa_pts + dom_pts))))
+    pri = int(round(max(0, min(100, flip_pts + brrrr_pts + conf_pts + fa_pts + dom_pts + dpts))))
     fm = lambda k: "n/a" if uw.get(k) is None else f"${uw[k]:,.0f}"
     notes = (f"ARV ${arv:,.0f} ({out['arv_source']}; {a['county_arv_note']}). Offer ${offer:,.0f} (90% of ${r['price']:,.0f} list); "
-             f"rehab ${uw['rehab_est']:,.0f} + ${uw['contingency']:,.0f} contingency; closing ${costs['closing']:,} + transfer tax ${uw['transfer_tax']:,.0f} "
+             f"rehab ${uw['rehab_est']:,.0f} (${uw['rehab_rate']}/sqft{', county rates it ' + p['cond'].lower() if uw['rehab_rate'] != DM['rehab']['per_sqft'] else ''}) + ${uw['contingency']:,.0f} contingency; closing ${costs['closing']:,} + transfer tax ${uw['transfer_tax']:,.0f} "
              f"(buyer's half of {(costs['tt_rate'] or DM['on_market']['transfer_rate_default']):.1%}). At the offer: flip profit ${uw['flip_profit']:,.0f} (flip score {uw['flip_score']}); "
              + (f"BRRRR {uw['refi_terms']}, ${uw['refi_cash_flow']:,.0f}/mo, ${uw['brrrr_cash_left']:,.0f} left (BRRRR score {uw['brrrr_score']})"
                 if uw.get("refi_ok") else f"BRRRR: {uw['refi_terms']} (BRRRR score 0)")
              + f". MAO flip {fm('mao_flip_30k')} / {fm('mao_flip_45k')} / {fm('mao_flip_60k')}; MAO BRRRR {fm('mao_brrrr_0k')} / {fm('mao_brrrr_15k')} / {fm('mao_brrrr_30k')}. "
              f"Points: BRRRR {brrrr_pts:.0f}/{W['brrrr']}, flip {flip_pts:.0f}/{W['flip']}, confidence {conf_pts}/20"
              + (f", flips work here +{fa_pts} ({len(fl)} similar flips nearby)" if fa_pts else "")
-             + (f", {dom}+ days on market +{dom_pts}" if dom_pts else "") + ".")
+             + (f", {dom}+ days on market +{dom_pts}" if dom_pts else "")
+             + (f", danger {dpts:+d}: {'; '.join(dwhy)}" if dwhy else "") + ".")
     if rent:
         notes += f" Rent used ${rent:,.0f}/mo: {out['rent_source']}."
     out.update(uw)
     out.update({"offer_price": offer, "priority_score": pri, "dom_bonus": dom_pts, "flip_area_bonus": fa_pts,
                 "score_points": {"brrrr": round(brrrr_pts, 1), "flip": round(flip_pts, 1), "confidence": conf_pts,
-                                 "flips_work": fa_pts, "days_on_market": dom_pts},
+                                 "flips_work": fa_pts, "days_on_market": dom_pts, "danger": dpts},
                 "score_notes": notes})
     return out
 
@@ -218,6 +222,7 @@ def main():
     before = {z: r.get("priority_score") for z, r in L.items()}
     rents, events = apply_raw(L, meta)
     C = County()
+    json.dump(dict(sorted(C.area.items())), open(ROOT / "state" / "area_flip_rates.json", "w"), indent=0)
     for z, r in list(L.items()):
         if r.get("status") == "gone" and r.get("gone_date") and (TODAY - dt.date.fromisoformat(r["gone_date"])).days > CFG["gone"]["keep_days"]:
             del L[z]
@@ -271,6 +276,8 @@ def main():
     for kind, z in dict.fromkeys(events):
         r = L.get(z)
         if not r or r.get("status") != "active":
+            continue
+        if (r.get("price") or 0) < CFG["buy_box"].get("hide_under", 0):
             continue
         good = (r.get("priority_score") or 0) >= A["min_priority"] or (r.get("brrrr_cash_left") is not None and r["brrrr_cash_left"] <= 0) \
             or (r.get("flip_profit") or 0) >= 30000

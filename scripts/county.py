@@ -156,6 +156,16 @@ class County:
                 self.C[p["nb"]].append(c)
                 self.CM[p["muni"]].append(c)
         self.HZ = None
+        # How often a market buy of $25k-150k got flipped within 18 months, per municipality (scripts/risk.py)
+        buys = {(f["pid"], f["buy_d"]) for f in self.flips}
+        cut = dt.date.fromisoformat(self.built) - dt.timedelta(days=548)
+        n, k = defaultdict(int), defaultdict(int)
+        for pid, d_, price, desc in d["S"]:
+            if desc in MARKET and 25000 <= price <= 150000 and dt.date(2023, 1, 1) <= d_ <= cut:
+                m = self.P[pid]["muni"]
+                n[m] += 1
+                k[m] += (pid, d_) in buys
+        self.area = {m: {"n": n[m], "flipped": k[m], "rate": round(k[m] / n[m], 4)} for m in n}
         self.FN = defaultdict(list)
         for f in self.flips:
             self.FN[self.P[f["pid"]]["nb"]].append(f)
@@ -265,7 +275,7 @@ class County:
         """Same shape as state/assessed.json entries, for deal.property_tax."""
         p = self.P.get(pid) or {}
         return {"fmv": p.get("fmv"), "county": p.get("county"), "land": p.get("land"), "bldg": p.get("bldg"),
-                "lot": p.get("lot"), "muni": p.get("muni"), "school": p.get("school")} if p else None
+                "lot": p.get("lot"), "muni": p.get("muni"), "school": p.get("school"), "cond": p.get("cond")} if p else None
 
 
 # ---------------------------------------------------------------- sheriff
@@ -283,6 +293,7 @@ def sheriff(payload_path):
         p.update({k: v for k, v in r.items()})
         n += bool(r.get("county_arv"))
     json.dump(payload, open(payload_path, "w"), indent=1, default=str)
+    json.dump(dict(sorted(C.area.items())), open(ROOT / "state" / "area_flip_rates.json", "w"), indent=0)
     print(f"county ARV on {n} of {len(payload['properties'])} sheriff properties (county data as of {C.built})")
 
 

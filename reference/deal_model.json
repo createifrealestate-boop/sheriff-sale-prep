@@ -6,7 +6,13 @@
   "premium_factor": 1.15,
   "premium_arv_at": 400000,
   "contingency_pct": 0.1,
-  "contingency_min": 10000
+  "contingency_min": 10000,
+  "per_sqft_by_condition": {
+   "POOR": 70,
+   "VERY POOR": 95,
+   "UNSOUND": 95
+  },
+  "_condition_note": "Set by the user 2026-11-21: $70/sqft when the county rates the house poor, $95 when very poor or unsound; $50 otherwise."
  },
  "hard_money": {
   "purchase_ltv": 0.9,

@@ -81,7 +81,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A state/onmarket
+          git add -A state/onmarket state/area_flip_rates.json
           if git diff --cached --quiet; then echo "nothing to save"; exit 0; fi
           git commit -q -m "On-Market update $(date -u +%FT%H%MZ)"
           for i in 1 2 3; do git pull --rebase -q && git push -q && exit 0; sleep 5; done

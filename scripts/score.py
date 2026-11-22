@@ -11,6 +11,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from deal import underwrite, property_tax, M as DM  # noqa: E402
+from risk import danger  # noqa: E402
+
+AREA_PATH = Path(__file__).resolve().parent.parent / "state" / "area_flip_rates.json"
+AREA = json.load(open(AREA_PATH)) if AREA_PATH.exists() else {}
 
 REF = Path(__file__).resolve().parent.parent / "reference"
 ASSESSED_PATH = Path(__file__).resolve().parent.parent / "state" / "assessed.json"
@@ -90,7 +94,9 @@ def score_case(c, z, cfg):
     rec = assessed_rec(c)
     assessed = rec.get("fmv") if rec else None
     ptax, ptax_note = property_tax(rec)
-    uw = underwrite(exp_bid, arv, z.get("sqft"), rent, assessed, c.get("tax_municipality"), ptax, ptax_note)
+    cond = (rec or {}).get("cond")
+    uw = underwrite(exp_bid, arv, z.get("sqft"), rent, assessed, c.get("tax_municipality"), ptax, ptax_note, condition=cond)
+    dpts, dwhy = danger(rec, AREA)  # sheriff bids are low by nature, so no price-vs-ARV check here
     rehab = uw["rehab_est"]
     yld = (rent * 12 / (exp_bid + rehab)) if rent and (exp_bid + rehab) else None
     W = DM["scores"]["total_weights"]
@@ -132,17 +138,20 @@ def score_case(c, z, cfg):
     flip_pts = W["flip"] * uw["flip_score"] / 100
     brrrr_pts = W["brrrr"] * uw["brrrr_score"] / 100
     conf_pts = W["confidence"] * conf
-    score = int(round(clip(flip_pts + brrrr_pts + conf_pts - pen + bonus, 0, 100)))
+    score = int(round(clip(flip_pts + brrrr_pts + conf_pts - pen + bonus + dpts, 0, 100)))
+    if dwhy:
+        notes.append(f"danger {dpts:+d}: " + "; ".join(dwhy))
     tt_note = (f"transfer tax ${uw['transfer_tax']:,.0f}" if uw["transfer_tax"] is not None
                else f"closing ${DM['buy_closing_flat']:,} + sheriff fee ${DM['sheriff_closing_fee']:,}, no transfer tax")
     fm = lambda k: "n/a" if uw.get(k) is None else f"${uw[k]:,.0f}"
     return {
         "prelim_score": score, "zestimate": Z, "arv": round(arv), "arv_source": arv_src, "expected_bid": round(exp_bid),
         "rent_est": rent, "gross_yield": round(yld, 3) if yld is not None else None,
+        "condition": cond, "danger_points": dpts, "danger_reasons": dwhy,
         **uw,
         "headroom": round(uw["mao_flip_30k"] - bid),
-        "score_points": {"brrrr": round(brrrr_pts, 1), "flip": round(flip_pts, 1), "confidence": round(conf_pts, 1), "penalties": -pen, "bonus": bonus},
-        "score_notes": (f"ARV ${arv:,.0f} ({arv_src}); rehab ${rehab:,.0f} ($50/sqft) + ${uw['contingency']:,.0f} contingency; {tt_note}; "
+        "score_points": {"brrrr": round(brrrr_pts, 1), "flip": round(flip_pts, 1), "confidence": round(conf_pts, 1), "penalties": -pen, "bonus": bonus, "danger": dpts},
+        "score_notes": (f"ARV ${arv:,.0f} ({arv_src}); rehab ${rehab:,.0f} (${uw['rehab_rate']}/sqft{', county rates it ' + cond.lower() if cond and uw['rehab_rate'] != DM['rehab']['per_sqft'] else ''}) + ${uw['contingency']:,.0f} contingency; {tt_note}; "
                         f"assumed winning bid ${exp_bid:,.0f} ({grp}, {pct*100:.0f}% of ARV or opening bid if higher). "
                         f"At that bid: flip profit ${uw['flip_profit']:,.0f} (flip score {uw['flip_score']}); "
                         + (f"BRRRR {uw['refi_terms']}, ${uw['refi_cash_flow']:,.0f}/mo, ${uw['brrrr_cash_left']:,.0f} left in the deal (BRRRR score {uw['brrrr_score']})"
@@ -170,6 +179,9 @@ def main():
             miss += 1
             c["prelim_score"] = None
             c["score_notes"] = "No Zillow data"
+            rec = assessed_rec(c)
+            c["condition"] = (rec or {}).get("cond")
+            c["danger_points"], c["danger_reasons"] = danger(rec, AREA)
         else:
             c.update(r)
     json.dump(cases, open(out, "w"), indent=1, default=str)

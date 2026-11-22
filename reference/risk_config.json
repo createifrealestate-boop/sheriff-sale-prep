@@ -1,0 +1,14 @@
+{
+ "_readme": "Danger points for the Sheriff and On-Market scores (scripts/risk.py), set with the user 2026-11-21 from the county's 2023-25 sales (cheap buys followed 18 months). Penalties are negative, bonuses positive; they are added to the priority score. The On-Market page also has the price-vs-ARV check (sheriff bids are low by nature, so it is not used there).",
+ "condition_points": {"POOR": -15, "VERY POOR": -25, "UNSOUND": -25},
+ "shell": {"building_share_below": 0.5, "points": -5},
+ "too_cheap": {"below_share_of_arv": 0.25, "points": -10},
+ "area": {
+  "_note": "Per municipality: market buys of $25k-150k from 2023 until 18 months ago, and how many were flipped within 18 months. Needs 30+ buys. Countywide it is about 4%.",
+  "min_buys": 30,
+  "rare_rate": 0.015,
+  "rare_points": -10,
+  "good_rate": 0.08,
+  "good_points": 5
+ }
+}

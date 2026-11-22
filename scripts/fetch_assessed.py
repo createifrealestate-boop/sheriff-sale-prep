@@ -38,7 +38,7 @@ def fetch(ids):
         for rec in json.loads(out)["result"]["records"]:
             got[rec["PARID"]] = {"fmv": rec["FAIRMARKETTOTAL"], "county": rec["COUNTYTOTAL"],
                                  "land": rec["FAIRMARKETLAND"], "bldg": rec["FAIRMARKETBUILDING"],
-                                 "lot": rec.get("LOTAREA") or None,
+                                 "lot": rec.get("LOTAREA") or None, "cond": (rec.get("CONDITIONDESC") or "").strip() or None,
                                  "muni": (rec["MUNIDESC"] or "").strip(), "school": (rec["SCHOOLDESC"] or "").strip(),
                                  "fetched": dt.date.today().isoformat()}
     return got
@@ -49,7 +49,7 @@ def main():
     have = json.load(open(path)) if path.exists() else {}
     props = json.load(open(ROOT / "state" / "crm.json"))["properties"]
     today = dt.date.today()
-    need = [x for x in parids(props) if "--all" in sys.argv or x not in have or "lot" not in have[x]
+    need = [x for x in parids(props) if "--all" in sys.argv or x not in have or "lot" not in have[x] or "cond" not in have[x]
             or (today - dt.date.fromisoformat(have[x].get("fetched", "2000-01-01"))).days > 120]
     if not need:
         print("assessed values: nothing to fetch"); return
