@@ -90,11 +90,6 @@
 "flip_profit": -14330
 },
 {
-"zpid": "11532758",
-"query": "209 Collins Dr, Pittsburgh, PA 15235",
-"flip_profit": -15284
-},
-{
 "zpid": "11492289",
 "query": "11504 Frankstown Rd, Pittsburgh, PA 15235",
 "flip_profit": -15329
@@ -158,11 +153,6 @@
 "zpid": "11585227",
 "query": "216 Republic St, Pittsburgh, PA 15211",
 "flip_profit": -21080
-},
-{
-"zpid": "11389281",
-"query": "2522 Jefferson Ave, West Mifflin, PA 15122",
-"flip_profit": -21186
 },
 {
 "zpid": "11565501",
@@ -325,11 +315,6 @@
 "flip_profit": -30944
 },
 {
-"zpid": "11280779",
-"query": "922 Brackenridge Ave, Brackenridge, PA 15014",
-"flip_profit": -31052
-},
-{
 "zpid": "11471887",
 "query": "5017 Sherwood Rd, Bethel Park, PA 15102",
 "flip_profit": -31459
@@ -420,11 +405,6 @@
 "flip_profit": -34409
 },
 {
-"zpid": "11462397",
-"query": "2708 Garbett St, McKeesport, PA 15132",
-"flip_profit": -34638
-},
-{
 "zpid": "11567612",
 "query": "1565 Loretta Dr, Pittsburgh, PA 15235",
 "flip_profit": -34642
@@ -448,11 +428,6 @@
 "zpid": "11651511",
 "query": "130 College Park Dr, Monroeville, PA 15146",
 "flip_profit": -35084
-},
-{
-"zpid": "11601571",
-"query": "919 Brinton Ave, Pitcairn, PA 15140",
-"flip_profit": -35372
 },
 {
 "zpid": "11347647",
@@ -550,16 +525,6 @@
 "flip_profit": -37753
 },
 {
-"zpid": "11302031",
-"query": "61 Garfield St, Natrona Heights, PA 15065",
-"flip_profit": -37878
-},
-{
-"zpid": "11369450",
-"query": "633 Tingley Ave, Pittsburgh, PA 15202",
-"flip_profit": -37923
-},
-{
 "zpid": "11352844",
 "query": "1034 Elwell St, Pittsburgh, PA 15207",
 "flip_profit": -38011
@@ -588,11 +553,6 @@
 "zpid": "11284467",
 "query": "6359 Dean St, Pittsburgh, PA 15206",
 "flip_profit": -38610
-},
-{
-"zpid": "11494962",
-"query": "122 Linhart St, Turtle Creek, PA 15145",
-"flip_profit": -39251
 },
 {
 "zpid": "11325216",
