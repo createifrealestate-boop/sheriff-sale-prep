@@ -3,7 +3,7 @@ NOT an appraisal, NOT DealScore. All assumptions live in reference/scoring_confi
 
 Usage: python3 -I score.py classified.json zillow_cache.json out.json
 Adds to every OK-to-Sell / Almost-Ready case: prelim_score (BRRRR 45 + flip 35 + data confidence 20 - penalties),
-flip_score, brrrr_score, arv, rehab_est ($50/sqft), expected_bid, flip/BRRRR MAOs (scripts/deal.py), best refi,
+flip_score, brrrr_score, arv, rehab_est (rehab level x sqft, scripts/rehab_level.py), expected_bid, flip/BRRRR MAOs (scripts/deal.py), best refi,
 transfer tax, zestimate, rent_est, score_notes. Cases without Zillow data get prelim_score = None.
 """
 import json, re, statistics, sys
@@ -12,6 +12,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from deal import underwrite, property_tax, M as DM  # noqa: E402
 from risk import danger  # noqa: E402
+from rehab_level import level as rehab_level  # noqa: E402
 
 AREA_PATH = Path(__file__).resolve().parent.parent / "state" / "area_flip_rates.json"
 AREA = json.load(open(AREA_PATH)) if AREA_PATH.exists() else {}
@@ -95,7 +96,9 @@ def score_case(c, z, cfg):
     assessed = rec.get("fmv") if rec else None
     ptax, ptax_note = property_tax(rec)
     cond = (rec or {}).get("cond")
-    uw = underwrite(exp_bid, arv, z.get("sqft"), rent, assessed, c.get("tax_municipality"), ptax, ptax_note, condition=cond)
+    # Sheriff bids are low by nature, so price vs ARV says nothing about condition here; no listing text either.
+    lvl, _, lvl_why = rehab_level(cond, None, None, None, z.get("year_built"))
+    uw = underwrite(exp_bid, arv, z.get("sqft"), rent, assessed, c.get("tax_municipality"), ptax, ptax_note, level=lvl)
     dpts, dwhy = danger(rec, AREA)  # sheriff bids are low by nature, so no price-vs-ARV check here
     rehab = uw["rehab_est"]
     yld = (rent * 12 / (exp_bid + rehab)) if rent and (exp_bid + rehab) else None
@@ -147,11 +150,11 @@ def score_case(c, z, cfg):
     return {
         "prelim_score": score, "zestimate": Z, "arv": round(arv), "arv_source": arv_src, "expected_bid": round(exp_bid),
         "rent_est": rent, "gross_yield": round(yld, 3) if yld is not None else None,
-        "condition": cond, "danger_points": dpts, "danger_reasons": dwhy,
+        "condition": cond, "danger_points": dpts, "danger_reasons": dwhy, "rehab_level": lvl, "rehab_level_why": lvl_why,
         **uw,
         "headroom": round(uw["mao_flip_30k"] - bid),
         "score_points": {"brrrr": round(brrrr_pts, 1), "flip": round(flip_pts, 1), "confidence": round(conf_pts, 1), "penalties": -pen, "bonus": bonus, "danger": dpts},
-        "score_notes": (f"ARV ${arv:,.0f} ({arv_src}); rehab ${rehab:,.0f} (${uw['rehab_rate']}/sqft{', county rates it ' + cond.lower() if cond and uw['rehab_rate'] != DM['rehab']['per_sqft'] else ''}) + ${uw['contingency']:,.0f} contingency; {tt_note}; "
+        "score_notes": (f"ARV ${arv:,.0f} ({arv_src}); rehab ${rehab:,.0f} ({lvl}, ${uw['rehab_rate']}/sqft: {'; '.join(lvl_why)}) + ${uw['contingency']:,.0f} contingency; {tt_note}; "
                         f"assumed winning bid ${exp_bid:,.0f} ({grp}, {pct*100:.0f}% of ARV or opening bid if higher). "
                         f"At that bid: flip profit ${uw['flip_profit']:,.0f} (flip score {uw['flip_score']}); "
                         + (f"BRRRR {uw['refi_terms']}, ${uw['refi_cash_flow']:,.0f}/mo, ${uw['brrrr_cash_left']:,.0f} left in the deal (BRRRR score {uw['brrrr_score']})"

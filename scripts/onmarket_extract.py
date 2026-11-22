@@ -89,6 +89,7 @@ def main():
         pf = req.get("propertyFiltersRequest") or {}
         sold = "recentlySold" in (pf.get("homeStatuses") or [])
         doz = pf.get("daysOnZillow") or {}
+        kw = (pf.get("keywords") or "").strip().lower() or None
         jm = re.search(r"\{.*\}\s*$", res, re.S)
         if not jm:
             continue
@@ -98,7 +99,7 @@ def main():
             continue
         cnt = data.get("resultCounts") or {}
         total, shown = cnt.get("totalMatchingCount"), cnt.get("displayResultsCount")
-        searches.append({"at": ts, "sold": sold, "price": pf.get("salePrice"), "dom": doz, "total": total, "shown": shown,
+        searches.append({"at": ts, "sold": sold, "kw": kw, "price": pf.get("salePrice"), "dom": doz, "total": total, "shown": shown,
                          "home_types": pf.get("homeTypes"), "statuses": pf.get("homeStatuses")})
         if total is not None and shown is not None and total > shown:
             capped.append(searches[-1])
@@ -113,23 +114,27 @@ def main():
                    "lat": ll.get("latitude"), "lng": ll.get("longitude"), "beds": x.get("bedroomCount"), "baths": x.get("bathroomCount"),
                    "sqft": x.get("livingAreaSquareFeet"), "lot_sqft": lot_sqft(x.get("lotArea")), "home_type": x.get("homeType"),
                    "price": (x.get("price") or {}).get("filteredPrice"), "url": url.split("?")[0], "seen_at": ts,
-                   "sold": sold, "dom_min": doz.get("min", 0) if not sold else None, "dom_max": doz.get("max") if not sold else None}
+                   "sold": sold, "dom_min": None if sold or (kw and not doz) else doz.get("min", 0), "dom_max": doz.get("max") if not sold else None,
+                   "words": [kw] if kw else []}
             old = listings.get((rec["zpid"], sold))
-            if old and not sold:  # seen in two DOM bands (edge of a band): keep the tighter, higher floor
-                rec["dom_min"] = max(old["dom_min"] or 0, rec["dom_min"] or 0)
+            if old and not sold:  # seen twice (two DOM bands, or a word search): keep the higher floor and all words
+                floors = [v for v in (old["dom_min"], rec["dom_min"]) if v is not None]
+                rec["dom_min"] = max(floors) if floors else None
+                rec["words"] = sorted(set(old.get("words") or []) | set(rec["words"]))
             listings[(rec["zpid"], sold)] = rec
 
     # A capped search is fine when narrower searches (same days-on-Zillow band) cover its whole price range.
     def covered(c):
         lo, hi = (c["price"] or {}).get("min", 0), (c["price"] or {}).get("max", 10 ** 9)
         parts = sorted(((s["price"] or {}).get("min", 0), (s["price"] or {}).get("max", 10 ** 9)) for s in searches
-                       if s is not c and not s["sold"] and s["dom"] == c["dom"] and s["total"] is not None and s["total"] <= (s["shown"] or 0))
+                       if s is not c and not s["sold"] and not s.get("kw") and s["dom"] == c["dom"] and s["total"] is not None and s["total"] <= (s["shown"] or 0))
         at = lo
         for a, b in parts:
             if a <= at + 1 and b >= at:
                 at = max(at, b)
         return at >= hi
-    capped = [c for c in capped if not (c["sold"] is False and covered(c))]
+    capped = [c for c in capped if not c.get("kw") and not (c["sold"] is False and covered(c))]
+    word_capped = [{"words": s["kw"], "price": s["price"], "total": s["total"]} for s in searches if s.get("kw") and (s["total"] or 0) > (s["shown"] or 0)]
     now = dt.datetime.now(dt.timezone.utc)
     if a.kind == "sweep" and not any(not k[1] for k in listings):
         raise SystemExit("refusing to save a sweep with no for-sale listings (it would mark every listing gone)")
@@ -141,7 +146,8 @@ def main():
     json.dump(out, open(path, "w"), indent=0)
     n_sale = sum(1 for k in listings if not k[1])
     print(json.dumps({"file": str(path), "searches": len(searches), "for_sale": n_sale, "sold": len(listings) - n_sale,
-                      "rents": len(rents), "capped_searches": [{"price": c["price"], "dom": c["dom"], "total": c["total"]} for c in capped]}))
+                      "rents": len(rents), "capped_searches": [{"price": c["price"], "dom": c["dom"], "total": c["total"]} for c in capped],
+                      "capped_word_searches": word_capped}))
 
 
 if __name__ == "__main__":

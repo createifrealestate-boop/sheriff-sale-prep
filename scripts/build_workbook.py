@@ -47,7 +47,8 @@ COLUMNS = [
     ("Bank's bid: range and basis", "bank_bid_note", 30, "wrap"),
     ("Zillow Zestimate", "zestimate", 12, "int-money"),
     ("ARV used (conservative)", "arv", 12, "int-money"),
-    ("Rehab ($50/sqft)", "rehab_est", 11, "int-money"),
+    ("Rehab level", "rehab_level", 9, "text"),
+    ("Rehab (level x sqft)", "rehab_est", 11, "int-money"),
     ("Rehab contingency", "contingency", 10, "int-money"),
     ("Assumed winning bid", "expected_bid", 12, "int-money"),
     ("Flip profit at that bid", "flip_profit", 12, "int-money"),
@@ -332,7 +333,7 @@ def write_overview(ws, sale_date, source, cases, changes, prev, run_time, droppe
         "PRELIM SCORE: a rough 0-100 screen from Zillow data (Zestimate, sold comps, rent) used only to decide which properties to research first. "
         "It is not an appraisal or a DealScore. Blank = Zillow has no Zestimate; research those by hand. Assumptions are in reference/scoring_config.json. "
         "Points: BRRRR up to 45, flip up to 35, data confidence up to 20, minus penalties. Both are worked out at the assumed winning bid with your "
-        "underwriting (reference/deal_model.json): rehab $50/sqft (x1.15 when ARV is $400k+), contingency 10% or $10k, hard money 90% of price + 100% "
+        "underwriting (reference/deal_model.json): rehab by level: Cosmetic $25, Medium $45, Heavy $65, Gut $95 per sqft, guessed from the county condition rating and age (x1.15 when ARV is $400k+), contingency 10% or $10k, hard money 90% of price + 100% "
         "of rehab at 2.5 pts + 11% for 6 months, holding $500/mo, $300 closing + $200 sheriff closing fee (no transfer tax), "
         "flip sale costs 10% of ARV. Flip score: $0 profit = 0, $10k = 20, $20k = 50, $30k = 70, $45k = 90, $50k+ = 100. BRRRR uses the refi optimizer (every LTV 60-75% x 0-5 pts x "
         "30yr / 15yr / 5yr interest-only, refi costs 3% + points + $600; best = least cash left with $200+/mo and DSCR 1.1): $0 left = 100, $30k = 60, "

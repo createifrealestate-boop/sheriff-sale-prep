@@ -17,7 +17,7 @@ KEEP = ["sale_id", "case_no", "address", "city", "zip", "municipality", "parcels
         "flip_score", "brrrr_score", "flip_profit", "brrrr_cash_left", "mao_flip_30k", "mao_flip_45k", "mao_flip_60k",
         "mao_brrrr_0k", "mao_brrrr_15k", "mao_brrrr_30k", "refi_terms", "refi_cash_flow", "refi_ok", "property_tax", "property_tax_note", "lot_sqft", "transfer_tax", "transfer_rate",
         "assessed_value", "contingency", "tax_municipality",
-        "condition", "danger_points", "danger_reasons", "rehab_rate"]
+        "condition", "danger_points", "danger_reasons", "rehab_rate", "rehab_level", "rehab_level_why"]
 ZKEEP = ["sqft", "beds", "baths", "year_built", "range_lo", "range_hi", "renovated", "anchored"]
 
 

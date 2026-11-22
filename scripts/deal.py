@@ -56,15 +56,15 @@ def property_tax(rec):
     return round(T * mills / 1000), f"{name}, {mills:.2f} mills ({MILL['year']}) on ${T:,.0f} assessed"
 
 
-def rehab_rate(condition=None):
-    """$/sqft: the user's $50, or more when the county rates the house poor / very poor / unsound."""
+def rehab_rate(level=None):
+    """$/sqft for a rehab level (Cosmetic / Medium / Heavy / Gut, scripts/rehab_level.py); $50 when none is given."""
     R = M["rehab"]
-    return R.get("per_sqft_by_condition", {}).get((condition or "").strip().upper(), R["per_sqft"])
+    return R.get("levels", {}).get(level, R["per_sqft"])
 
 
-def rehab_for(sqft, arv, condition=None):
+def rehab_for(sqft, arv, level=None):
     R = M["rehab"]
-    r = (sqft or R["default_sqft"]) * rehab_rate(condition)
+    r = (sqft or R["default_sqft"]) * rehab_rate(level)
     if arv and arv >= R["premium_arv_at"]:
         r *= R["premium_factor"]
     return round(r, -2)
@@ -216,17 +216,17 @@ def brrrr_score(cash_left):
     return 0 if cash_left is None else round(_piecewise(cash_left, M["scores"]["brrrr_points"]))
 
 
-def underwrite(price, arv, sqft, rent, assessed, tax_municipality, taxes_annual=None, tax_note=None, costs=None, condition=None):
+def underwrite(price, arv, sqft, rent, assessed, tax_municipality, taxes_annual=None, tax_note=None, costs=None, level=None):
     """Everything for one property at a given price. Returns a flat dict for the score / workbook / CRM.
     costs: None for a sheriff sale; market_costs(...) for an on-market purchase."""
-    rehab = rehab_for(sqft, arv, condition)
+    rehab = rehab_for(sqft, arv, level)
     if costs is None:
         rate = transfer_rate(tax_municipality)
         tt = transfer_tax(assessed, rate) if M.get("include_transfer_tax", True) else None
     else:
         rate, tt = costs.get("tt_rate"), None
     f = flip_at(price, arv, rehab, tt, costs)
-    out = {"rehab_est": rehab, "rehab_rate": rehab_rate(condition), "contingency": round(contingency_for(rehab)), "transfer_rate": rate, "assessed_value": assessed,
+    out = {"rehab_est": rehab, "rehab_rate": rehab_rate(level), "rehab_level": level, "contingency": round(contingency_for(rehab)), "transfer_rate": rate, "assessed_value": assessed,
            "transfer_tax": tt if costs is None else round(f["transfer_tax"]), "flip_profit": round(f["profit"]), "flip_score": flip_score(f["profit"])}
     if costs is not None:
         out["buy_closing"] = costs["closing"]

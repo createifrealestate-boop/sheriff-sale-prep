@@ -25,7 +25,13 @@ split that price band in two (same days-on-Zillow band) and search both halves; 
 
 **Daily**
 1. New listings: `daysOnZillow {"max": 2}`, price bands 0-100000 and 100001-200000 (split if capped).
-2. Recently sold (to move them to Gone): `homeStatuses ["recentlySold"]`, `daysOnZillow {"max": 7}`, price 0-250000,
+2. Listing words (they set each listing's rehab level, scripts/rehab_level.py): for every word in
+   `reference/rehab_levels.json` "words" (e.g. "as-is", "cash only", "renovated"), the base request plus
+   `"keywords": "<word>"` and `daysOnZillow {"max": 2}`, price 0-200000 (split if capped). Most come back empty.
+   **Catch-up:** if `state/onmarket/listings.json` has no `meta.words_backfill`, run each word over the whole buy box
+   instead (no `daysOnZillow`; price bands 0-100000 and 100001-200000, split further if capped). Words are kept per
+   listing, so this is needed only once.
+3. Recently sold (to move them to Gone): `homeStatuses ["recentlySold"]`, `daysOnZillow {"max": 7}`, price 0-250000,
    same region and home types, no `forSaleListingStatuses`/`exclude` (split if capped).
 
 **Sweep** (also catches price changes, days on market and listings that went pending or were withdrawn)

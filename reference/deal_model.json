@@ -7,12 +7,13 @@
   "premium_arv_at": 400000,
   "contingency_pct": 0.1,
   "contingency_min": 10000,
-  "per_sqft_by_condition": {
-   "POOR": 70,
-   "VERY POOR": 95,
-   "UNSOUND": 95
+  "levels": {
+   "Cosmetic": 25,
+   "Medium": 45,
+   "Heavy": 65,
+   "Gut": 95
   },
-  "_condition_note": "Set by the user 2026-11-21: $70/sqft when the county rates the house poor, $95 when very poor or unsound; $50 otherwise."
+  "_levels_note": "Set by the user 2026-11-22: rehab = level rate x sqft. The level is guessed by scripts/rehab_level.py (county condition, listing words, price vs ARV, age, recent resale) and the team can pick it in the CRM. per_sqft ($50) is used only when no level is given."
  },
  "hard_money": {
   "purchase_ltv": 0.9,

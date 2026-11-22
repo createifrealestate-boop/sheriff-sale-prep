@@ -20,6 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from deal import underwrite, property_tax, market_costs, M as DM  # noqa: E402
 from county import County  # noqa: E402
 from risk import danger  # noqa: E402
+from rehab_level import level as rehab_level  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 ST = ROOT / "state" / "onmarket"
@@ -110,9 +111,11 @@ def apply_raw(L, meta):
                     events.append(("drop", z))
                 r["price"] = x["price"]
             r["last_seen"] = day
-            # days on market: a lower bound from the search's days-on-Zillow band
-            lo = x.get("dom_min") or 0
-            if r.get("dom_floor") is None or lo > dom_today(r):
+            if x.get("words"):  # listing-word searches (kept for good: descriptions rarely change)
+                r["listing_words"] = sorted(set(r.get("listing_words") or []) | set(x["words"]))
+            # days on market: a lower bound from the search's days-on-Zillow band (word searches carry none)
+            lo = x.get("dom_min")
+            if lo is not None and (r.get("dom_floor") is None or lo > dom_today(r)):
                 r["dom_floor"], r["dom_floor_date"] = lo, day
         n_active = sum(1 for r in L.values() if r.get("status") == "active")
         if raw.get("kind") == "sweep" and raw.get("complete") and len(seen) < 0.5 * n_active:
@@ -122,6 +125,8 @@ def apply_raw(L, meta):
                 if r.get("status") == "active" and z not in seen and (r.get("last_seen") or "") < day:
                     r.update(status="gone", gone_date=day, gone_reason="left the market (pending, sold or withdrawn)")
             meta["last_sweep"] = day
+        if any(s.get("kw") and not s.get("dom") for s in raw.get("searches") or []):
+            meta["words_backfill"] = day  # listing-word searches over the whole buy box
         by_q = {query_addr(r): z for z, r in L.items() if r.get("line1")}
         for q, v in (raw.get("rents") or {}).items():
             z = todo.get(q) or by_q.get(q)
@@ -185,7 +190,10 @@ def score_listing(r, C, rents):
                 "needs_arv": not hi})
     offer = round(r["price"] * DM["on_market"]["offer_pct_of_list"], -2)
     costs = market_costs(p["muni"])
-    uw = underwrite(offer, arv, sqft, rent, p["fmv"], None, tax, tax_note, costs=costs, condition=p["cond"])
+    lvl, _, lvl_why = rehab_level(p["cond"], r.get("listing_words"), r["price"], a.get("county_arv"), p["yr"],
+                                  p["last_sale"], p["last_price"], TODAY)
+    out.update({"rehab_level": lvl, "rehab_level_why": lvl_why})
+    uw = underwrite(offer, arv, sqft, rent, p["fmv"], None, tax, tax_note, costs=costs, level=lvl)
     W = DM["scores"]["total_weights"]
     cp = S["confidence_points"]
     conf_pts = (cp["high_10_comps"] if a["county_arv_comps"] >= 10 else cp["high"]) if hi else cp["low"]
@@ -196,7 +204,7 @@ def score_listing(r, C, rents):
     pri = int(round(max(0, min(100, flip_pts + brrrr_pts + conf_pts + fa_pts + dom_pts + dpts))))
     fm = lambda k: "n/a" if uw.get(k) is None else f"${uw[k]:,.0f}"
     notes = (f"ARV ${arv:,.0f} ({out['arv_source']}; {a['county_arv_note']}). Offer ${offer:,.0f} (90% of ${r['price']:,.0f} list); "
-             f"rehab ${uw['rehab_est']:,.0f} (${uw['rehab_rate']}/sqft{', county rates it ' + p['cond'].lower() if uw['rehab_rate'] != DM['rehab']['per_sqft'] else ''}) + ${uw['contingency']:,.0f} contingency; closing ${costs['closing']:,} + transfer tax ${uw['transfer_tax']:,.0f} "
+             f"rehab ${uw['rehab_est']:,.0f} ({lvl}, ${uw['rehab_rate']}/sqft: {'; '.join(lvl_why)}) + ${uw['contingency']:,.0f} contingency; closing ${costs['closing']:,} + transfer tax ${uw['transfer_tax']:,.0f} "
              f"(buyer's half of {(costs['tt_rate'] or DM['on_market']['transfer_rate_default']):.1%}). At the offer: flip profit ${uw['flip_profit']:,.0f} (flip score {uw['flip_score']}); "
              + (f"BRRRR {uw['refi_terms']}, ${uw['refi_cash_flow']:,.0f}/mo, ${uw['brrrr_cash_left']:,.0f} left (BRRRR score {uw['brrrr_score']})"
                 if uw.get("refi_ok") else f"BRRRR: {uw['refi_terms']} (BRRRR score 0)")
@@ -231,7 +239,8 @@ def main():
             continue
         for k in [k for k in r if k not in ("zpid", "first_seen", "price_history", "status", "line1", "city", "zip", "lat", "lng", "beds",
                                              "baths", "sqft", "lot_sqft", "home_type", "url", "price", "last_seen", "dom_floor",
-                                             "dom_floor_date", "parid", "back_on_market", "gone_date", "gone_reason", "sold_price")]:
+                                             "dom_floor_date", "parid", "back_on_market", "gone_date", "gone_reason", "sold_price",
+                                             "listing_words")]:
             r.pop(k)
         r.update(score_listing(r, C, rents))
         r["dom"] = dom_today(r)
