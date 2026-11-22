@@ -8,7 +8,7 @@
   "total_cases": 404,
   "changes": [],
   "unscored": 15,
-  "updated_at": "2026-11-22T15:54:16+00:00"
+  "updated_at": "2026-11-22T15:54:27+00:00"
  },
  "properties": [
   {
@@ -117,6 +117,10 @@
    "danger_reasons": [
     "county rates it poor (-15)"
    ],
+   "rehab_level": "Heavy",
+   "rehab_level_why": [
+    "county condition poor"
+   ],
    "deal_type": "Tax lien",
    "free_clear": false
   },
@@ -152,6 +156,10 @@
    "danger_points": -10,
    "danger_reasons": [
     "similar buys here rarely got flipped (0 of 123) (-10)"
+   ],
+   "rehab_level": "Heavy",
+   "rehab_level_why": [
+    "county condition fair"
    ],
    "deal_type": "Tax lien",
    "free_clear": false
@@ -258,6 +266,10 @@
    "danger_points": -10,
    "danger_reasons": [
     "similar buys here rarely got flipped (1 of 99) (-10)"
+   ],
+   "rehab_level": "Medium",
+   "rehab_level_why": [
+    "county condition average"
    ],
    "deal_type": "Mortgage foreclosure",
    "free_clear": false
@@ -377,6 +389,10 @@
    "danger_points": -10,
    "danger_reasons": [
     "similar buys here rarely got flipped (0 of 123) (-10)"
+   ],
+   "rehab_level": "Medium",
+   "rehab_level_why": [
+    "county condition average"
    ],
    "deal_type": "Tax lien",
    "free_clear": false
@@ -792,6 +808,10 @@
    "danger_points": -5,
    "danger_reasons": [
     "building only 37% of the assessed value (-5)"
+   ],
+   "rehab_level": "Heavy",
+   "rehab_level_why": [
+    "county condition fair"
    ],
    "deal_type": "Tax lien",
    "free_clear": false
@@ -1429,6 +1449,10 @@
    "danger_reasons": [
     "similar buys here rarely got flipped (0 of 123) (-10)"
    ],
+   "rehab_level": "Heavy",
+   "rehab_level_why": [
+    "county condition fair"
+   ],
    "deal_type": "Tax lien",
    "free_clear": false
   },
@@ -1466,6 +1490,10 @@
    "danger_points": -10,
    "danger_reasons": [
     "similar buys here rarely got flipped (0 of 40) (-10)"
+   ],
+   "rehab_level": "Heavy",
+   "rehab_level_why": [
+    "county condition fair"
    ],
    "deal_type": "Tax lien",
    "free_clear": false
@@ -2180,6 +2208,10 @@
    "condition": "FAIR",
    "danger_points": 0,
    "danger_reasons": [],
+   "rehab_level": "Heavy",
+   "rehab_level_why": [
+    "county condition fair"
+   ],
    "deal_type": "Tax lien",
    "free_clear": false
   },
@@ -2670,6 +2702,10 @@
    "danger_reasons": [
     "similar buys here rarely got flipped (0 of 123) (-10)"
    ],
+   "rehab_level": "Heavy",
+   "rehab_level_why": [
+    "county condition fair"
+   ],
    "deal_type": "Tax lien",
    "free_clear": false
   },
@@ -2864,6 +2900,10 @@
    "danger_points": -5,
    "danger_reasons": [
     "building only 33% of the assessed value (-5)"
+   ],
+   "rehab_level": "Heavy",
+   "rehab_level_why": [
+    "county condition fair"
    ],
    "deal_type": "Tax lien",
    "free_clear": false
@@ -3278,6 +3318,10 @@
    "danger_reasons": [
     "similar buys here rarely got flipped (0 of 40) (-10)"
    ],
+   "rehab_level": "Heavy",
+   "rehab_level_why": [
+    "county condition fair"
+   ],
    "deal_type": "Tax lien",
    "free_clear": false
   },
@@ -3312,6 +3356,10 @@
    "condition": "FAIR",
    "danger_points": 0,
    "danger_reasons": [],
+   "rehab_level": "Heavy",
+   "rehab_level_why": [
+    "county condition fair"
+   ],
    "deal_type": "Tax lien",
    "free_clear": false
   },
@@ -4109,6 +4157,10 @@
    "danger_reasons": [
     "similar buys here rarely got flipped (0 of 106) (-10)"
    ],
+   "rehab_level": "Medium",
+   "rehab_level_why": [
+    "county condition average"
+   ],
    "deal_type": "Tax lien",
    "free_clear": false
   },
@@ -4678,6 +4730,10 @@
     "building only 22% of the assessed value (-5)",
     "similar buys here rarely got flipped (0 of 123) (-10)"
    ],
+   "rehab_level": "Heavy",
+   "rehab_level_why": [
+    "county condition fair"
+   ],
    "deal_type": "Mortgage foreclosure",
    "free_clear": false
   },
@@ -4785,6 +4841,10 @@
    "danger_points": -10,
    "danger_reasons": [
     "similar buys here rarely got flipped (0 of 123) (-10)"
+   ],
+   "rehab_level": "Heavy",
+   "rehab_level_why": [
+    "county condition fair"
    ],
    "deal_type": "Tax lien",
    "free_clear": false

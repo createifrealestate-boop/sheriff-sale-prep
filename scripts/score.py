@@ -185,6 +185,7 @@ def main():
             rec = assessed_rec(c)
             c["condition"] = (rec or {}).get("cond")
             c["danger_points"], c["danger_reasons"] = danger(rec, AREA)
+            c["rehab_level"], _, c["rehab_level_why"] = rehab_level(c["condition"])
         else:
             c.update(r)
     json.dump(cases, open(out, "w"), indent=1, default=str)
