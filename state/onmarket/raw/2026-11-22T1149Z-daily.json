@@ -1,0 +1,22 @@
+{
+"kind": "daily",
+"taken_at": "2026-11-22T11:49:25+00:00",
+"since": "2026-11-22T11:49:19Z",
+"complete": false,
+"searches": [],
+"listings": [],
+"rents": {
+"3311 Margaret St, Pittsburgh, PA 15227": {
+"rent": 1616,
+"comp_rent": null,
+"date": "2026-11-22",
+"note": null
+},
+"3853 Perrysville Ave, Pittsburgh, PA 15214": {
+"rent": 1684,
+"comp_rent": null,
+"date": "2026-11-22",
+"note": null
+}
+}
+}
