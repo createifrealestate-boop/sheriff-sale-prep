@@ -1,6 +1,6 @@
 {
 "run": {
-"updated_at": "2026-11-23T11:59:53+00:00",
+"updated_at": "2026-11-23T16:08:01+00:00",
 "last_sweep": "2026-11-20",
 "county_data": "2026-11-20",
 "active": 1436,
@@ -1322,6 +1322,14 @@
 "danger": 0
 },
 "score_notes": "ARV $173,400 (county sales x 85% (low confidence); $257,931 by $/sqft (top quarter of 5 sales (neighborhood)); $150,127 by price/assessed (top quarter of 6 sales (neighborhood)); low confidence: the two methods differ by 53%). Offer $54,000 (90% of $60,000 list); rehab $172,400 (Heavy, $65/sqft: county condition average; listed at 29% of the ARV; built 1910) + $17,240 contingency; closing $2,500 + transfer tax $540 (buyer's half of 2.0%). At the offer: flip profit $-111,300 (flip score 0); BRRRR 75% LTV, 5yr interest-only, 2 pts @ 6.6%, $210/mo, $144,412 left (BRRRR score 0). MAO flip $-76,591 / $-90,455 / $-104,318; MAO BRRRR $-79,468 / $-65,605 / $-51,742. Points: BRRRR 0/45, flip 0/35, confidence 6/20. Rent used $1,872/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2025-01-06",
+"auction_outcome": "plaintiff",
+"auction_price": 15000.0,
+"auction_plaintiff": "U.S. BANK NATIONAL ASOCIATION",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-23-000642",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "720 Center St",
 "list_price": 60000,
 "price_drop_total": 0
@@ -1490,6 +1498,14 @@
 "danger": -10
 },
 "score_notes": "ARV $74,000 (county sales x 85% (low confidence); $95,626 by $/sqft (top quarter of 19 sales (neighborhood)); $78,444 by price/assessed (top quarter of 19 sales (neighborhood)); low confidence: under $100k, where it tends to read high). Offer $54,000 (90% of $60,000 list); rehab $46,800 (Medium, $45/sqft: county condition average; built 1925) + $10,000 contingency; closing $2,500 + transfer tax $810 (buyer's half of 3.0%). At the offer: flip profit $-58,142 (flip score 0); BRRRR 70% LTV, 5yr interest-only, 4 pts @ 6.2%, $204/mo, $77,168 left (BRRRR score 0). MAO flip $-27,087 / $-40,887 / $-54,686; MAO BRRRR $-16,992 / $-3,192 / $10,607. Points: BRRRR 0/45, flip 0/35, confidence 6/20, danger -10: similar buys here rarely got flipped (1 of 73) (-10). Rent used $1,080/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2026-04-06",
+"auction_outcome": "plaintiff",
+"auction_price": 50000.0,
+"auction_plaintiff": "PennyMac Loan Services LLC",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "GD-25-005953",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1821 Abraham St",
 "list_price": 60000,
 "price_drop_total": 0
@@ -2427,6 +2443,14 @@
 "danger": -45
 },
 "score_notes": "ARV $272,300 (county sales x 85% (low confidence); $590,647 by $/sqft (top quarter of 12 sales (municipality)); $49,864 by price/assessed (top quarter of 19 sales (municipality)); low confidence: the two methods differ by 169%). Offer $18,000 (90% of $20,000 list); rehab $314,000 (Gut, $95/sqft: county condition unsound; listed at 6% of the ARV; built 1910) + $31,400 contingency; closing $2,500 + transfer tax $180 (buyer's half of 2.0%). At the offer: flip profit $-150,426 (flip score 0); BRRRR 75% LTV, 5yr interest-only, 0 pts @ 7.0%, $304/mo, $197,998 left (BRRRR score 0). MAO flip $-148,752 / $-162,616 / $-176,479; MAO BRRRR $-164,992 / $-151,129 / $-137,266. Points: BRRRR 0/45, flip 0/35, confidence 6/20, danger -45: county rates it unsound (-25); price under 25% of the ARV (-10); similar buys here rarely got flipped (0 of 123) (-10). Rent used $2,534/mo: Rent Zestimate.",
+"auction_date": "2026-03-02",
+"auction_outcome": "third_party",
+"auction_price": 20470.8,
+"auction_plaintiff": "Borough of Wilkinsburg",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-25-010055",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1303 Singer Pl",
 "list_price": 20000,
 "price_drop_total": 0
@@ -3572,6 +3596,14 @@
 "danger": -20
 },
 "score_notes": "ARV $167,400 (county sales x 85% (low confidence); $230,667 by $/sqft (top quarter of 6 sales (neighborhood)); $163,285 by price/assessed (top quarter of 8 sales (neighborhood)); low confidence: the two methods differ by 34%). Offer $27,000 (90% of $30,000 list); rehab $263,000 (Gut, $95/sqft: county condition fair; listed at 15% of the ARV; built 1915) + $26,300 contingency; closing $2,500 + transfer tax $270 (buyer's half of 2.0%). At the offer: flip profit $-194,394 (flip score 0); BRRRR 75% LTV, 30yr fixed, 0 pts @ 7.0%, $458/mo, $223,870 left (BRRRR score 0). MAO flip $-180,388 / $-194,251 / $-208,115; MAO BRRRR $-179,904 / $-166,041 / $-152,178. Points: BRRRR 0/45, flip 0/35, confidence 6/20, danger -20: price under 25% of the ARV (-10); similar buys here rarely got flipped (0 of 123) (-10). Rent used $2,392/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2026-08-03",
+"auction_outcome": "third_party",
+"auction_price": 208629.14,
+"auction_plaintiff": "Wilkinsburg Borough",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-26-001474",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "730 Hill Ave",
 "list_price": 30000,
 "price_drop_total": 0
@@ -6019,6 +6051,14 @@
 "danger": -10
 },
 "score_notes": "ARV $51,300 (county sales x 85% (low confidence); $55,302 by $/sqft (top quarter of 5 sales (neighborhood)); $65,290 by price/assessed (top quarter of 6 sales (neighborhood)); low confidence: under $100k, where it tends to read high). Offer $26,900 (90% of $29,900 list); rehab $28,800 (Cosmetic, $25/sqft: county condition fair; listing says \"move-in ready\"; listing says \"renovated\"; built 1890) + $10,000 contingency; closing $2,500 + transfer tax $269 (buyer's half of 2.0%). At the offer: flip profit $-29,540 (flip score 0); BRRRR 75% LTV, 30yr fixed, 0 pts @ 7.0%, $249/mo, $38,989 left (BRRRR score 48). MAO flip $-28,128 / $-41,991 / $-55,854; MAO BRRRR $-9,134 / $4,729 / $18,592. Points: BRRRR 22/45, flip 0/35, confidence 6/20, danger -10: similar buys here rarely got flipped (0 of 53) (-10). Rent used $1,116/mo: Rent Zestimate.",
+"auction_date": "2026-04-06",
+"auction_outcome": "plaintiff",
+"auction_price": 20000.0,
+"auction_plaintiff": "Citigroup Mortgage Loan Trust 2017-RP1",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-25-000587",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1204 Ridge Ave",
 "list_price": 29900,
 "price_drop_total": 0
@@ -7688,6 +7728,14 @@
 "danger": 0
 },
 "score_notes": "ARV $132,500 (county sales (high confidence); $120,888 by $/sqft (top quarter of 5 sales (neighborhood)); $144,058 by price/assessed (top quarter of 5 sales (neighborhood)); high confidence). Offer $58,500 (90% of $65,000 list); rehab $78,500 (Heavy, $65/sqft: county condition average; listing says \"as-is\"; listing says \"fixer upper\") + $10,000 contingency; closing $2,500 + transfer tax $1,462 (buyer's half of 5.0%). At the offer: flip profit $-45,204 (flip score 0); BRRRR 75% LTV, 5yr interest-only, 0 pts @ 7.0%, $229/mo, $68,661 left (BRRRR score 8). MAO flip $-10,055 / $-23,728 / $-37,402; MAO BRRRR $-4,090 / $9,584 / $23,258. Points: BRRRR 4/45, flip 0/35, confidence 15/20. Rent used $1,614/mo: Rent Zestimate.",
+"auction_date": "2026-09-08",
+"auction_outcome": "third_party",
+"auction_price": 33000.0,
+"auction_plaintiff": "Keybank National Association",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "GD-25-009855",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1927 Robinson Blvd",
 "list_price": 65000,
 "price_drop_total": 0
@@ -8750,6 +8798,14 @@
 "danger": 0
 },
 "score_notes": "ARV $147,600 (county sales (high confidence); $154,327 by $/sqft (top quarter of 18 sales (municipality)); $140,778 by price/assessed (top quarter of 22 sales (municipality)); high confidence). Offer $63,000 (90% of $70,000 list); rehab $62,600 (Heavy, $65/sqft: county condition average; listing says \"as-is\") + $10,000 contingency; closing $2,500 + transfer tax $630 (buyer's half of 2.0%). At the offer: flip profit $-18,434 (flip score 0); BRRRR: no refi reaches $200/mo (best $159/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $18,237 / $4,373 / $-9,490; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 20/20. Rent used $1,448/mo: Rent Zestimate.",
+"auction_date": "2026-09-08",
+"auction_outcome": "third_party",
+"auction_price": 42000.0,
+"auction_plaintiff": "Coraopolis Borough",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-18-014556",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1503 Fernhurst Ave",
 "list_price": 70000,
 "price_drop_total": 0
@@ -9285,6 +9341,14 @@
 "danger": -20
 },
 "score_notes": "ARV $106,300 (county sales x 85% (low confidence); $164,787 by $/sqft (2 flip resales (neighborhood)); $85,440 by price/assessed (2 flip resales (neighborhood)); low confidence: the two methods differ by 63%). Offer $58,000 (90% of $64,500 list); rehab $117,800 (Gut, $95/sqft: county condition poor; listing says \"as-is\"; built 1920) + $11,780 contingency; closing $2,500 + transfer tax $870 (buyer's half of 3.0%). At the offer: flip profit $-111,880 (flip score 0); BRRRR 75% LTV, 30yr fixed, 0 pts @ 7.0%, $483/mo, $130,817 left (BRRRR score 0). MAO flip $-72,524 / $-86,324 / $-100,123; MAO BRRRR $-62,347 / $-48,547 / $-34,748. Points: BRRRR 0/45, flip 0/35, confidence 6/20, flips work here +20 (2 similar flips nearby), danger -20: county rates it poor (-15); building only 49% of the assessed value (-5). Rent used $1,820/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2025-12-01",
+"auction_outcome": "plaintiff",
+"auction_price": 75000.0,
+"auction_plaintiff": "Wilmington Savings Fund Society FSB",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-25-000272",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "153 Ormsby Ave",
 "list_price": 64500,
 "price_drop_total": 0
@@ -17438,6 +17502,14 @@
 "danger": -10
 },
 "score_notes": "ARV $73,100 (county sales x 85% (low confidence); $97,803 by $/sqft (top quarter of 16 sales (neighborhood)); $74,183 by price/assessed (top quarter of 18 sales (neighborhood)); low confidence: the two methods differ by 27%, under $100k, where it tends to read high). Offer $98,900 (90% of $109,900 list); rehab $66,700 (Medium, $45/sqft: county condition average; listed at 128% of the ARV; built 1928) + $10,000 contingency; closing $2,500 + transfer tax $1,484 (buyer's half of 3.0%). At the offer: flip profit $-129,250 (flip score 0); BRRRR 75% LTV, 5yr interest-only, 2 pts @ 6.6%, $207/mo, $143,557 left (BRRRR score 0). MAO flip $-47,604 / $-61,404 / $-75,203; MAO BRRRR $-33,167 / $-19,367 / $-5,568. Points: BRRRR 0/45, flip 0/35, confidence 6/20, danger -10: similar buys here rarely got flipped (0 of 67) (-10). Rent used $1,080/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2026-04-06",
+"auction_outcome": "third_party",
+"auction_price": 42100.0,
+"auction_plaintiff": "PennyMac Loan Services LLC",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-25-000604",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1220 Ravine St",
 "list_price": 109900,
 "price_drop_total": 0
@@ -22428,6 +22500,14 @@
 "danger": 5
 },
 "score_notes": "ARV $271,900 (county sales (high confidence); $290,317 by $/sqft (2 flip resales (neighborhood)); $253,522 by price/assessed (2 flip resales (neighborhood)); high confidence). Offer $135,000 (90% of $150,000 list); rehab $39,000 (Cosmetic, $25/sqft: county condition average; listing says \"renovated\") + $10,000 contingency; closing $2,500 + transfer tax $1,350 (buyer's half of 2.0%). At the offer: flip profit $41,020 (flip score 85); BRRRR: no refi reaches $200/mo (best $48/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $145,185 / $131,322 / $117,458; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 30/35, confidence 20/20, flips work here +20 (6 similar flips nearby), danger +5: similar buys here often got flipped (14 of 91) (+5). Rent used $1,987/mo: Rent Zestimate.",
+"auction_date": "2026-09-08",
+"auction_outcome": "third_party",
+"auction_price": 110000.0,
+"auction_plaintiff": "Pennsylvania Housing Finance Agency",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-21-000213",
+"auction_parcels": 2,
+"auction_count": 1,
 "address": "7701 Saltsburg Rd",
 "list_price": 150000,
 "price_drop_total": 0
@@ -34470,6 +34550,14 @@
 "danger": 0
 },
 "score_notes": "ARV $249,500 (county sales (high confidence); $239,241 by $/sqft (3 flip resales (municipality)); $259,778 by price/assessed (top quarter of 5 sales (neighborhood)); high confidence). Offer $148,500 (90% of $165,000 list); rehab $72,800 (Heavy, $65/sqft: county condition average; listing says \"as-is\") + $10,000 contingency; closing $2,500 + transfer tax $3,712 (buyer's half of 5.0%). At the offer: flip profit $-32,478 (flip score 0); BRRRR: no refi reaches $200/mo (best $112/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $91,546 / $77,872 / $64,199; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 20/20. Rent used $1,866/mo: Rent Zestimate.",
+"auction_date": "2026-10-05",
+"auction_outcome": "plaintiff",
+"auction_price": 100000.0,
+"auction_plaintiff": "U.S. Bank Trust National Association",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-23-000565",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "4593 Marina Dr",
 "list_price": 165000,
 "price_drop_total": 0
@@ -36423,6 +36511,14 @@
 "danger": 0
 },
 "score_notes": "ARV $389,700 (county sales (high confidence); $368,916 by $/sqft (top quarter of 85 sales (neighborhood)); $410,519 by price/assessed (top quarter of 91 sales (neighborhood)); high confidence). Offer $157,400 (90% of $174,900 list); rehab $88,000 (Heavy, $65/sqft: county condition average; listed at 45% of the ARV) + $10,000 contingency; closing $2,500 + transfer tax $3,935 (buyer's half of 5.0%). At the offer: flip profit $67,522 (flip score 100); BRRRR: no refi reaches $200/mo (best $-48/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $191,604 / $177,931 / $164,257; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 35/35, confidence 20/20. Rent used $2,240/mo: Rent Zestimate.",
+"auction_date": "2025-04-07",
+"auction_outcome": "plaintiff",
+"auction_price": 155000.0,
+"auction_plaintiff": "NEWREZ LLC F/K/A NEW PENN FINANCIAL, LLC D/B/A SHELLPOINT MORTGAGE SERVICING",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-24-000360",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "4257 Upview Ter",
 "list_price": 174900,
 "price_drop_total": 0
@@ -43378,6 +43474,14 @@
 "danger": 0
 },
 "score_notes": "ARV $150,700 (county sales (high confidence); $149,647 by $/sqft (top quarter of 12 sales (neighborhood)); $151,806 by price/assessed (top quarter of 13 sales (neighborhood)); high confidence). Offer $180,000 (90% of $199,999 list); rehab $33,200 (Cosmetic, $25/sqft: county condition average; listing says \"renovated\"; listed at 133% of the ARV; built 1935) + $10,000 contingency; closing $2,500 + transfer tax $1,800 (buyer's half of 2.0%). At the offer: flip profit $-110,486 (flip score 0); BRRRR: no refi reaches $200/mo (best $92/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $50,161 / $36,298 / $22,434; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 20/20, flips work here +20 (2 similar flips nearby). Rent used $1,400/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2025-03-03",
+"auction_outcome": "plaintiff",
+"auction_price": 24900.0,
+"auction_plaintiff": "Pennsylvania Housing Finance Agency",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-24-000661",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "424 Cline St",
 "list_price": 199999,
 "price_drop_total": 0
@@ -51295,6 +51399,14 @@
 "danger": -10
 },
 "score_notes": "ARV $110,300 (county sales x 85% (low confidence); $146,370 by $/sqft (top quarter of 13 sales (neighborhood)); $113,196 by price/assessed (top quarter of 14 sales (neighborhood)); low confidence: the two methods differ by 26%). Offer $166,500 (90% of $185,000 list); rehab $27,300 (Cosmetic, $25/sqft: county condition fair; listing says \"move-in ready\"; listing says \"new kitchen\"; listing says \"renovated\"; listed at 143% of the ARV; built 1930) + $10,000 contingency; closing $2,500 + transfer tax $1,665 (buyer's half of 2.0%). At the offer: flip profit $-125,867 (flip score 0); BRRRR 75% LTV, 5yr interest-only, 0 pts @ 7.0%, $255/mo, $145,494 left (BRRRR score 0). MAO flip $22,445 / $8,582 / $-5,281; MAO BRRRR $32,033 / $45,896 / $59,759. Points: BRRRR 0/45, flip 0/35, confidence 6/20, danger -10: similar buys here rarely got flipped (0 of 41) (-10). Rent used $1,520/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2025-10-06",
+"auction_outcome": "third_party",
+"auction_price": 34000.0,
+"auction_plaintiff": "Bank of America N.A.",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-24-000855",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "531 Grant St",
 "list_price": 185000,
 "price_drop_total": 0
@@ -51721,6 +51833,14 @@
 "danger": 0
 },
 "score_notes": "ARV $203,300 (county sales (high confidence); $199,605 by $/sqft (16 flip resales (neighborhood)); $206,996 by price/assessed (16 flip resales (neighborhood)); high confidence). Offer $179,900 (90% of $199,900 list); rehab $30,000 (Cosmetic, $25/sqft: county condition average; listing says \"move-in ready\"; listing says \"renovated\"; listed at 98% of the ARV) + $10,000 contingency; closing $2,500 + transfer tax $2,698 (buyer's half of 3.0%). At the offer: flip profit $-60,481 (flip score 0); BRRRR 65% LTV, 5yr interest-only, 3 pts @ 6.4%, $202/mo, $119,835 left (BRRRR score 0). MAO flip $96,661 / $82,861 / $69,062; MAO BRRRR $69,656 / $83,456 / $97,255. Points: BRRRR 0/45, flip 0/35, confidence 20/20, flips work here +20 (12 similar flips nearby). Rent used $1,970/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2025-04-07",
+"auction_outcome": "plaintiff",
+"auction_price": 97500.0,
+"auction_plaintiff": "Pennsylvania Housing Finance Agency",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-22-000140",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "337 Idlewood Rd",
 "list_price": 199900,
 "price_drop_total": 0
@@ -52109,6 +52229,14 @@
 "danger": 0
 },
 "score_notes": "ARV $153,400 (county sales x 85% (low confidence); $207,090 by $/sqft (top quarter of 42 sales (neighborhood)); $153,967 by price/assessed (top quarter of 47 sales (neighborhood)); low confidence: the two methods differ by 29%). Offer $166,500 (90% of $185,000 list); rehab $32,500 (Cosmetic, $25/sqft: county condition average; listing says \"fully updated\"; listing says \"move-in ready\"; listing says \"new roof\"; listed at 102% of the ARV) + $10,000 contingency; closing $2,500 + transfer tax $1,665 (buyer's half of 2.0%). At the offer: flip profit $-92,693 (flip score 0); BRRRR 60% LTV, 5yr interest-only, 5 pts @ 6.0%, $212/mo, $146,676 left (BRRRR score 0). MAO flip $53,105 / $39,242 / $25,379; MAO BRRRR $30,940 / $44,803 / $58,666. Points: BRRRR 0/45, flip 0/35, confidence 6/20, flips work here +20 (2 similar flips nearby). Rent used $1,520/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2025-06-02",
+"auction_outcome": "third_party",
+"auction_price": 47000.0,
+"auction_plaintiff": "Lakeview Loan Servicing LLC",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-22-000418",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "2025 Ohio Ave",
 "list_price": 185000,
 "price_drop_total": 0
@@ -55397,6 +55525,14 @@
 "danger": -35
 },
 "score_notes": "ARV $159,600 (county sales (high confidence); $151,658 by $/sqft (2 flip resales (neighborhood)); $167,524 by price/assessed (2 flip resales (neighborhood)); high confidence). Offer $22,500 (90% of $25,000 list); rehab $124,500 (Gut, $95/sqft: county condition poor; listed at 16% of the ARV; built 1920) + $12,450 contingency; closing $2,500 + transfer tax $225 (buyer's half of 2.0%). At the offer: flip profit $-33,115 (flip score 0); BRRRR 70% LTV, 5yr interest-only, 4 pts @ 6.2%, $205/mo, $73,455 left (BRRRR score 2). MAO flip $-35,832 / $-49,695 / $-63,558; MAO BRRRR $-45,389 / $-31,525 / $-17,662. Points: BRRRR 1/45, flip 0/35, confidence 20/20, flips work here +20 (2 similar flips nearby), danger -35: county rates it poor (-15); price under 25% of the ARV (-10); similar buys here rarely got flipped (0 of 123) (-10). Rent used $1,457/mo: Rent Zestimate.",
+"auction_date": "2025-10-06",
+"auction_outcome": "third_party",
+"auction_price": 97506.26,
+"auction_plaintiff": "Wilkinsburg School District",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-25-004288",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1602 Montier St",
 "list_price": 25000,
 "price_drop_total": 0
@@ -56389,6 +56525,14 @@
 "danger": 0
 },
 "score_notes": "ARV $129,500 (county sales x 85% (low confidence); $187,404 by $/sqft (4 flip resales (neighborhood)); $117,493 by price/assessed (4 flip resales (neighborhood)); low confidence: the two methods differ by 46%). Offer $38,800 (90% of $43,100 list); rehab $79,300 (Heavy, $65/sqft: county condition average; listed at 28% of the ARV; built 1900) + $10,000 contingency; closing $2,500 + transfer tax $388 (buyer's half of 2.0%). At the offer: flip profit $-26,576 (flip score 0); BRRRR: no refi reaches $200/mo (best $64/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $-13,488 / $-27,351 / $-41,214; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 6/20, flips work here +20 (5 similar flips nearby). Rent used $1,100/mo: Zillow nearby rentals (no Rent Zestimate).",
+"auction_date": "2026-05-04",
+"auction_outcome": "plaintiff",
+"auction_price": 46000.0,
+"auction_plaintiff": "U.S. Bank Trust Company National Association",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "GD-25-010917",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "3110 West St",
 "list_price": 43100,
 "price_drop_total": 0
@@ -56891,6 +57035,14 @@
 "danger": -10
 },
 "score_notes": "ARV $136,500 (county sales x 85% (low confidence); $201,896 by $/sqft (top quarter of 7 sales (municipality)); $119,226 by price/assessed (top quarter of 5 sales (neighborhood)); low confidence: the two methods differ by 51%). Offer $24,800 (90% of $27,600 list); rehab $124,300 (Heavy, $65/sqft: county condition average; listed at 17% of the ARV; built 1910) + $12,430 contingency; closing $2,500 + transfer tax $248 (buyer's half of 2.0%). At the offer: flip profit $-56,158 (flip score 0); BRRRR 60% LTV, 5yr interest-only, 4 pts @ 6.2%, $200/mo, $103,441 left (BRRRR score 0). MAO flip $-54,828 / $-68,691 / $-82,555; MAO BRRRR $-70,801 / $-56,938 / $-43,075. Points: BRRRR 0/45, flip 0/35, confidence 6/20, danger -10: price under 25% of the ARV (-10). Rent used $1,360/mo: Rent Zestimate.",
+"auction_date": "2025-09-02",
+"auction_outcome": "plaintiff",
+"auction_price": 29000.0,
+"auction_plaintiff": "Pennymac Loan Services LLC",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-25-000083",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "510 3rd St",
 "list_price": 27600,
 "price_drop_total": 0
@@ -60164,6 +60316,14 @@
 "danger": -20
 },
 "score_notes": "ARV $208,500 (county sales x 85% (low confidence); $159,640 by $/sqft (2 flip resales (neighborhood)); $330,962 by price/assessed (2 flip resales (neighborhood)); low confidence: the two methods differ by 70%). Offer $18,000 (90% of $20,000 list); rehab $131,100 (Gut, $95/sqft: county condition fair; listing says \"needs work\"; listed at 8% of the ARV; built 1928) + $13,110 contingency; closing $2,500 + transfer tax $180 (buyer's half of 2.0%). At the offer: flip profit $7,976 (flip score 16); BRRRR 75% LTV, 5yr interest-only, 3 pts @ 6.4%, $202/mo, $33,282 left (BRRRR score 56). MAO flip $-2,355 / $-16,218 / $-30,081; MAO BRRRR $-12,759 / $1,104 / $14,967. Points: BRRRR 25/45, flip 6/35, confidence 6/20, flips work here +20 (2 similar flips nearby), danger -20: price under 25% of the ARV (-10); similar buys here rarely got flipped (0 of 123) (-10). Rent used $1,933/mo: Rent Zestimate.",
+"auction_date": "2025-12-01",
+"auction_outcome": "third_party",
+"auction_price": 99720.46,
+"auction_plaintiff": "Wilkinsburg School District",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-25-005654",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1524 Marie St",
 "list_price": 20000,
 "price_drop_total": 0
@@ -60877,6 +61037,14 @@
 "danger": 0
 },
 "score_notes": "ARV $91,700 (county sales x 85% (low confidence); $150,918 by $/sqft (top quarter of 26 sales (neighborhood)); $64,860 by price/assessed (top quarter of 32 sales (neighborhood)); low confidence: the two methods differ by 80%). Offer $29,000 (90% of $32,200 list); rehab $93,700 (Gut, $95/sqft: county condition fair; listed at 30% of the ARV; built 1901) + $10,000 contingency; closing $2,500 + transfer tax $725 (buyer's half of 5.0%). At the offer: flip profit $-65,979 (flip score 0); BRRRR 75% LTV, 5yr interest-only, 0 pts @ 7.0%, $237/mo, $82,397 left (BRRRR score 0). MAO flip $-58,492 / $-72,166 / $-85,840; MAO BRRRR $-46,111 / $-32,438 / $-18,764. Points: BRRRR 0/45, flip 0/35, confidence 6/20. Rent used $1,212/mo: Rent Zestimate.",
+"auction_date": "2026-04-06",
+"auction_outcome": "plaintiff",
+"auction_price": 36000.0,
+"auction_plaintiff": "Towd Company Mortgage Trust 2016-5",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "GD-24-014786",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "319 Strickler St",
 "list_price": 32200,
 "price_drop_total": 0
@@ -62099,6 +62267,14 @@
 "danger": -10
 },
 "score_notes": "ARV $149,300 (county sales x 85% (low confidence); $198,656 by $/sqft (top quarter of 7 sales (neighborhood)); $152,542 by price/assessed (top quarter of 8 sales (neighborhood)); low confidence: the two methods differ by 26%). Offer $53,900 (90% of $59,900 list); rehab $140,900 (Heavy, $65/sqft: county condition average; listed at 34% of the ARV; built 1907) + $14,090 contingency; closing $2,500 + transfer tax $1,348 (buyer's half of 5.0%). At the offer: flip profit $-96,520 (flip score 0); BRRRR 75% LTV, 30yr fixed, 0 pts @ 7.0%, $733/mo, $122,875 left (BRRRR score 0). MAO flip $-61,433 / $-75,107 / $-88,780; MAO BRRRR $-58,110 / $-44,436 / $-30,762. Points: BRRRR 0/45, flip 0/35, confidence 6/20, danger -10: similar buys here rarely got flipped (0 of 63) (-10). Rent used $2,574/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2026-07-06",
+"auction_outcome": "third_party",
+"auction_price": 45500.0,
+"auction_plaintiff": "CSMC 2021-RPL4 Trust",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-25-000141",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "308 Suncrest St",
 "list_price": 59900,
 "price_drop_total": 0
@@ -64504,6 +64680,14 @@
 "danger": -10
 },
 "score_notes": "ARV $122,400 (county sales (high confidence); $127,693 by $/sqft (top quarter of 9 sales (neighborhood)); $117,178 by price/assessed (2 flip resales (neighborhood)); high confidence). Offer $49,400 (90% of $54,900 list); rehab $92,000 (Heavy, $65/sqft: county condition fair; listed at 45% of the ARV; built 1900) + $10,000 contingency; closing $2,500 + transfer tax $741 (buyer's half of 3.0%). At the offer: flip profit $-58,398 (flip score 0); BRRRR: no refi reaches $200/mo (best $157/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $-31,923 / $-45,722 / $-59,522; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 20/20, danger -10: similar buys here rarely got flipped (0 of 32) (-10). Rent used $1,252/mo: Rent Zestimate.",
+"auction_date": "2026-07-06",
+"auction_outcome": "third_party",
+"auction_price": 29000.0,
+"auction_plaintiff": "Citimortgage Inc",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "GD-24-013445",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "405 32nd St",
 "list_price": 54900,
 "price_drop_total": 0
@@ -81915,6 +82099,14 @@
 "danger": 0
 },
 "score_notes": "ARV $129,800 (county sales (high confidence); $130,010 by $/sqft (top quarter of 11 sales (neighborhood)); $129,536 by price/assessed (top quarter of 11 sales (neighborhood)); high confidence). Offer $94,500 (90% of $105,000 list); rehab $51,800 (Medium, $45/sqft: county condition average; listing says \"as-is\"; listed at 81% of the ARV) + $10,000 contingency; closing $2,500 + transfer tax $945 (buyer's half of 2.0%). At the offer: flip profit $-56,873 (flip score 0); BRRRR 75% LTV, 5yr interest-only, 0 pts @ 7.0%, $217/mo, $79,864 left (BRRRR score 0). MAO flip $14,211 / $348 / $-13,516; MAO BRRRR $20,689 / $34,552 / $48,415. Points: BRRRR 0/45, flip 0/35, confidence 20/20. Rent used $1,700/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2025-06-02",
+"auction_outcome": "third_party",
+"auction_price": 24000.0,
+"auction_plaintiff": "Woodland Hills School District",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-18-014660",
+"auction_parcels": 1,
+"auction_count": 2,
 "address": "204 Churchill Rd",
 "list_price": 105000,
 "price_drop_total": 0
@@ -110816,6 +111008,14 @@
 "danger": 0
 },
 "score_notes": "ARV $150,800 (county sales (high confidence); $149,306 by $/sqft (top quarter of 27 sales (neighborhood)); $152,252 by price/assessed (2 flip resales (neighborhood)); high confidence). Offer $154,800 (90% of $172,000 list); rehab $21,900 (Cosmetic, $25/sqft: county condition average; listing says \"new roof\"; listing says \"renovated\"; listed at 114% of the ARV) + $10,000 contingency; closing $2,500 + transfer tax $1,548 (buyer's half of 2.0%). At the offer: flip profit $-70,926 (flip score 0); BRRRR 60% LTV, 5yr interest-only, 3 pts @ 6.4%, $204/mo, $122,194 left (BRRRR score 0). MAO flip $61,523 / $47,660 / $33,797; MAO BRRRR $41,866 / $55,729 / $69,593. Points: BRRRR 0/45, flip 0/35, confidence 20/20. Rent used $1,520/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2025-10-06",
+"auction_outcome": "plaintiff",
+"auction_price": 83000.0,
+"auction_plaintiff": "Pennsylvania Housing Finance Agency",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-24-000499",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "4007 Greensprings Ave",
 "list_price": 172000,
 "price_drop_total": 0
@@ -113275,6 +113475,14 @@
 "danger": 0
 },
 "score_notes": "ARV $280,900 (county sales x 85% (low confidence); $245,023 by $/sqft (top quarter of 22 sales (neighborhood)); $415,900 by price/assessed (2 flip resales (neighborhood)); low confidence: the two methods differ by 52%). Offer $170,100 (90% of $189,000 list); rehab $68,400 (Medium, $45/sqft: county condition average) + $10,000 contingency; closing $2,500 + transfer tax $2,552 (buyer's half of 3.0%). At the offer: flip profit $-21,461 (flip score 0); BRRRR: no refi reaches $200/mo (best $-143/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $122,758 / $108,959 / $95,159; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 6/20. Rent used $2,028/mo: Rent Zestimate.",
+"auction_date": "2026-06-01",
+"auction_outcome": "plaintiff",
+"auction_price": 200039.0,
+"auction_plaintiff": "Village Capital & Investment LLC",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-25-000607",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "126 Crescent Garden Dr",
 "list_price": 189000,
 "price_drop_total": 0
@@ -113850,6 +114058,14 @@
 "danger": 0
 },
 "score_notes": "ARV $240,100 (county sales (high confidence); $224,079 by $/sqft (4 flip resales (neighborhood)); $256,189 by price/assessed (4 flip resales (neighborhood)); high confidence). Offer $179,900 (90% of $199,900 list); rehab $39,900 (Cosmetic, $25/sqft: county condition average; listing says \"move-in ready\"; listing says \"renovated\"; listed at 83% of the ARV; built 1930) + $10,000 contingency; closing $2,500 + transfer tax $1,799 (buyer's half of 2.0%). At the offer: flip profit $-37,154 (flip score 0); BRRRR: no refi reaches $200/mo (best $-66/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $117,835 / $103,972 / $90,109; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 20/20, flips work here +20 (3 similar flips nearby). Rent used $1,783/mo: Rent Zestimate.",
+"auction_date": "2025-05-05",
+"auction_outcome": "plaintiff",
+"auction_price": 107400.0,
+"auction_plaintiff": "Citizens Bank N.A.",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-24-000690",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "3512 Dauphin Ave",
 "list_price": 199900,
 "price_drop_total": 0
@@ -116549,6 +116765,14 @@
 "danger": 5
 },
 "score_notes": "ARV $256,400 (county sales x 85% (low confidence); $341,092 by $/sqft (top quarter of 129 sales (neighborhood)); $262,096 by price/assessed (top quarter of 139 sales (neighborhood)); low confidence: the two methods differ by 26%). Offer $175,500 (90% of $195,000 list); rehab $33,600 (Cosmetic, $25/sqft: county condition average; listing says \"renovated\") + $10,000 contingency; closing $2,500 + transfer tax $1,755 (buyer's half of 2.0%). At the offer: flip profit $-10,919 (flip score 0); BRRRR: no refi reaches $200/mo (best $113/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $137,682 / $123,819 / $109,956; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 6/20, flips work here +20 (2 similar flips nearby), danger +5: similar buys here often got flipped (9 of 68) (+5). Rent used $1,992/mo: Rent Zestimate.",
+"auction_date": "2025-10-06",
+"auction_outcome": "plaintiff",
+"auction_price": 75000.0,
+"auction_plaintiff": "Wilmington Savings Fund Society FSB",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-24-000655",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1001 Wible Run Rd",
 "list_price": 195000,
 "price_drop_total": 0
@@ -120808,6 +121032,14 @@
 "danger": 0
 },
 "score_notes": "ARV $208,700 (county sales (high confidence); $214,144 by $/sqft (4 flip resales (neighborhood)); $203,158 by price/assessed (4 flip resales (neighborhood)); high confidence). Offer $166,400 (90% of $184,900 list); rehab $21,600 (Cosmetic, $25/sqft: county condition average; listing says \"move-in ready\"; listing says \"new roof\"; listed at 89% of the ARV) + $10,000 contingency; closing $2,500 + transfer tax $2,080 (buyer's half of 2.5%). At the offer: flip profit $-31,459 (flip score 0); BRRRR: no refi reaches $200/mo (best $29/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $109,730 / $95,899 / $82,067; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 20/20, flips work here +20 (2 similar flips nearby), danger +0: building only 41% of the assessed value (-5); similar buys here often got flipped (4 of 49) (+5). Rent used $1,581/mo: Rent Zestimate.",
+"auction_date": "2026-03-02",
+"auction_outcome": "third_party",
+"auction_price": 77000.0,
+"auction_plaintiff": "Bethel Park School District",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-23-010812",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "5017 Sherwood Rd",
 "list_price": 184900,
 "price_drop_total": 0
@@ -127079,6 +127311,14 @@
 "danger": 0
 },
 "score_notes": "ARV $161,700 (county sales (high confidence); $169,624 by $/sqft (top quarter of 8 sales (neighborhood)); $153,817 by price/assessed (top quarter of 11 sales (neighborhood)); high confidence). Offer $162,000 (90% of $180,000 list); rehab $36,600 (Cosmetic, $25/sqft: county condition average; listing says \"new kitchen\"; listing says \"new roof\"; listing says \"renovated\"; listed at 111% of the ARV) + $10,000 contingency; closing $2,500 + transfer tax $1,620 (buyer's half of 2.0%). At the offer: flip profit $-84,782 (flip score 0); BRRRR: no refi reaches $200/mo (best $54/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $55,917 / $42,054 / $28,190; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 20/20. Rent used $1,300/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2025-07-07",
+"auction_outcome": "third_party",
+"auction_price": 44444.0,
+"auction_plaintiff": "U.S. Bank Trust National Association",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-24-000469",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "110 Miller Ave",
 "list_price": 180000,
 "price_drop_total": 0
@@ -140961,6 +141201,14 @@
 "danger": 0
 },
 "score_notes": "ARV $240,100 (county sales x 85% (low confidence); $282,479 by price/assessed (top quarter of 6 sales (neighborhood)); low confidence: only one method had comps). Offer $86,800 (90% of $96,500 list); rehab $68,400 (Medium, $45/sqft: county condition good; listed at 34% of the ARV) + $10,000 contingency; closing $2,500 + transfer tax $868 (buyer's half of 2.0%). At the offer: flip profit $32,800 (flip score 74); BRRRR: no refi reaches $200/mo (best $-221/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $89,388 / $75,525 / $61,662; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 26/35, confidence 6/20, 93+ days on market +3. Rent used $1,353/mo: Rent Zestimate.",
+"auction_date": "2025-06-02",
+"auction_outcome": "plaintiff",
+"auction_price": 100000.0,
+"auction_plaintiff": "Pennymac Loan Services LLC",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-22-000011",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "705 Clearview Dr",
 "list_price": 96500,
 "price_drop_total": 0
@@ -153158,6 +153406,14 @@
 "danger": -10
 },
 "score_notes": "ARV $148,600 (county sales x 85% (low confidence); $199,532 by $/sqft (top quarter of 10 sales (neighborhood)); $150,149 by price/assessed (top quarter of 10 sales (neighborhood)); low confidence: the two methods differ by 28%). Offer $36,000 (90% of $39,999 list); rehab $139,800 (Gut, $95/sqft: county condition fair; listing says \"as-is\"; listing says \"investor special\"; listed at 23% of the ARV; built 1903) + $13,980 contingency; closing $2,500 + transfer tax $360 (buyer's half of 2.0%). At the offer: flip profit $-75,676 (flip score 0); BRRRR 75% LTV, 30yr fixed, 0 pts @ 7.0%, $239/mo, $101,910 left (BRRRR score 0). MAO flip $-61,667 / $-75,530 / $-89,394; MAO BRRRR $-58,186 / $-44,323 / $-30,460. Points: BRRRR 0/45, flip 0/35, confidence 6/20, 123+ days on market +6, danger -10: price under 25% of the ARV (-10). Rent used $1,986/mo: Rent Zestimate.",
+"auction_date": "2025-09-02",
+"auction_outcome": "third_party",
+"auction_price": 13500.0,
+"auction_plaintiff": "Braddock Hills Borough",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-19-016823",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "975 Wilkins Ave",
 "list_price": 39999,
 "price_drop_total": 0
@@ -156316,6 +156572,14 @@
 "danger": -10
 },
 "score_notes": "ARV $84,200 (county sales x 85% (low confidence); $109,737 by $/sqft (top quarter of 14 sales (neighborhood)); $88,396 by price/assessed (top quarter of 16 sales (neighborhood)); low confidence: under $100k, where it tends to read high). Offer $18,000 (90% of $20,000 list); rehab $198,100 (Gut, $95/sqft: county condition fair; listed at 20% of the ARV; built 1930) + $19,810 contingency; closing $2,500 + transfer tax $450 (buyer's half of 5.0%). At the offer: flip profit $-183,224 (flip score 0); BRRRR 75% LTV, 30yr fixed, 0 pts @ 7.0%, $835/mo, $198,348 left (BRRRR score 0). MAO flip $-176,370 / $-190,044 / $-203,717; MAO BRRRR $-162,810 / $-149,136 / $-135,463. Points: BRRRR 0/45, flip 0/35, confidence 6/20, flips work here +20 (2 similar flips nearby), 123+ days on market +6, danger -10: price under 25% of the ARV (-10). Rent used $2,180/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2026-06-01",
+"auction_outcome": "plaintiff",
+"auction_price": 8104.17,
+"auction_plaintiff": "U.S. Bank Trust National Association",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "GD-20-011178",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "7350 Bennett St",
 "list_price": 20000,
 "price_drop_total": 0
@@ -160779,6 +161043,14 @@
 "danger": -35
 },
 "score_notes": "ARV $152,700 (county sales x 85% (low confidence); $133,728 by $/sqft (2 flip resales (neighborhood)); $225,749 by price/assessed (2 flip resales (neighborhood)); low confidence: the two methods differ by 51%). Offer $18,000 (90% of $20,000 list); rehab $109,800 (Gut, $95/sqft: county condition poor; listed at 11% of the ARV; built 1930) + $10,980 contingency; closing $2,500 + transfer tax $180 (buyer's half of 2.0%). At the offer: flip profit $-17,110 (flip score 0); BRRRR 65% LTV, 5yr interest-only, 4 pts @ 6.2%, $214/mo, $62,833 left (BRRRR score 16). MAO flip $-25,540 / $-39,403 / $-53,266; MAO BRRRR $-40,071 / $-26,208 / $-12,345. Points: BRRRR 7/45, flip 0/35, confidence 6/20, 123+ days on market +6, danger -35: county rates it poor (-15); price under 25% of the ARV (-10); similar buys here rarely got flipped (0 of 123) (-10). Rent used $1,408/mo: Rent Zestimate.",
+"auction_date": "2025-10-06",
+"auction_outcome": "third_party",
+"auction_price": 64122.65,
+"auction_plaintiff": "Wilkinsburg School District",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-25-004449",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1529 Marie St",
 "list_price": 20000,
 "price_drop_total": 0
@@ -179958,6 +180230,14 @@
 "danger": -5
 },
 "score_notes": "ARV $114,800 (county sales x 85% (low confidence); $221,231 by $/sqft (top quarter of 35 sales (neighborhood)); $48,792 by price/assessed (top quarter of 41 sales (neighborhood)); low confidence: the two methods differ by 128%). Offer $76,400 (90% of $84,900 list); rehab $84,000 (Medium, $45/sqft: county condition average; built 1925) + $10,000 contingency; closing $2,500 + transfer tax $1,910 (buyer's half of 5.0%). At the offer: flip profit $-86,711 (flip score 0); BRRRR 75% LTV, 30yr fixed, 0 pts @ 7.0%, $689/mo, $107,114 left (BRRRR score 0). MAO flip $-29,991 / $-43,665 / $-57,338; MAO BRRRR $-21,242 / $-7,569 / $6,105. Points: BRRRR 0/45, flip 0/35, confidence 6/20, 183+ days on market +12, danger -5: building only 13% of the assessed value (-5). Rent used $2,130/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2025-11-03",
+"auction_outcome": "plaintiff",
+"auction_price": 75000.0,
+"auction_plaintiff": "Community Loan Servicing LLC",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "GD-24-009801",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1210 Woodland Ave",
 "list_price": 84900,
 "price_drop_total": 0
@@ -182006,6 +182286,14 @@
 "danger": -10
 },
 "score_notes": "ARV $235,500 (county sales x 85% (low confidence); $322,572 by $/sqft (top quarter of 21 sales (neighborhood)); $231,678 by price/assessed (top quarter of 24 sales (neighborhood)); low confidence: the two methods differ by 33%). Offer $37,800 (90% of $42,000 list); rehab $153,300 (Gut, $95/sqft: county condition fair; listing says \"as-is\"; listed at 15% of the ARV; built 1920) + $15,330 contingency; closing $2,500 + transfer tax $378 (buyer's half of 2.0%). At the offer: flip profit $-15,344 (flip score 0); BRRRR: no refi reaches $200/mo (best $113/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $-4,107 / $-17,970 / $-31,834; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 6/20, 183+ days on market +12, danger -10: price under 25% of the ARV (-10). Rent used $1,915/mo: Rent Zestimate.",
+"auction_date": "2025-03-03",
+"auction_outcome": "third_party",
+"auction_price": 49651.67,
+"auction_plaintiff": "COUNTY OF ALLEGHENY",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-24-010986",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "2851 Mount Troy Rd",
 "list_price": 42000,
 "price_drop_total": 0
@@ -182489,6 +182777,14 @@
 "danger": -10
 },
 "score_notes": "ARV $392,300 (county sales (high confidence); $434,511 by $/sqft (top quarter of 5 sales (neighborhood)); $350,132 by price/assessed (top quarter of 5 sales (neighborhood)); high confidence). Offer $179,900 (90% of $199,900 list); rehab $147,900 (Heavy, $65/sqft: county condition average; listing says \"as-is\"; built 1900) + $14,790 contingency; closing $2,500 + transfer tax $4,498 (buyer's half of 5.0%). At the offer: flip profit $-24,302 (flip score 0); BRRRR: no refi reaches $200/mo (best $-387/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $130,399 / $116,726 / $103,052; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 15/20, 183+ days on market +12, danger -10: similar buys here rarely got flipped (0 of 43) (-10). Rent used $1,863/mo: Rent Zestimate.",
+"auction_date": "2025-09-02",
+"auction_outcome": "plaintiff",
+"auction_price": 700000.0,
+"auction_plaintiff": "Wilmington Savings Fund Society FSB",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "GD-24-011959",
+"auction_parcels": 2,
+"auction_count": 1,
 "address": "1818 Mary St",
 "list_price": 199900,
 "price_drop_total": 0
@@ -183056,6 +183352,14 @@
 "danger": -10
 },
 "score_notes": "ARV $140,200 (county sales x 85% (low confidence); $199,605 by $/sqft (16 flip resales (neighborhood)); $130,269 by price/assessed (16 flip resales (neighborhood)); low confidence: the two methods differ by 42%). Offer $17,900 (90% of $19,900 list); rehab $78,000 (Heavy, $65/sqft: county condition average; listed at 12% of the ARV; built 1929) + $10,000 contingency; closing $2,500 + transfer tax $268 (buyer's half of 3.0%). At the offer: flip profit $6,983 (flip score 14); BRRRR 70% LTV, 5yr interest-only, 5 pts @ 6.0%, $210/mo, $29,508 left (BRRRR score 61). MAO flip $-3,275 / $-17,075 / $-30,874; MAO BRRRR $-9,247 / $4,553 / $18,352. Points: BRRRR 27/45, flip 5/35, confidence 6/20, flips work here +20 (17 similar flips nearby), 183+ days on market +12, danger -10: price under 25% of the ARV (-10). Rent used $1,504/mo: Rent Zestimate.",
+"auction_date": "2025-04-07",
+"auction_outcome": "third_party",
+"auction_price": 8000.0,
+"auction_plaintiff": "Penn Hills Municipality",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-22-001355",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "9431 Glendale Rd",
 "list_price": 19900,
 "price_drop_total": 0
@@ -183250,6 +183554,14 @@
 "danger": -20
 },
 "score_notes": "ARV $208,700 (county sales (high confidence); $223,087 by $/sqft (2 flip resales (neighborhood)); $194,392 by price/assessed (2 flip resales (neighborhood)); high confidence). Offer $18,000 (90% of $20,000 list); rehab $94,400 (Heavy, $65/sqft: county condition average; listed at 10% of the ARV) + $10,000 contingency; closing $2,500 + transfer tax $180 (buyer's half of 2.0%). At the offer: flip profit $50,902 (flip score 100); BRRRR 60% LTV, 5yr interest-only, 4 pts @ 6.2%, $203/mo, $21,073 left (BRRRR score 72). MAO flip $37,318 / $23,455 / $9,591; MAO BRRRR $-1,476 / $12,387 / $26,250. Points: BRRRR 32/45, flip 35/35, confidence 20/20, flips work here +20 (2 similar flips nearby), 183+ days on market +12, danger -20: price under 25% of the ARV (-10); similar buys here rarely got flipped (0 of 123) (-10). Rent used $1,836/mo: Rent Zestimate.",
+"auction_date": "2025-04-07",
+"auction_outcome": "third_party",
+"auction_price": 122338.03,
+"auction_plaintiff": "Wilkinsburg Borough",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-24-012267",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "2040 Laketon Rd",
 "list_price": 20000,
 "price_drop_total": 0
@@ -183953,6 +184265,14 @@
 "danger": 0
 },
 "score_notes": "ARV $262,600 (county sales x 85% (low confidence); $260,538 by $/sqft (top quarter of 22 sales (neighborhood)); $357,460 by price/assessed (top quarter of 23 sales (neighborhood)); low confidence: the two methods differ by 31%). Offer $175,500 (90% of $195,000 list); rehab $40,800 (Cosmetic, $25/sqft: county condition average; listing says \"move-in ready\"; listing says \"new kitchen\"; listing says \"renovated\") + $10,000 contingency; closing $2,500 + transfer tax $2,632 (buyer's half of 3.0%). At the offer: flip profit $-13,992 (flip score 0); BRRRR: no refi reaches $200/mo (best $-112/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $135,029 / $121,229 / $107,430; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 6/20, 183+ days on market +12. Rent used $2,036/mo: Rent Zestimate.",
+"auction_date": "2025-12-01",
+"auction_outcome": "third_party",
+"auction_price": 145000.0,
+"auction_plaintiff": "Navy Federal Credit Union",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-25-000282",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "347 Lime Oak Dr",
 "list_price": 195000,
 "price_drop_total": 0
@@ -185798,6 +186118,14 @@
 "danger": -10
 },
 "score_notes": "ARV $157,600 (county sales x 85% (low confidence); $232,703 by $/sqft (top quarter of 28 sales (neighborhood)); $138,076 by price/assessed (top quarter of 29 sales (neighborhood)); low confidence: the two methods differ by 51%). Offer $157,500 (90% of $175,000 list); rehab $29,100 (Cosmetic, $25/sqft: county condition fair; listing says \"move-in ready\"; listed at 94% of the ARV; built 1920) + $10,000 contingency; closing $2,500 + transfer tax $1,575 (buyer's half of 2.0%). At the offer: flip profit $-75,503 (flip score 0); BRRRR: no refi reaches $200/mo (best $158/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $59,993 / $46,129 / $32,266; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 6/20, 183+ days on market +12, danger -10: similar buys here rarely got flipped (0 of 32) (-10). Rent used $1,370/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2025-04-07",
+"auction_outcome": "plaintiff",
+"auction_price": 117846.02,
+"auction_plaintiff": "ServBank SB",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-24-000904",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1014 McLaughlin Run Rd",
 "list_price": 175000,
 "price_drop_total": 0
@@ -189593,6 +189921,14 @@
 "danger": -10
 },
 "score_notes": "ARV $108,600 (county sales x 85% (low confidence); $159,161 by $/sqft (top quarter of 10 sales (neighborhood)); $96,392 by price/assessed (top quarter of 12 sales (neighborhood)); low confidence: the two methods differ by 49%). Offer $13,500 (90% of $15,000 list); rehab $120,600 (Gut, $95/sqft: county condition fair; listed at 12% of the ARV; built 1931) + $12,060 contingency; closing $2,500 + transfer tax $135 (buyer's half of 2.0%). At the offer: flip profit $-64,675 (flip score 0); BRRRR 75% LTV, 5yr interest-only, 0 pts @ 7.0%, $200/mo, $84,008 left (BRRRR score 0). MAO flip $-74,000 / $-87,863 / $-101,726; MAO BRRRR $-64,142 / $-50,279 / $-36,415. Points: BRRRR 0/45, flip 0/35, confidence 6/20, 183+ days on market +12, danger -10: price under 25% of the ARV (-10). Rent used $1,421/mo: Rent Zestimate.",
+"auction_date": "2025-03-03",
+"auction_outcome": "third_party",
+"auction_price": 21193.51,
+"auction_plaintiff": "COUNTY OF ALLEGHENY",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-24-010985",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1150 Morrelle Ave",
 "list_price": 15000,
 "price_drop_total": 0
@@ -196105,6 +196441,14 @@
 "danger": 0
 },
 "score_notes": "ARV $239,600 (county sales (high confidence); $243,434 by $/sqft (10 flip resales (neighborhood)); $235,819 by price/assessed (11 flip resales (neighborhood)); high confidence). Offer $112,400 (90% of $124,900 list); rehab $33,200 (Cosmetic, $25/sqft: county condition average; listing says \"renovated\") + $10,000 contingency; closing $2,500 + transfer tax $1,686 (buyer's half of 3.0%). At the offer: flip profit $42,105 (flip score 86); BRRRR: no refi reaches $200/mo (best $-92/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $123,536 / $109,737 / $95,937; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 30/35, confidence 20/20, flips work here +20 (14 similar flips nearby), 93+ days on market +3. Rent used $1,594/mo: Rent Zestimate.",
+"auction_date": "2026-05-04",
+"auction_outcome": "third_party",
+"auction_price": 86000.0,
+"auction_plaintiff": "County of Allegheny",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-24-009729",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "117 Colonial Village Dr",
 "list_price": 124900,
 "price_drop_total": 0
@@ -198842,6 +199186,14 @@
 "danger": 0
 },
 "score_notes": "ARV $283,100 (county sales (high confidence); $265,690 by $/sqft (2 flip resales (neighborhood)); $300,496 by price/assessed (2 flip resales (neighborhood)); high confidence). Offer $171,000 (90% of $190,000 list); rehab $27,700 (Cosmetic, $25/sqft: county condition average; listing says \"move-in ready\"; listing says \"renovated\"; built 1875) + $10,000 contingency; closing $2,500 + transfer tax $2,138 (buyer's half of 2.5%). At the offer: flip profit $23,924 (flip score 58); BRRRR: no refi reaches $200/mo (best $-383/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $165,398 / $151,567 / $137,735; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 20/35, confidence 20/20, flips work here +20 (2 similar flips nearby), 93+ days on market +3. Rent used $1,480/mo: HUD Small Area FMR (no Zillow rent).",
+"auction_date": "2026-04-06",
+"auction_outcome": "plaintiff",
+"auction_price": 130000.0,
+"auction_plaintiff": "Pennsylvania Housing Finance Agency",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-25-000947",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "3331 Reiland St",
 "list_price": 190000,
 "price_drop_total": 0
@@ -201642,6 +201994,14 @@
 "danger": 0
 },
 "score_notes": "ARV $143,300 (county sales (high confidence); $142,613 by $/sqft (top quarter of 7 sales (neighborhood)); $144,083 by price/assessed (top quarter of 10 sales (neighborhood)); high confidence). Offer $89,900 (90% of $99,900 list); rehab $34,400 (Medium, $45/sqft: county condition average) + $10,000 contingency; closing $2,500 + transfer tax $899 (buyer's half of 2.0%). At the offer: flip profit $-20,954 (flip score 0); BRRRR: no refi reaches $200/mo (best $1/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $42,808 / $28,945 / $15,081; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 20/20, 123+ days on market +6. Rent used $1,323/mo: Rent Zestimate.",
+"auction_date": "2026-04-06",
+"auction_outcome": "third_party",
+"auction_price": 73000.0,
+"auction_plaintiff": "Citizens Bank N.A.",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-25-000689",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "321 Lawnwood Ave",
 "list_price": 99900,
 "price_drop_total": 0
@@ -203121,6 +203481,14 @@
 "danger": -20
 },
 "score_notes": "ARV $185,100 (county sales x 85% (low confidence); $163,920 by $/sqft (2 flip resales (neighborhood)); $271,716 by price/assessed (2 flip resales (neighborhood)); low confidence: the two methods differ by 49%). Offer $18,000 (90% of $20,000 list); rehab $134,600 (Gut, $95/sqft: county condition fair; listed at 9% of the ARV; built 1920) + $13,460 contingency; closing $2,500 + transfer tax $180 (buyer's half of 2.0%). At the offer: flip profit $-17,214 (flip score 0); BRRRR 60% LTV, 5yr interest-only, 3 pts @ 6.4%, $206/mo, $80,008 left (BRRRR score 0). MAO flip $-25,636 / $-39,499 / $-53,362; MAO BRRRR $-55,944 / $-42,081 / $-28,218. Points: BRRRR 0/45, flip 0/35, confidence 6/20, 183+ days on market +12, danger -20: price under 25% of the ARV (-10); similar buys here rarely got flipped (0 of 123) (-10). Rent used $1,543/mo: Rent Zestimate.",
+"auction_date": "2025-06-02",
+"auction_outcome": "third_party",
+"auction_price": 54242.14,
+"auction_plaintiff": "Wilkinsburg Borough",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-24-014826",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1842 Montier St",
 "list_price": 20000,
 "price_drop_total": 0
@@ -204035,6 +204403,14 @@
 "danger": -45
 },
 "score_notes": "ARV $165,800 (county sales (high confidence); $170,283 by $/sqft (2 flip resales (neighborhood)); $161,395 by price/assessed (2 flip resales (neighborhood)); high confidence). Offer $18,000 (90% of $20,000 list); rehab $139,800 (Gut, $95/sqft: county condition unsound; listed at 12% of the ARV; built 1930) + $13,980 contingency; closing $2,500 + transfer tax $180 (buyer's half of 2.0%). At the offer: flip profit $-40,720 (flip score 0); BRRRR 75% LTV, 5yr interest-only, 5 pts @ 6.0%, $212/mo, $76,138 left (BRRRR score 0). MAO flip $-47,360 / $-61,224 / $-75,087; MAO BRRRR $-52,368 / $-38,505 / $-24,641. Points: BRRRR 0/45, flip 0/35, confidence 20/20, 183+ days on market +12, danger -45: county rates it unsound (-25); price under 25% of the ARV (-10); similar buys here rarely got flipped (0 of 123) (-10). Rent used $1,530/mo: Rent Zestimate.",
+"auction_date": "2025-07-07",
+"auction_outcome": "third_party",
+"auction_price": 54418.11,
+"auction_plaintiff": "Wilkinsburg School District",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-24-014782",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1615 Montier St",
 "list_price": 20000,
 "price_drop_total": 0
@@ -204255,6 +204631,14 @@
 "danger": -20
 },
 "score_notes": "ARV $140,700 (county sales (high confidence); $147,522 by $/sqft (top quarter of 13 sales (neighborhood)); $133,782 by price/assessed (2 flip resales (neighborhood)); high confidence). Offer $18,000 (90% of $20,000 list); rehab $146,100 (Gut, $95/sqft: county condition fair; listed at 14% of the ARV; built 1925) + $14,610 contingency; closing $2,500 + transfer tax $180 (buyer's half of 2.0%). At the offer: flip profit $-70,744 (flip score 0); BRRRR 75% LTV, 5yr interest-only, 0 pts @ 7.0%, $222/mo, $95,615 left (BRRRR score 0). MAO flip $-75,109 / $-88,972 / $-102,835; MAO BRRRR $-70,369 / $-56,505 / $-42,642. Points: BRRRR 0/45, flip 0/35, confidence 20/20, 183+ days on market +12, danger -20: price under 25% of the ARV (-10); similar buys here rarely got flipped (0 of 123) (-10). Rent used $1,700/mo: Rent Zestimate.",
+"auction_date": "2025-04-07",
+"auction_outcome": "third_party",
+"auction_price": 122601.71,
+"auction_plaintiff": "Wilkinsburg Borough School District",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-24-012261",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1934 Laketon Rd",
 "list_price": 20000,
 "price_drop_total": 0
@@ -204778,6 +205162,14 @@
 "needs_arv": true,
 "property_tax": 1884,
 "property_tax_note": "Wilkinsburg Borough, 49.33 mills (2026) on $38,200 assessed",
+"auction_date": "2025-06-02",
+"auction_outcome": "third_party",
+"auction_price": 31343.47,
+"auction_plaintiff": "Wilkinsburg Borough",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-24-014974",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1940 Laketon Rd",
 "list_price": 25700,
 "price_drop_total": 0
@@ -204977,6 +205369,14 @@
 "danger": -20
 },
 "score_notes": "ARV $115,000 (county sales x 85% (low confidence); $162,860 by $/sqft (2 flip resales (neighborhood)); $107,716 by price/assessed (2 flip resales (neighborhood)); low confidence: the two methods differ by 41%). Offer $18,000 (90% of $20,000 list); rehab $68,900 (Heavy, $65/sqft: county condition fair; listed at 15% of the ARV) + $10,000 contingency; closing $2,500 + transfer tax $180 (buyer's half of 2.0%). At the offer: flip profit $-5,888 (flip score 0); BRRRR: no refi reaches $200/mo (best $173/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $-15,168 / $-29,031 / $-42,895; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 6/20, flips work here +20 (3 similar flips nearby), 183+ days on market +12, danger -20: price under 25% of the ARV (-10); similar buys here rarely got flipped (0 of 123) (-10). Rent used $1,172/mo: Rent Zestimate.",
+"auction_date": "2025-04-07",
+"auction_outcome": "third_party",
+"auction_price": 68954.62,
+"auction_plaintiff": "Wilkinsburg Borough",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-24-012275",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "1918 Laketon Rd",
 "list_price": 20000,
 "price_drop_total": 0
@@ -207323,6 +207723,14 @@
 "danger": 0
 },
 "score_notes": "ARV $154,100 (county sales x 85% (low confidence); $154,923 by $/sqft (top quarter of 8 sales (neighborhood)); $207,759 by price/assessed (top quarter of 8 sales (neighborhood)); low confidence: the two methods differ by 29%). Offer $53,900 (90% of $59,900 list); rehab $158,500 (Gut, $95/sqft: county condition average; listing says \"investor special\"; listed at 33% of the ARV; built 1910) + $15,850 contingency; closing $2,500 + transfer tax $539 (buyer's half of 2.0%). At the offer: flip profit $-112,160 (flip score 0); BRRRR 70% LTV, 5yr interest-only, 4 pts @ 6.2%, $205/mo, $151,131 left (BRRRR score 0). MAO flip $-77,486 / $-91,349 / $-105,213; MAO BRRRR $-85,777 / $-71,914 / $-58,051. Points: BRRRR 0/45, flip 0/35, confidence 6/20, 183+ days on market +12. Rent used $1,547/mo: Rent Zestimate.",
+"auction_date": "2025-04-07",
+"auction_outcome": "third_party",
+"auction_price": 18000.0,
+"auction_plaintiff": "COUNTY OF ALLEGHENY",
+"auction_category": "Tax lien (Sci Fa sur tax lien)",
+"auction_case": "GD-15-010412",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "522 3rd Ave",
 "list_price": 59900,
 "price_drop_total": 0
@@ -215082,6 +215490,14 @@
 "danger": -15
 },
 "score_notes": "ARV $266,600 (county sales x 85% (low confidence); $188,537 by $/sqft (top quarter of 47 sales (municipality)); $438,642 by price/assessed (top quarter of 58 sales (municipality)); low confidence: the two methods differ by 80%). Offer $101,200 (90% of $112,400 list); rehab $90,200 (Heavy, $65/sqft: county condition average; listed at 36% of the ARV; built 1900) + $10,000 contingency; closing $2,500 + transfer tax $2,530 (buyer's half of 5.0%). At the offer: flip profit $16,008 (flip score 38); BRRRR: no refi reaches $200/mo (best $-181/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $88,445 / $74,771 / $61,098; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 13/35, confidence 6/20, 183+ days on market +12, danger -15: building only 50% of the assessed value (-5); similar buys here rarely got flipped (1 of 89) (-10). Rent used $1,550/mo: Zillow nearby rentals (no Rent Zestimate).",
+"auction_date": "2026-04-06",
+"auction_outcome": "plaintiff",
+"auction_price": 102200.0,
+"auction_plaintiff": "Citizens Bank N.A.",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-25-000218",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "912 Arlington Ave",
 "list_price": 112400,
 "price_drop_total": 0
@@ -222443,6 +222859,14 @@
 "danger": -10
 },
 "score_notes": "ARV $223,700 (county sales (high confidence); $201,201 by $/sqft (top quarter of 10 sales (neighborhood)); $246,181 by price/assessed (top quarter of 13 sales (neighborhood)); high confidence). Offer $109,100 (90% of $121,200 list); rehab $58,300 (Medium, $45/sqft: county condition average) + $10,000 contingency; closing $2,500 + transfer tax $2,728 (buyer's half of 5.0%). At the offer: flip profit $3,183 (flip score 6); BRRRR: no refi reaches $200/mo (best $23/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $84,655 / $70,981 / $57,307; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 2/35, confidence 20/20, flips work here +20 (2 similar flips nearby), 93+ days on market +3, danger -10: similar buys here rarely got flipped (1 of 89) (-10). Rent used $1,500/mo: Zillow nearby rentals (no Rent Zestimate).",
+"auction_date": "2026-08-03",
+"auction_outcome": "plaintiff",
+"auction_price": 110250.0,
+"auction_plaintiff": "Citizens Bank N.A.",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "GD-25-007116",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "422 Conniston Ave",
 "list_price": 121200,
 "price_drop_total": 0
@@ -226584,6 +227008,14 @@
 "danger": 0
 },
 "score_notes": "ARV $259,700 (county sales (high confidence); $243,513 by $/sqft (2 flip resales (municipality)); $275,923 by price/assessed (2 flip resales (municipality)); high confidence). Offer $179,900 (90% of $199,900 list); rehab $25,400 (Cosmetic, $25/sqft: county condition average; listed at 77% of the ARV) + $10,000 contingency; closing $2,500 + transfer tax $1,799 (buyer's half of 2.0%). At the offer: flip profit $-3,854 (flip score 0); BRRRR: no refi reaches $200/mo (best $-309/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $148,612 / $134,749 / $120,885; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 20/20. Rent used $1,522/mo: Rent Zestimate.",
+"auction_date": "2026-06-01",
+"auction_outcome": "third_party",
+"auction_price": 101000.0,
+"auction_plaintiff": "Pennsylvania Housing Finance Agency",
+"auction_category": "Mortgage foreclosure",
+"auction_case": "MG-25-000992",
+"auction_parcels": 1,
+"auction_count": 1,
 "address": "104 Hibiscus Dr",
 "list_price": 199900,
 "price_drop_total": 0
