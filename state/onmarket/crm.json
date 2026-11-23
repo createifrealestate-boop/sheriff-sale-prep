@@ -1,12 +1,12 @@
 {
 "run": {
-"updated_at": "2026-11-23T11:50:00+00:00",
+"updated_at": "2026-11-23T11:59:53+00:00",
 "last_sweep": "2026-11-20",
 "county_data": "2026-11-20",
 "active": 1436,
 "gone": 0,
 "scored": 1216,
-"new_today": 8
+"new_today": 0
 },
 "listings": [
 {
@@ -228354,10 +228354,11 @@
 "last_sale_price": 1.0,
 "homestead": false,
 "sqft_used": 2872,
+"rent_comp": 3900,
 "hud_rent": 3093,
 "hud_rent_note": "HUD FY2027 Small Area FMR, ZIP 15203, 5BR $3,093. Gross rent (incl. utilities); the Section 8 payment standard is 90-110% of it.",
-"rent_source": "HUD Small Area FMR (no Zillow rent)",
-"rent_est": 3093,
+"rent_source": "Zillow nearby rentals (no Rent Zestimate)",
+"rent_est": 3900,
 "county_arv": 523900.0,
 "county_arv_conf": "low",
 "county_arv_comps": 9,
@@ -228459,10 +228460,15 @@
 "mao_flip_60k": 74680,
 "property_tax": 5917,
 "property_tax_note": "City of Pittsburgh, 26.56 mills (2026) on $222,800 assessed",
+"brrrr_cash_left": 103478,
 "brrrr_score": 0,
-"refi_ok": false,
-"refi_cash_flow": 116,
-"refi_terms": "no refi reaches $200/mo (best $116/mo at 60% 5yr interest-only)",
+"refi_terms": "75% LTV, 5yr interest-only, 3 pts @ 6.4%",
+"refi_cash_flow": 211,
+"refi_dscr": 1.55,
+"refi_ok": true,
+"mao_brrrr_0k": 49672,
+"mao_brrrr_15k": 63346,
+"mao_brrrr_30k": 77020,
 "offer_price": 144000.0,
 "priority_score": 0,
 "dom_bonus": 0,
@@ -228475,7 +228481,7 @@
 "days_on_market": 0,
 "danger": -10
 },
-"score_notes": "ARV $445,300 (county sales x 85% (low confidence); $652,281 by $/sqft (top quarter of 5 sales (neighborhood)); $395,420 by price/assessed (top quarter of 9 sales (neighborhood)); low confidence: the two methods differ by 49%). Offer $144,000 (90% of $160,000 list); rehab $214,700 (Heavy, $65/sqft: county condition average; listed at 31% of the ARV; built 1890) + $21,470 contingency; closing $2,500 + transfer tax $3,600 (buyer's half of 5.0%). At the offer: flip profit $-16,044 (flip score 0); BRRRR: no refi reaches $200/mo (best $116/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $102,027 / $88,354 / $74,680; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 6/20, danger -10: similar buys here rarely got flipped (1 of 77) (-10). Rent used $3,093/mo: HUD Small Area FMR (no Zillow rent).",
+"score_notes": "ARV $445,300 (county sales x 85% (low confidence); $652,281 by $/sqft (top quarter of 5 sales (neighborhood)); $395,420 by price/assessed (top quarter of 9 sales (neighborhood)); low confidence: the two methods differ by 49%). Offer $144,000 (90% of $160,000 list); rehab $214,700 (Heavy, $65/sqft: county condition average; listed at 31% of the ARV; built 1890) + $21,470 contingency; closing $2,500 + transfer tax $3,600 (buyer's half of 5.0%). At the offer: flip profit $-16,044 (flip score 0); BRRRR 75% LTV, 5yr interest-only, 3 pts @ 6.4%, $211/mo, $103,478 left (BRRRR score 0). MAO flip $102,027 / $88,354 / $74,680; MAO BRRRR $49,672 / $63,346 / $77,020. Points: BRRRR 0/45, flip 0/35, confidence 6/20, danger -10: similar buys here rarely got flipped (1 of 77) (-10). Rent used $3,900/mo: Zillow nearby rentals (no Rent Zestimate).",
 "address": "2209 Sarah St",
 "list_price": 160000,
 "price_drop_total": 0
