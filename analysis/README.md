@@ -4,7 +4,9 @@ Batches 1–2: the twelve sales December 1, 2025 – November 2, 2026 (results P
 https://sheriffalleghenycounty.com/sheriff-sale-results/). Write-up: the Claude Doc
 "Allegheny County Sheriff Sale Results Analysis".
 
-- `results/*.json` — each results PDF parsed with `scripts/parse_listing.py` (+ `.meta.json`).
+- `results/*.json` — each results PDF parsed with `scripts/parse_listing.py` (+ `.meta.json`). Also read by
+  `scripts/auction.py` (every file, no cutoff) to show each On-Market listing's Sheriff sale history in the CRM, so add
+  each new month's results here.
 - `zillow_hist.json` — Zestimates looked up Nov 10, 2026 for every residential property that went
   to auction (key = `address|zip`, same as `state/zillow_cache.json`; extra fields `subject_anchored`
   etc. say whether Zillow values the home off its own recent sale/listing).

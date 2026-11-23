@@ -21,6 +21,7 @@ from deal import underwrite, property_tax, market_costs, M as DM  # noqa: E402
 from county import County  # noqa: E402
 from risk import danger  # noqa: E402
 from rehab_level import level as rehab_level  # noqa: E402
+import auction  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 ST = ROOT / "state" / "onmarket"
@@ -230,6 +231,7 @@ def main():
     before = {z: r.get("priority_score") for z, r in L.items()}
     rents, events = apply_raw(L, meta)
     C = County()
+    AH = auction.load()  # Sheriff sale history by parcel (every results file in analysis/results)
     json.dump(dict(sorted(C.area.items())), open(ROOT / "state" / "area_flip_rates.json", "w"), indent=0)
     for z, r in list(L.items()):
         if r.get("status") == "gone" and r.get("gone_date") and (TODAY - dt.date.fromisoformat(r["gone_date"])).days > CFG["gone"]["keep_days"]:
@@ -243,6 +245,7 @@ def main():
                                              "listing_words")]:
             r.pop(k)
         r.update(score_listing(r, C, rents))
+        r.update(auction.annotate(r, AH))
         r["dom"] = dom_today(r)
     meta.update({"updated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "county_data": C.built})
     json.dump(state, open(ST / "listings.json", "w"), indent=0, default=str)
