@@ -1,1 +1,42 @@
-[]
+[
+{
+"zpid": "11428226",
+"query": "1308 Fidelity Dr, Pittsburgh, PA 15236",
+"flip_profit": 65374
+},
+{
+"zpid": "11492245",
+"query": "12112 Harvard Dr, Pittsburgh, PA 15235",
+"flip_profit": -21584
+},
+{
+"zpid": "11503521",
+"query": "2602 Liberty Way, McKeesport, PA 15133",
+"flip_profit": -29882
+},
+{
+"zpid": "11439974",
+"query": "237 Traymore Ave, Pittsburgh, PA 15216",
+"flip_profit": -30247
+},
+{
+"zpid": "11382553",
+"query": "1219 Circle Dr, Pittsburgh, PA 15221",
+"flip_profit": -33392
+},
+{
+"zpid": "11465316",
+"query": "1028 Upston St, McKeesport, PA 15133",
+"flip_profit": -35642
+},
+{
+"zpid": "11533376",
+"query": "765 Jefferson Rd, Pittsburgh, PA 15235",
+"flip_profit": -35772
+},
+{
+"zpid": "11347561",
+"query": "177 Frank St, Homestead, PA 15120",
+"flip_profit": -37622
+}
+]
