@@ -2427,5 +2427,53 @@
 "comp_rent": 3900,
 "date": "2026-11-23",
 "note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11428226": {
+"rent": 1022,
+"comp_rent": null,
+"date": "2026-11-24",
+"note": null
+},
+"11492245": {
+"rent": null,
+"comp_rent": 1550,
+"date": "2026-11-24",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11503521": {
+"rent": 1256,
+"comp_rent": null,
+"date": "2026-11-24",
+"note": null
+},
+"11439974": {
+"rent": null,
+"comp_rent": 1600,
+"date": "2026-11-24",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11382553": {
+"rent": 1643,
+"comp_rent": null,
+"date": "2026-11-24",
+"note": null
+},
+"11465316": {
+"rent": 1420,
+"comp_rent": null,
+"date": "2026-11-24",
+"note": null
+},
+"11533376": {
+"rent": null,
+"comp_rent": 1600,
+"date": "2026-11-24",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11347561": {
+"rent": 1152,
+"comp_rent": null,
+"date": "2026-11-24",
+"note": null
 }
 }
