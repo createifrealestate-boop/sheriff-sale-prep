@@ -1,0 +1,58 @@
+{
+"kind": "daily",
+"taken_at": "2026-11-24T11:58:39+00:00",
+"since": "2026-11-24T11:58:30Z",
+"complete": false,
+"searches": [],
+"listings": [],
+"rents": {
+"1308 Fidelity Dr, Pittsburgh, PA 15236": {
+"rent": 1022,
+"comp_rent": null,
+"date": "2026-11-24",
+"note": null
+},
+"12112 Harvard Dr, Pittsburgh, PA 15235": {
+"rent": null,
+"comp_rent": 1550,
+"date": "2026-11-24",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"2602 Liberty Way, McKeesport, PA 15133": {
+"rent": 1256,
+"comp_rent": null,
+"date": "2026-11-24",
+"note": null
+},
+"237 Traymore Ave, Pittsburgh, PA 15216": {
+"rent": null,
+"comp_rent": 1600,
+"date": "2026-11-24",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"1219 Circle Dr, Pittsburgh, PA 15221": {
+"rent": 1643,
+"comp_rent": null,
+"date": "2026-11-24",
+"note": null
+},
+"1028 Upston St, McKeesport, PA 15133": {
+"rent": 1420,
+"comp_rent": null,
+"date": "2026-11-24",
+"note": null
+},
+"765 Jefferson Rd, Pittsburgh, PA 15235": {
+"rent": null,
+"comp_rent": 1600,
+"date": "2026-11-24",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"177 Frank St, Homestead, PA 15120": {
+"rent": 1152,
+"comp_rent": null,
+"date": "2026-11-24",
+"note": null
+}
+}
+}
