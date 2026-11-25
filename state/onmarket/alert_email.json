@@ -1,8 +1,8 @@
 {
- "subject": "On-market: 1 listing worth a look (Nov 24)",
- "html": "<div style=\"font-family:Arial,sans-serif;font-size:14px\"><h2>On-market: 1 listing worth a look</h2><p>Scored at 90% of list with the county ARV. Open the CRM's On-Market page for the numbers.</p><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" style=\"border-collapse:collapse;font-size:13px\"><tr style=\"background:#1F3A5F;color:#fff\"><th>Why</th><th>Priority</th><th>Listing</th><th>List</th><th>Size</th><th>ARV</th><th>Flip profit</th><th>BRRRR left</th><th>Flips work</th><th>Days on market</th></tr><tr><td>New</td><td><b>45</b></td><td><a href=\"https://www.zillow.com/homedetails/1308-Fidelity-Dr-Pittsburgh-PA-15236/11428226_zpid\">1308 Fidelity Dr, Pittsburgh</a></td><td>$50,000</td><td>2 bd / ? sqft</td><td>$253,400</td><td>$65,374</td><td></td><td></td><td>0</td></tr></table><p><a href=\"https://create-if-crm.base44.app/on-market\">Open the On-Market page</a></p></div>",
- "text": "1 on-market listings reached the alert threshold. See the CRM On-Market page.",
+ "subject": "On-market: 2 listings worth a look (Nov 25)",
+ "html": "<div style=\"font-family:Arial,sans-serif;font-size:14px\"><h2>On-market: 2 listings worth a look</h2><p>Scored at 90% of list with the county ARV. Open the CRM's On-Market page for the numbers.</p><table border=\"1\" cellpadding=\"4\" cellspacing=\"0\" style=\"border-collapse:collapse;font-size:13px\"><tr style=\"background:#1F3A5F;color:#fff\"><th>Why</th><th>Priority</th><th>Listing</th><th>List</th><th>Size</th><th>ARV</th><th>Flip profit</th><th>BRRRR left</th><th>Flips work</th><th>Days on market</th></tr><tr><td>New</td><td><b>70</b></td><td><a href=\"https://www.zillow.com/homedetails/927-Baldwin-St-Pittsburgh-PA-15234/11395611_zpid\">927 Baldwin St, Pittsburgh</a></td><td>$124,900</td><td>3 bd / 1244 sqft</td><td>$224,400</td><td>$31,255</td><td></td><td>Yes</td><td>0</td></tr><tr><td>New</td><td><b>50</b></td><td><a href=\"https://www.zillow.com/homedetails/2143-Garrick-Dr-Pittsburgh-PA-15235/11454732_zpid\">2143 Garrick Dr, Pittsburgh</a></td><td>$195,000</td><td>4 bd / 2328 sqft</td><td>$392,500</td><td>$85,003</td><td></td><td></td><td>0</td></tr></table><p><a href=\"https://create-if-crm.base44.app/on-market\">Open the On-Market page</a></p></div>",
+ "text": "2 on-market listings reached the alert threshold. See the CRM On-Market page.",
  "attach": false,
  "to": "createifrealestate@gmail.com",
- "made_at": "2026-11-24T11:49:47+00:00"
+ "made_at": "2026-11-25T11:49:30+00:00"
 }
