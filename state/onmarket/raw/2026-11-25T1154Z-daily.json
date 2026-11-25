@@ -1,0 +1,52 @@
+{
+"kind": "daily",
+"taken_at": "2026-11-25T11:54:35+00:00",
+"since": "2026-11-25T11:54:27Z",
+"complete": false,
+"searches": [],
+"listings": [],
+"rents": {
+"2143 Garrick Dr, Pittsburgh, PA 15235": {
+"rent": 2221,
+"comp_rent": null,
+"date": "2026-11-25",
+"note": null
+},
+"927 Baldwin St, Pittsburgh, PA 15234": {
+"rent": 1741,
+"comp_rent": null,
+"date": "2026-11-25",
+"note": null
+},
+"710 Limestone Dr, Allison Park, PA 15101": {
+"rent": null,
+"comp_rent": 2300,
+"date": "2026-11-25",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"162 S North St, Springdale, PA 15144": {
+"rent": 1714,
+"comp_rent": null,
+"date": "2026-11-25",
+"note": null
+},
+"3238 Willett Rd, Pittsburgh, PA 15227": {
+"rent": 1615,
+"comp_rent": null,
+"date": "2026-11-25",
+"note": null
+},
+"361 Olancha Ave, Pittsburgh, PA 15227": {
+"rent": 1480,
+"comp_rent": null,
+"date": "2026-11-25",
+"note": null
+},
+"402 Rothey Dr, Elizabeth, PA 15037": {
+"rent": 1377,
+"comp_rent": null,
+"date": "2026-11-25",
+"note": null
+}
+}
+}
