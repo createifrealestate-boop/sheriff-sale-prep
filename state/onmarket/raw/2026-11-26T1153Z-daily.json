@@ -1,0 +1,16 @@
+{
+"kind": "daily",
+"taken_at": "2026-11-26T11:53:58+00:00",
+"since": "2026-11-26T11:53:52Z",
+"complete": false,
+"searches": [],
+"listings": [],
+"rents": {
+"2742 Louisiana Ave, Pittsburgh, PA 15216": {
+"rent": 1748,
+"comp_rent": null,
+"date": "2026-11-26",
+"note": null
+}
+}
+}
