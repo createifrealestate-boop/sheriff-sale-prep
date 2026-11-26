@@ -140,6 +140,13 @@
 "complete": false,
 "listings": 116,
 "rents": 0
+},
+{
+"file": "2026-11-26T1153Z-daily.json",
+"kind": "daily",
+"complete": false,
+"listings": 0,
+"rents": 1
 }
 ],
 "processed": [
@@ -162,9 +169,10 @@
 "2026-11-24T1158Z-daily.json",
 "2026-11-25T1149Z-daily.json",
 "2026-11-25T1154Z-daily.json",
-"2026-11-26T1148Z-daily.json"
+"2026-11-26T1148Z-daily.json",
+"2026-11-26T1153Z-daily.json"
 ],
-"updated_at": "2026-11-26T11:49:01+00:00",
+"updated_at": "2026-11-26T11:54:13+00:00",
 "county_data": "2026-11-20",
 "last_sweep": "2026-11-20",
 "words_backfill": "2026-11-22"
@@ -248835,12 +248843,12 @@
 "last_sale_price": 123000.0,
 "homestead": true,
 "sqft_used": 1276,
-"rent_zestimate": null,
+"rent_zestimate": 1748,
 "rent_comp": null,
 "hud_rent": 1800,
 "hud_rent_note": "HUD FY2027 Small Area FMR, ZIP 15216, 3BR $1,800. Gross rent (incl. utilities); the Section 8 payment standard is 90-110% of it.",
-"rent_source": "HUD Small Area FMR (no Zillow rent)",
-"rent_est": 1800,
+"rent_source": "Rent Zestimate",
+"rent_est": 1748,
 "county_arv": 276200.0,
 "county_arv_conf": "high",
 "county_arv_comps": 24,
@@ -248941,8 +248949,8 @@
 "brrrr_cash_left": null,
 "brrrr_score": 0,
 "refi_ok": false,
-"refi_cash_flow": -106,
-"refi_terms": "no refi reaches $200/mo (best $-106/mo at 60% 5yr interest-only)",
+"refi_cash_flow": -142,
+"refi_terms": "no refi reaches $200/mo (best $-142/mo at 60% 5yr interest-only)",
 "offer_price": 170100.0,
 "priority_score": 20,
 "dom_bonus": 0,
@@ -248955,7 +248963,7 @@
 "days_on_market": 0,
 "danger": 0
 },
-"score_notes": "ARV $276,200 (county sales (high confidence); $280,395 by $/sqft (top quarter of 24 sales (neighborhood)); $271,926 by price/assessed (top quarter of 24 sales (neighborhood)); high confidence). Offer $170,100 (90% of $189,000 list); rehab $57,400 (Medium, $45/sqft: county condition average) + $10,000 contingency; closing $2,500 + transfer tax $1,701 (buyer's half of 2.0%). At the offer: flip profit $-12,960 (flip score 0); BRRRR: no refi reaches $200/mo (best $-106/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $130,396 / $116,532 / $102,669; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 20/20. Rent used $1,800/mo: HUD Small Area FMR (no Zillow rent).",
+"score_notes": "ARV $276,200 (county sales (high confidence); $280,395 by $/sqft (top quarter of 24 sales (neighborhood)); $271,926 by price/assessed (top quarter of 24 sales (neighborhood)); high confidence). Offer $170,100 (90% of $189,000 list); rehab $57,400 (Medium, $45/sqft: county condition average) + $10,000 contingency; closing $2,500 + transfer tax $1,701 (buyer's half of 2.0%). At the offer: flip profit $-12,960 (flip score 0); BRRRR: no refi reaches $200/mo (best $-142/mo at 60% 5yr interest-only) (BRRRR score 0). MAO flip $130,396 / $116,532 / $102,669; MAO BRRRR n/a / n/a / n/a. Points: BRRRR 0/45, flip 0/35, confidence 20/20. Rent used $1,748/mo: Rent Zestimate.",
 "auction_date": null,
 "auction_outcome": null,
 "auction_price": null,
