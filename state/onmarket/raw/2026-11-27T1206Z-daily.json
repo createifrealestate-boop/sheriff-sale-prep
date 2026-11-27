@@ -1,0 +1,58 @@
+{
+"kind": "daily",
+"taken_at": "2026-11-27T12:06:23+00:00",
+"since": "2026-11-27T12:06:15Z",
+"complete": false,
+"searches": [],
+"listings": [],
+"rents": {
+"906 1st St, Mc Kees Rocks, PA 15136": {
+"rent": 1701,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+},
+"211 Maryellen Dr, North Versailles, PA 15137": {
+"rent": 1686,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+},
+"919 Brinton Ave, Pitcairn, PA 15140": {
+"rent": 1528,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+},
+"113 Carmella Dr, White Oak, PA 15131": {
+"rent": 1702,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+},
+"2840 McKelvey Rd, Pittsburgh, PA 15221": {
+"rent": null,
+"comp_rent": 1600,
+"date": "2026-11-27",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"9700 Frankstown Rd, Pittsburgh, PA 15235": {
+"rent": 1799,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+},
+"4018 Everlawn St, West Mifflin, PA 15122": {
+"rent": 1207,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+},
+"179 Lincoln Ave, Homestead, PA 15120": {
+"rent": 1497,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+}
+}
+}
