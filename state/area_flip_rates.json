@@ -5,9 +5,9 @@
 "rate": 0.0
 },
 "10th Ward - PITTSBURGH": {
-"n": 67,
+"n": 68,
 "flipped": 3,
-"rate": 0.0448
+"rate": 0.0441
 },
 "11th Ward  - McKEESPORT": {
 "n": 32,
@@ -30,9 +30,9 @@
 "rate": 0.0
 },
 "13th Ward - PITTSBURGH": {
-"n": 61,
+"n": 62,
 "flipped": 1,
-"rate": 0.0164
+"rate": 0.0161
 },
 "14th Ward - PITTSBURGH": {
 "n": 19,
@@ -45,9 +45,9 @@
 "rate": 0.0556
 },
 "16th Ward - PITTSBURGH": {
-"n": 77,
+"n": 78,
 "flipped": 1,
-"rate": 0.013
+"rate": 0.0128
 },
 "17th Ward - PITTSBURGH": {
 "n": 43,
@@ -55,9 +55,9 @@
 "rate": 0.0
 },
 "18th Ward - PITTSBURGH": {
-"n": 89,
-"flipped": 1,
-"rate": 0.0112
+"n": 90,
+"flipped": 2,
+"rate": 0.0222
 },
 "19th Ward - PITTSBURGH": {
 "n": 250,
@@ -80,9 +80,9 @@
 "rate": 0.0
 },
 "20th Ward - PITTSBURGH": {
-"n": 179,
+"n": 180,
 "flipped": 5,
-"rate": 0.0279
+"rate": 0.0278
 },
 "21st Ward - PITTSBURGH": {
 "n": 11,
@@ -100,9 +100,9 @@
 "rate": 0.0476
 },
 "24th Ward - PITTSBURGH": {
-"n": 45,
+"n": 46,
 "flipped": 1,
-"rate": 0.0222
+"rate": 0.0217
 },
 "25th Ward - PITTSBURGH": {
 "n": 19,
@@ -110,14 +110,14 @@
 "rate": 0.0
 },
 "26th Ward - PITTSBURGH": {
-"n": 92,
+"n": 94,
 "flipped": 2,
-"rate": 0.0217
+"rate": 0.0213
 },
 "27th Ward - PITTSBURGH": {
-"n": 133,
+"n": 134,
 "flipped": 4,
-"rate": 0.0301
+"rate": 0.0299
 },
 "28th Ward - PITTSBURGH": {
 "n": 81,
@@ -125,9 +125,9 @@
 "rate": 0.0247
 },
 "29th Ward - PITTSBURGH": {
-"n": 196,
+"n": 197,
 "flipped": 8,
-"rate": 0.0408
+"rate": 0.0406
 },
 "2nd Ward  - DUQUESNE": {
 "n": 28,
@@ -140,7 +140,7 @@
 "rate": 0.0
 },
 "30th Ward - PITTSBURGH": {
-"n": 63,
+"n": 64,
 "flipped": 0,
 "rate": 0.0
 },
@@ -200,12 +200,12 @@
 "rate": 0.0
 },
 "8th Ward  - McKEESPORT": {
-"n": 62,
+"n": 63,
 "flipped": 2,
-"rate": 0.0323
+"rate": 0.0317
 },
 "8th Ward - PITTSBURGH": {
-"n": 9,
+"n": 10,
 "flipped": 0,
 "rate": 0.0
 },
@@ -230,9 +230,9 @@
 "rate": 0.037
 },
 "Baldwin Boro": {
-"n": 83,
+"n": 84,
 "flipped": 7,
-"rate": 0.0843
+"rate": 0.0833
 },
 "Baldwin Twp": {
 "n": 14,
@@ -255,9 +255,9 @@
 "rate": 0.2
 },
 "Bethel Park": {
-"n": 49,
+"n": 50,
 "flipped": 4,
-"rate": 0.0816
+"rate": 0.08
 },
 "Blawnox": {
 "n": 8,
@@ -290,9 +290,9 @@
 "rate": 0.0
 },
 "Carnegie": {
-"n": 59,
+"n": 60,
 "flipped": 1,
-"rate": 0.0169
+"rate": 0.0167
 },
 "Castle Shannon": {
 "n": 39,
@@ -380,9 +380,9 @@
 "rate": 0.0
 },
 "Etna": {
-"n": 42,
+"n": 43,
 "flipped": 2,
-"rate": 0.0476
+"rate": 0.0465
 },
 "Fawn": {
 "n": 15,
@@ -390,14 +390,14 @@
 "rate": 0.0
 },
 "Findlay": {
-"n": 17,
+"n": 18,
 "flipped": 0,
 "rate": 0.0
 },
 "Forest Hills": {
-"n": 35,
+"n": 36,
 "flipped": 5,
-"rate": 0.1429
+"rate": 0.1389
 },
 "Forward": {
 "n": 16,
@@ -415,9 +415,9 @@
 "rate": 0.0
 },
 "Glassport": {
-"n": 101,
+"n": 102,
 "flipped": 1,
-"rate": 0.0099
+"rate": 0.0098
 },
 "Glenfield": {
 "n": 2,
@@ -455,7 +455,7 @@
 "rate": 0.0667
 },
 "Homestead": {
-"n": 40,
+"n": 41,
 "flipped": 0,
 "rate": 0.0
 },
@@ -495,7 +495,7 @@
 "rate": 0.0
 },
 "Liberty": {
-"n": 40,
+"n": 41,
 "flipped": 0,
 "rate": 0.0
 },
@@ -520,7 +520,7 @@
 "rate": 0.0
 },
 "McKees Rocks": {
-"n": 106,
+"n": 107,
 "flipped": 0,
 "rate": 0.0
 },
@@ -530,19 +530,19 @@
 "rate": 0.0
 },
 "Monroeville": {
-"n": 100,
+"n": 101,
 "flipped": 7,
-"rate": 0.07
+"rate": 0.0693
 },
 "Moon": {
-"n": 31,
+"n": 32,
 "flipped": 2,
-"rate": 0.0645
+"rate": 0.0625
 },
 "Mt. Oliver": {
-"n": 71,
+"n": 72,
 "flipped": 4,
-"rate": 0.0563
+"rate": 0.0556
 },
 "Mt.Lebanon": {
 "n": 15,
@@ -550,9 +550,9 @@
 "rate": 0.1333
 },
 "Munhall": {
-"n": 151,
+"n": 153,
 "flipped": 5,
-"rate": 0.0331
+"rate": 0.0327
 },
 "Neville": {
 "n": 17,
@@ -570,9 +570,9 @@
 "rate": 0.0
 },
 "North Versailles": {
-"n": 150,
-"flipped": 6,
-"rate": 0.04
+"n": 152,
+"flipped": 7,
+"rate": 0.0461
 },
 "O''Hara": {
 "n": 13,
@@ -595,9 +595,9 @@
 "rate": 0.0
 },
 "Penn Hills": {
-"n": 517,
+"n": 518,
 "flipped": 33,
-"rate": 0.0638
+"rate": 0.0637
 },
 "Pine": {
 "n": 2,
@@ -610,7 +610,7 @@
 "rate": 0.0179
 },
 "Pleasant Hills": {
-"n": 14,
+"n": 15,
 "flipped": 0,
 "rate": 0.0
 },
@@ -620,9 +620,9 @@
 "rate": 0.1538
 },
 "Port Vue": {
-"n": 99,
+"n": 100,
 "flipped": 1,
-"rate": 0.0101
+"rate": 0.01
 },
 "Rankin": {
 "n": 19,
@@ -630,14 +630,14 @@
 "rate": 0.0
 },
 "Reserve": {
-"n": 16,
+"n": 17,
 "flipped": 2,
-"rate": 0.125
+"rate": 0.1176
 },
 "Richland": {
-"n": 8,
+"n": 9,
 "flipped": 1,
-"rate": 0.125
+"rate": 0.1111
 },
 "Robinson": {
 "n": 21,
@@ -685,9 +685,9 @@
 "rate": 0.0
 },
 "South Park": {
-"n": 38,
+"n": 39,
 "flipped": 5,
-"rate": 0.1316
+"rate": 0.1282
 },
 "South Versailles": {
 "n": 6,
@@ -705,7 +705,7 @@
 "rate": 0.0
 },
 "Stowe": {
-"n": 123,
+"n": 124,
 "flipped": 1,
 "rate": 0.0081
 },
@@ -745,9 +745,9 @@
 "rate": 0.0
 },
 "West Deer": {
-"n": 54,
+"n": 55,
 "flipped": 3,
-"rate": 0.0556
+"rate": 0.0545
 },
 "West Elizabeth": {
 "n": 5,
@@ -760,9 +760,9 @@
 "rate": 0.0
 },
 "West Mifflin": {
-"n": 215,
-"flipped": 10,
-"rate": 0.0465
+"n": 219,
+"flipped": 11,
+"rate": 0.0502
 },
 "West View": {
 "n": 22,
@@ -775,9 +775,9 @@
 "rate": 0.0
 },
 "White Oak": {
-"n": 79,
+"n": 80,
 "flipped": 4,
-"rate": 0.0506
+"rate": 0.05
 },
 "Whitehall": {
 "n": 32,
@@ -790,7 +790,7 @@
 "rate": 0.0563
 },
 "Wilkinsburg": {
-"n": 123,
+"n": 125,
 "flipped": 0,
 "rate": 0.0
 },
