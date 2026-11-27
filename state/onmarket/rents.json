@@ -2523,5 +2523,53 @@
 "comp_rent": null,
 "date": "2026-11-26",
 "note": null
+},
+"11488202": {
+"rent": 1701,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+},
+"11572926": {
+"rent": 1686,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+},
+"11601571": {
+"rent": 1528,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+},
+"11540621": {
+"rent": 1702,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+},
+"11382547": {
+"rent": null,
+"comp_rent": 1600,
+"date": "2026-11-27",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"11415912": {
+"rent": 1799,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+},
+"11386185": {
+"rent": 1207,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
+},
+"11347862": {
+"rent": 1497,
+"comp_rent": null,
+"date": "2026-11-27",
+"note": null
 }
 }
