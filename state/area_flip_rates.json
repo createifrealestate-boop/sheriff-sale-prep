@@ -35,9 +35,9 @@
 "rate": 0.0161
 },
 "14th Ward - PITTSBURGH": {
-"n": 19,
+"n": 20,
 "flipped": 3,
-"rate": 0.1579
+"rate": 0.15
 },
 "15th Ward - PITTSBURGH": {
 "n": 90,
@@ -125,9 +125,9 @@
 "rate": 0.0247
 },
 "29th Ward - PITTSBURGH": {
-"n": 197,
+"n": 198,
 "flipped": 8,
-"rate": 0.0406
+"rate": 0.0404
 },
 "2nd Ward  - DUQUESNE": {
 "n": 28,
@@ -255,9 +255,9 @@
 "rate": 0.2
 },
 "Bethel Park": {
-"n": 50,
+"n": 51,
 "flipped": 4,
-"rate": 0.08
+"rate": 0.0784
 },
 "Blawnox": {
 "n": 8,
@@ -370,9 +370,9 @@
 "rate": 0.0
 },
 "Elizabeth Twp": {
-"n": 91,
+"n": 92,
 "flipped": 3,
-"rate": 0.033
+"rate": 0.0326
 },
 "Emsworth": {
 "n": 16,
@@ -415,9 +415,9 @@
 "rate": 0.0
 },
 "Glassport": {
-"n": 102,
+"n": 103,
 "flipped": 1,
-"rate": 0.0098
+"rate": 0.0097
 },
 "Glenfield": {
 "n": 2,
@@ -520,7 +520,7 @@
 "rate": 0.0
 },
 "McKees Rocks": {
-"n": 107,
+"n": 108,
 "flipped": 0,
 "rate": 0.0
 },
@@ -570,9 +570,9 @@
 "rate": 0.0
 },
 "North Versailles": {
-"n": 152,
+"n": 153,
 "flipped": 7,
-"rate": 0.0461
+"rate": 0.0458
 },
 "O''Hara": {
 "n": 13,
@@ -650,9 +650,9 @@
 "rate": 0.1053
 },
 "Rosslyn Farms": {
-"n": 1,
-"flipped": 0,
-"rate": 0.0
+"n": 2,
+"flipped": 1,
+"rate": 0.5
 },
 "Scott": {
 "n": 50,
@@ -705,9 +705,9 @@
 "rate": 0.0
 },
 "Stowe": {
-"n": 124,
+"n": 125,
 "flipped": 1,
-"rate": 0.0081
+"rate": 0.008
 },
 "Swissvale": {
 "n": 104,
@@ -790,7 +790,7 @@
 "rate": 0.0563
 },
 "Wilkinsburg": {
-"n": 125,
+"n": 126,
 "flipped": 0,
 "rate": 0.0
 },

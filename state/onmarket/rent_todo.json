@@ -1,1 +1,22 @@
-[]
+[
+{
+"zpid": "11529961",
+"query": "841 Parkway Dr, Harwick, PA 15049",
+"flip_profit": -29189
+},
+{
+"zpid": "11499386",
+"query": "1190 New Hampshire Dr, Pittsburgh, PA 15212",
+"flip_profit": -32369
+},
+{
+"zpid": "11427615",
+"query": "320 Glencoe Dr, West Mifflin, PA 15122",
+"flip_profit": -37926
+},
+{
+"zpid": "11427700",
+"query": "441 Glencoe Dr, West Mifflin, PA 15122",
+"flip_profit": -38540
+}
+]
