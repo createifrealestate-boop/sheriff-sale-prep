@@ -1,0 +1,34 @@
+{
+"kind": "daily",
+"taken_at": "2026-11-28T12:04:48+00:00",
+"since": "2026-11-28T12:04:38Z",
+"complete": false,
+"searches": [],
+"listings": [],
+"rents": {
+"841 Parkway Dr, Harwick, PA 15049": {
+"rent": null,
+"comp_rent": 2000,
+"date": "2026-11-28",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"1190 New Hampshire Dr, Pittsburgh, PA 15212": {
+"rent": 1233,
+"comp_rent": null,
+"date": "2026-11-28",
+"note": null
+},
+"320 Glencoe Dr, West Mifflin, PA 15122": {
+"rent": null,
+"comp_rent": 1300,
+"date": "2026-11-28",
+"note": "{\"result\":\"A Rent Zestimate is unavailable for this home. We don't publish one when there isn't enough rental data in a market segment to do so confidently.\\n\\nThere are, however, some market signals "
+},
+"441 Glencoe Dr, West Mifflin, PA 15122": {
+"rent": 1323,
+"comp_rent": null,
+"date": "2026-11-28",
+"note": null
+}
+}
+}
